@@ -1,0 +1,37 @@
+# ===== 密钥（绝对不能提交）=====
+.env
+.env.*
+!.env.example
+
+# ===== 虚拟环境 =====
+.venv/
+venv/
+env/
+
+# ===== Python 缓存 =====
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# ===== 索引缓存（可由语料重建，不必提交）=====
+chunks_*.json
+vectors_*.npy
+
+# ===== 临时文件 =====
+_rules_dump.txt
+eval_*.txt
+*.log
+
+# ===== 全语料（体积大，最终配置只用 data_rules_only/）=====
+data/
+
+# ===== 本地脚本 =====
+*.bat
+
+# ===== Streamlit 本地密钥 =====
+.streamlit/secrets.toml
+
+# ===== IDE / 工具目录 =====
+.idea/
+.vscode/
+.workbuddy-ai/
