@@ -14,8 +14,9 @@
 import os
 
 # 必须在 import day3 之前设置：day3 在模块加载时就会读这两个变量决定语料目录和缓存名
+# v2 = 含 BWF 官方文档的 649 块语料（rules = 旧的 82 块，保留供对照）
 os.environ.setdefault("RAG_DATA_DIR", "data_rules_only")
-os.environ.setdefault("RAG_TAG", "rules")
+os.environ.setdefault("RAG_TAG", "v2")
 
 import streamlit as st
 from dotenv import load_dotenv
