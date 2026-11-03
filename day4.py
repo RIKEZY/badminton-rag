@@ -104,7 +104,7 @@ def generate(chat_client: OpenAI, question: str, context: str) -> tuple[str, int
 
 
 def generate_stream(chat_client: OpenAI, question: str, context: str,
-                    usage_out: dict | None = None):
+                    usage_out: dict | None = None, system_prompt: str | None = None):
     """
     流式版本：逐段 yield 文字，供 st.write_stream 消费。
 
@@ -120,8 +120,10 @@ def generate_stream(chat_client: OpenAI, question: str, context: str,
         messages=[
             {
                 "role": "system",
-                "content": "你是羽毛球规则助手。只根据用户提供的资料回答，"
-                           "资料里没有就说不知道，不要编。回答时注明来自第几页。",
+                "content": system_prompt or (
+                    "你是羽毛球规则助手。只根据用户提供的资料回答，"
+                    "资料里没有就说不知道，不要编。回答时注明来自第几页。"
+                ),
             },
             {"role": "user", "content": f"资料：\n{context}\n\n问题：{question}"},
         ],

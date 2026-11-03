@@ -1,0 +1,426 @@
+Vocabulary 
+ 
+ 
+ 
+ 
+This Section lists the standard vocabulary that shall be used by the Umpire to control a 
+match. The list is not exhaustive and other vocabulary may be used if necessary.  
+ 
+1. Before the Match 
+ 
+1.1. Clothing: 
+ 
+1.1.1. “Let me check the clothing .” 
+1.1.2. “Your name on the shirt is too big .” 
+1.1.3. “Your name on the shirt is too small .” 
+1.1.4. “The name on the shirt is not the same as the name in the BWF database .” 
+1.1.5. “Your name is mandatory on the shirt .” 
+1.1.6. “The name must be near the top of the shirt .” 
+1.1.7. “The Member name is mandatory on the shirt .” 
+1.1.8. “The Member name on the shirt is too big .” 
+1.1.9. “The Member name on the shirt is too small .” 
+1.1.10. “You have more adverts on your clothing than is allowed.” 
+1.1.11. “The adverts on the shirt are not in the permitted locations.”  
+1.1.12. “The advert is too big.” 
+1.1.13. “The Member Association advert is not registered with BWF .” 
+1.1.14. “You have more than one advert in the advertising band .” 
+1.1.15. “You have visible adverts on the underclothing .” 
+1.1.16. “Your colour of clothing is not significantly different from your opponent’s .” 
+1.1.17. “You must wear the same colour  clothing as your partner.” 
+1.1.18. “Do you have any other colour of clothing?”  
+1.1.19. “You have to change your colour of clothing .” 
+1.1.20. “If you do not change your shirt you will be fined .” 
+1.1.21. “The lettering on the shirt must be in a contrasting colour to the colour of   
+the shirt.” 
+1.1.22. “The lettering on the shirt is not visible.”  
+1.1.23. “The lettering on the shirt must be in a single colour .” 
+1.1.24. “The lettering on the shirt must be in capital letters .” 
+1.1.25. “The lettering on the shirt must be in the Roman alphabet .” 
+1.1.26. “The lettering sequence is wrong .” 
+1.1.27. “Taping is not allowed.” 
+ 
+1.2. Toss: 
+ 
+1.2.1. “Come here for the toss.” 
+1.2.2. “You won the toss.” 
+1.2.3. “What do you choose?” 
+1.2.4. “Who will serve?” 
+1.2.5. “Choose your end.” 
+1.2.6. “Who will receive?” 
+1.2.7. “The opponent(s) chose to receive first, so you will serve first .” 
+1.2.8. “The opponent(s) chose to serve first, so you will receive first .” 
+1.2.9. “The opponent(s) chose ends. Do you wish to serve or receive first?”  
+ 
+1.3. Others: 
+ 
+1.3.1. “Switch off your communication device.” 
+1.3.2. “Line up for the march-on.” 
+1.3.3 “Place your bag properly in the basket .” 
+1.3.4. “Ready to play.”
+
+ 
+ 
+2. Start of the Match 
+ 
+2.1. Introduction and Announcements 
+ 
+W, X, Y, Z are names of players and A, B, C, D are names of Members.  
+To start the first game of the match, the Umpire shall call: 
+ 
+2.1.1. Singles Tournament 
+ 
+“Ladies and Gentlemen; on my right, ‘X, A’; and on my left, ‘Y, B’. ‘X’ to serve; love 
+all; play.” 
+ 
+2.1.2.  Singles Team Tournament 
+ 
+“Ladies and Gentlemen; on my right, ‘A’, represented by ‘X’; and on my left, ‘B’, 
+represented by ‘Y’. ‘A’ to serve; love all; play.”  
+ 
+2.1.3. Doubles Tournament 
+ 
+“Ladies and Gentlemen; on my right, ‘W, A’ and ‘X, B’; and on my left,  ‘Y, C’ and ‘Z, 
+D’. ‘X’ to serve to ‘Y’; love all; play.”  
+ 
+If doubles partners represent the same Member, announce the Member name after 
+announcing both players’ names (e.g. ‘W and X, A’).  
+ 
+2.1.4.  Doubles Team Tournament 
+ 
+“Ladies and Gentlemen; on my right, ‘A’, represented by ‘W’ and ‘X’; and on my left, 
+‘B’, represented by ‘Y’ and ‘Z’. ‘A’ to serve; ‘X’ to ‘Y’; love all; play.”  
+ 
+2.2. To start the second game, the Umpire shall call : 
+ 
+“Second game ; love all; play.”  
+(Unless there has been a fault for misconduct during the interval) . 
+ 
+2.3. To start the final game, the Umpire shall call : 
+ 
+“Final game ; love all; play.”  
+(Unless there has been a fault for misconduct during the interval) . 
+ 
+ 
+3. During the Match 
+ 
+3.1. Progress of Match, faults: 
+ 
+3.1.1. “Service over.” 
+3.1.2. “Fault.” 
+3.1.3. “Let.” 
+3.1.4. “Out.” 
+3.1.5. “Interval.” 
+3.1.6. “Play a let.” 
+3.1.7. “Change ends.” 
+3.1.8. “You did not change ends.” 
+3.1.9. “Court ... (number, if more than one court is used) 20 seconds .” 
+3.1.10.  “... game point ...” e.g. “20 game point 6.”, or “29 game point 28.”
+
+ 
+3.1.11. “... match point ...” e.g. “20 match point 8.”, or “29 match point 28.” 
+3.1.12. “... game point all.” e.g. “29 game point all.” 
+3.1.13. “… match point all.” e.g. “29 match point all.” 
+3.1.14. “Service Judge – signal, please.” 
+3.1.15. “You hit the shuttle on your opponent’s side of the net .” 
+3.1.16. “The shuttle touched you.” 
+3.1.17. “You touched the net.” 
+3.1.18. “You touched the post.” 
+3.1.19. “A shuttle came on the court .” 
+3.1.20. “The shuttle did not distract  or obstruct you.” 
+3.1.21. “You obstructed your opponent .” 
+3.1.22. “You deliberately distracted your opponent .” 
+3.1.23. “You hit the shuttle twice .” 
+3.1.24. “You slung the shuttle.” 
+3.1.25. “You invaded your opponent’s court .” 
+3.1.26. “The shuttle touched the ground before you hit it.”  
+3.1.27. “The shuttle touched the ceiling.”  
+ 
+3.2. Serving / Receiving: 
+ 
+3.2.1. “Right service court.” 
+3.2.2. “Left service court.” 
+3.2.3. “You missed the shuttle during service .” 
+3.2.4. “Do not serve before the receiver is ready .” 
+3.2.5. “The receiver was not ready .” 
+3.2.6. “Your partner was not ready .” 
+3.2.7. “Your opponent was not ready .” 
+3.2.8. “You attempted to return the service .” 
+3.2.9. “You served from the wrong service court .” 
+3.2.10. “You served out of turn.” 
+3.2.11. “You received out of turn.” 
+3.2.12. “You blocked the receiver’s view of the shuttle during service .” 
+3.2.13. “Both you and your partner hit the shuttle .” 
+ 
+3.3. Shuttle change: 
+ 
+3.3.1. “Is the shuttle OK?” 
+3.3.2. “Change the shuttle.” 
+3.3.3. “Do not change the shuttle .” 
+3.3.4. “Change.” 
+3.3.5. “No change.” 
+3.3.6. “Return the shuttle.” 
+3.3.7. “Return the shuttle properly.”  
+3.3.8. “You must ask me for permission to change the shuttle .” 
+3.3.9. “Test the shuttle.” 
+3.3.10. “Do not test the shuttle.” 
+3.3.11. “You must not interfere with the speed of the shuttle.”  
+ 
+3.4. Line Calls / IRS: 
+ 
+3.4.1. “Line Judge – signal, please.” 
+3.4.2. “Line Judge – repeat your signal, please.” 
+3.4.3. “I clearly saw the shuttle land in .” 
+3.4.4. “I clearly saw the shuttle land out .” 
+3.4.5. “The Line Judge made a correct call .” 
+3.4.6. “Correction IN.”
+
+ 
+3.4.7. “Correction OUT.” 
+3.4.8. “Unsighted.” 
+3.4.9. “The call is IN, do you wish to challenge?”  
+3.4.10. “The call is OUT, do you wish to challenge?”  
+3.4.11. “You did not challenge immediately .” 
+3.4.12. “You do not have any challenges remaining in this game .” 
+3.4.13. “…… (name of player) challenges, Called [IN] .” 
+3.4.14. “…… (name of player) challenges, Called [OUT] .” 
+3.4.15 “….. (name of team) challenges, Called [IN].”  
+3.4.16 “….. (name of team) challenges, Called [OUT].”  
+3.4.17. “The IRS result was ‘No decision’ .” 
+3.4.18. “Challenge unsuccessful .” 
+3.4.19. “One challenge remaining .” 
+3.4.20. “No challenges remaining.” 
+3.4.21. “The IRS is not working; no challenges can be made .” 
+3.4.22. “The IRS is now working; challenges can be made.” 
+3.4.23.  “The IRS malfunctioned. The original call stands. No challenge is lost.”  
+3.4.24.  “The IRS malfunctioned. Play a let. No challenge is lost.”  
+3.4.25 “You may not challenge the decision of the ALCS”  
+3.4.26 “The ALCS is not working”  
+3.4.27 “The ALCS is now working”  
+3.4.28 “The ALCS malfunctioned.  The correct call is Out. 
+3.4.29 “The ALCS malfunctioned.  The correct call is In.  
+3.4.30 “The ALCS malfunctioned and no call has registered.  Play a Let”.  
+ 
+3.5. Influencing TO: 
+ 
+3.5.1. “You tried to influence the Service Judge .” 
+3.5.2. “You tried to influence the Line Judge .” 
+3.5.3. “You must not influence the Line Judge .” 
+3.5.4. “You must not influence the Service Judge .” 
+3.5.5. “Do not shout or signal before the Line Judge gives a decision .” 
+ 
+3.6. Coaching: 
+ 
+3.6.1. “Coach(es) return to your chair(s) .” 
+3.6.2. “Your coach distracted your opponent .” 
+3.6.3. “Your coach disrupted play .” 
+3.6.4. “Do not seek coaching.” 
+3.6.5. “Do not coach after the players have taken up position for the next service.”  
+3.6.6. “Do not coach during the rally .” 
+3.6.7. “Do not step over the A-board.” 
+3.6.8. “Do not get up from your chair until the rally is over .” 
+3.6.9. “Coach, move your chair back to its original position.”  
+ 
+3.7. Injury: 
+ 
+3.7.1. “Are you OK?” 
+3.7.2. “Can you play on?” 
+3.7.3. “Do you need the doctor?”  
+3.7.4. “Are you retiring?” 
+3.7.5. “The bleeding needs to be treated before you can continue.”  
+ 
+3.8. Mopping: 
+ 
+3.8.1. “Wipe the court, please.”
+
+ 
+3.8.2. “Show the court attendant where to wipe the court.” 
+3.8.3. “Use your foot to wipe the court .” 
+3.8.4. “No sweat throwing.” 
+3.8.5. “Do not fall intentionally .” 
+ 
+ 
+3.9. Continuous Play: 
+ 
+3.9.1. “On court.” 
+3.9.2. “No delay.” 
+3.9.3. “Play.” 
+3.9.4. “Play on.” 
+3.9.5. “Play now.” 
+3.9.6. “Play must be continuous .” 
+3.9.7. “Players back on court.” 
+3.9.8. “…… (name of player) back on court .” 
+3.9.9. “Get ready quicker.” 
+3.9.10. “Quick towel only.” 
+3.9.11. “Quick drink only.” 
+3.9.12. “You must ask my permission to have a drink.”  
+3.9.13. “You must not take so long to cut your strings.”  
+3.9.14. “You must be ready for the next service before 25 seconds have elapsed.”  
+3.9.15. “You took longer than 25 seconds to get ready for the next service.”  
+3.9.16. “You must not unduly delay the start of the service once the server is 
+ready.” 
+3.9.17. “You took too long to get ready once the server was ready.”  
+3.9.18. “The Time Clock is not in operation.”  
+3.9.19. “The Time Clock is now in operation.”  
+ 
+3.10. Misconduct: 
+ 
+3.10.1. “Come here.” 
+3.10.2. “Do not raise your fist towards your opponent(s) .” 
+3.10.3. “Do not shout at your opponent.” 
+3.10.4. “You must not scream so loudly.”  
+3.10.5. “You must use your best effort .” 
+3.10.6. “You must shake hands before celebrating .” 
+3.10.7. “…… (name of player) warning for misconduct .” 
+3.10.8. “…… (name of player) fault for misconduct .” 
+3.10.9. “…… (name of player) disqualified for misconduct .” 
+3.10.10. “…….(name of player), faulted”  
+ 
+3.11. Suspension: 
+ 
+3.11.1. “Play is suspended.” 
+ 
+3.12.  Others: 
+3.12.1.  “The scoreboard is not working .” 
+3.12.2.  “Your new shirt must be of the same colour  and similar design to your 
+original shirt.” 
+3.12.3.  “Are you ready?” 
+ 
+4. Explanations for Service Fault Calls 
+ 
+4.1. “Service fault called, too high.” 
+4.2. “Service fault called, racket head.” 
+4.3. “Service fault called, foot.”
+
+ 
+4.4. “Service fault called, continuous motion.” 
+4.5. “Service fault called, base of shuttle.” 
+4.6. “Service fault called, undue delay.” 
+4.7. “Service fault called, shuttle missed.” 
+4.8. “Service fault called, receiver fault called, play a let.” 
+4.9. “Fault receiver, foot.” 
+4.10. “Fault server, foot.” 
+4.11. “Fault receiver, undue delay.” 
+4.12. “Fault server, undue delay.” 
+4.13. “Service fault called, spin.”  
+ 
+5. Explanations for Warnings and Faults 
+ 
+5.1. “Racket abuse.” 
+5.2. “You threw the racket dangerously.” 
+5.3. “Verbal abuse.” 
+5.4. “You used unacceptable language.” 
+5.5. “You shouted at your opponent.” 
+5.6. “You screamed excessively.” 
+5.7. “You raised your fist in the direction of your opponent.” 
+5.8. “You tried to influence the Service Judge.” 
+5.9. “You tried to influence the Line Judge.” 
+5.10. “Shuttle abuse.” 
+5.11. “You interfered with the speed of the shuttle.” 
+5.12. “Physical abuse.” 
+5.13. “Equipment abuse.” 
+5.14. “You kicked the A-board.” 
+5.15. “You hit the net.” 
+5.16. “You hit the chair.” 
+5.17. “You hit the equipment box.” 
+5.18. “You hit the service height measuring device.” 
+5.19. “Delay.” 
+5.20. “You delayed the service.” 
+5.21. “Delay, time violation.” 
+5.22. “You refused to follow my instructions.” 
+5.23. “You refused to play on.” 
+5.24. “You left the court without permission.” 
+5.25. “You were late getting back onto court.” 
+5.26. “Unsportsmanlike conduct.” 
+5.27. “You made an obscene gesture.” 
+5.28. “You celebrated in an unsportsmanlike manner.” 
+5.29. “You used your communication device.” 
+ 
+ 
+6. End of Game/Match 
+ 
+6.1. “Game.” 
+6.2. “First game won by ‘……’  [name(s) of player(s), or Member (in a Team 
+Tournament)]‘…….’ (score).” 
+6.3. “Second game won by ‘......’ [name(s) of player(s), or Member (in a Team 
+Tournament)]‘…….’ (score).” 
+6.4. “One game all.” 
+6.5. “Match   won   by ’ …..’   [name(s) of player(s), or   Member (in   a Team 
+Tournament)] ‘…….’ (scores).” 
+6.6. “’……’ (name of player) retired. Match won by ‘ ……’ [name(s) of player(s), or Member 
+(in a Team Tournament)] ‘……’ (scores) .”
+
+ 
+6.7. “’……’ (name of player) disqualif ied for misconduct followed by a specific explanation 
+of the misconduct. Match won by ‘ ……’ [name(s) of player(s), or Member (in a Team 
+Tournament)] ‘……’ (scores) .” 
+6.8. “Match ended by the Referee. ‘ ……’ [name(s) of player(s)]  promoted to the main 
+draw.  ‘ ……’ [name(s) of player(s)]  proceed(s) to next round / main draw.” 
+6.9. In doubles announcements use “and” between the names of the players.  
+ 
+ 
+ 
+7. Notes for Incidents on the Scoresheet (Examples) 
+ 
+7.1. I – Injury. 
+7.2. W – Warning for misconduct. 
+7.3. F – Fault for misconduct. 
+7.4. R – Referee called on court. 
+7.5. S – Suspension. 
+7.6. Dis – Disqualified by the Referee . 
+7.7. Ret – Retired. 
+7.8. Match suspended for X minutes due to power failure. 
+7.9. [Name of Player] warned for interfering with the shuttle . 
+7.10. [Name of Player] twisted his ankle and decided to retire . 
+7.11. Play delayed for X minutes. 
+7.12. [Name of Player] warned for influencing the Line Judge . 
+7.13. [Name of Player] warned for delaying play. 
+7.14. [Name of Player] faulted for using abusive language. Referee was called on court and 
+instructed to observe and fault  again if necessary. 
+7.15. [Name of Player] was faulted for pushing the Line Judge. Referee was called on court 
+and decided to disqualify the player . 
+7.16. [Name of Player] had a nose bleed. Referee and Tournament Doctor were  called on 
+court. Play delayed for X minutes. 
+7.17. [Name of Player] injured their right knee. Referee and Tournament Doctor were 
+called on court. The Tournament Doctor advised the player to retire . 
+ 
+8. Notes for Clothing Violation on the Scoresheet (Examples)  
+ 
+8.1. [Name of player] on the shirt is too big . 
+8.2. [Name of player] on the shirt is too small . 
+8.3. [Name of player] on the shirt is not the same as the name in the BWF database . 
+8.4. There is no player name on the shirt of [name of player] . 
+8.5. There is no Member name on the shirt of [name of player] . 
+8.6. The Member name on the shirt of [name of player] is too big . 
+8.7. The Member name on the shirt of [name of player] is too small . 
+8.8. There are too many adverts on the  [item of clothing] of [name of player/Coach]. 
+8.9. The advert on the shirt of [name of player /Coach] is too big. 
+8.10. There is more than one advert in the advertising band  of [name of player/Coach].  
+8.11.  There are visible adverts on the underclothing  of [name of player/Coach].  
+8.12.  [Name of player] refused to change the colour of their clothing . 
+8.13.  [Name of players] wore different colours of clothing . 
+8.14. [Name of player] not wearing significantly different colour of clothing from the   
+opponent. 
+8.15.   The lettering on the shirt of [name of player] is not in a contrasting colour to the 
+colour of the shirt. 
+8.16.   The lettering on the shirt of [name of player] is not in a single colour . 
+8.17.   The lettering on the shirt of [name of player] is not in capital letters . 
+8.18.   The lettering on the shirt of [name of player] is not in the Roman alphabet. 
+8.19.   The lettering sequence on the shirt of [name of player] is wrong . 
+8.20.   There is taping on the shirt of [name of player /Coach].
+
+ 
+ 
+ 
+9. Scoring 
+ 
+0 - Love   11 - Eleven  22 - Twenty-two 
+1 - One   12 - Twelve  23 - Twenty-three 
+2 - Two   13 - Thirteen  24 - Twenty-four 
+3 - Three  14 - Fourteen  25 - Twenty-five 
+4 - Four   15 - Fifteen  26 - Twenty-six 
+5 - Five   16 - Sixteen  27 - Twenty-seven 
+6 - Six   17 - Seventeen  28 - Twenty-eight 
+7 - Seven  18 - Eighteen  29 - Twenty-nine 
+8 - Eight   19 - Nineteen  30 - Thirty 
+9 - Nine   20 - Twenty 
+10 - Ten   21 - Twenty-one

@@ -1,0 +1,1949 @@
+INSTRUCTIONS TO TECHNICAL OFFICIALS (ITTO) 
+  
+ 
+1. INTRODUCTION 
+1.1. The Instructions to Technical Officials are issued by BWF to standardize the worldwide 
+control of Badminton in accordance with its Statutes. 
+1.2. The purpose of these Instructions is to advise Technical Officials how to control a 
+tournament and a match firmly, with fairness and common sense, without being 
+officious, while ensuring that the Laws of Badminton and other BWF Statutes are  
+observed. 
+1.3. All Technical Officials shall remember that Badminton is for the players. 
+1.4. In these Instructions, words signifying the masculine gender include the feminine and 
+neuter genders and vice versa. References to “Instructions” are to individual clauses in 
+this document, while references to “Laws” are to the Laws of Badminton (BWF Statutes, 
+Section 4.1).  
+1.5. The Instructions generally apply to Para badminton. However, when Instructions to Para 
+Badminton Technical Officials are agreed, their specific clauses shall supersede these 
+Instructions in Para badminton tournaments. 
+2. OFFICIALS AND THEIR DECISIONS 
+2.1. A Referee is appointed for all BWF sanctioned tournaments by BWF (Grade 1, Grade 2 – 
+Levels 1 to  6) or by  a Continental Confederation (“CC”) (Grade 3). The Referee is in 
+overall charge of the tournament (Law 17.1). Where appointed, the Deputy Referee(s) 
+will have the same roles and responsibilities as the Referee. 
+2.2. An Umpire is appointed for a match by the Referee and shall report to, and act under, 
+the authority of the Referee (Law 17.2). 
+2.3. A Service Judge and Line Judges are normally appointed for a match by the Referee , 
+unless a role is being fulfilled by an automated system (BWF statutes, Section 4.1.9),  
+and can be replaced by the Referee or the Umpire in consultation with each other (Law 
+17.6.4). 
+2.4. An Official's decision shall be final on all points of fact for which that Official is 
+responsible, except that: 
+2.4.1.If, in the opinion of the Umpire, it is beyond reasonable doubt that a Line 
+Judge has clearly made a wrong call, the Umpire shall overrule the decision 
+of the Line Judge (Law 17.5.1); or 
+2.4.2.When an Instant Review System (IRS) is in operation, it shall be used to 
+decide on any line call challenge (Law 17.5.2). 
+2.4.3.When an Automated Line Call System (ALCS) is in operation, it shall be used 
+to make decisions on all line calls (Law 17.5.3). 
+2.5. When another official is unsighted, the Umpire shall make the decision. When no decision 
+can be made, a 'let' shall be called (Law 17.6.6), unless IRS is in use, in which case it 
+will be used to decide on the line call (BWF Statutes, Section 4.1.8, Regulation 1.2). 
+2.5.1.When an ALCS is in operation and the system is unable to make a decision, 
+the umpire shall make the decision (BWF Statutes, Section 4.1.9).  If the 
+umpire is unable to do so, a ‘let’ shall be called (Law 17.6.7).
+
+2.6. The Umpire shall be in charge of the court and its immediate surrounds (Law 17.2).  
+2.7. The Umpire's jurisdiction shall exist from entering the Field Of Play before the match 
+until leaving the Field Of Play after the match.  The Field Of Play is defined as the total 
+area upon which the courts are laid and where spectators are not allowed. 
+3. INSTRUCTIONS AND GUIDELINES FOR REFEREES 
+3.1. General 
+3.1.1.The Referee is in overall charge of the tournament (Law 17.1). The Referee 
+shall consult with the BWF (or CC) Events Officer in charge, if on site, and 
+the Organising Committee, particularly in tournaments at the highest levels, 
+on contract related issues before taking major decisions. 
+3.1.2.The Referee’s responsibility for appointing Umpires, Service Judges and 
+Line Judges (when an ALCS is not in operation)  (Instructions 2.2 and 2.3) 
+and Court Attendants, if present,  for all matches may be delegated to 
+Deputy Referees or other Officials (e.g. Umpire Coordinator), but the overall 
+responsibility remains with the Referee. As far as possible, neutral Technical 
+Officials shall be appointed to a match. 
+3.1.3.The Referee shall lead and manage the Technical Officials  for the 
+tournament and ensure that they know and perform their duties in 
+accordance with the Laws of Badminton and the BWF (and when appropriate 
+the CC) statutes and guidelines. The Referee shall hold regular briefings to 
+ensure that all Technical Officials and other stakeholders (Team Managers, 
+Organisers, etc .) are aware of their  responsibilities and how best to 
+discharge them, and to make them aware of any relevant decisions taken.  
+If necessary, the Referee shall prepare and distribute a handout or memo. 
+3.1.4.The Referee (or a Deputy Referee) shall be available on the Field Of Play 
+at all times  – although all Referees should attend Daily Umpire briefings 
+from Quarter Finals onwards - from well before the scheduled start of play 
+until after play is finished for the day. The Referee shall observe play and 
+take all necessary steps to ensure that play is  fair and safe for the players 
+and Officials. 
+3.1.5.The Referee is responsible for keeping BWF (or the relevant CC) informed 
+about the daily  results of the tournament. Any major incident during the 
+tournament shall be reported as early as possible accompanied by available 
+evidence and statements from the Officials involved. After the conclusion of 
+the tournament, a full report using the standard template shall be delivered 
+to BWF (and/or CC) within the stipulated time. 
+3.2. Before Arrival at the Tournament 
+3.2.1. After accepting an appointment, the Referee shall contact the Tournament 
+Director and other key stakeholders (e.g. Deputy Referee(s), local Deputy, 
+the BWF or CC Events Staff appointed to the tournament, if any) to 
+introduce himself and start an initial dialogue to form the foundation of a 
+productive working relationship. Communication channels and 
+responsibilities shall be agreed and coordinated between the Referee and 
+the BWF or CC Events Staff. 
+3.2.2.The Referee shall be aware of the required timeline (BWF Statutes, Section 
+5.3.2) for pre-tournament activities (e.g. publishing of the Prospectus, M&Q
+
+report, conducting the draw) and shall liaise with the BWF or CC Events 
+Staff to ensure that these activities are completed on time. 
+3.2.3.Well ahead of the tournament, the Referee shall contact the BWF or CC 
+office to request a copy of the Referee’s Report from the previous edition of 
+the tournament , if it has not already been provided. The Referee shall 
+familiarize himself with any major issues that were highlighted in the 
+previous year’s report. The report as a whole should be considered 
+confidential and not forwarded to personnel outside the Referee team. 
+3.2.4. The Referee shall, assisted by the BWF or CC staff, approve the Prospectus 
+before it is published. 
+3.2.4.1. The Referee shall check that the Prospectus contains all 
+required information (BWF Statutes, Section 5.1 (“GCR”), 
+Regulation 10). 
+3.2.4.2. The Referee shall ensure that the provisional schedule 
+contained in the Prospectus (playing hours, rounds per day, 
+number of courts), is realistic and fair to the players while 
+taking into account the needs of the tournament  and, if 
+applicable, any BWF (or CC) regulations pertaining to that 
+level of tournament (e.g. BWF World Tour Regulations (BWF 
+Statutes, Section 5.2.2, Regulation 6.7)). 
+3.2.4.3. The tournament’s provisional schedule of play shall not be 
+published until the Prospectus is approved. 
+3.2.5.Well ahead of the tournament, the Referee shall send to the organisers a 
+checklist requesting pertinent information to ensure that the key elements 
+required for a successful and smooth-running tournament are in place and 
+that plans are developed to address any gaps.  
+3.2.5.1. The checklist shall be carefully prepared and adapted to the 
+tournament level and the experience of the organizing 
+committee in order to avoid duplication of work. 
+3.2.5.2. The initial checklist should focus on items that need to be 
+confirmed well in advance of the Referee’s arrival at the 
+venue, for example ensuring that adequate practice facilities 
+required for the level of tournament are arranged, that 
+planning for any items pertaining to required health and safety 
+procedures is on track, as well as any major logistical issues 
+described in the previous year’s Referee’s Report. 
+3.2.5.3. The Referee shall include a request for a detailed lay -out 
+covering the Field Of Play  and adjacent areas accessed by 
+players. For higher level BWF Tournaments, information on 
+pertinent aspects of the venue outside the Field Of Play should 
+also be sought. 
+3.2.5.4. The Referee shall include a request for a transport schedule 
+covering the official hotels, venue and any other training 
+facilities. 
+3.2.5.5. The Referee should follow up with the organisers, at 
+appropriate intervals, to receive updates on any action items
+
+identified to ensure that all major issues have been addressed 
+prior to arrival at the tournament. Any follow -up activities 
+shall be coordinated between the Referee and the BWF or CC 
+Events Staff, when such staff is appointed to the tournament.  
+3.2.5.6. A secondary checklist covering routine, less critical items and 
+items with a shorter timeline to resolution can be sent by the 
+Referee to the organisers in the few weeks leading up to the 
+tournament, or discussed individually, as necessary. 
+3.2.5.7. Based on the number of courts to be used and per any 
+regulations and guidelines applicable to the level of 
+tournament, the Referee shall ensure that a suitable number 
+of Umpires and Line Judges of appropriate experience and 
+neutrality have been arranged/ap pointed to the tournament.   
+If an ALCS will be in operation, the Referee shall ensure that 
+the host has an adequate number of back -up, trained Line 
+Judges are available in case the system malfunctions. 
+3.2.5.8. If dedicated Court Attendants will be used, the Referee shall 
+ensure that the host has an adequate number of persons 
+trained who are sufficiently agile, efficient and effective in the 
+role, particularly if the Time Clock will be used. 
+3.2.5.9. Emphasise to those persons who will take on the duties of 
+Court Attendants, especially if the Time Clock will be used, the 
+importance of looking towards the Umpire at the end of each 
+rally to see if mopping is required, and to enter and exit the 
+court quickly at the Umpire’s direction when called on to mop. 
+3.2.6.The Referee shall, assisted by the BWF or CC staff, approve the initial M&Q 
+report in a timely manner before it is published. 
+3.2.6.1. The Referee shall carefully check the initial M&Q report for 
+accuracy around the date of the World Rankings used (BWF 
+Statutes, Section 5.3.2), adjusted and notional ranking 
+calculations (GCR, Regulation 11.6), protected ranking (BWF 
+Statutes, Section 5.3.6), permissible number of entries per 
+event per Member (where applicable), listing of entries in the 
+main draw, qualifying draw or reserve. 
+3.2.6.2. The Referee shall check that any updates made to the initial 
+M&Q report accurately reflect any withdrawals that have been 
+received since the latest version.  
+3.2.6.3. Upon receiving the Seeding Report, the Referee shall check 
+that the designated seeds in the main draw  and qualifying 
+draw (if applicable) are correct based on the applicable World 
+Ranking date (BWF Statutes, Section 5.3.2), and 
+requirements around use of adjusted/notional rankings (GCR, 
+Regulation 11.7.4). 
+3.2.7.The Referee shall approve the draw in a timely manner before it is 
+published. 
+3.2.7.1. The Referee shall carefully check the draw to ensure that 
+seeds, byes and any qualifying entries  have been placed
+
+correctly (GCR, Regulation s 11.9, 11.10, 11.11, 11.13), and 
+that separation of entries is in accordance with Regulation 
+11.12 of the GCR or as described in the tournament -specific 
+Regulations. 
+3.2.8.The Referee shall maintain a list of all withdrawals received after the draw 
+is published and check that the organisers correctly inform any Members 
+whose players are in line to be promoted and that responses from Members 
+are received. The Referee shall be copied on all such communications. 
+3.2.9.The Referee shall ensure that after it is initially published, the draw is not 
+republished showing withdrawals, etc., until the conclusion of the Team 
+Managers’ Meeting. 
+3.3. Arrival at the Tournament  
+3.3.1.The Referee shall make travel arrangements such that the timing of arrival 
+at the tournament is consistent with the details provided in the invitation 
+letter from BWF/CC or with any agreement subsequently made with 
+BWF/CC. 
+3.3.2.The Referee shall meet with the Tournament Director/Chair of Organising 
+Committee, as appropriate, as soon as is practical after arrival , to go over 
+all logistical details and resolve any outstanding matters that may have 
+arisen during the pre-arrival communication. 
+3.3.3.The Referee shall meet with other key stakeholders, as necessary, prior to 
+the start of the tournament (e.g. BWF/CC Events Officer, Field of Play 
+Coordinator, Umpire and Line Judge Coordinators, Umpire Assessors, 
+Referee Assessors, Head of Security and TV Coordinator , IRS lead (if 
+applications, ALCS Lead (if applicable)). 
+3.3.4.The Referee shall review the transportation schedule between the hotel(s) 
+and the competition venue and training venues, if they are at different 
+locations, to ensure it provides for adequate coverage. 
+3.3.4.1. In particular, the Referee shall ensure that: 
+3.3.4.1.1. The first trip of each day has adequate capacity 
+and is timed to deliver the players and Technical 
+Officials to the venue sufficiently ahead of the 
+start of play after allowing for local traffic 
+conditions.  
+3.3.4.1.2. The timing of the last trip of the day has adequate 
+flexibility to account for uncertainty in the time of 
+the conclusion of play. 
+3.3.5.The Referee shall be familiar with all pertinent aspects of the venue outside 
+of the Field Of Play, and in particular: 
+3.3.5.1. Ensure, to the extent possible, that the venue infrastructure 
+is safe for players, Technical Officials, other stakeholders, and 
+spectators. 
+3.3.5.2. Ensure that adequate security has been arranged and that 
+procedures to be followed in the event of an emergency are in 
+place and understood.
+
+3.3.5.3. Ensure that the designated room for doping testing is 
+adequate in terms of privacy, security and amenities.  
+3.3.5.4. Ensure that any supporting medical facilities (e.g. physio 
+room) are clean and adequate for the level of the tournament. 
+3.3.5.5. Check the adequacy and functionality of toilets and changing 
+rooms. 
+3.3.5.6. Ensure that the size and appearance of any media 
+facility/facilities and mixed zone are appropriate for the level 
+of the tournament. 
+3.3.5.7. Confirm the locations of the seating areas for players, 
+Technical Officials, and VIPs. 
+3.3.5.8. Confirm the locations of the lounges for players and Technical 
+Officials. 
+3.3.5.9. Confirm the arrangements (space and cost, etc.) for rackets 
+restringing. 
+3.3.6.The Referee shall conduct an initial inspection of the Field Of  Play and 
+inform the tournament staff of any remedial action that needs to be 
+undertaken prior to the final walk-through. In particular, the Referee shall: 
+3.3.6.1. Check that the court surface is of good quality and safe for the 
+players. 
+3.3.6.2. Check that there is adequate space surrounding each court, 
+and that the background is free from extraneous light and 
+light-coloured backgrounds are minimized as much as is 
+practicable. 
+3.3.6.3. Check that the court mats have the required run -offs at the 
+back of the court and for the sidelines (BWF Statutes, Section 
+5.3.4, Regulation 2.1.2.1). 
+3.3.6.4. Check that the lighting over each court is adequate , evenly 
+spread and positioned as optimally as possible. If applicable, 
+verify that the lighting meets the minimum requirement for 
+TV (BWF Statutes, Section 5.3.4, Regulation 5).  
+3.3.6.5. Finalize the placement of all hardware on the Field Of Play 
+(e.g. positioning of Umpire, Service Judge, Line Judge, 
+Coaches and Court Attendant chairs, service height measuring 
+devices, shuttle dispensers (if applicable), shuttle bins, 
+interval boards, A-boards (manual and digital), scoreboards , 
+Time Clock (if applicable),  IRS cameras (if applicable), ALCS 
+equipment (if applicable), and TV cameras/microphones). 
+3.3.6.6. Check if the chairs for the Technical Officials are ergonomically 
+suitable for prolonged seating during consecutive matches 
+and over the multiple days of the tournament. 
+3.3.6.7. Confirm which areas on the Field Of Play photographers will 
+be permitted to work from  and how they will access those 
+areas.
+
+3.3.7.The Referee shall confirm the locations of Match Control, Shuttle Control, 
+Field Of Play Coordinator, Information Technology (IT) Coordinator, and of 
+the Referee desk and medical personnel. 
+3.3.8.If an IRS or ALCS will be in operation, the Referee shall review the location 
+of the IRS or ALCS booth. Ensure and test that a suitable back -up system 
+has been established in case the mechanism used to communicate and 
+display/announce the IRS or ALCS result is interrupted. 
+3.3.9.The Referee shall confirm with Shuttle Control the procedure for delivery 
+and removal of shuttles before and after each match (i.e. whether this will 
+be done by Shuttle Control or by the Service Judge). 
+3.3.10. The Referee shall review and approve the practice schedule, and in 
+particular: 
+3.3.10.1. Ensure that the practice schedule for the first day(s) is fair to 
+all players/teams and takes account of the size of the player 
+contingents from each Member. 
+3.3.10.2. Check that the allotted practice times prior to the start of the 
+tournament are consistent with known arrival times of the 
+players. 
+3.3.10.3. Confirm that the transportation times between the venue and 
+hotel(s) takes account of the practice schedule. 
+3.3.10.4. Inspect the practice and warm-up courts. Ensure they provide 
+for safe playing conditions, and that their number and 
+available hours are in accordance, as far as possible, with the 
+requirements of BWF Statutes, Section 5.3.4, Regulation 9. 
+3.3.10.5. Ensure that practice time on the competition courts each day 
+has been arranged according to the regulations for that level 
+of tournament. 
+3.3.10.6. Ensure that practice shuttles are made available to players as 
+required for the level of tournament and as specified in the 
+Prospectus. 
+3.3.11. The Referee shall decide and communicate to relevant parties who 
+will have responsibility for maintaining the official working copy of the 
+Tournament Planner (TP) file at all times. 
+3.3.12. The Referee shall confirm the location of the pre -match player’s 
+assembly point, and make decisions around the logistics of announcement 
+of matches and for march -on and march -off procedures for players and 
+Technical Officials. 
+3.3.13. The Referee shall ensure that the provisional schedule for the first 
+day of play is established (but not published) prior to any changes that may 
+result from the execution of withdrawals and promotions at the Team 
+Managers’ Meeting. 
+3.3.13.1. If not already established (as should be the case for higher 
+level BWF Tournaments), the Referee shall determine 
+whether, for the early rounds, matches will be pre-assigned to 
+specific courts, allocated on a “next available” basis, or a
+
+combination of both (e.g. if live streaming and/or TV on some 
+courts will be in effect). 
+3.3.13.2. The Referee shall determine if the Umpires will work in shifts, 
+in teams on pre -assigned courts, or on a rotational basis 
+during the initial days of the tournament. Ensure the details 
+of any such arrangements are finalized prior to the initial 
+Umpire Briefing. 
+3.3.14. The Referee, accompanied by his Deputy /Deputies and other key 
+stakeholders, shall conduct a final walk -through of the Field Of  Play at a 
+pre-arranged time and verify that all requests and corrective actions 
+identified in the initial inspection(s) have been implemented.
+
+3.4. Meetings and Briefings 
+The Team Managers’ Meeting  
+           
+3.4.1.Before the Team Managers’ Meeting, the Referee shall: 
+3.4.1.1. Inspect the meeting room to ensure it is of appropriate size 
+and has the necessary equipment (e.g. projector, screen, 
+laptop connecting cable, microphone).  
+3.4.1.2. Check that the time and location of the meeting has been 
+communicated to all Team Managers. 
+3.4.1.3. Ensure that a sign-in sheet has been prepared. 
+3.4.1.4. Check that  copies of the draw and other materials (e.g. 
+withdrawal form, video recording permits, practice request 
+form, transport schedule) have been prepared as handouts for 
+distribution at the meeting. 
+3.4.1.5. Review with the Deputy /Deputies the material to be covered 
+at the meeting  including checking the current list of 
+withdrawals and the logistics to be used for execution o f 
+promotions, and for moving seeds in Grade 2 – Level 2 -6 
+tournaments. 
+3.4.2.The Referee shall conduct the Team Managers’ Meeting in a professional 
+but relaxed manner that conveys calm authority and which establishes a 
+sense of approachability. In particular, the Referee shall: 
+3.4.2.1. Speak clearly, slowly and use simple language. 
+3.4.2.2. Make use of an interpreter, if necessary. 
+3.4.2.3. Pause after each section to allow the opportunity for questions 
+to be raised. 
+3.4.3.The Referee shall use any template provided and customize the 
+presentation to focus as much as possible on details and logistics associated 
+with the specific tournament in question, including contact details during 
+the tournament, as well as on any recently changed Laws/Regulations. 
+3.4.3.1. Judge the pace and depth for which the more generic material 
+is covered based on the experience of the Team Managers 
+present. 
+3.4.3.2. Ensure any material mandated by the BWF/CC office is 
+included in the presentation (e.g. content around 
+ethics/integrity). 
+3.4.3.3. Remind the Team Managers whether the fixed height  service 
+or alternative service laws will be in use at the tournament. 
+3.4.3.4. Inform the Team Managers whether the Time Clock tool will 
+be in operation. 
+3.4.3.5. Inform the Team Managers whether an ALCS will be in 
+operation.
+
+3.4.4.The Referee shall execute withdrawals, forced withdrawals, promotions, 
+and substitutions associated with the main and qualifying draws , and for 
+moving seeds in Grade 2 – Level 2 -6 tournaments,  at the end of the 
+meeting. 
+3.4.4.1. Distribute a “Player Withdrawal Form” to each Team Manager 
+at the start of the Team Managers’ Meeting for documenting 
+the withdrawal of players not previously communicated. 
+3.4.4.2.     Add any withdrawals communicated at the meeting to those 
+received after the draws were published. Confirm if withdrawn 
+players are present at the tournament. 
+3.4.4.3.     If the Team Manager of a player to be promoted from the 
+reserve list cannot confirm immediately that the player will be 
+present at the tournament and will play, then do not promote 
+that player and instead move on to the next player on the 
+reserve list. 
+3.4.4.4.       When more than one player/pair is to be promoted to the 
+main or qualifying draw, process the promotions drawing 
+both players and positions in the draw. 
+3.4.5.The Referee shall do a redraw only if play in that draw has not begun and 
+either: 
+3.4.5.1. An error has been made in the control of entries or in making 
+the draw;  
+3.4.5.2. In exceptional circumstances, a main draw has been rendered 
+severely imbalanced and there is no qualifying; or 
+3.4.5.3. A particular qualifying draw has been rendered severely 
+imbalanced after withdrawals and promotions. 
+3.4.5.3.1. A qualifying draw is considered to be severely 
+imbalanced if, after withdrawals and promotions, 
+more than one qualifying position (Q1, Q2, etc.) 
+will be unfilled (GCR, Regulation 15.3.2). 
+3.4.6.At the conclusion of the meeting, the Referee shall approve any changes 
+required to the first day’s match schedule as a result of the executed 
+withdrawals, forced withdrawals, promotions, substitutions, and for moving 
+seeds (Grade 2 – Level 2-6 tournaments). In particular, the Referee shall: 
+3.4.6.1. Ensure that the executed withdrawals, forced withdrawals, 
+promotions, substitutions, changed seed positions, (Grade 2 – 
+Level 2 -6 tournaments), and any redraws are entered and 
+documented correctly in the TP file, along with any changed 
+match times. 
+3.4.6.2. Ensure that the updated TP file is published and a back -up 
+copy e-mailed to the BWF/CC office. 
+3.4.6.3. Ensure that the updated draw and schedule is published online 
+as soon as possible.
+
+3.4.7.The Referee shall document in the Referee’s Report any Member whose 
+team or players were not represented at the Team Managers’ Meeting. 
+The Umpires’ Briefing 
+ 
+3.4.8.Before the Umpires’ Briefing, the Referee shall: 
+3.4.8.1. Inspect the briefing room to ensure it is of appropriate size 
+and has the necessary equipment (e.g. projector, screen, 
+laptop connecting cable, microphone).  
+3.4.8.2. Check that the time and location of the briefing has been 
+communicated to all Umpires. 
+3.4.8.3. Check if there are any local by-laws regarding ‘Lets’ or ‘Faults’, 
+should a shuttle hit an obstruction. 
+3.4.8.4. Review with the Deputy /Deputies the material to be covered 
+at the briefing. 
+3.4.9.The Referee shall conduct the Umpires’ Briefing in a professional but 
+relaxed manner that conveys calm authority and approachability and which 
+promotes a sense of teamwork. In particular, the Referee shall: 
+3.4.9.1. Speak clearly, slowly and use simple language. 
+3.4.9.2. Pause after each section to allow the opportunity for questions 
+to be raised. 
+3.4.10. The Referee shall use any template provided and customize the 
+presentation to focus as much as possible on Umpire details and logistics 
+associated with the specific tournament in question (e.g. location of 
+assembly point, march -on and march -off procedures, number of line 
+judges, any local by-laws regarding ‘Lets’ or ‘Faults’, should a shuttle hit an 
+obstruction, IRS, ALCS). In particular, the Referee shall: 
+3.4.10.1. Remind the Umpires of any recent changes to the Laws and 
+ITTO. 
+3.4.10.2. Judge the pace and depth for which the more generic material 
+is covered based on the experience of the Umpire crew. 
+3.4.10.3. If applicable, communicate any special considerations that 
+may apply to the TV court(s) (e.g. intervals are mandatory, 
+implementation of IRS). 
+3.4.10.4. If necessary, review operation of any scoring device that will 
+be used. 
+3.4.10.5.   If the fixed height service law will be used at the tournament, 
+ensure all the Umpires are familiar with the correct use of the 
+service height measuring device and provide an opportunity 
+for training if required. 
+3.4.10.6.    If IRS will be used at the tournament, remind the Umpires to 
+refamiliarize themselves with the IRS regulations (BWF 
+Statutes, Section 4.1.8) and the associated vocabulary.
+
+3.4.10.7 If ALCS will be used at the tournament, remind the umpires 
+to refamiliarise themselves with the ALCS regulations (BWF 
+Statutes, Section 4.1.9) and the associated vocabulary.  
+3.4.10.8 If the Time Clock tool will be used, remind the umpires how it 
+is to be used and the associated vocabulary.  
+3.4.10.9 Remind the u mpires of their obligations under BWF Code of 
+Ethics (BWF Statutes, Section 2.1) and Code of Conduct for 
+Technical Officials (BWF Statutes, Section 2.2.5), particularly 
+as related to betting and wagering, and the use of social 
+media. 
+3.4.11. The Referee shall communicate details around the disposition of 
+Umpire duties, including neutrality for the first days of the tournament (e.g. 
+whether Umpires will work in shifts, on pre-assigned courts in teams, or on 
+a rotational basis). 
+3.4.12. If present, the Referee shall leave sufficient time at the end of the 
+briefing for the Umpire Assessors to address the Umpires. 
+The Line Judges’ / Court Attendants’ Briefing 
+ 
+The Referee shall: 
+3.4.13. Meet with the Line Judges, or back-up Line Judges if ALCS is to be 
+operational, and the Court Attendants prior to the start of the tournament. 
+3.4.14. Speak to the Line Judges in a manner that conveys calm authority, 
+approachability, and which puts the Line Judges at ease. In particular, the 
+Referee shall: 
+3.4.14.1. Speak clearly, slowly and use simple language. 
+3.4.14.2. Make use of an interpreter, if necessary. 
+3.4.15. Emphasize to the Line Judges that they are an important part of the 
+Technical Officials team. 
+3.4.16. Review briefly the Line Judge duties and expectations, and address 
+any questions that arise. 
+3.4.17. Communicate the expectations and procedures around mopping, 
+and address any questions which arise. 
+3.4.18. Ensure that the Line Judge / Court Attendant’s Coordinator has been briefed 
+regarding march-on and march-off procedures. 
+3.4.19. If ALCS will be in operation ensure that arrangements are in place to quickly 
+gather and activate back-up, trained Line Judges if the system goes down. 
+Ensure sufficient Line Judge chairs are readily available to be quickly put 
+into position if needed. 
+3.5. Court Management and Towards the Finals Day 
+General
+
+3.5.1.The Referee shall keep aware of the general progression of all aspects of 
+the tournament both within and outside of his direct areas of responsibility. 
+In particular, the Referee shall: 
+3.5.1.1. Meet, as necessary, with members of the Organising 
+Committee as the tournament progresses and as specific 
+issues arise. 
+3.5.1.2. Redirect to the appropriate stakeholders any 
+questions/problems that fall outside of the Referee’s 
+immediate area of jurisdiction, but be sure to follow up at a 
+suitable juncture to ensure that the problem has been 
+addressed satisfactorily and the outcome communicated back 
+to the person who raised the issue. 
+3.5.1.3. At the start and end of each day, aim to boost morale and 
+promote team spirit by conversing with, and thanking, 
+tournament staff and volunteers around the venue who 
+contribute to the overall smooth running of the tournament. 
+3.5.1.4. On the first day of the tournament observe the mechanics of 
+the general traffic flow around the Field Of Play, efficiency of 
+march-on/march-off, audibility and appropriate content of 
+announcements, etc. and make any necessary adjustments 
+for subsequent days. 
+3.5.1.5. Whenever possible during play, ensure the Referee team is 
+positioned such that all the courts in use can be easily 
+observed (i.e. when multiple courts are being used the Referee 
+and Deputy(ies) should avoid being co -located for extended 
+periods in one area, if possible). 
+3.5.1.6. If necessary, go onto court during a match without being 
+called by the Umpire. 
+3.5.1.7. If IRS is in operation, ensure as far as possible that the 
+Referee or Deputy watch es that any challenge made is 
+administered correctly by the Umpire, and be ready to 
+intervene, if necessary, to ensure that any mistake is 
+corrected before the next rally begins. 
+3.5.1.8. If the Referee is called onto court by the Umpire because of 
+an inconsistent e.g, between text and graphic, or obviously 
+incorrect decision displayed by the Instant Review System, the 
+Referee shall first attempt to call the IRS operator and obtain 
+the correct decision or an explanation for the malfunction. The 
+Referee shall then instruct the Umpire how to proceed. 
+3.5.1.9. If the Referee is called onto court by the Umpire because of a 
+malfunction or obviously incorrect decision given by the ALCS, 
+the Referee shall first attempt to call the ALCS operator and 
+obtain the correct decision or an explanation for the 
+malfunction. The Referee shall then instruct the Umpire how 
+to proceed (BWF Statutes, Section 4.1.9). 
+Start of the Day
+
+3.5.2.The Referee shall arrive at the venue sufficiently early each day to carry 
+out all required duties to ensure that play is ready to start on time. In 
+particular, the Referee shall: 
+3.5.2.1. Walk through the Field Of Play to check that the courts are 
+clean and all hardware is in the right positions (e.g. Line 
+Judge, Court Attendants, and Coaches’ chairs, service height 
+measuring devices, interval boards, towels/mops , IRS 
+equipment (if applicable), and ALCS equipment (if applicable). 
+Check that the net heights have been measured and service  
+height measuring devices have been calibrated. 
+3.5.2.2. Ensure that all IT functionality is operational (e.g. Public 
+Address (PA) system, Umpire scoring devices, scoreboards, 
+IRS, ALCS, Time Clock). 
+3.5.2.3. Ensure key personnel are in place (e.g. Match Control, Shuttle 
+Control, Field Of Play staff , Tournament Doctor or medical 
+team). 
+Medical Personnel 
+ 
+3.5.3.Prior to the start of the first day’s play and anytime there is a change to 
+new medical personnel, the Referee shall meet briefly with the Tournament 
+Doctor/Medical Officer. 
+3.5.3.1. An interpreter may be used, if necessary. 
+3.5.3.2. The Referee shall ensure that the Tournament Doctor knows 
+that he acts under the Referee’s direction and that if called 
+onto court, the Tournament Doctor’s primary role is to advise 
+the player of the severity of any injury, and not to administer 
+any treatment that may cause undue delay. 
+3.5.3.3. The Referee shall ensure that the Tournament Doctor has 
+basic medical supplies on hand in a portable container (e.g. 
+plasters, scissors, gloves). 
+3.5.3.4. At all times when play is in progress and well before the first 
+match of the day, the Tournament Doctor (or other medically 
+trained personnel) shall be located courtside or have a direct 
+contact to the Referee in order to assist the Referee on court 
+in case of a player's injury or illness.  
+Shuttle Testing 
+ 
+3.5.4.Prior to the start of the first day’s play, the Referee shall oversee the 
+testing of shuttles. 
+3.5.4.1. The shuttles should be tested by an active player in the 
+tournament, preferably a male player , or a qualified person 
+approved by the Referee. 
+3.5.4.2. All available speeds shall be tested from both ends of the 
+court. 
+3.5.4.3. Instruct the shuttle tester during the test, if necessary, such 
+that the shuttles are being tested correctly.
+
+3.5.4.4. When assessing the result of the shuttle test, take into account 
+the manner in which  the shuttles were hit (strength of shot 
+and trajectory), and whether they were hit from the correct 
+location (over the back line) (Law 3). 
+3.5.4.5. Communicate the shuttle speed decision to Shuttle Control. 
+3.5.4.6. Do not communicate the decision regarding the selection of 
+the shuttle speed to be used to the shuttle tester or ask his 
+opinion. 
+3.5.4.7. Retest the shuttles, if necessary, on a given day if playing 
+conditions change substantially (e.g. temperature and 
+humidity) or it is warranted based on visual observations 
+and/or feedback from Umpires. 
+3.5.4.8. If the playing conditions do not change significantly and if the 
+shuttles are found to be consistent from tube-to-tube, then it 
+is not necessary for the shuttles to be tested on every 
+subsequent day. 
+Withdrawals and Promotions 
+ 
+3.5.5.The Referee shall process any withdrawals, no shows and forced 
+withdrawals that arise after the Team Managers’ Meeting according to GCR, 
+Regulation 13. 
+3.5.5.1. The Referee may stop a qualifying draw match in progress, if 
+necessary, in order to execute a promotion to the main draw 
+(GCR, Regulation 13.1.1). 
+3.5.5.2. In events without a qualifying competition , an entry on the 
+reserve list may be promoted to the main draw until the order 
+of play for the first day(s)  has been published (GC R, 
+Regulation 13.1.2). 
+3.5.5.3. In events with a qualifying competition , an entry on the 
+reserve list may be promoted to the qualifying draw until the 
+order of play for the qualifying rounds has been published  
+(GCR, Regulation 13.1.3). 
+ 3.5.5.4. Ensure all promotions (PFQ/PFR), withdrawals (WDN), no 
+shows (DNS), forced withdrawals (FWDN), substitutions 
+(SUB), retirements and walkovers are documented correctly 
+in the TP file, using the correct abbreviations. 
+ 3.5.5.5. Include all withdrawals subject to a fine in the Withdrawal 
+Report (GCR, Regulation 14.1.2).  
+3.5.5.6 If a player wishes to withdraw for any reason during the Team 
+Managers Meeting or subsequently in a tournament, they are 
+required to complete a withdrawal form and present this to 
+the Referee. 
+Technical Officials Management 
+ 
+The Referee shall:
+
+3.5.6.Look after the general well-being of the Umpires, Line Judges (if present) 
+and/or Court Attendants throughout the tournament and ensure they have 
+the amenities necessary to discharge their duties effectively (e.g. food, 
+water, coffee, tea, etc.). 
+3.5.7.Promote teamwork and camaraderie within the group of Technical Officials 
+while maintaining sufficient distance to avoid the perception of favouritism, 
+etc. 
+3.5.8.Ensure that all Technical Officials abide by the Technical Officials Code of 
+Conduct (BWF Statutes, Section 2.2.5). 
+3.5.9.Give daily Umpire briefings as necessary. The briefings should focus on 
+generic feedback from play on the previous day with communication of any 
+adjustments required, passing on any changes to procedures to be adopted 
+for the current day (e.g. changes to m arch-on and march -off, change in 
+number of Line Judges), and allowing time for questions, answers and 
+comments by Umpire Assessors, if present. 
+3.5.10. Offer constructive feedback on an Umpire’s performance when 
+appropriate based on first -hand observations or when requested by the 
+Umpire, and in particular:  
+3.5.10.1. Offer such feedback promptly after a match whenever an 
+adjustment in an Umpire’s performance is necessary in order 
+to bring it into line with expectations. 
+3.5.10.2. Offer such feedback in a setting with privacy and free from 
+distractions. 
+3.5.10.3. Be certain your instructions are understood and subsequently 
+observe the Umpire to make sure they are followed. 
+3.5.11. Ensure Umpire and Service Judge assignments are made fairly and 
+appropriately. 
+3.5.11.1. Ensure Umpire and Service Judge neutrality as far as possible. 
+3.5.11.2. If complete Umpire and Service Judge neutrality cannot be 
+achieved then at a minimum prioritize Umpire and Service 
+Judge neutrality on the TV court and then, if possible, neutral 
+Umpires on other courts. 
+3.5.11.3. Take note of any matches with significant tension between the 
+Umpire or Service Judge and players, and, if necessary, avoid 
+assigning that Umpire or Service Judge to matches featuring 
+the same player in subsequent rounds. 
+3.5.11.4. Ensure all Technical Officials have reasonable rest between 
+duties/shifts. 
+3.5.12. If present, communicate with Umpire Assessors frequently as the 
+tournament progresses. 
+3.5.12.1. The Referee shall solicit the Umpire Assessors’ feedback on 
+each Umpire’s performance to help guide decisions around 
+assignments for the latter stages of the tournament.
+
+3.5.12.2. To the extent possible, the Referee shall accommodate the 
+Umpire Assessors’ requests regarding Umpire and Service 
+Judge assignments in order to facilitate the 
+assessment/appraisal process. 
+3.5.12.3. The Referee has final authority regarding all Technical Officials 
+assignments. 
+3.5.13. Meet with the Line Judges (or back -up Line Judges if ALCS is 
+implemented) and Court Attendants  as needed as the tournament 
+progresses, and in particular: 
+3.5.13.1. Offer feedback on Line Judge performance and any 
+adjustments needed through the Line Judge Coordinator. 
+3.5.13.2. Pass on feedback from Umpires and the Referee team to the 
+Line Judge Coordinator (if ALCS is not implemented) and Court 
+Attendants Coordinator  on stronger and weaker performing 
+Line Judges and Court Attendants so that they can be assigned 
+appropriately in the latter stages of the tournament. 
+3.5.13.3. If any appointed international Line Judges are present, ensure 
+they are utilised in the most competitive matches and on the 
+more difficult lines, and particularly in any matches in the 
+latter stages of the tournament featuring players from the 
+host Member. 
+Players and Coaches Management 
+ 
+3.5.14. The Referee shall deal with any complaints by players, Coaches and 
+Team Managers firmly and fairly. 
+3.5.15. When required, the Referee shall make decisions concerning 
+compliance of a player’s or Coach’s clothing. 
+3.5.15.1. In cases of uncertainty, the Referee should permit the clothing 
+in question and submit a picture of it to BWF after the 
+tournament for review. 
+3.5.15.2. Be aware of any lighting differences between the assembly 
+area and the Field of Play that may alter perceptions of colour 
+differentiation between shirts. 
+3.5.15.3. The Referee shall make  decisions concerning opponents 
+wearing significantly different colours by taking into account 
+both shirts a nd shorts (or similar). For example, players 
+wearing the same colour of shirts but significantly diffe rent 
+colours of shorts shall be deemed to be dressed differently. 
+3.5.15.4. The Referee has the discretion whether or not to report a 
+player’s or a Coach’s non-compliant clothing to BWF (or CC) 
+for assessment of fines. 
+3.5.16. Any equipment (rackets / drinks etc) that is required to be passed 
+to players during a match (except intervals as described in Law 16.2) must 
+be given to the Referee and not passed directly to players.
+
+3.5.17. The maximum number of coaches allowed courtside is two per each 
+side (ITTO 5.4.13, 5.6.7, 5.6.11).  If a new coach or a team physio/doctor 
+wishes to join their player(s) on court during an interval, and two coaches 
+are already present on that side, one of the existing coaches must leave the 
+court and its immediate surroundings before a new team official is permitted 
+to come onto court 
+3.5.18. In observing play, the Referee shall ensure that anyone sitting in a 
+Coach’s chair on the Field of Play abides by the Coaches and Educators Code 
+of Conduct (BWF Statutes, Section 2.2.6). 
+3.5.18.1. The Referee shall take immediate action if a Coach moves the 
+designated chair from its position such that the visibility of any 
+advertising is disturbed. 
+3.5.18.2. If necessary, the Referee may remove a Coach or Team 
+Manager/Official from the Field of Play for an appropriate 
+duration (e.g. the remainder of a match, a session or day (s)) 
+depending upon the seriousness of recurrence of the offence. 
+3.5.18.3. The Referee shall inform BWF (or CC) of any serious or flagrant 
+breaches of the Coaches and Educators Code of Conduct (BWF 
+Statutes, Section 2.2.6) through the Referee’s Report (or 
+through an Incident Report, if necessary). 
+Schedule 
+ 
+3.5.19. The Referee shall approve each subsequent day’s match schedule 
+before it is published. 
+3.5.19.1. The next day’s schedule should be published as early as 
+possible on the preceding day (even if the identities of some 
+of the players are not known at the time of initial publishing), 
+but it should not be published until the order of play, and if 
+appropriate, the court assignments are finalized.  Record the 
+time when the schedule for the next day is published  and 
+check that the publicly accessible published schedule is the 
+same as that inputted into Tournament Planner. 
+3.5.19.2. In developing the next day’s schedule, solicit input from the 
+relevant stakeholders (e.g. BWF/CC Events Officer, TV 
+Coordinator, Tournament Director). 
+3.5.19.3. Requests from TV around the order of play and court 
+assignments should be accommodated, if possible, as long as 
+it does not result in undue hardship to any player. 
+3.5.19.4. Any player is entitled to a minimum of a 60 -minute interval 
+between matches , or in exceptional circumstances, the 
+Referee can reduce the interval to no less than 30 minutes 
+between two matches  (GCR, Regulation 11.3) . In  Junior 
+tournaments, Junior team tournaments,  Para badminton 
+tournaments, and qualifying rounds of other tournaments the 
+player is entitled to a minimum of a 30 -minute minimum 
+interval between two matches. The Referee shall, however, try 
+to provide a longer interval between any two matches of a
+
+given player, and in particular between a player’s matches in 
+the same event. 
+3.5.19.5. Ensure that opposing sides in a match do not have 
+disproportionately different rest times since their previous 
+round matches in that event. 
+3.5.19.6. Where possible, consider having a variety of events scheduled 
+in a given timeslot to maximize spectator interest and overall 
+presentation. 
+3.5.19.7. The Referee shall develop or check the next day’s practice 
+schedule as applicable and approve it before it is published. 
+Final Stages of Tournament 
+ 
+3.5.20. The Referee shall ascertain and communicate to the rest of the 
+Technical Officials if there will be any changes in security 
+procedures/accreditation requirements etc. for the semi -finals and finals 
+due to the presence of VIPs. 
+3.5.21. The Referee shall approve any reconfiguration of the Field Of Play 
+for the semi-finals and finals, etc. 
+3.5.21.1. As the number of courts is reduced, the objective for any Field 
+Of Play reconfiguration should be to provide the most 
+attractive presentation for spectators and TV, and best utilize 
+any extra space created. 
+3.5.21.2. Communicate any changes to march -on and march -off 
+procedures to the Umpires ,  Line Judges  (if ALCS is not 
+implemented) and/or Court Attendants, and to the announcer. 
+3.5.22. Particular care should be taken when determining the order of play 
+for the semi-finals and finals. The Referee should take into account  factors 
+such as TV requests, spectator interest, considerations for players in 
+multiple finals (i.e. rest time and playing singles before men’s and women’s 
+doubles (usually)), and participation of host Member players. Seek input 
+from all relevant stakeholders, most particularly the BWF (or CC) Events 
+Officer, if present, on any contractual obligations that must be respected. 
+3.5.23. Umpire and Service Judge appointments for the semi -finals and 
+finals must be carefully considered and, after taking neutrality into account, 
+should be based on factors such as observed performance throughout the 
+tournament, experience level, presentation s kills, and teamwork exhibited 
+during the tournament. Solicit input from Umpire Assessors, if present. 
+3.5.24. The Referee shall ascertain from the tournament organizers the 
+plan for the award ceremonies, and shall participate in the ceremonies, if 
+requested. The Referee shall monitor that players participating in the award 
+ceremonies are dressed appropriately and that they do not bring onto the 
+podium any items that are not permitted (e.g. flags except at Grade 1 Team 
+Tournaments, rackets) (BWF Statutes, Section 5.3.6, Regulation 1. 10). 
+Ensure that players participating in the award ceremonies are not 
+accompanied onto the podium by family members or other persons. 
+End of Day’s Play
+
+3.5.25. At the end of each day’s play the Referee and Deputy /Deputies 
+should debrief with each other and with other key stakeholders as 
+appropriate (e.g. Tournament Director). 
+3.5.26. Obtain the quantities of shuttles used during the day and shuttles 
+remaining both from the TP file and by a physical count to ensure that there 
+is a sufficient quantity left of appropriate speed for the number of matches 
+remaining. 
+3.5.27. Ensure the TP file is published and a back-up copy sent to the BWF (or CC) 
+office and the Referee Team at the end of each day’s play. 
+3.5.28. Record the finish time of the day’s play. 
+3.6. Injuries, Illness and Incidents 
+3.6.1.The Referee shall be called on court by the Umpire or intervene on his own 
+initiative to handle cases of injuries, illness or incidents, as well as shuttle 
+speed issues, when necessary. 
+3.6.1.1. When called by the Umpire in case of injury or illness, the 
+Referee shall immediately go on court.  The Referee shall first 
+speak to the Umpire to be informed of the relevant facts and, 
+if required, call the Tournament Doctor (who should be waiting 
+courtside) on court. The Referee should remind the Umpire to 
+time the delay due to the injury. 
+3.6.1.2. The Tournament Doctor's duty is to examine the player's 
+injury and quickly determine whether it is medically advisable 
+for the player to continue to play. The decision, however, 
+which shall be taken as fast as possible, remains with the 
+player. The Tournament Doctor may apply a quick relief, such 
+as a bandage on a bleeding injury, but no time -consuming 
+treatment is allowed except in the regular intervals and then 
+only if the Tournament Doctor estimates that the treatment 
+can be completed (or nearly so) before the interval ends.  
+3.6.1.3. The Referee may allow a maximum of two persons on court to 
+assist and advise the injured player and help with translation. 
+In fairness, the Referee shall allow the opposing side the same 
+consideration. 
+3.6.1.4. The Referee shall  resolve the injury situation as quickly as 
+possible and well within a few minutes so that play can be 
+resumed or abandoned. The Referee may need to point to 
+potential disqualification if it is suspected that the player is 
+exploiting the injury situation to regain wind, or if the player 
+repeatedly hesitates in deciding to continue or abandon play. 
+3.6.1.5. The Referee shall ensure that there is Emergency Service 
+available (ambulance and hospital) and be aware how to 
+initiate immediate medical assistance. The Team Managers 
+shall be kept fully  informed about any medical assistance 
+available. 
+3.6.1.6. In case of a severe injury, where  there is no doubt that the 
+player cannot continue, the regular process (Instructions
+
+3.6.1.2 - 3.6.1.4) shall be disregarded, and the Tournament 
+Doctor shall provide the necessary first aid until the player can 
+be transported to hospital. 
+3.6.1.6.1. In case of suspected cardiac arrest or suspected 
+concussion with blackout, without the direction of 
+the Referee, the Tournament Doctor can 
+immediately attend to the player to provide first 
+aid until the player can be transported to hospital. 
+3.6.1.7. The Referee shall be aware of any physiotherapy or facilities 
+for physiotherapists available at the tournament and keep the 
+Team Managers informed. 
+3.6.1.8. As the Tournament Doctor may not be allowed to practice 
+medicine in the host country, there shall be local medical 
+service available at all times  to cater for  cases of illness 
+among players and officials. The Referee shall pass on relevant 
+information to the Team Managers. 
+3.6.1.9. In giving guidance to Umpires in briefings and when called on 
+to court the Referee shall encourage Umpires to exercise 
+flexibility in consideration of players leaving and returning 
+back to the court during an interval (Law 16.5.2) on account 
+of acute sickness or sanitary needs 
+3.6.2.Incidents and Misconduct 
+The Referee shall be called on court by the Umpire or intervene on his own 
+initiative in case of flagrant or other misbehaviour resulting in a red card 
+(Law 16.7) or when the Umpire needs his assistance to resolve other 
+issues.  
+3.6.2.1. Coming on court, the Referee  shall first speak to the Umpire 
+(and if necessary, the Service Judge) to receive information 
+about the situation, and only  afterwards address the players. 
+In case information from other sources is necessary to resolve 
+the situation, such personnel shall be called to the court, with 
+the Referee normally remaining on court until the situation is 
+resolved. While the Referee is on or near the court dealing 
+with the problem, play is deemed suspended, unless the 
+Referee advises the Umpire and the players otherwise. 
+3.6.2.2. Should the Referee decide to disqualify a player, this player is 
+disqualified from all events of the tournament  and in Team 
+Tournaments, from all future matches of the Team 
+Tournament; and a disciplinary process may be recommended 
+in the Referee's Report. The player's doubles partner may 
+continue in other events of the tournament ( GCR, Regulation 
+31.5). 
+3.6.2.3. The Referee shall resolve the situation as quickly as 
+possible, explain his decision clearly, briefly and with 
+conviction to the Umpire and the players, leave the court, and 
+play shall resume, if applicable. There shall be no further 
+discussion or appeal.
+
+3.6.3.Shuttle Speed 
+The Referee shall at all times, when observing play, consider whether the 
+shuttle speed selected before play started still appears to be correct. 
+3.6.3.1. When called on court by the Umpire  because both sides wish 
+to change the shuttle speed, the Referee shall first speak to 
+the Umpire to add  the Umpire's  comments to his own 
+observations before taking the decision to change the shuttle 
+speed or not. Testing by the players may  be performed, but 
+will often not provide valid additional information. 
+3.6.3.2. When no shuttles of correct speed are available, tipping may 
+exceptionally be done (preferably by the Service Judge or 
+another neutral person), but only  as a last resort to continue 
+play. 
+3.7. After the Tournament 
+3.7.1.The Referee is responsible for the continued oversight of the tournament 
+after the last match is concluded.  
+3.7.2.The Referee shall plan sufficient time before leaving the Field Of  Play to 
+finalize and  duly inform BWF (or CC) of the results, and to  thank all 
+remaining Technical Officials, the Organising Committee and other 
+stakeholders for their contributions. The Referee shall ensure that any 
+doping tests still in progress after th e end of play can be completed and 
+that arrangements are made for players to return to their hotel before the 
+Referee leaves the stadium. 
+3.7.3.The Referee shall immediately after the tournament send to BWF (or CC) 
+a report on withdrawals, yellow and red cards, that may trigger further 
+sanctions. 
+3.7.3.1. The Referee may decide not to report a card  given by an 
+Umpire, if the Referee or a Deputy has observed the situation 
+where the card was given and decides that the card should not 
+have been issued.  
+3.7.4. The Referee shall, no later than two weeks after the 
+tournament is finished, send the Referee's Report to BWF 
+(and/or CC), using the stipulated standard template. 
+3.7.4.1. The Referee's Report shall contain all relevant detail but focus 
+on what was noteworthy for the tournament and highlight 
+information that may be relevant for further tournaments in 
+the same venue or by the same organiser.  The Referee’s 
+Report shall also contain any recommendations for BWF 
+Statutes or guidelines. 
+3.7.4.2. When drafting the Referee's Report, the Referee should 
+consult his Deputy /Deputies. However, the responsibility for 
+the timely delivery and the content of the Referee's 
+Report remains with the Referee. 
+ 
+3.8. Team Tournaments
+
+3.8.1.A Team Tournament is normally governed by specific regulations issued by 
+BWF (or CC), describing the terms and  conditions for  entries, method of 
+competition, draw and other particular features  of the Team Tournament. 
+In the absence of such regulations, the tournament prospectus shall contain 
+such terms and conditions.  
+3.8.1.1. Team Tournaments are frequently played in pools and groups, 
+at least in the initial stage, and the BWF General Competition 
+Regulations for play in groups and pools apply (GCR , 
+Regulation 16), unless specifically stated otherwise. 
+3.8.2.The Referee is responsible for ensuring that the entries of teams and 
+nominations of players to participate in the Team Tournament are in 
+accordance with the Team Tournament regulations. 
+3.8.3.The Referee is responsible for  approving team ranking, seeding,  
+conducting the draw (or verifies the result of the draw), and for the overall 
+schedule of play for the ties of the Team Tournament. 
+3.8.4.The Referee shall decide the time and method for nomination of teams for 
+the individual team ties and communicate the decision to the Team 
+Managers at the Team Managers’ Meeting, unless it is stipulated in the 
+regulations. 
+3.8.5.Based on the team nominations, the Referee shall decide the order of play 
+for the tie following the process laid down in the regulations for the Team 
+Tournament, if such a process is described. 
+3.8.5.1. Where the Referee decides the order of play, as far as 
+possible: 
+- no player plays in two consecutive matches, and 
+- players playing both singles and men’s or women’s 
+doubles play singles first. 
+3.8.5.2 Once decided, the Referee shall communicate the order of play 
+to the teams and to the member of the Organising Committee 
+responsible for further publication. 
+3.8.6.Unless otherwise stipulated in the specific regulations for the Team 
+Tournament, prior to a player’s first match in a tie, the Referee may allow 
+a substitute for a player, who, in the opinion of the Referee is incapacitated 
+by illness, injury or other unav oidable hindrance, provided that the 
+substitute player or pair is lower ranked (per the World Ranking date 
+stipulated in the Prospectus for the Team Tournament) than the player or 
+pair being replaced. 
+3.8.6.1. Any pair unaffected by the substitution shall be left 
+unchanged. 
+3.8.6.2. A substituted player shall not take part in that tie, but may 
+play again in a later tie in the Team Tournament. 
+3.8.7.The Referee may disqualify at any stage of a Team Tournament 
+• Any team which fails to report its arrival at the stipulated time; 
+• Any team which fails to carry out its required program; or
+
+• Any team that has failed to carry out its obligations or breaches the 
+Rules and Regulations of BWF (or the CC). 
+ 
+4. GENERAL ADVICE ON REFEREEING 
+4.1. The Role of the Referee and Relations to Other Stakeholders  
+4.1.1.The Referee shall know and understand the Laws of Badminton. 
+4.1.1.1. The Referee shall at all times stay updated on BWF Code of 
+Ethics (BWF Statutes, Section 2.1), General Competition 
+Regulations (GCR) (BWF Statutes, Section 5.1) and related 
+documents, in particular the Technical Officials’ Code of 
+Conduct (BWF Statutes, Section 2.2.5),  and other official 
+tournament related official communications from BWF (and 
+CC). 
+4.1.1.2. The Referee shall be familiar with BWF information technology 
+(IT) tools and their operation. 
+4.1.2. Being in overall charge of the tournament, the Referee shall 
+lead, manage and motivate the Technical Officials. 
+4.1.2.1. The Referee shall establish constructive working relationships 
+with Deputy Referees, Umpire Assessors, the Organising 
+Committee, the Team Managers (representing the players) 
+and any BWF (or CC) Representatives or Staff appointed to 
+the tournament. 
+4.1.2.2. The Referee, representing BWF (or CC) shall lead by example. 
+The Referee  shall be punctual and demand punctuality of 
+others, dress correctly and request that the other Technical 
+Officials do likewise. 
+4.1.3.The Referee shall observe play and, after consultation when appropriate, 
+take all necessary action to ensure that play is fair and correct.  
+4.1.3.1. The Referee may delegate duties to other Technical Officials. 
+However, delegation shall be followed up and the ultimate 
+responsibility remains with the Referee.  
+4.1.3.2. A decision by a Deputy Referee  shall be considered as 
+a decision by the Referee. There is no appeal of such a 
+decision to the Referee. 
+4.1.4.The Referee, in cooperation with the Organising Committee and BWF (or 
+CC), is responsible for the conditions under which the tournament is 
+conducted. 
+4.1.4.1. The Referee shall provide the players with safe and good 
+playing conditions. 
+4.1.4.2. The Referee is responsible for providing all Technical Officials 
+with conditions that will enable them to carry out their duties 
+safely and effectively. 
+4.1.4.3. The Referee shall assist the Organising Committee and BWF 
+(or CC) with providing the best possible presentation of the
+
+tournament to the spectators in the stadium and to any 
+television audience. The Referee shall work in close 
+cooperation with BWF  (or CC)  staff and respect BWF’s  (or 
+CC’s) contractual obligations (e.g. to television and sponsors). 
+4.1.5.The Referee must remain fair and calm at all times, and shall be prepared 
+to take all necessary decisions. 
+4.1.5.1. Before a major decision is taken, review any relevant 
+regulations or legislation, reflect and, if in doubt, consult the 
+Deputy Referees, BWF  (or CC) , the Organising Committee 
+and/or a Referee Assessor, as appropriate. 
+4.1.5.2. When a decision is taken, communicate it clearly and ensure 
+that it is well understood by the recipients. 
+4.1.5.3. Should a mistake be made, admit it, correct it and apologize. 
+4.2. Handling Questions and Complaints 
+4.2.1.The Referee shall be available and approachable, such that Team Managers 
+(on behalf of the players), Technical Officials and other stakeholders are 
+encouraged and feel comfortable to come forward with their questions, 
+comments or complaints. This approach will generally facilitate and improve 
+the Referee's decision-making process. 
+4.2.2.When a Team Manager or a player comes to the Referee to request a 
+decision on a specific case, the Referee should: 
+4.2.2.1. Listen carefully to the case and the arguments put forward; 
+4.2.2.2. Ask questions to fully clarify the issue, using an interpreter, if 
+necessary, and ensure that all the facts are well understood; 
+4.2.2.3. Take time, if necessary, to reflect over the case, consult  any 
+relevant legislation, regulations and other sources of 
+information; 
+4.2.2.4. Bear in mind that the person raising the case is an advocate 
+for his team or players; 
+4.2.2.5. Consider the importance and the urgency of the decision, 
+decide on the priority and whether the Referee  shall take the 
+decision or if it should be referred elsewhere; 
+4.2.2.6. Consider whether the outcome of the decision may set an 
+unhelpful precedent. 
+4.2.2.7. Take the decision as soon as possible but only when ready to 
+do so; and 
+4.2.2.8. Communicate the decision to the person raising the case and 
+to all others that the decision may directly or indirectly affect. 
+4.2.3.In order to  minimize the occurrence of justified complaints, the Referee 
+shall be proactive in anticipating and preventing potential problems and in 
+taking pre -emptive action to solve issues before they materialize or 
+escalate.
+
+4.2.4.Unsatisfied complaints and problems that cannot be resolved at the 
+tournament may indicate the need for a review of Laws or regulations and 
+should be reported to BWF (or CC) through the Referee's Report or 
+otherwise. 
+4.3. Anti-Doping and Match-Fixing 
+4.3.1.The Referee, as well as all other Technical Officials, shall at all times be in 
+compliance with the BWF Code of Ethics (BWF Statutes, Section 2.1), 
+Technical Officials’ Code of Conduct (BWF Statutes, Section 2.2.5), and their 
+related documents. In particular, the Referee has an obligation to promote 
+the provisions related to betting, wagering and irregular match results to 
+the Technical Officials working under his authority and to observe that they 
+follow the provisions of the codes. 
+4.3.2.Concerning anti-doping, the Referee has the responsibility 
+4.3.2.1. To verify that the Organising Committee provides  adequate 
+working conditions for doping testing; 
+4.3.2.2. To make the Team Managers aware that random and/or 
+targeted doping testing may take place during and after the 
+tournament; 
+4.3.2.3. To be aware of any doping testing arrangements that 
+BWF may have made with the relevant National Anti -Doping 
+Organization (NADO) and assist the National Anti -Doping 
+Officers in executing their task, if requested to do so; and 
+4.3.2.4. To look after the players' health and safety and ensure that 
+fair play prevails (e.g. the playing schedule may, if 
+necessary, be changed to accommodate players having been 
+selected for or undergoing doping testing). 
+4.3.3.Concerning match-fixing, the Referee has the responsibility 
+4.3.3.1. To make the Team Managers aware of the BWF regulations 
+and countermeasures in place concerning players not giving 
+their best efforts, particularly the arrangements for 
+observation of matches between players from the same 
+Member; 
+4.3.3.2. To closely observe play on court as well as what may be 
+happening around the tournament, including the audience in 
+the stadium, bearing in mind that match-fixing may potentially 
+be occurring; and 
+4.3.3.3. To take appropriate action promptly should any suspicious 
+action be observed and inform BWF immediately. 
+4.4. Media  
+4.4.1.Media play an important role in the presentation of any tournament and 
+the Referee shall assist in providing adequate working conditions for 
+journalists, photographers and television staff, without jeopardizing the 
+health and safety of the players, the wor king conditions for the Technical 
+Officials or the playing conditions.
+
+4.4.2.The Referee shall be aware of any specific BWF (or CC) guidelines for media 
+staff and assist in upholding these guidelines on the Field Of Play. 
+4.4.3.The Referee, on behalf of all Technical Officials, shall assist  the BWF (or 
+CC) communication staff in responding to technical questions from the 
+media related to the tournament, or, in their absence, answer such 
+questions. 
+5. INSTRUCTIONS TO UMPIRES 
+5.1. Before the Match – Off Court  
+The Umpire shall: 
+5.1.1.Obtain the scoresheet; 
+5.1.2.Ensure that the specified number of Line Judges (if ALCS is not 
+implemented), and if applicable, Court Attendants are present; 
+5.1.3.Ensure that the players’ clothing (as far as name, lettering, 
+advertisements, colour and design are concerned) and equipment are 
+compliant with the GCR as instructed by the Referee; 
+5.1.4.Ensure all players’ electronic and communication devices are switched off 
+or set in silent mode; and 
+5.1.5.Ensure the players line up according to the order of the names printed on 
+the scoresheet or as instructed by the Referee. 
+5.2. Before the Match – On Court  
+The Umpire shall: 
+5.2.1.Carry out the toss fairly and note the choices made by t he winning and 
+losing sides (Law 6). These choices, once made, are final; 
+5.2.2.     Get into the Umpire’s chair as quickly as possible after the toss, start the 
+stopwatch and then: 
+5.2.2.1.    Time the warm -up period. Unless instructed otherwise by the 
+Referee, the two-minute warm-up starts when the Umpire sits 
+in the chair and ends with the calling of “Play” to start the 
+match. The Umpire shall call “Ready to play” to instruct the 
+players to get ready to start the match at ninety seconds of the 
+two-minute warm up period, unless instructed otherwise by the 
+Referee; 
+5.2.2.2     When a scoresheet is used, write “0” for both sides and “S” for 
+server, and in the case of a Doubles match, “R” for receiver; 
+5.2.2.3.    Check that any scoring device is working; and 
+5.2.2.4.    Check that the Line Judge (if ALCS is not implemented)  and 
+Coach’s chairs are correctly positioned. 
+5.3. Start of the Match 
+5.3.1.The Umpire shall announce the match using the appropriate 
+announcement below, and point to the right and to the left.
+
+W, X, Y, Z are names of the players and A, B, C, D are names of the 
+Member. 
+Singles 
+Tournament  
+“Ladies and Gentlemen; on my right, ‘X, A’; and on my left, ‘Y, B’. ‘X’ to 
+serve; love all; play.” 
+Team Tournament  
+“Ladies and Gentlemen; on my right, ‘A’, represented by ‘X’; and on my 
+left, ‘B’, represented by ‘Y’. ‘A’ to serve; love all; play.” 
+Doubles 
+Tournament  
+“Ladies and Gentlemen; on my right, ‘W, A’ and ‘X, B’; and on my left, ‘Y, 
+C’ and ‘Z, D’.  
+‘X’ to serve to ‘Y’; love all; play.” 
+(If doubles partners represent the same Member, announce the Member 
+name after announcing both players’ names. e. g. ‘W and X, A’). 
+Team Tournament  
+“Ladies and Gentlemen; on my right, ‘A’, represented by ‘W’ and ‘X’; and 
+on my left, ‘B’, represented by ‘Y’ and ‘Z’. ‘A’ to serve; ‘X’ to ‘Y’; love all; 
+play.”  
+5.3.2.The calling of “Play” indicates the start of the match. 
+5.3.3. Click the ‘Play’ button on the scoring device immediately before calling 
+‘Play’, or, if a scoresheet is used, note the time on the scoresheet 
+immediately before calling ‘Play’. 
+5.4. During the Match  
+The Umpire shall: 
+5.4.1.Use the standard vocabulary in BWF Statutes, Section 4.1.5; 
+5.4.2.Record and then call the score  immediately at the conclusion of a rally . 
+Always call the server’s score first . When IRS is in use, observe if a 
+challenge is being made before recording and calling the score; 
+5.4.3.During the service, if a Service Judge is appointed, especially watch the 
+receiver. The Umpire may also call a service fault; 
+5.4.4.Be aware of the status of any scoring device  and the Time Clock (if 
+applicable), and inform the Referee in the case of a malfunction;  
+5.4.5.Raise the right hand above the head when the Referee is required on court; 
+5.4.6.When a side loses a rally and the right to continue serving (Law 10.3.2 and 
+Law 11.3.2) call “Service over” followed by the score starting with that of 
+the new serving side. 
+5.4.7.“Play” shall be called by the Umpire to
+
+5.4.7.1. Instruct the players that a match or a game is to start, to 
+continue after an interval, after a change of ends, or to resume 
+play following an IRS challenge or after a break; and 
+5.4.7.2. Instruct the players to resume play. 
+5.4.8.”Fault” shall be called by the Umpire when a “fault” occurs, except when 
+5.4.8.1. A service fault (Law 9.1) is called by the Service Judge under 
+Law 13.1. The Umpire shall call “Service fault called” followed 
+by an explanation using the appropriate vocabulary ( BWF 
+Statutes, Section 4.1.5, Section 4);  
+5.4.8.2. A fault during service is called by the Umpire. The Umpire shall 
+announce the service fault or receiver fault using the 
+appropriate vocabulary (BWF Statutes, Section 4.1.5, Section 
+4); or 
+5.4.8.3. A “fault” occurs under Laws 13.2.1, 13.2.2 (which are 
+obvious), 13.3.1 (for which the Line Judge’s call and signal or 
+ALCS decision  suffices) or 13.3.2,  13.3.3, 13.3.4, 13.3.5 
+unless clarification is needed for the players or spectators  
+when one of these faults occurs. 
+5.4.9.During each game, after the rally which takes a side to 8 points (or the 
+appropriate score for matches being played using other scoring systems as 
+outlined in BWF Statutes, Sections 4.1.3 and 4.1.4), the Umpire shall call 
+the score followed immediately by “ Interval” or “ Service over”, the score 
+and then “Interval”. 
+5.4.10. The timing of the interval allowed under Law 16.2.1 starts when the 
+appropriate rally or an IRS challenge is decided, regardless of any applause. 
+5.4.11. At the start of each interval (Law 16.2.1), request the Court 
+Attendants/Line Judges to wipe the court. 
+5.4.12. In all intervals during games, at 40 seconds, call: 
+“Court … (number) (if more than one court is used), 20 seconds”.  
+Repeat the call.    
+5.4.13. In all these intervals (Law 16.2.1) each side may be joined on the 
+court by no more than two accredited Coaches. They must leave the court 
+when the Umpire calls “20 seconds ”.  Ensure the players are ready to 
+resume player at the end of the interval.  Law 16.7 shall be applied as 
+necessary. 
+5.4.14. To resume a game after an interval, repeat the score followed by 
+“Play” as soon as the end of the interval is reached  (unless there has been 
+a fault for misconduct during the interval).                     
+5.4.15. If both sides do not wish to take an interval as allowed under Law 
+16.2, play in that game or match shall continue without an interval, except 
+where intervals are made mandatory by the Referee. 
+5.5. Extended Game
+
+5.5.1.When the leading side reaches 14 points in each game, call “Game point” 
+or “Match point”, as applicable. 
+5.5.2.If a side reaches 20 points, in each game and for each side, call “ Game 
+point” or “Match point”, as applicable. 
+5.5.3.The calls of “Game point” and “Match point” in 5.5.1 and 5.5.2 must always 
+immediately follow the server’s score and be before the receiver’s score. 
+5.6. End of Each Game  
+5.6.1.“Game” must always be called immediately after the final rally of each 
+game has been decided , regardless of applause, except as in 5.6.1.1 – 
+5.6.1.3 
+5.6.1.1. if there is a challenge (then call as in Instructions 5.8.5 followed 
+by 5.8.7.1, 5.8.8.1, or 5.8.9.3 instead); 
+5.6.1.2. the Umpire overrules a Line Judge’s call (then call as in 
+Instruction 5.8.2 followed by “Game”).  
+5.6.1.3. the umpire makes a line call decision when ALCS is 
+implemented but the system does not give a decision (BWF Statutes, 
+Section 4.1.9) (then call “In” or “Out” , as appropriate, followed by 
+“Game”. 
+5.6.1.4. The call of “Game” in 5.6.1 or 5.6.1.1 – 5.6.1.3 is the start of any 
+interval allowed under Law 16.2.2. 
+5.6.2.After the first game ends, call: 
+“First game won by ……. [name(s) of player(s), or Member (in a Team 
+Tournament)], …… (score)”. 
+5.6.3.After the second game ends, call: 
+“Second game won by ……. [name(s) of player(s), or Member (in a Team 
+Tournament)], …… (score); One game all”. 
+5.6.4.At the end of each game the Umpire shall request the Court 
+Attendants/Line Judges to wipe the court. After the Umpire has called 
+“Game” and finished his announcement, the Service Judge, when 
+appointed, shall stand up and walk to place the interval board, if provided, 
+on the centre of the court below the net (See also Instruction 7.9). 
+5.6.5.If a game wins the match, after the players have shaken hands with the ir 
+opponents, the Umpire and Service Judge, the Umpire shall call: 
+“Match won by ….. [name(s) of player(s), or Member (in a Team 
+Tournament)], …..[scores]”. 
+5.6.6.In the intervals between each game, at 100 seconds, call: 
+“Court… (number, if more than one court is used), 20 seconds”. 
+Repeat the call. 
+5.6.7.During these intervals (Law 16.2.2) after the players have changed ends, 
+each side may be joined on the court by no more than two accredited 
+Coaches. They must leave the court when the Umpire calls “20 seconds”.
+
+Ensure the players are ready to resume play at the end of the interval.  Law 
+16.7 shall be applied if necessary.  
+5.6.8.To start the second game, call as soon as the end of the interval is reached: 
+“Second game; love all; play”.  
+(Unless there has been a fault for misconduct during the interval). 
+5.6.9.When there is a third game, call as soon as the end of the interval is 
+reached: 
+“Final game; love all; play”. 
+(Unless there has been a fault for misconduct during the interval). 
+5.6.10. In a third game, or in a match of one game, after the rally which 
+first takes a side to 8 points (or the appropriate score for matches being 
+played using other scoring systems as outlined in BWF Statutes, Section s 
+4.1.3 and 4.1.4), the Umpire shall call the score followed immediately by 
+“interval, change ends” or “service over”, the score and then “interval, 
+change ends”. 
+5.6.11. During this interval and after the players have changed ends, each 
+side may be joined on the court by no more than two accredited Coaches. 
+They must leave the court when the Umpire calls “20 seconds”. 
+5.6.12. To resume the game after the interval, repeat the score followed 
+by “Play” as soon as the end of the interval is reached. 
+5.7. After the Match 
+5.7.1.At the end of the match, the Umpire shall note the end time, the duration 
+of the match and the quantity of shuttles used on the score-sheet, if used. 
+5.7.2.If any incidents happened on court  that may be reported by the Referee 
+after the tournament , the Umpire must immediately take the printed or 
+completed score-sheet with notes on the relevant incidents (BWF Statutes, 
+Section 4.1.5, Section 7 for examples), if necessary, to the Referee.  
+Examples of incidents that do not need to be followed up with the Referee 
+after the match include a clothing violation which was rectified by the player 
+or Coach, an injury not resulting in a retirement, or suspension of play due 
+to a minor repair to the court or its surroundings. 
+5.8. Line Calls 
+5.8.1.The Umpire shall always look to the Line Judge(s) , if present,  when the 
+shuttle lands close to a line and always when it lands out, no matter how 
+far. The Line Judge(s), if present, are entirely responsible for their decisions 
+except in Instructions 5.8.2, 5.8.3, and 5.8.4. 
+5.8.1.1. If ALCS is in operation, the Umpire shall wait for the ALCS 
+decision before announcing the score. 
+5.8.1.2. If ALCS is in operation, the Umpire shall not overrule an ALCS 
+decision. If an inconsistent or obviously incorrect decision is given by 
+ALCS, the Umpire shall call the Referee onto court before the start of 
+the next rally. The Referee shall instruct the Um pire how to proceed 
+(BWF Statutes, Section 4.1.9).
+
+5.8.2.If, in the opinion of the Umpire, it is beyond reasonable doubt that a Line 
+Judge has clearly made a wrong call then the Umpire shall immediately call: 
+5.8.2.1. “Correction, IN” if the shuttle landed “in”; or  
+5.8.2.2. “Correction, OUT” if the shuttle landed “out”. 
+5.8.3.Where there is no Line Judge and ALCS is not being used, or if a Line Judge 
+is unsighted, the Umpire shall immediately call:       
+5.8.3.1. “Out” when the shuttle lands outside the line and then call 
+either the score or “Service over” and then the score; or  
+5.8.3.2. The score or “ Service over” and then the score when the 
+shuttle lands “in”; or 
+5.8.3.3. “Let” followed by the score when the Umpire is unsighted, 
+except when an IRS is in operation, the Umpire shall call 
+“Unsighted” and request a decision from the system by raising 
+the left hand above the head. 
+5.8.3.3.1. As the IRS indicates, the Umpire shall call: "IN” 
+or “OUT” (as appropriate), the score or “ Service 
+over” followed by the score and then “Play”. 
+5.8.3.3.2.  If the IRS indicates “NO DECISION”, the Umpire 
+shall call: “Let” followed by the score and then 
+“Play”. 
+ 5.8.3.3.3.   If there is no LJ or the LJ was unsighted and the 
+IRS decision ends the game, the Umpire shall 
+call: “IN” or “OUT”, as appropriate, then call 
+"GAME” followed by the appropriate call as in 
+Instructions 5.6.2, 5.6.3 or 5.6.5. 
+5.8.3.4 If ALCS is in operation and the system is unable to give a 
+decision, the Umpire shall make the call as in 5.8.3.1 – 
+5.8.3.3 (Law 17.6.7). 
+ 
+5.8.4.Where an Instant Review System is in operation, if the call by a Line Judge 
+(Instructions 8.3 and 8.4), or a call or overrule by the Umpire (Instructions 
+5.8.2 and 5.8.3) is challenged by a player (Law 17.5.2 and BWF Statutes, 
+Section 4.1.8), the Umpire shall ensure that the player has a valid right to 
+challenge. The player must clearly say ‘Challenge’ to the Umpire and/or 
+make a clear signal by raising the hand. Any such challenge must be made 
+by the player immediately after the player has observed the call made by 
+the Umpire or Line Judge . If a Line Judge changes their initial call or the 
+Umpire overrules a Line Judge’s call, the Umpire shall make the players 
+aware and permit a challenge made immediately thereafter. 
+5.8.5.If there is a right to challenge  in an individual tournament , the Umpire 
+shall call: “..... [name of the player who challenges] challenges (regardless 
+of whether it is a singles or doubles match), called “IN” [(or “OUT”, as 
+appropriate)]” and at the same time raising the left hand above the head.
+
+If there is a right to challenge in a team tournament, the Umpire shall call: 
+“…. [name of the team who challenges] challenges, called “IN” [(or “OUT”, 
+as appropriate)]” and at the same time raising the left hand above the 
+head.                               
+                                                     
+5.8.6.The Instant Review System will review the original decision and indicate to 
+the Umpire the result of the challenge as either “IN”, “OUT” or “NO 
+DECISION”. 
+5.8.7.If a challenge is successful, the Umpire shall call: 
+“Correction, IN” or “Correction, OUT” (as appropriate), the score or 
+“Service over” followed by the score (as appropriate) and then “Play”. 
+5.8.7.1. If a challenge is successful and thus ends the game, the 
+Umpire shall call “Correction IN” or “Correction OUT” as 
+appropriate, “Game” followed by the appropriat e call as in 
+Instructions 5.6.2, 5.6.3 or 5.6.5. 
+5.8.8.If a challenge is unsuccessful, the Umpire shall call: 
+“Challenge unsuccessful”, “ One” or “ No” (as appropriate) “ Challenge(s) 
+remaining”, the score or “ Service over” followed by the score (as 
+appropriate) and then “Play”. 
+5.8.8.1. If a challenge is unsuccessful and thus ends the game, the 
+Umpire shall call “Challenge unsuccessful”, “Game” followed 
+by the appropriate call as in Instructions 5.6.2, 5.6.3 or 5.6.5. 
+5.8.9.If the Instant Review System indicates “NO DECISION”, it shall be a “Let” 
+if the original call is “Unsighted”, otherwise the original challenged decision 
+shall stand. The Umpire shall call: 
+5.8.9.1. “Let” but only for an original call of unsighted; or 
+5.8.9.2. Either the score or “ Service over” followed by the score, as 
+appropriate, and then “ Play” (when the original challenged 
+decision stands). 
+5.8.9.3. “Game” followed by the appropriate call as in Instructions 
+5.6.2, 5.6.3 or 5.6.5  (when the original challenged decision 
+stands, which ends the game). 
+5.8.10. If the Instant Review System indicates an inconsistent e.g., 
+between text and graphic, or obviously incorrect decision, the Umpire shall 
+call the Referee before the start of the next rally. The Referee shall instruct 
+the Umpire how to proceed.
+
+5.8.11. A player may not challenge a line call decision made by the ALCS 
+(BWF Statutes, Section 4.1.9). 
+5.9. Specific Situations During the Match 
+5.9.1.The Umpire shall keep a careful watch for the following occurrences and 
+deal with them as instructed: 
+5.9.1.1. A player throwing a racket into the opponent’s court or sliding 
+under the net and who , in the opinion of the Umpire,  clearly 
+obstructs or distracts their opponent, shall be faulted under 
+Law 13.4.2 or 13.4.3 respectively; 
+5.9.1.2. A shuttle coming onto the court from an adjacent court shall 
+not automatically be considered a “let”. A “let” shall not be 
+called in such circumstances if, in the opinion of the Umpire, 
+the shuttle has not obstructed or distracted the players; 
+5.9.1.3. A player shouting to a partner who is about to hit the shuttle 
+shall not necessarily be regarded as deliberately distracting 
+their opponents; 
+5.9.1.4. A player calling ‘fault’, etc. to the opponent when making a 
+stroke or after the opponent has made a stroke, shall be 
+considered a deliberate distraction (Law 13.4.5); 
+5.9.1.5. A player attempting to influence or intimidate the Service 
+Judge or a Line Judge  (if present) , in any form, audibly or 
+visibly, shall be reminded that such conduct is unacceptable, 
+with Law 16.7 applied, if necessary; 
+5.9.1.6. A player throwing sweat or otherwise contaminating the court 
+and its immediate surroundings shall be reminded that such 
+conduct is unacceptable, with Law 16.7 applied, if necessary; 
+and 
+5.9.1.7. After a rally, a player celebrating excessively or offensively 
+(e.g. raising a clenched fist or screaming in the direction of 
+the opponent,  otherwise excessive screaming,  removing a 
+shirt) shall be reminded that unsportsmanlike and offensive 
+conduct is unacceptable (Laws 16.6.3 and 16.6.4), with Law 
+16.7 applied, if necessary. 
+5.9.1.8. During a match, play shall not be delayed because of external 
+issues (e.g. camera flashes) unless the Umpire / Referee 
+determines this is necessary.  Players stopping play because 
+of this may incur penalties for delay of play. 
+5.10. Players Leaving the Court and Continuous Play 
+5.10.1. The Umpire shall ensure that players do not leave the court without 
+the Umpire’s permission (Law 16.5.2) except as permitted in Instruction 
+5.10.4 and 5.10.5 and  during the intervals described in Law 16.2. 
+Instruction 5.10.3 must be enforced by not permitting the receiving side to 
+leave the court once the servicing side has started to get into position, or if 
+both sides are at the side of the court by instructing the receiving side to 
+return to court as soon  as the serving side starts to do so.   A change of a 
+racket at courtside during a rally is permitted.
+
+5.10.2. Any offending player(s) shall be reminded that leaving the court 
+needs the Umpire’s permission (Law 16.5.2 ), except as permitted in 
+Instruction 5.10.4 and 5.10.5, and if necessary, Law 16.7 shall be applied.  
+5.10.3. Once the server is in position and ready, the receiver shall not 
+unduly delay getting ready to receive the next service. 
+5.10.3.1. Being in position and ready implies that the server and 
+receiver are standing in natural positions on court to serve and 
+receive with their feet stationary, and that they are not 
+communicating to their partners (if applicable) by voice or gesture. 
+Additionally, the server has shuttle in hand, the receiver does not 
+have his hand up as an indication that he is not  ready (Refer  
+Instruction 5.10.7.1 and 5.10.7.2 if required), and they are looking 
+at each other. 
+5.10.4. During a match played without the Time Clock, if play is not unduly 
+held up and per Instruction 5.10.3, the players may be allowed to have  
+between rallies: 
+5.10.4.1. A quick towel only;  
+5.10.4.2. A towel and drink (with the permission of the umpire); 
+5.10.4.3. A self-applied spray (with the permission of the umpire). 
+5.10.5. During a match played with the Time Clock, between rallies and 
+complying with Instruction 5.10.3, a player may undertake at the side of 
+the court before the Time Clock has expired ( Instruction 5.10.8) such 
+actions as they see fit without the permission of the umpire including: 
+5.10.5.1. A quick towel; 
+5.10.5.2. A drink; 
+5.10.5.3. A self-applied spray; 
+5.10.5.4. Applying ice; 
+5.10.5.5. Adjusting taping or strapping;  
+5.10.5.6. Cutting their strings; 
+5.10.5.7. A change of shirt. 
+5.10.6. Mopping the court:  
+5.10.6.1. If the court needs to be mopped, the Umpire shall indicate 
+immediately and proactively to the Court Attendant(s) to mop the 
+court at the end of the rally. 
+5.10.6.2. If a player requests to the Umpire for the court to be mopped, the 
+request shall be made immediately at the end of the rally and, if 
+granted, the player shall indicate to the Court Attendant, if necessary, 
+where mopping is needed before leaving the court. 
+5.10.6.3. If necessary, the Umpire shall instruct a player to return to court 
+to show a Court Attendant where to mop. Once the Court Attendant 
+has returned to his chair, he shall not be called back on to court for
+
+additional mopping unless there is obvious moisture remaining on 
+court. 
+5.10.6.4. In a match played without the Time Clock, the players shall be 
+on court as soon as the mopping is over and before the Court 
+Attendants leave the court. 
+5.10.6.5. In a match played with the Time Clock, the Umpire shall stop the 
+Time Clock only if he judges that mopping cannot be completed 
+before the Time Clock expires. 
+5.10.6.6. In a match played with the Time Clock, the players shall be on 
+court after mopping before the Time Clock has expired and complying 
+with Instruction 5.10.3, unless the Umpire has stopped the Time Clock 
+because of extended mopping (Instruction 5.10.6.5) in which case the 
+players shall be back on court before the mopping is completed 
+5.10.7. The Umpire shall ensure that the players do not deliberately cause 
+any delay in play (Law 16.4 and Clauses 5.10.3 – 5.10.6). Any unnecessary 
+walk around the court between rallies and testing of replacement rackets 
+on court, shall be prevented. 
+5.10.7.1. The Umpire shall enforce any undue delay in play between the 
+end of one rally and the time the players are in position and ready for 
+the next service through Law 16.7. 
+5.10.7.2. The Umpire shall enforce any undue delay between the time the 
+players are ready for the next service and the delivery of the service 
+through Law 9.1.1. 
+5.10.8. In a match played with the Time Clock, the Umpire shall check that 
+both the serving and receiving sides are in position and ready for the next 
+service before the Time Clock has expired. 
+5.10.8.1. The Time Clock starts when the Umpire enters the score from 
+the previous rally on the scoring device. 
+5.10.8.2. The Time Clock expires when 25 seconds have elapsed. 
+5.10.8.3. The receiving side must also comply with Instruction 5.10.3 if 
+the server is in position and ready before the Time Clock has 
+expired. 
+5.10.8.4. The Umpire may stop the Time Clock as necessary Stopping for 
+the Time Clock may occur for the following reasons: 
+• Mopping of the court for an extended period 
+• A dispute or injury has occurred on court 
+• Intervention by the Referee 
+• During the latter part of the match, a particularly long rally 
+has occurred which, in the Umpires opinion, warrants 
+additional time between rallies 
+• Any other reason as deemed necessary by the Umpire
+
+5.10.9. The Umpire shall remind a player in violation of Instructions 5.10.3 
+– 5.10.8 that play must be continuous and if necessary, Law 16.7 shall be 
+applied. 
+5.10.9.1. The Umpire shall clearly communicate to the players the 
+expectations around adhering to the continuous play requirements. If 
+necessary, this may include preventive communication in the form of 
+a verbal reminder or explanation before proceeding to an inform al 
+warning. 
+5.10.9.2. In enforcing continuous play, the Umpire shall adopt a stepwise 
+approach of informal warning – formal warning for misconduct (yellow 
+card) – fault for misconduct (red card), unless there is a flagrant 
+offence under Law 16.7.1.3. 
+5.10.9.3. The Umpire shall clearly communicate to the player when issuing 
+an informal warning that a subsequent offence may result in a card. 
+5.10.9.4. Normally only one informal warning for an offence, including 
+Instructions 5.10.3 – 5.10.8, should be issued before proceeding to a 
+formal warning for misconduct (yellow card) for any subsequent 
+offence, of the same or different regulation, Umpire instructi on, or 
+Instructions 5.10.3 – 5.10.8. 
+5.10.10. The Umpire in consultation with the Referee shall exercise flexibility 
+in consideration of players leaving and returning back to the court during 
+an interval (Law 16.5.2) on account of acute sickness or sanitary needs. 
+5.10.11. The Umpire shall ensure that changing of shirts by players on-court 
+is undertaken during an interval (Law 16.2) only  except as permitted in 
+Instruction 10.5. 
+5.10.12. In a match played with the Time Clock, if the Time Clock malfunctions or 
+stops working the Umpire shall inform the Referee. The match shall be 
+continued with continuous play enforced according to the criteria for 
+matches played without the Time Clock until  such time that the Referee 
+advises that the Time Clock is working again. 
+5.11. Suspension of Play 
+5.11.1. If, during a match, a court or its immediate surroundings require 
+repair, or are temporarily unplayable, the Umpire shall call the Referee (or 
+the Referee shall go onto the court).  In consultation with the Referee, play 
+may be delayed or suspended, if considered necessary, until the court and 
+its immediate surroundings are again suitable for play. 
+5.11.2. When play is suspended, the Umpire shall call: 
+“Play is suspended” and note “S” on the scoring device or score -sheet, if 
+used. 
+5.11.3. When play resumes after the suspension, the Umpire shall note the 
+duration of the suspension and ensure that the players are on the correct 
+side of the net and in the correct service courts, then call “Are you ready?” 
+followed by the score and “Play”. 
+5.12. Coaching from Off Court
+
+5.12.1. Coaching is not allowed from the moment the player s have taken 
+up position to serve and receive the next service, and while the shuttle is 
+in play. 
+5.12.2. Coaches must be seated in their designated seats and must not 
+stand court -side during the match except during the permitted intervals 
+(Law 16.2). If a Coach wishes to move to another court, they must do so 
+while the shuttle is not in play (BWF Statutes, Section 2.2.6). 
+5.12.3. Coaches are not allowed to move their chairs from the designated 
+positions without the Referee’s permission and in particular the Umpire shall 
+ensure that no Line Judge  (if present)  nor the visibility of commercial 
+advertising is disturbed by any such movement of the Coach’s chair. 
+5.12.4. There must not be any distraction or disruption to play by any 
+Coach. 
+5.12.5. Coaches at courtside must not attempt to communicate in any way 
+with opposing players, Coaches, Team Officials or on court Technical 
+Officials during a match. 
+5.12.6. Coaches at courtside must not use any electronic device for any 
+purpose. 
+5.12.7. If, in the opinion of the Umpire, play is disrupted or a player of the 
+opposing side is distracted by a Coach, a “let” shall be called (Law 14.2.5). 
+The Referee shall be called immediately if such an incident is repeated. 
+5.12.8. Coaches at courtside must be dressed appropriately as instructed 
+by the Referee (GCR, Regulations 20 and 24). 
+5.13. Change of Shuttle 
+5.13.1. At the end of every rally, if the shuttle has landed on the loser’s 
+side of the court the Umpire shall ensure that the shuttle is returned to the 
+opponent immediately, unless a change of shuttle is requested. 
+5.13.2. Change of a shuttle during a match must be fair. The Umpire shall 
+decide if the shuttle should be changed. 
+5.13.3. A shuttle whose speed or feathers have been deliberately interfered 
+with shall be discarded and Law 16.7 applied, if appropriate. 
+5.13.4. A change of shuttle between rallies should not delay play and where 
+possible should be requested as quickly as possible.  If there is  any 
+mopping, IRS challenge, or other interval then the change of shuttle should 
+be requested before returning to the ready to play position.  
+In a match played with the Time Clock the change of shuttle should be  
+completed before the Time Clock has expired (Instruction 5.10.8.2) and the 
+Umpire may deny the request to change the shuttle if he judges that it 
+cannot be completed within the remaining time . If necessary, the Umpire 
+shall remind the players to request a change of shuttle as soon as a rally 
+ends. 
+5.13.5. The Referee shall be the sole judge for deciding the speed of the 
+shuttles to be used.  If both sides wish to change the shuttle speed, the 
+Referee shall be called immediately.
+
+5.14. Injury or Sickness During a Match 
+5.14.1. This type of incident must be handled carefully and flexibly. The 
+Umpire must try to determine the severity of the problem as quickly as 
+possible and call the Referee onto court, if necessary. The Referee will 
+decide whether the Tournament Doctor or anyone else is required on court 
+(Instruction 3.6). The Tournament Doctor shall examine the player and 
+advise the player about the severity of injury or sickness. No treatment 
+causing undue delay shall be given on court. The Umpire shall time the 
+delay caused by the injury. 
+5.14.2. For a blood flowing injury, the game should be delayed until the 
+bleeding stops, the wound is suitably dressed, or the Referee advises the 
+Umpire otherwise.  Any blood on court – even if dried – should be cleaned 
+up as soon as possible by FOP or local medical staff. 
+5.14.3. If a player approaches the Umpire and expresses the wish to retire 
+because of injury or illness, the Umpire shall ask the player  “Are you 
+retiring?” and if confirmed, the Umpire shall make the appropriate 
+announcement (BWF Statutes, Section 4.1.5, Clause 6.6). 
+5.14.3.1. If the Umpire is uncertain about the legitimacy of the player’s 
+injury or illness, he shall call the Referee on court. 
+5.14.4. If a player requires medical assistance during an interval, this must 
+be requested at the beginning of the interval.  Medical assistance requested 
+after time has elapsed in the interval should be refused unless the medical 
+requirement has occurred during t he interval or if requested for a blood 
+injury. 
+5.15. Electronic and Communication Devices 
+5.15.1. A player’s electronic and communication devices  ringing on the 
+court or its immediate surroundings or being used on the court by the player 
+for communication during a match shall be considered to be an offence 
+under Law 16.6.4 and shall be dealt with as appropriate under Law 16.7. 
+5.16. Match Stopped by the Referee 
+5.16.1. When the Referee comes onto court during a match in a qualifying 
+competition and informs the Umpire that a player(s) in the match is to be 
+promoted to the main draw then the Umpire shall announce: 
+5.16.1.1.  “Match ended by the Referee, … [name of player(s)] 
+promoted to the main draw”; and  
+5.16.1.2.  “… [name of player(s)] proceeds to next round/main draw (as 
+appropriate)”. 
+5.17. Misconduct 
+5.17.1. The Umpire shall ensure that players’ conduct on the court is 
+honourable and in a sportsmanlike manner. Any breach of clauses 3.2.2 to 
+3.2.3, and 3.2.6 to 3.2.15 of the Players’ Code of Conduct (BWF Statutes, 
+Section 2.2.4) shall be considered to be an offence under Law 16.6.4. 
+5.17.2. Record and report to the Referee any incident of misconduct and 
+the action taken.
+
+5.17.3. When the Umpire has to administer a breach of Law 16.2, 16.4.1, 
+16.5.2 or 16.6 by issuing a warning to the offending side (Law 16.7.1.1), 
+call “Come here” to the offending player and call: 
+“… [name of player], warning for misconduct”, followed by a specific 
+explanation of the misconduct (BWF Statutes, Section 4.1.5, Section 5). 
+at the same time raising the right hand holding a yellow card above the 
+Umpire’s head.  
+                                                    
+5.17.3.1. The Umpire shall use the standard vocabulary (BWF Statutes, 
+Section 4.1.5, Section 5) to explain the specific misconduct. 
+5.17.4. When the Umpire faults a side (Law 16.7.1.2 or 16.7.1.3) the 
+Umpire shall call: 
+“Come here” to the offending player and then call: 
+“… [name of player], fault for misconduct”, followed by a specific 
+explanation of the misconduct (BWF Statutes, Section 4.1.5, Section 5). 
+at the same time raising the right hand holding a red card above the 
+Umpire’s head. The Umpire must call the Referee on court and report 
+immediately. 
+                                   
+5.17.4.1. The Umpire shall use the standard vocabulary (BWF Statutes, 
+Section 4.1.5, Section 5) to explain the specific misconduct. 
+5.17.5. When the Referee decides to disqualify the offending player or pair 
+of players, a black card is given to the Umpire. The Umpire then must call: 
+“Come here” to the offending player or pair followed by 
+“… [name of player(s)], disqualified for misconduct” followed by a specific 
+explanation of the misconduct (BWF Statutes, Section 4.1.5, Section 5).
+
+at the same time raising the right hand holding a black card above the 
+Umpire’s head. 
+                                   
+5.17.5.1. The Umpire shall use the standard vocabulary (BWF Statutes, 
+Section 4.1.5, Section 5) to explain the specific misconduct. 
+5.17.5.2. The Umpire shall then announce, “Match won by … [name of 
+player(s), or Member (in a Team Tournament)]”, and the 
+scores. 
+5.17.6. Misconduct during intervals (Law 16.2) is treated as misconduct 
+during a game. This should be followed with the call as in Instructions 
+5.17.3, 5.17.4 or 5.17.5 immediately on occurrence of misconduct.  
+5.17.7. In cases of misconduct during an interval where a player has been 
+warned under Law 16.7.1.1, after the interval, the Umpire shall call: 
+5.17.7.1. “11- [score]” then “Play” (after intervals at 11 points); or 
+5.17.7.2. “……game; love all; Play” (after intervals between games). 
+5.17.8. In cases of misconduct during an interval where a player has been 
+faulted under Law 16.7.1.2 or 16.7.1.3, after the interval the Umpire shall 
+call: 
+5.17.8.1.  “11- [score]” “… [name of player (s)], faulted” followed by 
+“Service over”, where appropriate, the new score and then 
+“Play” (after intervals at 11 points); or 
+5.17.8.2. “….. game; love all” “…[name of player (s)], faulted” followed 
+by “Service over”, where appropriate, the new score and then 
+“Play” (after intervals between games). 
+5.17.9. If the player/pair is disqualified during an interval by the Referee, 
+do not wait for the end of the interval, but call immediately: 
+“…[name of player(s)], disqualified for misconduct” followed by call as in 
+Instructions 5.17.5.1 and 5.17.5.2. 
+5.17.10. Misconduct before the match while on the Field Of Play before “Play” 
+has been called at the start of the match, shall be treated as in Instructions 
+5.17.3, 5.17.4 or 5.17.5. Any card(s) given shall have no effect on the score 
+of the match but a card(s) shall be taken into account if further offences 
+occur during the match (Law 16.7.1.2).
+
+5.17.11. Misconduct after the match that happens on the Field Of Play, shall 
+be treated as in Instructions 5.17.3, 5.17.4 or 5.17.5 and reported to the 
+Referee as appropriate. 
+5.17.12. For a match in progress, except when the score is 20-all or the 
+equivalent score in alternative scoring systems (BWF Statutes, Section 
+4.1.4), when the umpire has to fault both sides (Law 16.7.1.2 or 16.7.1.3) 
+for concurrent offences relating to the same incident before the next service 
+is delivered e.g., a Time Clock violation, delay in returning to the court after 
+an interval, the umpire shall proceed as in Clause 5.17.4 with a point added 
+to each side's score and with the winner of the preceding rally serving next. 
+5.17.12.1. If the score is 20-all, or the equivalent score in alternative scoring 
+systems (BWF Statutes, Section 4.1.4), the faults for misconduct to 
+each side for concurrent offences relating to the same incident shall 
+be recorded and reported but without any adjustment of the score. 
+ 
+6. GENERAL ADVICE TO UMPIRES 
+This section gives general instructions which shall be followed by Umpires. 
+6.1. Know and understand the Laws of Badminton and ITTO. Pay special attention to recent 
+changes. 
+6.2. Call promptly and with authority, but, if a mistake is made, admit it, apologise and 
+correct it. 
+6.3. Change your decision if you have been quickly and convincingly advised by your Service 
+Judge of a mistake (e.g. incorrect administration of a challenge by a player, an unnoticed 
+line call, scoring error). 
+6.4. Call the Referee on court when a problem arises that you are not certain you can handle 
+on your own. 
+6.5. Listen to your Service Judge when he delivers an important message. Together you form 
+one team. 
+6.6. Make all announcements and calling of the score distinctly and loudly enough to be heard 
+clearly by players and the spectators. 
+6.7. In announcements involving the names of doubles partners such as in Instructions 5.6.2, 
+5.6.3, 5.6.5, 5.16.1.1, 5.16.1.2, 5.17.5, 5.17.5.2, 5.17.9, call “and” between the names 
+of the partners. 
+6.8. If a doubt arises in your mind as to whether an infringement of the Laws has occurred or 
+not, do not call a ‘fault’, and allow the game to proceed. 
+6.9. Communicate and explain clearly to players the requirements and expectations around 
+continuous play, especially when the Time Clock is in operation, and use empathy and 
+common sense in enforcing these regulations. 
+6.10 Never ask the spectators nor be influenced by them or their remarks. 
+6.11.  Motivate the other Technical Officials (e.g. maintain eye contact with the Service 
+Judge and discreetly acknowledge the decisions of Line Judges , if present ) and 
+establish a working relationship with them.
+
+6.12.  Wear the appropriate uniform, including following the Clothing Regulations for 
+Umpires where a uniform has not been provided (GCR, Regulation 25).  
+6.13.  Adhere to the Technical Officials Code of Conduct (BWF Statutes, Section 2.2.5).  
+ 
+ 
+7. INSTRUCTIONS TO SERVICE JUDGES 
+7.1. The Service Judge shall sit on a low chair by the net post, opposite the Umpire. 
+7.2. The Service Judge is responsible for judging that the server delivers a correct service 
+(Law 9.1.2 to Law 9.1.8). If not, call “Fault” loudly and use the approved hand signal 
+to indicate the type of infringement. 
+               
+7.3. The Umpire shall use the standard vocabulary (BWF Statutes, Section 4.1.5, Section 4) 
+to acknowledge the Service Judge’s call and explain the specific service fault.  
+ 
+ 
+7.4. The approved hand signals for breaches of the Service Laws are: 
+Law 9.1.2 
+On completion of the backward movement of the server’s racket head, any delay in 
+the start of service (Law 9.2) shall be considered to be an undue delay 
+ 
+ 
+Laws 9.1.3 and 9.1.4  
+The server and the receiver shall stand within diagonally opposite service courts 
+without touching the boundary lines of these service courts. Some part of both feet 
+of the server and the receiver shall remain in contact with the surface of the court 
+in a stationary position from the start of the service (Law 9.2) until the service is 
+delivered (Law 9.3).
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Law 9.1.5 
+The server shall release the shuttle without adding spin, and the server’s racket shall 
+initially hit the base of the shuttle.     
+                                                        
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Law 9.1.6 
+The whole shuttle shall be below 1.15 metres from the surface of the court at the 
+instant of being hit by the server’s racket.
+
+                                      
+Law 9.1.7 
+The movement of the server’s racket shall continue forwards from the start of the 
+service (Law 9.2) until the service is delivered (Law 9.3). 
+                                                     
+ 
+ 
+ 
+ 
+Law 9.1.8 
+In attempting to serve, the server shall not miss the shuttle. 
+                                                    
+ 
+7.4.1.     For Alternative Service Laws (BWF Statutes, Section 4.1.4): 
+Law 9.1.6 replaced with: 
+ 
+a) The whole shuttle shall be below the server’s waist at the instant of 
+being hit by the server’s racket. The waist shall be considered to be an
+
+imaginary line round the body, level with the lowest part of the server’s 
+bottom rib. 
+ 
+            
+b) The shaft and the racket head of the server’s racket at the instant of 
+hitting the shuttle shall be pointing in a downward direction. 
+ 
+           
+ 
+7.5. The Service Judge, when appointed, shall administer any change of shuttle under the 
+Umpire’s instruction, unless other arrangements are in place (e.g. shuttle dispensers),  
+and ensure that a sufficient quantity of shuttles is readily available throughout the match 
+in order to avoid delays during play. 
+7.6. The Umpire may arrange for the Service Judge to perform additional duties such as 
+checking that the posts are on the doubles side lines (Law 1.5), confirming that the 
+service height measuring device(s) are in place and are level, checking the height of the 
+net, if it is deemed necessary, or to call the sideline closest to the Service Judge where 
+there is no Line Judge appointed  and ALCS is not in operation , with the players so 
+advised. 
+7.7. Where an Instant Review System is in operation, the Service Judge shall check that any 
+challenge is administered correctly by the Umpire, and advise the Umpire before the 
+next rally commences if this is not the case – if necessary, standing up and crossing the 
+court to the Umpire to ensure the correction. 
+7.8. The Service Judge shall back up the Umpire and assist the Umpire as required. The 
+Service Judge shall alert the Umpire immediately upon noticing a potential mistake 
+committed by the Umpire  – if necessary, standing up and crossing the court to the 
+Umpire to ensure the correction.
+
+7.9. At the end of a match, immediately after the Umpire has called “Game” the Service 
+Judge shall stand to shake hands with the players. After the Umpire has announced the 
+result of the match the Service Judge shall walk across the court to the Umpire’s chair 
+to assemble the players and join the Umpire in leaving the court. 
+ 
+8. INSTRUCTIONS TO LINE JUDGES (when ALCS is not in operation) 
+8.1. The Line Judges shall sit on chairs directly looking down their designated lines at the 
+ends and sides of the court and preferably at the side opposite to the Umpire unless 
+otherwise instructed by the Referee (see diagrams). 
+8.2. A Line Judge shall be entirely responsible for the line(s) assigned except that the Umpire 
+shall overrule the call of the Line Judge if, in the opinion of the Umpire, it is beyond 
+reasonable doubt that a Line Judge has clearly made a wrong call (Law 17.5.1 ). Any 
+overrule by the Umpire or the result of a challenge made by a player where an Instant 
+Review System (Law 17.5.2) is in operation, shall supersede the original line call by the 
+Line Judge.  
+8.3. If the shuttle lands out, no matter how far, call “ Out” promptly in a clear voice, loud 
+enough to be heard by the players and the spectators and, at the same time, signal by 
+extending both arms horizontally while looking towards the Umpire. 
+8.4. If the shuttle lands in, the Line Judge shall say nothing, but point to the line with the 
+right hand while looking towards the Umpire. 
+8.5. If unsighted, inform the Umpire immediately by putting both hands up to cover the eyes. 
+8.6. Do not call or signal until the shuttle has touched the floor  or has touched anything 
+outside the court boundaries, except a player. 
+8.7. Calls or signals shall always be made without any anticipation of the Umpire’s decision 
+regarding faults (e.g. the shuttle touching the player, his clothing, or racket before 
+landing on the court, however obvious). 
+8.8. The approved hand signals are: 
+                                       
+SHUTTLE IS OUT    SHUTTLE IS IN       UNSIGHTED 
+ 
+8.9. Where practical, it is recommended that the Line Judges’ positions be 2.5 to 3.5 
+metres from the court boundaries and, in any arrangement, the Line Judges’ 
+positions be protected from any outside influence (e.g. by photographers). 
+ 
+8.10. X indicates the positions of the Line Judges: 
+Singles
+
+       
+Doubles

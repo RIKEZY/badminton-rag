@@ -1,0 +1,321 @@
+WORLD RANKING SYSTEM 
+ 
+ 
+1. Definition and structure 
+1.1 The World Ranking is a list of Players / pairs in order of strength. There is one list 
+for each of the five Badminton Events in the World Ranking. The system used to 
+rank Players / pairs is explained below: 
+1.2 Players / pairs: 
+1.2.1 win ranking points by playing in Tournaments that are graded. 
+1.2.2 in the World Ranking are ranked if they have played in one or more graded 
+Tournaments in the last 52 weeks. 
+1.2.3 win ranking points by playing in and winning matches in Tournaments. 
+1.2.4 the higher the level of Tournament, the more points are won. 
+1.2.5 the further reached in a competition, the more points are won. 
+1.2.6 can be seeded based on their World Ranking.  
+1.2.7 can qualify for the Olympic Games and the World Championships based 
+on their World Ranking. 
+1.3 If a Player formally retires, the Player will be removed from the World Ranking 
+1.4 If a Player is suspended from participating in BWF Sanctioned Tournaments due 
+to disciplinary sanctions or other reasons for one year or longer, the Player will be 
+removed from the World Ranking. 
+2. Tournaments included in the Rankings 
+2.1 The World Rankings are compiled from the results of Tournaments that are 
+sanctioned by the BWF (except Junior Tournaments) held over the last 52 -week 
+period. All Tournaments eligible, under the criteria at the end of this section, are 
+graded and the details of the grade are published in the International Calendar of 
+Tournaments. 
+2.2 Points from a sanctioned Tournament will stay on the World Rankings until the next 
+same sanctioned Tournament (same grade and level) is held, for 52 weeks, or 
+whichever comes first. 
+3. World Ranking Lists publication 
+The World Rankings are published on a Tuesday every week. The complete Ranking lists 
+are available on the BWF web site:  www.bwfbadminton.com   
+4. Points system 
+4.1 Players / pairs win points according to how far they progress in the draw of a 
+particular Event. 
+4.2 If a Player / pair: 
+4.2.1 had a bye in the first round and lost in the second round – they receive first 
+round loser’s points. 
+4.2.2 had a bye in the first round, won in the second round and lost in the third 
+round – they receive third round loser’s points. 
+4.2.3 had a walkover in the first round and lost in the second round – they receive 
+second round loser’s points. 
+4.2.4 Had a walkover in the first round and gave a walkover in the second round 
+– they receive second round loser’s points
+
+4.2.5 If a draw position which contained a player/pair in the initial draw is left 
+empty after a change as described in BWF Statutes, Section 5.1; General 
+Competition Regulations – Clause 11.3, the remaining player/pair is 
+considered to have a bye. 
+4.2.6 had a bye in the first round, walkover in the second round and lost in the 
+third round – they receive third round loser’s points. 
+4.2.7 in a Tournament had a wildcard entry and lost in the first round they receive 
+no world ranking points. 
+4.2.8 participate in a Tournament with rounds in group play (pool matches) they 
+will receive points according to the finishing position in the group, equal to 
+the equivalent finishing position in a knock out format Tournament. 
+• For example, a Player / pair finishing in fourth place in a group, in a 
+draw containing eight groups of four would receive round of 64 
+loser’s points; 
+ 
+   Eight groups of four are played. 
+● Number 1 in the group proceeds to the knockout stage, playing for 
+position 1, 2, 3-4 and 5-8 
+● Number 2 in the group would receive position 9 -16 world ranking 
+points  
+● Number 3 in the group would receive position 17 -32 world ranking 
+points 
+● Number 4 in the group would receive positions 33-64 world ranking 
+points. 
+    
+BWF World Tour Finals 
+● Number 1 and 2 in the group proceeds to the knockout stage, 
+playing for position 1, 2, and 3-4  
+● Number 3 in the group would receive position 5 -6 world ranking 
+points  
+● Number 4 in the group would receive position 7 -8 world ranking 
+points 
+ 
+4.3 Where the BWF disciplinary committee cancels a match due to a breach of 
+disciplinary regulations then the World Ranking points will be removed from that 
+Player / pair. 
+5. Ranking 
+5.1 World Ranking - 10 or fewer World Ranking Tournaments in the last 52 weeks 
+If a Player or pair has competed in the same Event at 10 or fewer World Ranking 
+Tournaments, then the ranking is worked out by adding the points won at the 
+Tournaments. 
+5.2 World Ranking - 11 or more World Ranking Tournaments in the last 52 weeks 
+If a Player or pair has competed in the same Event at 11 or more World Ranking 
+Tournaments, only the 10 highest points scored in the Tournaments during the 
+previous 52-week period count towards their ranking. 
+6. Points lists 
+6.1 Players / pairs are ranked using points. The Player / pair with the highest calculated 
+points will be ranked number one and so on.
+
+6.2 If two or more Players / pairs have identical points, then the Players / pairs who 
+have played in the most Tournaments will be ranked higher.  If Players / pairs have 
+identical points and have played in an identical number of Tournaments, then these 
+Players / pairs are ranked equal. For example, if five Players are ranked 1 to 5, 
+and then there are three Players with equal points and number of Tournaments, 
+the ranking would be: 1, 2, 3, 4, 5, 6, 6, 6, 9, 10, etc. 
+ 
+6.3 The table that follows shows the points awarded in BWF-sanctioned Tournaments  
+ Winner Runner Up * 3- 4 5- 8 9- 16 17- 32 33- 64 65- 128 129- 256 257- 512 513- 1024 
+Grade 1 - BWF 
+Tournaments 
+(BWF World 
+Championships and 
+Olympic Games) 
+14500 12500 10500 8200 6000 3700 1450 750 300 150 80 
+Grade 2 –  
+BWF World Tour – 
+Level 1 (Finals)  
+14000 12000 10000 7800 5700 3500 1400 720 280 140 75 
+Grade 2 – 
+BWF World Tour, 
+Level 2 
+(if min $500K 
+additional  
+prize money) 
+13500 11500 9500 7400 5400 3300 1350 670 270 135 70 
+Grade 2 – 
+BWF World Tour, 
+Level 2 
+(if between $250 – 
+499,999 additional 
+prize  
+money) 
+12700 10800 9000 7000 5100 3150 1270 630 250 125 65 
+Grade 2 –  
+BWF World Tour, 
+Level 2 
+12000 10200 8400 6600 4800 3000 1200 600 240 120 60 
+Grade 2 – BWF 
+World Tour, Level 3 11000 9350 7700 6050 4320 2660 1060 520 210 100 50 
+Grade 2 – BWF 
+World Tour, Level 4  9200 7800 6420 5040 3600 2220 880 430 170 80 40 
+Grade 2 – BWF 
+World Tour, Level 5  7000 5950 4900 3850 2750 1670 660 320 130 60 30 
+Grade 2 – BWF 
+World Tour, Level 6  5500 4680 3850 3030 2110 1290 510 240 100 45 30 
+Grade 3 – 
+International 
+Challenge 
+4000 3400 2800 2200 1520 920 360 170 70 30 20 
+Grade 3 – 
+International Series 2500 2130 1750 1370 920 550 210 100 40 20 10 
+Grade 3 – Future 
+Series 1700 1420 1170 920 600 350 130 60 20 10 5 
+Grade 4 – Regional 
+Closed Tournaments 400 330 280 200 135 80 40 15 7 4 2 
+*  At the Olympic Games 3rd place will receive 11500 points.  Fourth place will receive 10500 points. 
+**  At BWF World Tour Finals – 3rd place in the group will receive 8900 points. 4th place will 
+receive 7800 points. 
+6.4 World Championships & Olympic Games  
+World Championships & Olympic Games are rated as BWF Tournaments.
+
+6.5 Continental Championships/Continental Multi Sports Games Individual 
+Championships  
+6.5.1  Individual Championships 
+● Asian Championships are graded as a Grade 2, Level 2 
+● European Championships are graded as a Grade 2, Level 4 
+● Pan American Championships are graded as a Grade 2, Level 5 
+● Oceania Championships are graded as a Grade 3, International 
+Challenge 
+● African Championships are graded as a Grade 3, International  
+Challenge 
+6.5.1.1. Points earned in the Continental Multi-Sport Games Individual 
+Championships where badminton is included on the program 
+will be included in the World Ranking as well as  the 
+Continental Individual Championships as specified in clause 
+6.5.1 above. The Continental Confederations shall ensure that 
+such Multi -Sport Games Individual Championships follow 
+similar competition regulations as the Continental Individual 
+Championships. 
+6.5.1.2. The level of Tournament for Continental Multi -Sport Games 
+Individual Championships within each Continent for the 
+ranking points purposes shall be the same as specified in 
+clause 6.5.1. 
+7. Team Tournaments (Championships) point calculation / Continental Multi- Sports 
+Games Team Tournaments (Championships) 
+7.1. Team Tournaments that are included in the World Ranking are: 
+● Continental Team Championships 
+● BWF World Team Championships (Sudirman Cup Final stage) 
+● Continental stage of the BWF Men’s & Women’s World Team Championships 
+(Continental stage of the Thomas & Uber Cups) 
+● BWF Men’s & Women’s World Team Championships  (Thomas & Uber Cups 
+Final stage) 
+● FISU University Games Team and Individual Championships 
+7.1.1. At the request of the Continental Confederation, points earned in the 
+Continental Multi-Sport Games Team Tournaments can be included in the 
+World Ranking instead of Continental Team Championships as specified in 
+7.1 above. The Continental Confederations shall ensure that such Multi -
+Sport Games Team Tournaments follow similar competition regulations as 
+the Continental Team Championships. 
+7.2. Players / pairs can only win points for their best result in a 52 -week period in any 
+of the above Team Tournaments. 
+ 
+Players / Pairs with World Ranking Points 
+ 
+7.2.1. If a Player / pair win a match, they get their average World Ranking points  
+(calculation of average is shown below) plus the total World Ranking 
+points/Notional ranking points/Adjusted ranking points of their opponent(s) 
+divided by 100.
+
+ 
+7.2.2. If a Player / pair lose a match, they get their average World Ranking points 
+(calculation of average is shown below). 
+ 
+Pairs with Notional Ranking Points 
+ 
+7.2.3. If a pair with Notional ranking points win a match, they get their Notional 
+ranking points divided by 10, plus the total World Ranking points/Notional 
+ranking points/Adjusted ranking points of their opponents divided by 100. 
+ 
+7.2.4. If a pair with Notional ranking points lose a match, they get their Notional 
+ranking points divided by 10. 
+ 
+Pairs with Adjusted Ranking Points 
+ 
+7.2.5. If a pair with Adjusted ranking points win a match, they get their Adjusted 
+ranking points divided by 10, plus the total World Ranking points/Notional 
+ranking points/Adjusted ranking points of their opponents divided by 100. 
+ 
+7.2.6. If a pair with Adjusted ranking points lose a match, they get their Adjusted 
+ranking points divided by 10. 
+ 
+Players / Pairs without any Ranking Points 
+ 
+7.2.7. If a Player / pair win a match, but they do not have any World Ranking 
+points/Notional ranking points/Adjusted ranking points and their opponent(s) 
+have World Ranking points/Notional ranking points/Adjusted ranking points, 
+they get the total World Ranking points/Notional ranking points/Adjusted 
+ranking points of their opponent(s) divided by 100. 
+7.2.8. If a Player / pair win a match, but they do not have any World Ranking 
+points/Notional ranking points/Adjusted ranking points, and their 
+opponent(s) also do not have any World Ranking points/Notional ranking 
+points/Adjusted ranking points, they get two points. 
+7.2.9. If a Player / pair lose a match, but they do not have any World Ranking 
+points/Notional ranking points/Adjusted ranking points, they win no points. 
+ 
+7.3. Average: 
+7.3.1. If a Player / pair has played in fewer than 11 Tournaments in the last 
+52 weeks 
+Divide the points won by the number of Tournaments played in. 
+7.3.2. If a Player / pair has played in 11 or more Tournaments in the last 52 
+weeks
+
+Divide the 10 best points won by 10 
+Example of the logic used to calculate a World Ranking 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+7.4. For a Team Tournament, the World Ranking points are calculated using the 
+World Ranking week minus one from the final day of the tournament. 
+ 
+8. Regional Tournaments 
+8.1. Only one Grade 4 tournament shall count as part of a player / pairs World Ranking 
+calculation. 
+8.2. Ranking points for Grade 4 tournaments will only be awarded to players / pairs with 
+a World Ranking of: 
+• Below 250 for singles events; 
+• Below 200 for doubles events. 
+8.3. The Grade 4 tournament must be open to seven or more Member Associations to 
+be included in the World Ranking. 
+ 
+9. Criteria for World Ranking Tournaments 
+9.1. Tournaments concluded within 52-week period complying with the following criteria 
+shall be included in the World Ranking: 
+9.1.1. Results of the latest Tournaments. 
+9.1.2. Only one BWF World Championship. 
+9.1.3. Only one Continental Championship (Individual) from each continent. 
+9.1.4. Only one Continental Multi -Sport Games Individual Championship from 
+each continent. 
+10.  Entries 
+10.1. The main competition must include Men’s Singles, Women’s Singles, Men’s 
+Doubles, Women’s Doubles and Mixed Doubles.  However, the BWF reserves the 
+right to accept Tournaments which do not comply with this requirement. 
+10.2. The number of entries in each Event draw in the main competition (first published 
+version of the main draw) must be at least: 
+ Men’s Singles   8 Players 
+ Women’s Singles  8 Players 
+How many Tournaments 
+has Player / pair played in? 
+World Ranking 
+awarded 
+Add all points together 
+for World Ranking 
+Discard lowest World 
+Ranking points so that 
+10 Tournaments are 
+included in the World 
+Ranking 
+1 
+ 2-10 
+ More 
+than 10
+
+ Men’s Doubles  8 Pairs 
+ Women’s Doubles  8 Pairs 
+ Mixed Doubles  8 Pairs 
+ 
+10.3. In World rankings, if the minimum number of entries is not met in an Event (clause 
+10.2), that Event will not be included in the World Ranking.  Example:  If a Women’s 
+Singles had six entries only in the draw, but the other Events had 10, Men’s Singles, 
+Men’s Doubles, Women’s Doubles and Mixed Doubles would be included, but not 
+Women’s Singles.  If this happens the BWF also reserves the right not t o accept 
+the tournament for World ranking in the following year. 
+10.4. In order to count for the World Ranking the main draw competition of each Event 
+(first published version of the main draw) must include at least one entry from a 
+Member other than the host member of that Tournament or that Event will not be 
+included in the World Ranking. 
+10.4.1. For Grade 4 tournaments, each Event must include entries from six or more 
+Members with at least 12 entries or that Event will not be included in the 
+World Ranking.

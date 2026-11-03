@@ -22,6 +22,11 @@ _rules_dump.txt
 eval_*.txt
 *.log
 
+# ===== 数据库（含用户提问，不能公开）=====
+*.db
+*.sqlite
+*.sqlite3
+
 # ===== 全语料（体积大，最终配置只用 data_rules_only/）=====
 data/
 
@@ -38,3 +43,13 @@ data/
 
 # ===== 个人笔记（不公开）=====
 从这里开始.md
+
+# ===== 抓取缓存（体积大，可重新生成）=====
+tools/html_cache/
+tools/txt/
+data_bwf/
+
+# ===== 已否决的实验（保留在本地，不入库）=====
+v2_*.py
+
+tools/pdf/

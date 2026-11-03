@@ -63,7 +63,8 @@ EVAL_SET = [
 
     # ---- 数值 / 跨文档（1 题）----
     ("标准羽毛球的重量范围和羽毛长度是多少？",
-     [("badminton_rules.pdf", 2, "4.74")]),
+     [("badminton_rules.pdf", 2, "4.74"),
+      ("wiki_badminton_zh.txt", 1, "4.74")]),
 ]
 
 REWRITE_PROMPT = (

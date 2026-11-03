@@ -213,7 +213,13 @@ def guess_doc_type(source: str) -> str:
     这个字段只用于观测，不影响检索逻辑。
     """
     low = source.lower()
-    if any(k in low for k in ("badminton_rules", "itto", "vocab", "variations", "irs")):
+    if "itto" in low:
+        return "裁判"
+    if any(k in low for k in ("gcr", "ranking", "tour")):
+        return "赛事"
+    if "facilit" in low:
+        return "场馆"
+    if any(k in low for k in ("badminton_rules", "laws", "vocab", "variations", "irs")):
         return "规则"
     if "tech_" in low:
         return "技术"
