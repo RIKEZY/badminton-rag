@@ -185,28 +185,33 @@ if submitted and question.strip():
     if use_agent:
         import agent_core
 
-        with st.spinner("判断问题类型…"):
-            calls = agent_core.route(question)
+        # 决策循环：模型每轮看到已有观察，决定查什么 / 是否够了
+        with st.spinner("Agent 思考中…"):
+            steps, evidence = agent_core.gather(question)
 
-        desc = " + ".join(
-            f"`{c['tool']}`（{(c.get('args') or {}).get('model') or (c.get('args') or {}).get('query') or ''}）"
-            for c in calls
-        )
-        st.caption(f"Agent 路由：{desc}")
+        tool_steps = [s for s in steps if s["action"] != "answer"]
+        with st.expander(f"Agent 执行过程（{len(tool_steps)} 次工具调用）", expanded=True):
+            for i, s in enumerate(steps, 1):
+                if s["action"] == "answer":
+                    st.caption(f"{i}. **判断可以作答** — {s['summary']}")
+                    continue
+                args = s.get("args") or {}
+                arg = args.get("model") or args.get("query") or ""
+                st.caption(f"{i}. `{s['action']}`（{arg}） → {s['summary']}")
 
         st.subheader("回答")
         usage = {}
-        with st.spinner("执行中…"):
-            answer = st.write_stream(agent_core.run_stream(question, calls, usage))
+        with st.spinner("生成中…"):
+            answer = st.write_stream(agent_core.stream_answer(question, evidence, usage))
 
         elapsed = int((time.time() - t_start) * 1000)
-        route_str = "+".join(c["tool"] for c in calls)
-        hit = "没有找到型号" not in (answer or "")
+        route_str = "+".join(s["action"] for s in tool_steps) or "none"
+        hit = bool(tool_steps) and "未收录型号" not in (evidence or "")
         log_query(question, "agent", route_str, answer, elapsed,
                   usage.get("total_tokens"), hit, st.session_state.sid)
 
         col1, col2, col3 = st.columns(3)
-        col1.metric("工具调用", len(calls))
+        col1.metric("工具调用", len(tool_steps))
         col2.metric("token 消耗", usage.get("total_tokens") or "—")
         col3.metric("耗时", f"{elapsed} ms")
 

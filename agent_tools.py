@@ -117,6 +117,16 @@ def generate_equipment_answer(question: str, evidence: str, usage: dict | None =
     )
 
 
+def generate_with_prompt(question: str, evidence: str, system_prompt: str,
+                         usage: dict | None = None):
+    """通用流式生成：证据 + 自定义 system prompt"""
+    import app
+    usage = usage if usage is not None else {}
+    yield from app.generate_stream(
+        app.chat_client, question, evidence, usage, system_prompt=system_prompt
+    )
+
+
 if __name__ == "__main__":
     print("=== query_racket: 88S PRO ===")
     print(describe_racket(query_racket("88S PRO")))
