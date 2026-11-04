@@ -29,7 +29,7 @@ from dotenv import load_dotenv
 from openai import OpenAI
 
 from chunker import chunk_document
-from day2 import load_documents
+from day2 import DATA_DIR, load_documents
 
 load_dotenv()
 
@@ -47,11 +47,37 @@ TOP_K = 5                # 每次返回几块
 
 # ---------------------------------------------------------------- 准备数据
 
+def _corpus_changed_since(cache: Path) -> bool:
+    """语料里有没有文件比缓存新
+
+    为什么需要：原来只判断「缓存文件存在」就直接读，不看语料。
+    部署时只传语料、不传索引（或忘了重建），线上会拿旧索引回答新内容，
+    而且完全没有报错——是最隐蔽的一类故障。
+    """
+    if not cache.exists() or not DATA_DIR.exists():
+        return True
+    try:
+        cache_mtime = cache.stat().st_mtime
+    except OSError:
+        return True
+    for p in DATA_DIR.iterdir():
+        if p.is_file() and p.suffix.lower() in (".pdf", ".txt", ".md"):
+            try:
+                if p.stat().st_mtime > cache_mtime:
+                    return True
+            except OSError:
+                continue
+    return False
+
+
 def build_chunks() -> list[dict]:
     """结构感知切块（按条款编号），结果缓存到 chunks.json"""
-    if CHUNK_CACHE.exists():
+    if CHUNK_CACHE.exists() and not _corpus_changed_since(CHUNK_CACHE):
         print(f"读取缓存 {CHUNK_CACHE.name}")
         return json.loads(CHUNK_CACHE.read_text(encoding="utf-8"))
+
+    if CHUNK_CACHE.exists():
+        print(f"语料比 {CHUNK_CACHE.name} 新，重新切块")
 
     print("按条款切块中...")
     docs = load_documents()

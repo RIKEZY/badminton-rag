@@ -46,16 +46,24 @@ def query_racket(model: str) -> dict:
 def _runtime():
     """获取正在运行的 app 模块
 
-    **不能直接 `import app`**：Streamlit 把 app.py 当 `__main__` 执行，
-    此时 `sys.modules` 里没有 `app`，`import app` 会把整个脚本重新执行一遍
-    ——包括侧边栏的 st.slider，触发 StreamlitDuplicateElementId。
+    **不能直接 `import app`**：Streamlit 把 app.py 当脚本执行，`import app`
+    会把整个脚本重新执行一遍（含侧边栏 st.slider），触发
+    StreamlitDuplicateElementId。
 
-    所以先看 `__main__` 是否就是正在跑的 app（有 retrieve/chunks 即认定），
-    是就直接复用；不是（CLI 场景，如 python agent_core.py）才正常 import。
+    三级查找：
+        1. `_rag_app` —— app.py 主动注册的共享模块，与 Streamlit 运行方式无关
+           （有 pages/ 目录时走 _mpa_v1，__main__ 不进 sys.modules，只能靠这个）
+        2. `__main__` —— 无 pages/ 时的正常路径
+        3. `import app` —— CLI 场景（python agent_core.py）
     """
+    shared = sys.modules.get("_rag_app")
+    if shared is not None and hasattr(shared, "retrieve"):
+        return shared
+
     main = sys.modules.get("__main__")
     if main is not None and hasattr(main, "retrieve") and hasattr(main, "chunks"):
         return main
+
     import app
     return app
 

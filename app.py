@@ -117,6 +117,27 @@ if not EMBED_KEY or not CHAT_KEY:
 chunks, embed_client, vecs, bm25 = load_index()
 chat_client = OpenAI(api_key=CHAT_KEY, base_url=CHAT_BASE_URL)
 
+# 把 Agent 需要的依赖挂到一个固定名字的模块上。
+#
+# 为什么不能靠 `import app`：项目有 pages/ 目录时，Streamlit 走 _mpa_v1 分支，
+# page.run() 创建的 __main__ 模块**不注册进 sys.modules**，
+# 于是 agent_tools 里 `sys.modules["__main__"]` 检查落空 → 回退 import app
+# → 整个脚本被二次执行 → 侧边栏控件重复注册 → StreamlitDuplicateElementId。
+# 主动挂一个 _rag_app 模块，路径与 Streamlit 的运行方式无关。
+import sys as _sys
+import types as _types
+
+_shared = _sys.modules.get("_rag_app")
+if _shared is None:
+    _shared = _types.ModuleType("_rag_app")
+    _sys.modules["_rag_app"] = _shared
+_shared.chunks = chunks
+_shared.retrieve = retrieve
+_shared.chat_client = chat_client
+_shared.build_context = build_context
+_shared.generate = generate
+_shared.generate_stream = generate_stream
+
 # 每个浏览器会话一个 ID，用于按会话聚合日志（不记 IP）
 if "sid" not in st.session_state:
     from tools.query_log import new_session_id
@@ -124,14 +145,15 @@ if "sid" not in st.session_state:
 
 with st.sidebar:
     st.header("设置")
-    top_k = st.slider("检索块数", min_value=3, max_value=10, value=5)
-    show_debug = st.toggle("显示检索过程", value=True)
+    top_k = st.slider("检索块数", min_value=3, max_value=10, value=5, key="sb_top_k")
+    show_debug = st.toggle("显示检索过程", value=True, key="sb_show_debug")
 
     st.divider()
     use_agent = st.toggle(
         "启用 Agent 路由",
         value=False,
         help="开启后先判断问题类型：问具体型号走数据库精确查询，问泛化问题走向量检索",
+        key="sb_use_agent",
     )
 
     st.divider()
@@ -143,36 +165,19 @@ with st.sidebar:
     st.caption(f"合计 {len(chunks)} 块")
     st.caption("装备库：34 款球拍")
 
-    st.divider()
-    with st.expander("📋 查询统计", expanded=False):
-        from tools.query_log import recent, stats
-
-        s = stats()
-        st.caption(f"总提问 {s['total']} 次 · 今日 {s['today']} 次 · 会话 {s['sessions']} 个")
-        if s["routes"]:
-            st.caption("**路由分布**")
-            for r, c in s["routes"][:5]:
-                st.caption(f"· {r or '-'}：{c}")
-        if s["top_questions"]:
-            st.caption("**高频问题**")
-            for q, c in s["top_questions"][:3]:
-                st.caption(f"· {c}× {q[:24]}")
-        if s["total"]:
-            st.caption("**最近提问**")
-            for r in recent(5):
-                mark = "" if r["hit"] else " ⚠️未命中"
-                st.caption(f"· {r['ts'][11:16]} `{r['route'][:16]}` "
-                           f"{r['question'][:22]}{mark}")
+    # 查询统计不在主页展示——那是所有用户提问的记录，只在 pages/1_admin.py
+    # 里凭管理员密码查看，避免把别人的提问暴露给每个访客。
 
 st.title("🏸 羽毛球知识助手")
-st.caption("覆盖规则条文、技术动作、装备参数三类资料。回答会标注出处页码。")
+st.caption("覆盖规则条文、技术动作、装备参数、裁判执行、赛事规程五类资料。回答会标注出处页码。")
 
 with st.form("ask", clear_on_submit=False):
     question = st.text_input(
         "你的问题",
         placeholder="例如：反手高远球的击球点应该在身体哪个位置？",
+        key="q_input",
     )
-    submitted = st.form_submit_button("提问", type="primary")
+    submitted = st.form_submit_button("提问", type="primary", key="q_submit")
 
 if submitted and question.strip():
     question = question.strip()
