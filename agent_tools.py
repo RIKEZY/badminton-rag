@@ -43,22 +43,39 @@ def query_racket(model: str) -> dict:
     }
 
 
+def _runtime():
+    """获取正在运行的 app 模块
+
+    **不能直接 `import app`**：Streamlit 把 app.py 当 `__main__` 执行，
+    此时 `sys.modules` 里没有 `app`，`import app` 会把整个脚本重新执行一遍
+    ——包括侧边栏的 st.slider，触发 StreamlitDuplicateElementId。
+
+    所以先看 `__main__` 是否就是正在跑的 app（有 retrieve/chunks 即认定），
+    是就直接复用；不是（CLI 场景，如 python agent_core.py）才正常 import。
+    """
+    main = sys.modules.get("__main__")
+    if main is not None and hasattr(main, "retrieve") and hasattr(main, "chunks"):
+        return main
+    import app
+    return app
+
+
 def search_docs(query: str, top_k: int = 5):
     """检索文档语料，返回原始 (score, chunk) 列表，供 build_context 使用"""
-    import app
+    app = _runtime()
     _, hits = app.retrieve(query, top_k)
     return hits
 
 
 def generate_answer(question: str, hits) -> tuple[str, int]:
     """把检索结果交给模型生成答案"""
-    import app
+    app = _runtime()
     return app.generate(app.chat_client, question, app.build_context(hits))
 
 
 def generate_stream_answer(question: str, hits, usage: dict | None = None):
     """流式版本，供 Streamlit 的 write_stream 使用"""
-    import app
+    app = _runtime()
     usage = usage if usage is not None else {}
     yield from app.generate_stream(app.chat_client, question, app.build_context(hits), usage)
 
@@ -110,7 +127,7 @@ def format_racket_evidence(results: list[dict]) -> str:
 
 def generate_equipment_answer(question: str, evidence: str, usage: dict | None = None):
     """基于装备参数生成回答（流式）。参数在 system prompt 里，作为事实约束。"""
-    import app
+    app = _runtime()
     usage = usage if usage is not None else {}
     yield from app.generate_stream(
         app.chat_client, question, evidence, usage, system_prompt=EQUIP_PROMPT
@@ -120,7 +137,7 @@ def generate_equipment_answer(question: str, evidence: str, usage: dict | None =
 def generate_with_prompt(question: str, evidence: str, system_prompt: str,
                          usage: dict | None = None):
     """通用流式生成：证据 + 自定义 system prompt"""
-    import app
+    app = _runtime()
     usage = usage if usage is not None else {}
     yield from app.generate_stream(
         app.chat_client, question, evidence, usage, system_prompt=system_prompt
