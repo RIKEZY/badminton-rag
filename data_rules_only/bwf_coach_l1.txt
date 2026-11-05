@@ -1,0 +1,4765 @@
+羽毛球教练手册（BWF Coach Education Level 1，第二版）
+
+来源：BWF 官方教练教育手册，2026-11-05 提取
+
+说明：仅提取技术、战术、体能、伤病章节；教学法与竞赛组织章节未收录
+
+01. PERFORMANCE IN BADMINTON
+To perform well at badminton, players have to cope with three broad types of situations, which can be
+labelled:
+• attacking
+• neutral
+• defensive
+These situations are related to how high the shuttle is when it is being struck. These situations are
+represented in the illustration below.
+02. THE IMPORTANCE OF ‘EARLY’ TO BADMINTON
+PERFORMANCE
+Striking the shuttle ‘early’, in terms of both height and closeness to the net, means players will:
+• find themselves in attacking situations more often, with a greater number of opportunities to strike
+the shuttle downwards into their opponent’s court;
+• be able to exert more pressure on their opponents by giving them less time;
+• have more options as to the type of strokes that can be played.
+Defensive
+Neutral situations
+Attacking
+Early
+
+03. FACTORS AFFECTING BADMINTON PERFORMANCE
+Within badminton, performance factors can be defined as:
+“the elements of training that influence a player’s capacity to perform effectively.”
+In order to develop optimally, a player needs to address five key performance factors:
+PERFORMANCE
+FACTOR
+EXAMPLES
+TECHNICAL How to move and hit the shuttle.
+TACTICAL Decision making, depending upon awareness.
+PHYSICAL Strength, speed, endurance, flexibility, etc.
+PSYCHOLOGICAL Self-reliance, confidence, control, concentration, commitment.
+LIFESTYLE Balance of activities, time management, parents, nutrition, injury management.
+Whilst it helps to organise coaching information under these five separate headings, they are very
+much interlinked. For example:
+• T o have the endurance to last a long match (physical factor) requires correct nutrition (lifestyle
+factor).
+• Better movement and hitting (technique) improves options for attack (tactics).
+• A dapting to the opponent’s strokes (tactics) requires concentration and calmness under pressure
+(psychology).
+04. STAGES OF PLAYER DEVELOPMENT
+To develop as much as possible, not only do we need to consider the five performance factors, but
+also the stage of development of the player. A model which considers not only the five  performance
+factors, but also the stage of development of the player is shown overleaf.
+This document is useful to the coach because it identifies what factors to emphasise at which stage
+when helping to develop players.
+
+TECHNICAL TACTICAL  PHYSICAL PSYCHOLOGICAL LIFESTYLE
+MID-CHILDHOOD
+• 6 – 9 M
+• 6 - 8 F
+• Movements (split-step, travelling,
+lunging, jumping)
+• Striking skills (forearm rotation
+focus) - underarm and overarm
+• Introduction to modified games
+(small court, no net – low net,
+modified shuttles)
+• Singles
+• Personal spatial awareness
+(reach)
+• Focus on ABCs (agility,
+balance, co-ordination and
+speed)
+• Warm-ups and cool-downs as
+means to control group
+Introduction to:
+• b asic laws of the game
+• e thics of the game
+• Parental focus –
+introduction to simple
+rules and ethics of
+the sport
+LEARNING TO PLAY
+• 9 – 12 M
+• 8 – 11 F
+• Linking of movements into distinct
+sport-specific patterns
+• Form hitting techniques into wide
+ranging, deceptive strokes
+• Transition from modified games
+to full court
+• Singles bias with gradual
+introduction to level doubles
+• Planned, graduated introduction
+to competition
+• Spatial awareness (height, width
++ depth) to support decision
+making
+• Problem-solving approach with
+conditioned games
+• Basic introduction to physical
+conditioning (but not
+formalised programmes)
+• Gradual introduction of
+formalised warm-up and cool-
+down in later stages of period
+Develop a positive attitude
+towards:
+• y ourself
+• o thers in the sport
+• t he sport itself
+• Parent education
+programme (e.g.,
+long-term plan,
+parent-coach-player
+roles,
+communication, etc.)
+TRAINING TO TRAIN
+• 12-16 M
+• 11-15 F
+• Consistent production of movement
+patterns and strokes sustained
+under increasingly unpredictable
+training environments and when
+competing with peers
+• Address personal development
+areas
+• Spatial, self, opponent and
+partner awareness supporting
+decision making
+• Problem-solving approach with
+conditioned games
+• Singles bias with development of
+specific doubles tactics (mixed in
+latter stages of period)
+• Introduction to development of
+four S’s (stamina, speed,
+suppleness and strength)
+• Gradual move to formalised
+physical training programmes
+once emotionally mature
+• Implicit mental training
+embedded in practice
+• Focus on development
+of self-resilience
+• Support under four Cs:
+o Control
+o Confidence
+o Concentration
+o Commitment
+• Increased
+expectation of
+players to take
+responsibility for own
+lifestyle choices and
+control (parent to
+player transition)
+TRAINING TO
+COMPETE
+• 16 -18 M
+• 15 – 17 F
+• Consistent production of movement
+patterns and stroke shapes in
+competition against peers (at higher
+speeds)
+• Address personal development
+areas
+• Introduce periodised technical
+training
+• Match pre-planning
+• Post-match analysis
+• Video analysis
+• Implementation of match plans
+against specific opponents
+• Introduction of periodised
+approach to tactical training
+• Working with coaches at events
+• Increased move to periodised
+physical training
+• Individualised training
+programme
+• Likely involvement of
+strength/conditioning experts
+• Gradual exposure to
+more explicit
+psychological training,
+possibly led by
+specialists
+• Player takes major
+role in lifestyle
+choices and
+management (diet,
+time-management,
+education/ training
+balance, training
+diary, tournament
+plan, equipment etc.)
+TRAINING TO WIN
+• 18 + M
+• 17+ F
+• Periodised and individual training programmes
+
+05. SELF-ASSESSMENT QUESTIONS
+1 How many factors affect
+performance in
+badminton?
+2 What is the order of the
+developmental phases?
+Number them from 1 to
+4.
+Train to Win
+Train to Compete
+Learn to Play
+Train to Train
+
+BADMINTON COACH EDUCATION
+COACHES’ MANUAL
+LEVEL 1
+MODULE 6
+PERFORMANCE FACTOR 1
+TECHNICAL (MOVEMENT SKILLS)
+
+BADMINTON WORLD FEDERATION
+Unit 1, Level 29
+Naza Tower, Platinum Park
+10 Persiaran KLCC
+50088 Kuala Lumpur
+Tel +603 2631 9188
+Fax +603 2631 9688
+bwf@bwfbadminton.org
+MODULE 6
+PERFORMANCE FACTOR 1 - TECHNICAL (MOVEMENT SKILLS)
+01. Introduction 51
+02. Components of Badminton Movements 51
+03. Split-Step 53
+04. Approach and Recovery 57
+05. Movements Associated with Hitting 61
+06. Movement Patterns 64
+07. Summary 70
+08. Self-Assessment – Movement Skills 71
+LEARNING OUTCOMES
+By the end of this module, coaches will be able to:
+• list the components of effective badminton movement;
+• organise the components of effective movement using the movement cycle model;
+• describe practices to train the components of badminton movement;
+• link the components of badminton movement into recognised patterns;
+• describe methods of training movement patterns.
+
+01. INTRODUCTION
+Badminton is a high-speed sport played on a relatively small court against an opponent who will,
+amongst other things, be trying to force you off-balance and out of position. For these reasons,
+badminton players need to be able to move quickly and efficiently if they are to compete well within the
+sport.
+02. COMPONENTS OF BADMINTON MOVEMENTS
+If you watch a high level badminton game and focus on the movements performed by the player, you
+will see the same movements being repeated many times over. These movement components are
+listed below:
+• Split-step
+• Running steps
+• Chassé
+• Cross-behind
+• Hop/pivot
+• Lunge
+• Jump
+• Landing
+Training these movement components in isolation is useful, but eventually they need to be integrated
+so that the players can flow around the court effectively. A useful way to put these components
+together is in a model known as the “movement cycle” (shown overleaf). The movement cycle has four
+parts:
+• START, which happens in response to your opponent’s hit and allows you to move off towards
+the shuttle;
+• APPROACH, which includes the methods you would then use to travel across the court
+towards the shuttle;
+• HIT, or more precisely the movements your body performs as you hit;
+• RECOVER, involving methods you would use to travel in a direction that anticipates your
+opponent’s reply.
+
+Note the common movements in APPROACH and RECOVER.
+
+03. SPLIT-STEP
+WHAT TO COACH DESCRIPTION OF MOVEMENT ILLUSTRATION COACHING HINTS AND TIPS
+Split-step
+The split-step is used to help you:
+• link movements together;
+• change direction;
+• move off quickly in response to
+your opponent’s shot.
+A shallow jump off the ground just before your
+opponent strikes the shuttle. This allows the body to
+rebound off the floor and move off more quickly on
+landing.
+Run down the sports hall performing a split-step at
+given intervals. Use lines to guide your split-step.
+For the purposes of maintaining balance, it is
+possibly best to coach the split step as a two-
+footed landing. In reality, however, one foot nearly
+always lands before the other. The foot that lands
+first governs which direction the player will move
+off:
+• Left lands first, move to right.
+• Right foot first, move to left.
+• Front foot first, move back.
+• Back foot first, move forwards.
+A widening of the base and bending of the knees on
+landing.  The widened base/knee bend helps the
+player stay balanced. The landing occurs with or after
+the opponent’s hitting of the shuttle.
+Upper body relaxed and between the feet, with slight
+bend forwards at hips. Keeping the upper body
+between the feet helps with balance. Use an explosive
+push-off from the ground on landing, and make the
+ground contact time short so you move off quickly.
+Split-steps can occur all around the court, as it
+depends where you are when your opponent strikes
+the shuttle.
+A split-step can be performed with the feet side by
+side;
+Note that there is no split-step that can be
+performed which will allow the player to move off
+equally in all directions.
+With experience, players learn to land their split-
+step in a way that allows them to cover the most
+likely replies.
+left foot leading.
+right foot leading.
+
+HOW TO COACH: PRACTICES FOR THE SPLIT-STEP
+PRACTICE ILLUSTRATIONS COACHING HINTS AND TIPS
+Split-step on
+the spot.
+Coach marches.
+Coach split-step
+(side to side).
+Coach split step
+(one foot forwards).
+Coach split step
+(other foot forwards).
+Give players the opportunity to lead each
+other in pairs, or one player leads the group
+rather than the coach doing it.
+Player marches.
+Player split-step
+(side to side).
+Player split step
+(one foot forwards).
+Player split step
+(other foot forwards).
+Split-step
+response to
+tapped shuttle.
+Coach holds racket and
+shuttle.
+Coach taps shuttle in front.
+Coach taps shuttle out to one
+side.
+Coach taps shuttle to other
+side.
+This could be developed by allowing
+players to move off having performed the
+split-step.
+Player marches.
+Player split-step
+(side to side).
+Player split-step
+(right foot forwards).
+Player split-step
+(left foot forwards).
+The group marches on the
+spot, with the coach facing
+them holding a racket and
+shuttle.
+When the coach taps the
+shuttle with the racket directly
+in front, then the players should
+perform a split-step with their
+feet going out to the sides.
+If the coach taps to the left then
+the players should do a split-
+step with the right foot
+forwards.
+If the coach taps to the right
+then the players should do a
+split-step with the left foot
+forwards.
+
+HOW TO COACH: PRACTICES FOR THE SPLIT-STEP
+PRACTICE ILLUSTRATIONS COACHING HINTS AND TIPS
+Tramline
+split-steps.
+• Although this should be done slowly to
+begin with, encourage the players to
+perform this as quickly as possible, as
+soon as possible.
+• Imagining the ground is hot can
+sometimes encourage players to use a
+short ground contact time.
+• Players should learn how to do this
+forwards and backwards.
+• Working in pairs, one player can shout
+“change” or clap when they want the
+player to change direction.
+Split-step, with the right foot
+forwards and landing in the back
+tramlines. Make players keep
+their bodies within their base of
+support and drive off rear leg.
+Drive off left foot and place in
+tramlines next to right foot.
+Move right foot out of tramlines.
+Perform a shallow jump and
+pivot, establishing a new split
+step with the left foot in the
+tramlines.
+Split-step
+shuttle
+catch.
+A
+B
+A
+B
+A
+B
+A
+B
+• By catching two-handed in front of the
+body, players are encouraged not to lean
+but rather to use their legs to drive
+quickly into position.
+• This can be developed into one-handed
+catching to either side of the body, but
+make sure that:
+o the split-step is maintained;
+o any leaning of the upper body is not
+excessive.
+• Player A stands opposite
+player B.
+• Player A has a shuttle in hand.
+• Player A throws a shuttle
+underarm to the side of
+player B.
+• Player B does a split-step
+and pushes off to intercept
+the shuttle.
+• Player B chasses to help
+mover into position.
+• Player B catches the shuttle
+two-handed in front of their
+body.
+
+HOW TO COACH: PRACTICES FOR THE SPLIT-STEP
+PRACTICE ILLUSTRATIONS COACHING HINTS AND TIPS
+Split-step down the
+hall.
+Gradually reduce the amount of time spent
+in the split-step position, encouraging a
+short ground contact time and a fast drive
+away off the mark.
+
+04. APPROACH AND RECOVERY
+WHAT TO COACH DESCRIPTION OF MOVEMENT ILLUSTRATION COACHING HINTS AND TIPS
+APPROACHING AND RECOVERING
+Many of the movements used to
+approach the shuttle are the same as
+those used to recover having struck
+the shuttle. It is beneficial to be able to
+perform movements forwards,
+backwards and sideways.
+Running steps.
+• When running forwards:
+o t he feet hit the ground heel then toe;
+o s trides tend to be longer.
+• When running backwards:
+o s tay on your toes;
+o strides tend to be quick and short.
+Forwards Backwards
+Chassé
+• One foot chases the other, but
+never quite catches it.
+• Chassés can be performed with
+feet at 90o to each other.
+• Chassés can be performed with
+feet parallel to each other (side
+steps).
+• If done well the player will skim
+quickly across the ground.
+• Encourage short ground contact times, as
+though the ground is hot.
+• Pick a point on the wall ahead to concentrate
+on. If the point on the wall stays “still” then the
+player’s head will be staying level, helping
+that player to skim across the ground.
+• Chassés normally occur singly or in pairs, so
+keep this in mind when practicing. Using
+chassés for long distances (e.g. the diagonals
+of the court) is a slow method and should be
+discouraged.
+Cross–behind
+• The non-racket leg passes behind
+the racket leg.
+It is very rare for more than one cross-behind
+movement to be performed at a time.
+Hop/Pivot
+• Hops are little jumps that take off
+on one foot then land on the same
+foot. Often in badminton the hop is
+combined with a pivoting
+movement.
+Hops can be about gaining height; however,
+they are often used to cover distance,
+particularly when a hop and pivot are combined.
+
+HOW TO COACH: PRACTICES FOR APPROACHING AND RECOVERING
+All the practices below can be included within the warm-up phase.
+PRACTICE ILLUSTRATIONS COACHING HINTS AND TIPS
+Arm action for
+running.
+Although it is rare to have to use too
+many running steps in a row, when it
+is needed then the running needs to
+be as effective as possible. An
+effective arm action contributes to
+that effectiveness.
+• Work on the spot.
+• Hold hands so arms are bent to 90o.
+• Palms turned inwards.
+• Relaxed shoulders.
+• Perform alternating arm action.
+• Maintain 90o elbow angle.
+• Front hand reaches eye level.
+• Back hand finishes level with hip.
+This can also be performed in a seated position.
+Quick knee lifts. In quick knee lifts, one foot should be
+going over the hurdle and one should
+be below it. In other words, both feet
+should be moved downwards, so lilac
+foot is over hurdle but red foot is at the
+side of it.
+This encourages a fast, sharp knee
+lift, which is important during the
+acceleration phase of running. This is
+very relevant to badminton where
+acceleration off the mark is crucial.
+• Walking forwards.
+• After three steps, raise one knee
+quickly in the air to 45o. The opposite
+hand should also raise up at the
+same time.
+• Run alongside a small set of hurdles.
+• One foot works alongside the hurdles.
+• One foot works over the hurdles.
+• Use quick knee lifts and powerful arm
+action.
+• Return in the opposite direction to work
+both feet.
+• Run over a small set of hurdles.
+• Use quick knee lifts and powerful arm
+action.
+• Lead with one leg all the way (one leg
+travels over the hurdle first each time).
+• Repeat leading with the other leg.
+
+HOW TO COACH: PRACTICES FOR APPROACHING AND RECOVERING
+All the practices below can be included within the warm-up phase.
+PRACTICE ILLUSTRATIONS COACHING HINTS AND TIPS
+Running forwards
+and backwards.
+• Forwards running will involve
+longer strides than backwards
+running.
+• Stand in the back tramlines with a side-on stance.
+• Run to the low service line.
+• Run backwards to return to the back tramlines.
+• Arc the run slightly to result in a sideways stance.
+Tramline Chassé. 1
+• Although this should be done
+slowly to begin with, encourage
+the players to perform this as
+quickly as possible, as soon as
+possible.
+• Imaging the ground is hot can
+sometimes encourage players to
+use a short ground contact time
+• Players should learn how to do
+this forwards and backwards.
+• Working in pairs, one player can
+shout “change” or clap when
+they want the player to change
+direction.
+Split-step, with the right foot
+forwards and landing in the back
+tramlines. Encourage players to
+keep their bodies within their
+base of support.
+Drive off left foot and place in
+tramlines next to right foot.
+Move right foot out of
+tramlines.
+Perform a shallow jump and
+pivot, establishing a new split-
+step with the left foot in the
+tramlines.
+Chassé
+
+HOW TO COACH: PRACTICES FOR APPROACHING AND RECOVERING
+All the practices below can be included within the warm-up phase.
+PRACTICE ILLUSTRATIONS COACHING HINTS AND TIPS
+Cross-behind.
+• If used facing the net, keep
+watching the tape in order to
+keep your head still.
+• Make sure you practice this
+both forwards and backwards.
+• Although in a rally it is nearly
+always the racket leg that
+crosses behind, in training
+and warm-up it is advisable to
+work both sides.
+Work your way along the court, performing a series of “Z” shapes using cross-behind steps.
+Pivot/hop.
+• This can be turned into a race
+against other players.
+• Working in groups of 3, players
+can pass the shuttles rather than
+picking them up from the floor.
+• Learn to pivot on both legs and
+also in both directions (clockwise
+and anticlockwise).
+• Place one foot on a marker (as indicated by the green circle
+above).
+• Place three shuttles on the ground which can be reached by
+performing a lunge.
+• Reach down and pick up a shuttle, then pivot/hop around the
+foot which is located on the marker.
+• Place shuttle down on the ground.
+• Pivot back round to collect the next shuttle.
+• Repeat until all three shuttles finish behind you.
+
+05. MOVEMENTS ASSOCIATED WITH HITTING
+WHAT TO COACH DESCRIPTION ILLUSTRATION COACHING HINTS AND TIPS
+Movements associated
+with hitting.
+LUNGING
+• Lunging is, in effect, a
+large stride. The pictures to
+the right show where and
+when the lunge is used on
+the court.
+• Most lunging is done on
+the racket leg, but some
+non-racket leg lunging
+does happen.
+• The lead foot points towards the
+shuttle.
+• Lead leg, knee and foot point of
+contact in the same direction to
+protect knee/ankle joints.
+• Turn out rear foot to help with
+balance and range of movement.
+• Bend rear knee to reduce strain on
+knee.
+• Extend rear arm for balance. At the net, when performing net kills, net
+shots and lifts.
+In the midcourt, when the
+shuttle is at the side of the
+body.
+In therearcourt, when the shuttle is
+behind the striking player.
+JUMPING BASICS
+Jumping can be defined as a
+movement involving an
+extended flight phase where
+both feet are off the ground.
+Jumps can be split into the
+preparation, flight and landing
+phases.
+2 3 4
+• An effective squat movement is a
+worthwhile movement to learn as it
+helps jumping technique.
+• Feet pointing forwards, heels down
+throughout.
+• Sit back, bending at the ankles,
+knees and hips.
+• Chest up.
+• Aim to get the back and shins
+parallel. • Bend at the ankles,
+knees and hips to pre-
+stretch leg muscles
+and help in force
+production.
+• At the same time,
+swing the arms back
+and downwards.
+• Keep chest up.
+• Swing the arms
+forwards and
+upwards.
+• Extend at the hips,
+knees and ankles.
+• Direct force
+downwards into the
+ground.
+• Extend all
+joints fully.
+• Land on balls of
+feet first.
+• Bend ankles,
+knees and hips on
+landing to absorb
+force.
+• Keep chest up.
+JUMPING VARIATIONS
+Apart from a basic jump
+involving taking off and
+landing, a number of other
+variations are possible.
+Two feet to
+two feet.
+Two feet to one
+foot.
+One foot to two
+feet.
+One foot to one
+foot (same foot
+– hopping).
+One foot to other
+foot (bounding).
+All jumps can be performed in 3
+directions:
+• Side to side;
+• Forwards and backwards;
+• Rotationally.
+
+HOW TO COACH: PRACTICES FOR LUNGES
+PRACTICE DESCRIPTIONS COACHING HINTS AND TIPS
+Creating a lunge
+shape.
+• Use a wide stance.
+• Toes of front foot against wall.
+• Rear foot at 900 to front foot.
+• Rear arm extended for balance.
+• Sink down, bending both knees.
+• Rear heel raises slightly.
+A more advanced lunge would be to start with
+feet side-by-side and step into the lunge, then
+recover.
+• Use of a wall can stop knee
+going too far.
+• Complete three on one leg,
+three on the other.
+Lunging with good
+posture.
+• Stand upright with feet together.
+• Balance a shuttle on the head.
+• Step forwards into a lunge position.
+• Keep the shuttle on the head.
+• Return from the lunge position.
+• Keep the shuttle on the head.
+• This is fun.
+• Balancing the shuttle
+encourages the player to keep
+their trunk upright.
+• When stepping into the lunge,
+encourage a straight leg phase.
+Lunging and
+reaching.
+• Stand opposite a training partner,
+holding a shuttle.
+• Both players lunge forwards and the
+shuttle is passed between the two
+players.
+• Return to the starting position and repeat on
+other leg.
+• Encourage good range of
+movement.
+• Encourage upright trunk
+position.
+• Encourage use of extended rear
+arm for balance.
+Lunging and
+striking.
+• Player stands with feet at 900 to each
+other.
+• Partner stands opposite holding a
+shuttle.
+• Shuttle is thrown gently.
+• Player lunges forwards to strike shuttle.
+• Partner catches shuttle.
+• Player returns to the start.
+• This can be done on the
+forehand or backhand side.
+• It can be used to practice
+lunging forwards or to the side.
+• It can be done on-court over the
+net.
+
+HOW TO COACH: PRACTICES FOR JUMPING
+PRACTICE DESCRIPTIONS COACHING HINTS AND TIPS
+Clock jumps.
+• Many variations possible.
+• Experiment with different one- and
+two-footed combinations.
+• Can involve players always facing
+forwards, or turning in midair.
+• Players can work in pairs or small
+groups.
+• Stand in the centre of an
+imaginary/marked out clock.
+• Squat down in preparation for the jump.
+• Coach calls out a time (e.g. 3 o’clock).
+• Player jumps out in that direction.
+• Coach calls out “centre”.
+• Player jumps back to centre of clock
+face.
+Tramline
+jumps.
+• Experiment with different one- and
+two-footed combinations.
+• To make it harder, jump across rear
+tramlines.
+• Stand facing a partner next to the side
+tramlines of the court.
+• Squat down to prepare for the jump.
+• Both players jump sideways across the
+tramlines.
+• Make good use of arms.
+• Land on the balls of the feet.
+• Bend ankles, knees and hips to control
+landing.
+Jump and
+catch.
+• Two players stand opposite each other.
+• One holds a shuttle.
+• Player throws a shuttle high for partner to
+jump and catch two-handed.
+• Land on balls of feet first.
+• Bend ankles, knees and hips to control
+landing.
+• Experiment with different one- and
+two-footed combinations.
+• Throw in a predictable, then
+unpredictable patterns.
+Jump and
+pivot.
+• Player stands with feet
+together facing the net in
+the rear tramlines.
+• Step back to load rear leg.
+• Rear foot should be at 900 to
+front foot.
+• Jump and rotate in the air.
+• Feet change places.
+• Land rear foot then front foot.
+• Rear foot lands at 900 to front
+foot.
+• Throwing a ball to a partner, or
+against a wall, can be a useful way
+to make this more interesting.
+
+06. MOVEMENT PATTERNS
+WHAT TO COACH DESCRIPTION ILLUSTRATION COACHING HINTS AND TIPS
+MOVEMENT PATTERNS
+In order to move around the
+court effectively, it is
+necessary to put together the
+movement components in
+specific patterns. These
+patterns can be quite personal
+and often depend on the
+exact situation. This section,
+therefore, contains some
+common patterns, but not all
+those that can occur.
+Move to
+backhand
+forecourt.
+• Promote short ground
+contact time on chassé.
+• Make sure lunge has good
+range of movement, with a
+phase when the front leg is
+straight.
+• Promote good upper-body
+posture.
+Split-step.
+Chassé. Lunge. Step back or
+chassé back.
+Split-step.
+Running step. Lunge. Chassé/step back.
+Split-step.
+Non-racket leg lead.
+Hop/pivot around non-
+racket leg.
+Lunge. Chassé/step back.
+
+WHAT TO COACH DESCRIPTION ILLUSTRATION COACHING HINTS AND TIPS
+MOVEMENT PATTERNS
+In order to move around the
+court effectively, it is
+necessary to put together the
+movement components in
+specific patterns. These
+patterns can be quite personal
+and often depend on the
+exact situation. This section,
+therefore, contains some
+common patterns, but not all
+those that can occur.
+Move to
+backhand
+rearcourt.
+• Make sure the pivot/hop
+covers some distance so it
+helps the player to move into
+the corner of the court.
+Split-step.
+Pivot/hop around the
+non-racket leg.
+Jump and turn in the air
+– strike the shuttle while
+off the ground.
+Chassé or running step.
+• The running steps backwards
+should follow a slightly
+curved path, helping the
+player get side-on to the
+shuttle when they hit it.
+Split-step.
+Backwards running
+steps.
+Jump and turn in the air
+- strike the shuttle while
+off the ground.
+Chassé/step back.
+• The more under pressure
+you are, the deeper the lunge
+becomes when you are
+hitting.
+Split-step.
+Chassé back.
+Turn your back on the
+net.
+Half-lunge. Pivot/spin rapidly back
+into court.
+
+WHAT TO COACH DESCRIPTION ILLUSTRATION COACHING HINTS AND TIPS
+MOVEMENT PATTERNS
+In order to move around the
+court effectively, it is
+necessary to put together the
+movement components in
+specific patterns. These
+patterns can be quite personal
+and often depend on the
+exact situation. This section,
+therefore, contains some
+common patterns, but not all
+those that can occur.
+Movement to
+forehand
+forecourt.
+• Promote short ground
+contact time on chasse.
+• Make sure lunge has good
+range of movement, with a
+phase when the front leg is
+straight.
+• Promote good upper-body
+posture.
+Split-step.
+Racket leg leads.
+Chassé. Lunge. Chassé and/or step
+back (shown).
+Split-step.
+Running step. Lunge. Chassé and/or step
+back.
+Split-step.
+Racket leg leads.
+Cross-behind. Lunge. Chassé and/or step
+back.
+
+WHAT TO COACH DESCRIPTION ILLUSTRATION COACHING HINTS AND TIPS
+MOVEMENT PATTERNS
+In order to move around the
+court effectively, it is
+necessary to put together the
+movement components in
+specific patterns. These
+patterns can be quite personal
+and often depend on the
+exact situation. This section,
+therefore, contains some
+common patterns, but not all
+those that can occur.
+Move to
+forehand
+rearcourt.
+• The more under pressure
+you are, the deeper the lunge
+becomes when you are
+hitting.
+Split-step.
+Cross-behind. Lunge. Chassé (shown) or
+pivot.
+• This tends to be a straight-
+line movement, moving
+directly into the forehand
+rearcourt corner.
+Split-step. Chassé. Jump out – strike shuttle
+while in the air.
+Chassé.
+• The split step and chassé
+tend to create an arcing
+shape, allowing the player to
+get more side-on to the
+shuttle.
+Split-step.
+Chassé back.
+Jump and turn in the air
+– strike shuttle while off
+the ground.
+Chassé/running steps.
+
+HOW TO COACH: MOVEMENT PATTERNS
+The previous movement practices have focussed on working on particular components of movement (split step, jumps, chassé) in relative isolation. This section makes some suggestions on how
+movement patterns, which link these components, can be taught. Because of the size and complexity of this area, it is not feasible to cover every movement pattern in this resource. However, the
+“chaining” method suggested below can equally be applied to coaching movement patterns in all areas of the court. Basically, it involves starting with the hit and gradually linking movement into and
+out of the stroke.
+PRACTICE DESCRIPTION COACHING HINTS AND TIPS
+Lunge. •  Stand just behind low service line and step into a lunge.
+• Play a forehand net shot from a hand-fed shuttle.
+• Encourage a good range of movement
+on lunge.
+• Check knee and foot of leading leg
+pointing in same direction (towards
+likely point of impact of shuttle).
+Chassé and lunge. • Stand with a wide stance, front
+foot just behind the low service
+line.
+• Chassé.
+• Front foot steps out into lunge.
+• Complete lunge, hitting a forehand
+net shot as the lunge is completed.
+• Promote chassé as a quick movement,
+with a short ground contact time.
+Split-step, chassé and
+lunge.
+• Walk towards
+forecourt.
+• Split-step with racket foot
+leading.
+• Chasse
+• Front foot steps out
+into lunge.
+• Complete lunge, hitting a
+forehand net shot as the
+lunge is completed.
+• Walking into split-step makes the split-
+step more realistic to the game.
+• Promote split-step as an explosive
+movement with short ground contact
+time.
+• Maintain relaxed but upright posture.
+Split-step, chassé, lunge
+and chassé recovery.
+• Walk towards forecourt. • Split-step with racket
+foot leading.
+• Chasse.
+• Front foot steps out
+into lunge.
+• Complete lunge,
+hitting a forehand
+net shot as the
+lunge is completed.
+• Chassé back once. • Maintain good posture
+in recovery.
+
+HOW TO COACH: MOVEMENT PATTERNS
+With more experienced groups, an alternative approach to chaining is to allow them to copy a whole movement cycle.
+PRACTICE DESCRIPTION COACHING HINTS AND TIPS
+Performing a whole
+movement cycle.
+Coach demonstrates a movement pattern and players watch. • Let group observe from different positions.
+Coach leads a movement pattern and players copy. • Having your back to group makes it easier for them to copy. Fault correction takes place at
+the next stage.
+• Allow left-handers to face you so they can mirror your movement.
+Players perform a movement pattern with no coach to copy.
+Players perform a movement pattern and strike a suspended shuttle. Useful for overhead strokes.
+Players perform a movement pattern and strike a shuttle fed to them. Give as much attention to the quality of recovery.
+Linking movement
+cycles.
+The natural progression from this is to link movement patterns together,
+either by shadowing court movements or performing practices with a shuttle.
+
+07. SUMMARY
+The components of effective badminton movement are:
+• Split-step
+• Running steps
+• Chassé
+• Cross-behind
+• Hop/pivot
+• Lunge
+• Jump
+• Landing
+These components can be organised into a movement cycle, as shown below:
+Each movement cycle is triggered by the opponent striking the shuttle.
+There are numerous ways in which the components can be put together by a player. This resource
+suggests a number of movement cycles which form a good basis to begin.
+Badminton movement can be trained by:
+• w orking on the individual movement components in isolation;
+• c haining the components so they link to create a full movement cycle;
+• w orking on a movement cycle as a whole;
+• l inking movement cycles together.
+
+08. SELF-ASSESSMENT – MOVEMENT SKILLS
+1 The movement cycle has
+four elements, listed in
+which order?
+Hit-Approach-Start-Recover
+Start-Hit-Approach-Recover
+Recover-Approach-Hit-Start
+Start-Approach-Hit-Recover
+2 Which two parts of the
+movement cycle contain
+similar movements?
+Approach and Recovery
+Hit and Start
+Start and Recovery
+Hit and Approach
+3 Which movement is not
+used to approach the
+forehand forecourt?
+Running step
+Chassé
+Pivot on non-racket foot
+Cross-behind
+4 Lunges can occur when
+striking the shuttle:
+In the rearcourt
+In the forecourt
+In the midcourt
+All the above
+5 An effective squatting
+shape involves:
+Back and shins parallel
+Heels off the ground
+Weight through toes
+Head looking down
+6 A split-step: Involves a widening of the base
+Helps to link movements
+Helps to actively push off from the ground
+All the above
+7 “One foot chases the
+other one but never quite
+catches it” is a
+description of:
+Chassé
+Running step
+Cross-behind
+Hop
+
+8 The balance during a
+lunge to the net can be
+improved by:
+Extending the rear arm
+Keeping the distance between rear and front foot small
+Leaning the body forwards
+Keeping both feet pointing forwards
+9 Jumping technique can
+be improved by:
+Keeping the arms by the side throughout the jump
+Keeping the arms extended above the head throughout the jump
+Swinging the arms back and down then extending above the
+head
+Keeping the arms crossed throughout the jump
+10 The approach phase to a
+backhand overhead
+involves:
+A hop/pivot around non-racket leg
+Cross-behind
+Lunge
+Split-step
+
+BADMINTON COACH EDUCATION
+COACHES’ MANUAL
+LEVEL 1
+MODULE 7
+PERFORMANCE FACTOR 2
+TECHNICAL (HITTING SKILLS)
+
+MODULE 7
+PERFORMANCE FACTOR 2 - TECHNICAL (HITTING SKILLS)
+01. Introduction 73
+02. Introduction of Hitting Techniques – Children / Beginners 74
+03. Biomechanical Principles 74
+04. Catching and Throwing 75
+05. Games for Throwing and Catching 76
+06. Developing Striking Skills 77
+07. Hitting with the Hand 77
+08. Hitting with a Very Short Grip 78
+09. Hitting with a Long Grip 78
+10. Basic Strokes 84
+11. Introduction to Serving 85
+a. Backhand Flick Serve 86
+b. Backhand Low Serve 88
+c. Forehand Flick Serve 90
+d. Forehand Low Serve 92
+e. Forehand High Serve 94
+12. Introduction to Forecourt Strokes 96
+a. Backhand Net Shot 97
+b. Forehand Net Shot 99
+c. Backhand Net Lift 101
+d. Forehand Net Lift 103
+e. Backhand Net Kill 105
+f. Forehand Net Kill 107
+13. Introduction to Midcourt Strokes 109
+a. Block Off the Body 110
+b. Backhand Drive 112
+c. Forehand Drive 114
+14. Introduction to Rearcourt Strokes 116
+a. Forehand Clear 117
+b. Forehand Smash 119
+c. Forehand Dropshot 121
+d. Pulled Forehand Dropshot 123
+e. Backhand Clear 125
+f. Backhand Pulled Dropshot 127
+15. Summary – Performance Factor 1: Technical (Hitting Skills) 129
+16. Self-Assessment – Hitting Skills 130
+
+BADMINTON WORLD FEDERATION
+Unit 1, Level 29
+Naza Tower, Platinum Park
+10 Persiaran KLCC
+50088 Kuala Lumpur
+Tel +603 2631 9188
+Fax +603 2631 9688
+bwf@bwfbadminton.org
+LEARNING OUTCOMES
+By the end of this module, coaches will be able to:
+• list the basic biomechanical principles that underpin effective hitting;
+• describe practices to develop catching and throwing;
+• list the different types of grips used in badminton and describe activities/practices to develop
+them;
+• describe different badminton strokes, including:
+o where they are played;
+o when they are played;
+o why they are played;
+o what they look like;
+o how to practice them.
+
+01. INTRODUCTION
+This section will cover biomechanical principles.
+This looks briefly at the importance of bending and straightening, rotating, and force generation when
+striking a badminton shuttle.
+CATCHING, THROWING AND STRIKING SKILLS
+Prior to learning how to strike a shuttle, children need to acquire catching, throwing and striking skills.
+This allows them to develop:
+• effective tracking skills (watching an approaching object);
+• hand-eye-foot co-ordination, allowing them to catch successfully;
+• throwing skills, which underpin the hitting skills that are developed later;
+• hitting skills with the hand.
+GRIPS
+Once basic sending and receiving skills have been established, the introduction of a racket means that
+children have to learn to grip the racket correctly in a number of different situations.
+STROKES
+This section will introduce a wide range of strokes used in badminton. For each stroke, there will be
+guidance on:
+• where the shot is played from and to;
+• when the shot is used;
+• why the shot is used;
+• what the stroke looks like;
+• how to practice it.
+For each stroke the aim should be to:
+• make sure players appreciate that stroke’s tactical usage;
+• promote technical correctness;
+• provide different levels of practice so players can succeed whatever their current playing level ;
+• provide practices that are fun and motivational.
+
+02. INTRODUCTION OF HITTING TECHNIQUES – CHILDREN /
+BEGINNERS
+Although there is no absolutely definite order in which strokes should be introduced, coaches may find
+the follow guidelines useful when working with beginners/young children.
+1. Backhand serve.
+2. Backhand forecourt strokes, including lifts, net kills and net shots.
+3. Forehand forecourt strokes, including lifts, net kills and net shots.
+4. Forehand high serves.
+5. Backhand midcourt strokes (drives, blocks and pushes).
+6. Forehand midcourt strokes (drives, blocks and pushes).
+7. Forehand overheads.
+8. Forehand and backhand overhead pulled dropshots.
+The rationale behind this suggested order is:
+• Backhands tend to be emphasised first because the actions are generally short and easier to time;
+• Forecourt strokes are mainly underarm, which is the easiest starting point and it also prepares the
+players for overhead hitting and practice.
+03. BIOMECHANICAL PRINCIPLES
+There are four key areas that underpin hitting skills in badminton. These are:
+BACKSWINGS
+To generate significant force, strokes require a
+backswing. BACKSWINGs stretch muscles. Those
+muscles then recoil rapidly in response to that stretch,
+adding power to the forward swing of the stroke.
+COORDINATION: BIG MUSCLES TO SMALL MUSCLES
+Hitting the shuttle in badminton is the result of muscle
+forces producing a series of co-ordinated joint
+movements in the body.
+The final force generated is greatest when the forces
+have started with big muscles and finished with smaller
+muscles.
+ROTATION
+Rotation of the whole body.
+
+Rotation of the upper arm.
+External Rotation
+Internal Rotation
+Rotation of the lower arm.
+Lower arm: supination
+(external rotation)
+Lower arm: pronation (internal
+rotation)
+BENDING AND STRAIGHTENING
+Bending and straightening of joints is also an important
+part of stroke production. Bending forms an element of
+the backswing, and straightening is involved in the
+forwards swing as you reach for the shuttle to strike it.
+Bent arm
+Straightened arm
+04. CATCHING AND THROWING
+Working on throwing and catching helps children develop the skill to:
+• w atch an object in flight carefully;
+• pu t their body and hands in the correct position to intercept that object.
+These skills underpin the eventual development of hitting skills. The table below explains a number of
+practices that can be undertaken to develop throwing and catching skills.
+ROLLING AND
+STOPPING
+Young children can gain from rolling a ball to each other as this:
+• Helps them learn the importance of watching an object travelling towards them and how this can help
+them collect that object successfully.
+• Allows them to experiment with applying different levels of force so the ball can travel different
+distances successfully.
+UNDERARM
+THROWS
+• Throw different types and weights of objects.
+• Experiment with the feel of pushing, flicking and throwing objects, including shuttles, to compare the
+different levels of control and flight paths that can be achieved.
+• Try both forehand throws (with the palm of the hand leading) and backhand throws (with the back of
+the hand leading).
+• Devise games involving underarm throwing, such as underarm throwing golf where a number of
+different underarm throws are used to deliver a shuttle into a target (e.g., a hoop).
+
+UNDERARM
+CATCHES
+Encourage watching the approaching object carefully and catching with palms up (little fingers together).
+Begin with catches directly in front of the body and then progress to:
+• catches on either side of body;
+• one-handed catches.
+OVERHEAD
+THROWS
+Encouraging children to learn effective overhead throwing techniques is very important, since this action is
+the basis of forehand overhead hitting. Progress this skill by working in pairs and throwing:
+• s eated and cross-legged;
+• k neeling on both knees with bottom against heels;
+• k neeling on both knees with bottom off heels;
+• k neeling on one knee (right knee if a right hander);
+• s tood square on;
+• s tood side on with feet together;
+• s tood side on with feet apart;
+• s tood with feet together, take a step back and use drive from rear leg to help throw;
+• s tood with feet together, take a step back and use drive from rear leg to help throw. Step through
+immediately after throw delivered;
+• s tood with feet together, take a step back and use drive from rear leg to help throw. Take off as you
+throw, rotate and land.
+This helps children to appreciate how to use their bodies to generate forces when throwing.
+OVERARM
+CATCHES
+Encourage catching with palms up (thumbs together). Begin with catches directly in front of the body and
+then progress to:
+• catches on either side of body;
+• one-handed catches.
+05. GAMES FOR THROWING AND CATCHING
+These are fun games that encourage the development of throwing and catching skills .
+INTERCEPTION
+GAMES
+• Dividing a group into two teams of no more than five.
+• Working within an agreed area, each team aims to keep possession of a weighted shuttlecock.
+• Contact between players is not allowed and once a player has caught the object they cannot move off
+that spot until they have thrown the object to another member of their team.
+• This game can be used to improve overhead throwing by building rules that encourage good
+technique. For example, you lose possession if the overhead thrower does not get side-on before
+they throw.
+THROWMINTON
+• Two players can compete against each other using a weighted shuttle on half a court.
+• The shuttle is thrown backwards and forwards across the net, with the aim being to land the object in
+your opponent’s court or force them to make an error (e.g., into the net).
+• Once the shuttle has been caught the player must throw the shuttle back from where they caught it.
+• If the shuttle is in the front half of the court it needs to be returned with an underarm throw. If caught in
+the rearcourt the shuttle should be returned with an overarm throw.
+• This game can be used to improve overhead throwing by building rules that encourage good
+technique. For example, when throwing overhead the player must rotate in the air as they hit (kicking
+through). If they do not, they lose the point.
+• Team versions of this game on a full court can be devised by the players.
+
+06. DEVELOPING STRIKING SKILLS
+Catching and throwing involve the hands directly interacting with an object. Striking with a racket
+requires the player to adjust so the object being struck interacts with the racket face, which is some
+distance from the hand. Practices, therefore, should help the player to make this transition.
+07. HITTING WITH THE HAND
+Hitting with the hand is a development of throwing and catching. It requires you to watch the flying
+object carefully and adjust your feet and hands so the hand can strike that object successfully.
+Working alone and using the palm of the hand,
+strike a soft ball or balloon in the air. Experiment
+hitting with one hand, then the other, then
+alternate. Experiment with keeping the object in
+the air whilst doing tricks (e.g., get down on the
+floor and back up again).
+Working alone and using the back of the hand,
+strike a soft ball or balloon in the air. Experiment
+hitting with one hand, then the other, then
+alternate. Experiment with keeping the object in
+the air whilst doing tricks (e.g. , get down on the
+floor and back up again).
+Working alone, keep a soft ball or balloon in the
+air using the palms and backs of both hands. Try
+to make up a sequence of tricks.
+Holding a soft ball or balloon above your head,
+reach up with the other hand and rotate the arm
+so you can see your palm.
+Then strike the ball out of your hand using your
+palm. Promote a follow-through that finishes so
+the player can see the back of their hand
+(forearm pronated).
+Using a soft ball or balloon, ral ly with a partner
+using the palms and the backs of the hand. This
+can be done seated or standing.
+
+08. HITTING WITH A VERY SHORT GRIP
+Hitting with a very short grip helps players achieve success because the object they wish to strike is
+still relatively close to the hand when it is struck.
+• Holding a racket near the “T” with the back of
+the hand upwards.
+• Keep a balloon, soft ball or shuttle in the air
+using forearm rotation.
+• Holding a racket near the “T” with the first
+finger below and along the frame.
+• Keep a balloon, soft ball or shuttle in the air
+using forearm rotation.
+• Holding a racket near the
+“T” with the first finger below
+and along the frame. Touch
+a shuttle with the strings of
+the racket.
+• Take the racket head back
+using forearm rotation.
+• Strike the shuttle using
+forearm rotation (the player
+can see the back of their
+hand).
+09. HITTING WITH A LONG GRIP
+For training exercises using a long grip, refer to the section on “grips”.
+GRIPS - INTRODUCTION
+To play badminton effectively, the ability to grip the racket appropriately in a large variety of situations
+is essential. The following guidelines are useful when coaching grips in badminton:
+• Grips should be relaxed. This gives various advantages, including easier grip changes, improved
+power, reduced fatigue and increased deception.
+
+• A tightening of the grip will naturally occur on impact. This tightening is more apparent in powerful
+strokes (e.g., drives) than soft shots (e.g., net shots).
+• Grips need continual adjustment depending on whether the shuttle is:
+o in front, at the side or behind the player;
+o on the backhand and forehand side.
+• Grips can also be long and short.
+o Long grips are better for reach and also for power. For example, most rearcourt strokes
+will use a long grip. When using the long grip, the bottom of the hand will be resting gently
+against the base of the racket handle, which is widened slightly to prevent the hand
+slipping off the racket.
+o Short grips are often used for quick movements or when more control is required.
+
+A) BASIC GRIP  - WHAT TO COACH
+The basic grip is used to play strokes where the shuttle is level with the player, on both the forehand
+and backhand sides.
+The thumb and first finger of the hand creates a “v” shape on the racket handle. The position of the
+bottom of the “v” is important and is shown in the illustrations below. The basic grip is also called the
+“v” grip.
+BASIC GRIP: LEVEL WITH
+PLAYER
+BASIC GRIP: CLOSE UP BASIC GRIP: THE
+POSITION OF THE
+BOTTOM OF THE “V”
+INTRODUCTORY PRACTICES FOR “V” GRIP – HOW TO COACH
+• Keep the shuttle up in the air as many times as possible with the palm of the hand upwards.
+• Keep the shuttle up in the air as many times as possible with the palm of the hand upwards.
+Between each shot, pass the racket around the body once, twice or three  times!
+• Keep the shuttle up in the air as many times as possible with the palm of the hand upwards.
+Between each shot, pass the racket:
+o under one leg;
+o under one leg, then the other.
+• Keep the shuttle up in the air as many times as possible with the palm of the hand upwards. Strike
+the shuttle under one leg, under the other leg or round the back.
+• Working with a partner, keep the shuttle up in the air as many times as possible with the palm of
+the hand upwards. Players take alternate shots.
+• Working with a partner, strike the shuttle backwards and forwards across a line to each other with
+the palm of the hand ‘leading’.
+• Strike a suspended object (balloon, fluff ball, shuttle) above the head using a basic grip. Use a
+throwing action and the aim is to hit the shuttle above/slightly in front of the striking shoulder (right
+shoulder for a right hander).
+
+B) THUMB GRIP - WHAT TO COACH
+The thumb grip is used to play basic backhand strokes in front of the body. Examples include net
+shots, net lifts, net kills, backhand serves and backhand drives (when struck in front of the body). The
+thumb is placed at the back of the racket handle, with a slight gap between the hand and the racket
+handle.
+THUMB GRIP: LONG SHOT THUMB GRIP: CLOSE-UP THUMB GRIP: THUMB POSITION
+THUMB GRIP  - HOW  TO COACH
+INTRODUCTORY PRACTICES FOR THE THUMB GRIP
+• Establish the thumb grip on top of the racket handle.
+• Turn the hand over so the knuckles are upwards.
+• Keep the shuttle up in the air as many times as possible with the back of the hand leading (thumb
+committed under the racket handle).
+• Keep the shuttle up in the air as many times as possible with the back of the hand leading (thumb
+held firmly under the racket handle). Between each shot, pass the racket around the body once,
+twice or three times!
+• Keep the shuttle up in the air as many times as possible with the back of the hand leading (thumb
+under the racket handle). Between each shot, pass the racket:
+o under one leg;
+o under one leg, then the other.
+• Keep the shuttle up in the air as many times as possible with the back of the hand leading (thumb
+placed under the racket handle). Between each stroke, go down on one knee, the other knee, sit
+down, lie down, and then get back up.
+• Working with a partner, keep the shuttle up in the air as many times as possible with the back of
+the hand leading (thumb placed under the racket handle). Players take alternate shots.
+• Working with a partner, strike the shuttle backwards and forwards across a line to each other with
+the back of the hand leading (thumb placed under the racket handle).
+
+C) CORNER GRIP - WHAT TO COACH
+The corner grip is an alternative used for backhand strokes when the shuttle is level with or slightly
+behind the player. These strokes include backhand drives and blocks (when the shuttle is at the side
+of the body), backhand clears, backhand dropshots and backhand smashes.
+CORNER GRIP: LONG SHOT CORNER GRIP: CLOSE-UP CORNER GRIP: THUMB
+POSITION
+INTRODUCTORY PRACTICES FOR THE CORNER GRIP – HOW TO COACH
+With your back to the net, strike a suspended object from slightly behind the body, either at shoulder
+height or above head height.
+With your back to the net, strike a hand-fed shuttle from slightly behind the body, either at shoulder
+height or above head height.
+Racket feed a shuttle so that the player can strike the shuttle from slightly behind the body with their
+back to the net.
+
+D) PANHANDLE GRIP - WHAT TO COACH
+The panhandle grip is used for:
+• backhand strokes when the shuttle is well behind the player (e.g., backhand dropshots);
+• forehand strokes when the shuttle is well in front of the player (e.g., net kills).
+PANHANDLE GRIP: LONG
+SHOT
+PANHANDLE GRIP: CLOSE
+UP
+PANHANDLE GRIP:
+POSITION OF BOTTOM OF
+“V” SHAPE WHERE THUMB
+AND FIRST FINGER MEET
+INTRODUCTORY PRACTICES FOR THE PANHANDLE GRIP – HOW TO COACH
+For panhandle practices at the forehand net, refer to practices for net kills.
+For panhandle practices in the deep backhand, refer to pulled backhand dropshots.
+E) INTRODUCTORY PRACTICES FOR GRIP CHANGES – HOW TO COACH
+Keep a shuttle in the air 5 times using a “basic grip” (forehand), then another 5 times using a thumb
+grip (backhand). Gradually reduce this to 4, 3, 2 and 1 hits so you finish alternating your grip after
+each shot.
+Strike a hand-fed shuttle back to a practice partner. Do this 5 times with a basic grip on the forehand,
+then 5 times with a thumb grip on the backhand. Gradually reduce this to 4, 3, 2 and 1 hits so you
+finish alternating your grip after each shot.
+Use a basic grip and a forehand overhead action to strike a suspended shuttle, then  run forwards and
+strike a hand-fed shuttle using a thumb grip.
+Use a basic grip and a forehand overhead action to strike a suspended shuttle, then turn and use a
+corner grip to strike the same object using a backhand overhead hit.
+Use a panhandle grip to strike a hand-fed shuttle down at the net (forehand net kill). Change to a
+thumb grip and strike a hand-fed shuttle down at the net (backhand net kill).
+
+10. BASIC STROKES
+This section will introduce a wide range of strokes used in badminton. For each stroke, there will be
+guidance on:
+• where the shot is played from and to;
+• when the shot is used;
+• why the shot is used;
+• what the stroke looks like (including preparation, backswing, forward swing and follow-through)
+• how to practice it;
+• hints, tips and variations (including spins, slices and opportunity for deception) .
+A color-coded table is used throughout the strokes section.
+WHERE THE STROKE GOES WHEN THE STROKE IS USED WHY THE STROKE IS
+USED
+WHAT THE STROKE LOOKS LIKE
+PREPARATION
+BACKSWING FORWARD SWING FOLLOW-THROUGH
+HOW TO INTRODUCE THE STROKES
+HINTS, TIPS AND VARIATIONS
+A) DECEPTION
+Being able to trick your opponent is a major part of badminton. Wherever possible, strokes should be
+made to look the same as other related shots to keep your opponent guessing. This will be reflected in
+the technical information given throughout.
+B) HITTING AND MOVEMENT
+Although this section concentrates on the actual striking of the shuttle, it is important to integrate
+movement into the exercises as soon as possible. Refer to the section on Skill Development for ideas
+on integrating hitting and movement together, placing particular attention on the use of chaining.
+C) STRAIGHT AND CROSS-COURT STROKES
+Strokes can also be hit straight or cross-court.  Cross-courts strokes can be achieved by:
+• taking the shuttle out in front of the body;
+• changing the grip to alter the position of the racket face;
+• bending the wrist to alter the position of the racket face;
+• slicing the shuttle.
+
+11. INTRODUCTION TO SERVING
+Because of the laws of the game, the server is restricted in what they can do with regards to serving.
+The laws relevant to serving are listed below.
+Note that this is correct at the time of writing, but coaches should keep up to date with any changes to
+the laws of the game via the BWF website.
+In a correct service:
+• neither side shall cause undue delay to the delivery of the service once the server and the receiver
+are ready for the service. On completion of the backward movement of server’s racket head, any
+delay in the start of the service, shall be considered to be an undue delay;
+• the server and the receiver shall stand within diagonally opposite service courts without touching
+the boundary lines of these service courts;
+Singles service boxes (long and thin)
+Doubles service boxes (short and fat)
+• some part of both feet of the server and the receiver shall remain in contact with the surface of the
+court in a stationary position from the start of the service until the service is delivered;
+• the server’s racket shall initially hit the base of the shuttle;
+• the whole shuttle shall be below the server’s waist at the instant of being hit by the server’s racket.
+The waist shall be considered to be an imaginary line round the body, level with the lowest part of
+the server’s bottom rib;
+• the shaft of the server’s racket at the instant of hitting the shuttle shall be pointing in a downward
+direction;
+• the movement of the server’s racket shall continue forwards from the start of the service until the
+service is delivered;
+• the flight of the shuttle shall be upwards from the server’s racket to pass over the net so that, if not
+intercepted, it shall land in the receiver’s service court (i. e. on or within the boundary lines), and in
+attempting to serve, the server shall not miss the shuttle.
+Once the players are ready for the service, the first forward movement of the server’s racket head
+shall be the start of the service.
+Once started, the service is delivered when the shuttle is hit by the server’s racket or, in attempting to
+serve, the server misses the shuttle.
+The server shall not serve before the receiver is ready. However, the receiver shall be considered to
+have been ready if a return of the service is attempted.
+In doubles, during the delivery of service, the partners may take up any positions within their
+respective courts, which do not unsight the opposing server or receiver.
+
+a. Backhand Flick Serve
+WHERE THE SHUTTLE GOES WHEN WE USE IT WHY WE USE IT
+To follow the laws of the game, the shuttle
+must travel from one service box to the
+diagonally opposite service box. Singles
+flick serves can go to the back line. Doubles
+flick serves must land within the inner
+doubles service line.
+You use backhand flick serves at the start of
+the rally, hitting from a defensive/neutral
+situation.
+You aim to force your opponent backwards and
+make them off-balance by making them believe
+you are going to serve low.
+WHAT TO COACH
+PREPARATION
+• Stance can vary, but most common is
+with the racket foot forwards, close to
+the "T" on the court.
+• Use a short, relaxed thumb grip (for
+doubles).
+• Place the racket out in front of the
+body.
+• Place shuttle on racket.
+BACKSWING
+• Bend wrist and rotate forearm slightly.
+• Take the racket back a short distance.
+• Open the racket face.
+FORWARD SWING
+• Accelerate the racket head forwards.
+• Flick the shuttle out of the hand.
+FOLLOW-THROUGH
+• Momentum of racket continues arm rotation.
+
+HOW TO COACH - INTRODUCTORY PRACTICES FOR A BACKHAND FLICK SERVE
+Strike the shuttle from the hand into a target area (hoop, bucket etc.) without a net. Make sure the distance is sufficient to encourage a flicking action.
+In small teams, use a backhand flick serving technique into target areas, with each area achieving a score (e.g., one point = large target, 5 points = medium target, 10 points = small target). Having
+struck the shuttle, run forwards to collect the shuttle and return to the back of the queue. Count up your own score to compare to your teammates, or add up your team score to compare to other
+teams after a set time (e.g., 3 minutes). Make sure the distance is sufficient to encourage a flicking action.
+Two players stand on opposite sides of the net. They place a target close to the rear service line of their service box. The two players then have alternate backhand flick serves, scoring how many
+times they hit the target. After a set time (e.g., 3 minutes), scores are compared to find a winner. If it’s a draw, hit the shuttle in the air and whichever way it points is the winner. Winners move up the
+hall, losers move down the hall to take on a new opponent.
+Play a game where only backhand flick serves are allowed.
+Consider:
+• allowing players two attempts, so if they hit the first serve out or into the net then they get another go;
+• rotating serves, so everyone gets an equal amount of serving practice;
+• having the receiver stand in different positions and carry their racket in different positions. The server must adjust where they place their flick serve (e.g., wide, to centre, etc.).
+HINTS, TIPS AND VARIATIONS
+• Make flick serves look like your low serve to confuse your opponent.
+• In singles, backhand flick serves can be delivered with a longer grip and deeper in the court.
+
+b. Backhand Low Serve
+WHERE THE SHUTTLE GOES WHEN WE USE IT WHY WE USE IT
+To follow the laws of the game, the shuttle must
+travel from one service box to the diagonally
+opposite service box. Backhand low serves pass
+close to the top of the net and land at the front of
+the diagonally opposite service box.
+Used in doubles and men’s singles to start
+the rally, from a defensive/neutral
+situation.
+• Restrict your opponent’s opportunity to
+attack.
+• Help create attacking opportunities for
+yourself.
+WHAT TO COACH
+PREPARATION
+• Stance can vary, but most common is with the
+racket foot forwards, close to the "T" on the
+court.
+• Use a short, relaxed thumb grip (for doubles).
+• P lace the racket out in front of the body.
+•  Place shuttle on racket.
+BACKSWING
+• Take the racket back a short distance.
+• Open racket face slightly.
+FORWARD SWING
+• Push through the shuttle.
+• Strike the shuttle out of the hand.
+FOLLOW-THROUGH
+• Continue pushing action.
+• Bring racket up to threaten service reply.
+
+HOW TO COACH - INTRODUCTORY PRACTICES FOR A BACKHAND LOW SERVE
+Strike the shuttle from the hand into a target area (hoop, bucket etc.) without a net.
+In small teams, use a backhand low serving technique into target areas, with each area achieving a score (e.g., one point = large target, 5 points = medium target, 10 points = small target). Having
+struck the shuttle, run forwards to collect the shuttle and return to the back of the queue. Count up your own score to compare to your teammates, or add up your team score to compare to other
+teams after a set time (e.g., 3 minutes).
+Two players stand on opposite sides of the net. They place a target close to the front service line of their service box. The two players then have alternate backhand serves, scoring how many times
+they hit the target. After a set time (e.g., 3 minutes), scores are compared to find a winner. If it’s a draw, hit the shuttle in the air and whichever way it points is the winner. Winners move up the hall,
+losers move down to take on a new opponent.
+Play a game where only backhand low serves are allowed.
+Consider:
+• allowing players two attempts, so if they hit the first serve out or into the net then they get another go;
+• rotating serves, so everyone gets an equal amount of serving practice;
+• having the receiver stand in different positions and carry their racket in different positions. The server must adjust where they place their low serve (e.g., wide, to centre, at the player, etc.).
+HINTS, TIPS AND VARIATIONS
+• Make low serves look like your flick serve to confuse your opponent.
+• Serve mainly to the centre in doubles, so you can cover returns to both sides equally. However, also develop the skill to vary serves along the front service line to keep your opponent guessing
+and disrupt their favourite returns.
+• Serve slightly further into court in singles to restrict the opportunity for your opponent to play tight shots to the net.
+• In singles, backhand low serves can be delivered with a longer grip and deeper in the court.
+
+c. Forehand Flick Serve
+WHERE THE SHUTTLE GOES WHEN WE USE IT WHY WE USE IT
+To follow the laws of the game, the shuttle
+must travel from one service box to the
+diagonally opposite service box. Singles
+flick serves can go to the back line.
+You use forehand flick serves at the start of
+the rally when you are in a defensive/neutral
+situation. They are mainly used in women’s
+singles, but can be used in any event.
+You aim to force your opponent backwards and
+make them off-balance by making them believe
+you are going to low serve.
+WHAT TO COACH
+PREPARATION
+• Sideways stance within service box.
+• Basic grip.
+• Racket and shuttle in elevated
+position.
+• Weight on rear leg.
+BACKSWING
+• Begin transfer of weight forwards.
+• Drop the shuttle to the side/in front
+• Lower the racket.
+• Bend the wrist and supinate the forearm.
+FORWARD SWING
+• Continue weight transfer to front foot.
+• Swing racket forwards.
+• Accelerate racket head by pronating
+forearm and straightening wrist.
+• Strike hard through the shuttle – in front
+and to side of body.
+FOLLOW-THROUGH
+• Momentum carries racket through high and long.
+
+HOW TO COACH - INTRODUCTORY PRACTICES FOR A FOREHAND FLICK SERVE
+Forehand serves are slightly more challenging than backhand serves because they involve striking a dropping shuttle. This challenge is addressed in the practices described below.
+In order for players to experience immediate success:
+• encourage them to use a basic grip;
+• place the shuttle onto the strings of the racket. (The player will need to bend forwards slightly to achieve this.);
+• create a short backswing by cocking the wrist;
+• flick the shuttle out of the hand.
+• In small teams (e.g., groups of 3), each player carries a shuttle in their non-racket hand and waits behind the back line of the court.
+• In turn the players run forwards to where a shuttle tube is placed on the court. From an upright standing position, players aim to drop the shuttle into the tube.
+• If they miss the tube, they pick up the shuttle and return to the back of the queue. Once all shuttles are in the tube, it is emptied and the team carries on trying to improve their score.
+• The game finishes at an agreed set time.
+Putting the previous two practices together, players aim to gradually:
+• increase the distance the shuttle is dropped;
+• increase the length of swing;
+• increase the amount of weight transfer.
+Two players stand on opposite sides of the net. They place a target close to the rear service line of their service box. The two players then have alternate forehand flick serves, scoring how many
+times they hit the target. After a set time (e.g., three minutes) scores are compared to find a winner. If it’s a draw, hit the shuttle in the air and whichever way it points is the winner. Winners move up
+the hall, losers move down the hall to take on a new opponent.
+Play a game where only forehand flick serves are allowed. Consider:
+• allowing players two attempts, so if they hit the first serve out or into the net then they get another go;
+• rotating serves, so everyone gets an equal amount of serving practice;
+• having the receiver stand in different positions and carry their racket in different positions. The server must adjust where they place their flick serve (e.g., wide, to centre, etc.).
+HINTS, TIPS AND VARIATIONS
+• Make your low and flick serves look the same in order to confuse your opponent and force them off-balance.
+
+d. Forehand Low Serve
+WHERE THE SHUTTLE GOES WHEN WE USE IT WHY WE USE IT
+To follow the laws of the game, the shuttle
+must travel from one service box to the
+diagonally opposite service box. Low
+serves travel to the front of your opponent’s
+service box.
+Used mainly in women’s singles to start the
+rally, from a defensive/neutral situation.
+Restrict your opponent’s opportunity to attack.
+Help create attacking opportunities for yourself.
+WHAT TO COACH
+PREPARATION
+• Sideways stance within service box.
+• Basic grip.
+• Racket and shuttle held high.
+• Weight on rear leg.
+BACKSWING
+• Begin transfer of weight forwards.
+• Drop the shuttle to the side/in front.
+• Lower the racket.
+• Bend the wrist and supinate the forearm.
+FORWARD SWING
+• Swing racket forwards.
+• Maintain bent wrist.
+• Strike shuttle in front/to side.
+• Push through the shuttle.
+FOLLOW-THROUGH
+•  Bring racket to ready position.
+
+INTRODUCTORY PRACTICES FOR A FOREHAND LOW SERVE
+Forehand serves are slightly more challenging than backhand serves because they involve striking a dropping shuttle. This challenge is addressed in the practices described below.
+• In order for players to experience immediate success, encourage them to use a basic grip and place the shuttle onto the strings of the racket. The player will need to bend forwards slightly to
+achieve this.
+• Create a short backswing by bending the wrist and supinating the forearm.
+• Maintaining this cocked wrist position, the player pushes through the shuttle.
+• In small teams (e.g., groups of 3), each player carries a shuttle in their non-racket hand and waits behind the back line of the court.
+• In turn the players run forwards to where a shuttle tube is placed on the court. From an upright standing position players aim to drop the shuttle into the tube.
+• If they miss the tube they pick up the shuttle and return to the back of the queue.
+• Once all shuttles are in the tube, it is emptied and the team carries on trying to improve their score. Stop the game at a set time.
+Putting the previous two practices together, players aim to gradually:
+o Increase the distance the shuttle is dropped;
+o Increase the length of swing;
+• To aid wait transfer, push the rear hip forwards followed fluently by the forward movement of the racket.
+Target practices
+• Using the above action, push the shuttle into targets placed 4 – 6 metres away from the server. Do not use a net.
+• Two players stand on opposite sides of the net.
+• They place a target close to the front service line of their service box.
+• The two players then have alternate forehand low serves, scoring how many times they hit the target.
+• After a set time (e.g., 3 minutes) scores are compared to find a winner. If it’s a draw, hit the shuttle in the air and whichever way it points is the winner. Winners move up the hall, losers move
+down to take on a new opponent.
+Play a game where only forehand low serves are allowed.
+Consider:
+o allowing players two attempts, so if they hit the first serve out or into the net then they get another go;
+o rotating serves, so everyone gets an equal amount of serving practice;
+o having the receiver stand in different positions and carry their racket in different positions. The server must adjust where they place their low serve (e.g., wide, to centre, at the player, etc.).
+HINTS, TIPS AND VARIATIONS
+• Make your low, flick and high serves look the same to confuse your opponent.
+• Vary where you serve to create challenges for the opponent.
+• In singles, serve slightly further into the court to restrict your opponent playing tight to the net.
+
+e. Forehand High Serve
+WHERE THE SHUTTLE GOES WHEN WE USE IT WHY WE USE IT
+To follow the laws of the game, the shuttle
+must travel from one service box to the
+diagonally opposite service box. High
+serves travel to the rear of your opponent’s
+service box, dropping vertically. High
+serves also tend to be towards the centre
+of the court, which restricts the angles of
+return that can be stuck by the receiver.
+The forehand high serve is used in singles to
+begin the rally, from a neutral/defensive
+position.
+Forehand high serves are used in women’s
+singles and sometimes in men’s singles.
+• As a variation (creating a different challenge
+to low or flick serves).
+• Forces player to look up more, so they can be
+less aware of the server’s position.
+WHAT TO COACH
+PREPARATION
+• Adopt a sideways stance within
+service box.
+• Basic grip.
+• Racket and shuttle in elevated
+position.
+• Weight on rear leg.
+BACKSWING
+• Begin transfer of weight forwards.
+• Drop the shuttle to the side/in front.
+• Lower the racket.
+• Bend the wrist and supinate the forearm.
+FORWARD SWING
+• Continue weight transfer to front foot.
+• Swing racket forwards.
+• Accelerate racket head by pronating
+forearm and straightening wrist.
+• Strike under shuttle – hard, in front and to
+side of body.
+FOLLOW-THROUGH
+• Momentum carries racket through high
+and long.
+
+HOW TO COACH - INTRODUCTORY PRACTICES - FOREHAND HIGH SERVE
+In order to develop a forehand high serve, it is recommended to learn a flick serve first, then develop a longer swing and hit more underneath the shuttle.
+In order for players to experience immediate success, encourage them to use a basic grip and place the shuttle onto the strings of the racket. The player will need to bend forwards slightly to achieve
+this. Create a short backswing by cocking the wrist and then, maintaining this bent wrist position, the player flicks the shuttle.
+In small teams (e.g., groups of 3), each player carries a shuttle in their non-racket hand and waits behind the back line of the court. In turn the players run forwards to where a shuttle tube is placed
+on the court. From an upright standing position players aim to drop the shuttle into the tube. If they miss the tube, they pick up the shuttle and return to the back of the queue. Once all shuttles are in
+the tube, it is emptied and the team carries on trying to improve their score. The game finishes at an agreed set time.
+Putting the previous two practices together, players aim to gradually:
+• increase the distance the shuttle is dropped;
+• increase the length of swing. Many players will eventually start their swing with a high racket carriage;
+• increase the amount of weight transfer.
+• Set targets in the rearcourt.
+• Make targets larger for weaker players, small for better players.
+Play a game where only forehand high serves are allowed. Consider:
+o a llowing players two attempts, so if they hit the first serve out or into the net then they get another go;
+o alternating serves, so everyone gets an equal amount of serving practice;
+• Serve must achieve a certain height, possibly judged by a “height umpire” or judging against a point on the sports hall wall. If the serve does not reach the agreed height, then the point is lost.
+HINTS, TIPS AND VARIATIONS
+•     Some players do not need to carry their racket so high at the beginning, preferring to start with the racket well back, wrist bent and forearm supinated.
+
+12. INTRODUCTION TO FORECOURT STROKES
+Forecourt strokes are defined as those that are played from an area between the net and the low service line. This is indicated by the red shaded area on the
+diagram below. A player on the right of the court will play forecourt strokes from this red area.
+Forecourt strokes include:
+• Backhand and forehand net lifts, which can be an attacking, defensive or neutral (rally-building) option.
+• Backhand and forehand net shots, which tend to be more attacking in nature.
+• Backhand and forehand net kills, which are definitely an attacking option.
+Of course there are times when these strokes can be played from other parts of the court (for example, l ifts and net shots from the midcourt). However, when
+starting off as a player or coach, it is useful to organise the strokes under the heading of “forecourt strokes” to give a starting structure for their delivery.
+These sections focus on the basic straight versions of these strokes. However, cross -court versions can be developed by applying the principles outlined in
+the section on how to hit cross-court strokes.
+
+a. Backhand Net Shot
+WHERE THE SHUTTLE GOES WHEN WE USE IT WHY WE USE IT
+Net shots travel from forecourt to forecourt
+as close to top of the net as possible.
+When we are in the forecourt and the shuttle
+has dropped below tape height
+(defensive/neutral area).
+• To bring opponent forwards, creating
+possible opportunities in the rearcourt.
+• T o force the opponent to lift, and in doing
+so, create an attacking opportunity.
+WHAT TO COACH
+PREPARATION
+• Use a basic grip.
+• Hold racket out in front of body.
+BACKSWING
+• Establish relaxed thumb grip.
+• Use a relaxed reach.
+• Rotate arm.
+• Present racket strings to shuttle.
+FORWARD SWING
+• Use momentum of whole body.
+• Push through shuttle.
+FOLLOW-THROUGH
+• Bring racket up ready to anticipate
+opponent's next stroke.
+
+HOW TO COACH - INTRODUCTORY PRACTICES FOR A BACKHAND NET SHOT
+• Establish a thumb grip, with racket held out in front of body.
+• Partner hand feeds shuttles.
+• Player pushes shuttles gently into the air.
+• Player aims to land shuttles on a target – no net.
+• Establish a thumb grip, with racket held out in front of body.
+• Partner hand feeds shuttles over net.
+• Player pushes shuttles gently back over net.
+• Recover racket to start position.
+• Player A stands in the rearcourt and hand feeds a shuttle over the net to Player B.
+• Player B uses a backhand net shot, aiming to land the shuttle into the forecourt.
+• Player A moves forwards to catch the shuttle, but only after the shuttle is struck.
+• Player B has 10 attempts and scores one point if they force Player A to step into the forecourt, three points if they land the shuttle in the forecourt.
+• To involve more players, have two feeders and two hitters who alternate.
+• Players A and B have a continuous net rally, backhand to backhand.
+• Players experiment with spinning the shuttles, with the emphasis being on a right to left action.
+• Form two teams of 3-4 players, with the teams facing each other across the net.
+• Players take alternating backhand net shots, rotating towards the centre of the court after each shot.
+• The shuttle is out if it lands beyond the low service line.
+HINTS, TIPS AND VARIATIONS
+When closer to the net, spinning the shuttle on net shots makes it difficult for the opponent to return the shuttle. This can be achieved by hitting across the bottom of the shuttle in a slightly curved
+path. Shuttles spin more naturally if the racket is moved from right to left under the shuttle, although they can be made to spin the other way as well.
+
+b. Forehand Net Shot
+WHERE THE SHUTTLE GOES WHEN WE USE IT WHY WE USE IT
+Net shots travel from forecourt to forecourt
+as close to top of the net as possible.
+When we are in the forecourt and the shuttle
+has dropped below tape height
+(defensive/neutral area).
+• To bring opponent forwards, creating
+possible opportunities in their rearcourt.
+• T o force the opponent to lift, and in doing
+so, create an attacking opportunity.
+WHAT TO COACH
+PREPARATION
+• Use a basic grip.
+• Hold racket out in front of body.
+BACKSWING
+• Use a relaxed reach.
+• Rotate arm.
+• Present racket strings to shuttle.
+FORWARD SWING
+• Use momentum of whole body.
+• Push through shuttle.
+FOLLOW-THROUGH
+• Bring racket up ready to anticipate
+opponent's next stroke.
+
+HOW TO COACH - INTRODUCTORY PRACTICES FOR A FOREHAND NET SHOT
+• Establish a basic grip, with racket held out in front of body.
+• Partner hand feeds shuttles.
+• Player pushes shuttles gently into the air.
+• Aims to land shuttles on a target – no net.
+• Establish a basic grip, with racket held out in front of body.
+• Partner hand feeds shuttles over net.
+• Player pushes shuttles gently back over net.
+• Recover racket to start position.
+• A stands in the rearcourt and hand feeds a shuttle over the net to B.
+• B uses a forehand net shot, aiming to land the shuttle into the forecourt.
+• A moves forwards to catch the shuttle, but only after the shuttle is struck.
+• B has 10 attempts and scores one point if they force A to step into the forecourt, three points if they land the shuttle in the forecourt.
+• To involve more players, have two feeders and two hitters who alternate.
+• Players A and B have a continuous net rally, forehand to forehand.
+• Players experiment with spinning the shuttles, with the emphasis being on a right to left action.
+• Form two teams of 3-4 players, the teams facing each other across the net.
+• Players take alternating backhand net shots, rotating towards the centre of the court after each shot.
+• The shuttle is out if it lands beyond the low service line.
+HINTS, TIPS AND VARIATIONS
+Spinning the shuttle on net shots makes it difficult for the opponent to return the shuttle. This can be achieved by hitting across the bottom of the shuttle in a slightly curved path. Shuttles spin more
+naturally if the racket is moved from right to left under the shuttle, although they can be made to spin the other way as well.
+
+c. Backhand Net Lift
+WHERE THE SHUTTLE GOES WHEN WE USE IT WHY WE USE IT
+Net lifts travel from the forecourt to the
+rearcourt. Attacking lifts travel just high
+enough to beat your opponent’s racket.
+Defensive lifts go higher.
+• When you are in the forecourt and the
+shuttle has dropped just below tape height
+when you strike it (into the neutral area) –
+this creates opportunity for attacking lift.
+• When you are in the forecourt and the
+shuttle has dropped well below tape height
+(into your defensive area) – a defensive lift
+may be necessary.
+• Attacking lifts aim to get the shuttle behind
+your opponent to force a weaker return.
+• Higher defensive lifts push your opponent
+back and allow more time for the player
+playing the stroke to recover their position
+and balance.
+WHAT TO COACH
+PREPARATION
+• Use a basic grip.
+• Hold racket out in front of body.
+FOREHAND SWING
+• Establish a thumb grip.
+• Use a relaxed reach.
+• Rotate arm inwards.
+• Use a slight bend of elbow.
+FORWARD SWING
+• Reach and rotate arm outwards.
+• Hit through shuttle.
+FOLLOW-THROUGH
+• Racket momentum causes arm to rotate
+outwards as it relaxes.
+
+HOW TO COACH - INTRODUCTORY PRACTICES FOR A BACKHAND NET LIFT
+• Using a soft ball, hit against wall with control. Allow the ball to bounce each time and focus on the use of the thumb, forearm rotation and a flicking action.
+• Progress to:
+1. v olleying the ball against the wall.
+2. volleying a shuttle against the wall.
+• Player A stands in the forecourt and hand feeds a shuttle over the net to Player B.
+• Player B uses a backhand net lift, aiming to land it in the rearcourt.
+• Player A can move back to catch the shuttle, but:
+1. they can only move back once the shuttle is struck;
+2. they cannot turn their back on the net.
+• Player B has 10 attempts and scores one point if they force Player A to step into the rear tramlines, three points if they land the shuttle in the rear tramlines.
+• To involve more players, have two feeders and two hitters who alternate.
+• The game can also be expanded to include straight and cross-court lifts.
+• Predictable rallies that can be used to develop backhand lifting skills include:
+1. Two players - one player lifts and one player performs dropshots
+2. Three players – dropshot, netshot, netshot, lift, then repeat
+3. Two players – clear, dropshot, net shot, lift, then repeat
+• Two players play net shots against each other.
+• When ready, one player plays a backhand net lift.
+• The rally is then played to a conclusion.
+HINTS, TIPS AND VARIATIONS
+• Cross-court lifts are a slightly shorter action as you are hitting the side of the shuttle. Straight lifts are a little longer so you can get underneath the shuttle.
+• Very defensive, high lifts tend to have a very long action with more elbow bend.
+• Make your lifts look like net shots wherever possible.
+
+d. Forehand Net Lift
+WHERE THE SHUTTLE GOES WHEN WE USE IT WHY WE USE IT
+Net lifts travel from the forecourt to the
+rearcourt. Defensive lifts go higher. More
+attacking lifts travel just high enough to beat
+your opponent’s racket.
+• When you are in the forecourt and the
+shuttle has dropped below well below tape
+height as you strike it (in your defensive
+area).
+• When you are in the forecourt and the
+shuttle has dropped just below tape height
+when you strike it (in your neutral area).
+• Higher defensive lifts push your opponent
+back and allow more time for the player
+playing the stroke to recover their position
+and balance.
+• Attacking lifts aim to get the shuttle behind
+your opponent to force a weaker return.
+WHAT TO COACH
+PREPARATION
+• Use a basic grip.
+• Hold racket out in front of body.
+BACKSWING
+• Use a relaxed reach.
+• Rotate arm outwards.
+• Bend wrist.
+FORWARD SWING
+• Straighten wrist.
+• Hit through the shuttle.
+FOLLOW-THROUGH
+• Racket momentum causes arm to rotate
+inwards as it relaxes.
+
+HOW TO COACH - INTRODUCTORY PRACTICES FOR A FOREHAND NET LIFT
+• Using a soft ball, hit against wall with control. Allow the ball to bounce each time and focus on the use of the basic grip, wrist and forearm rotation and a flicking action. Progress to:
+1. volleying the ball against the wall.
+2. volleying a shuttle against the wall.
+• Player A stands in the forecourt and hand feeds a shuttle over the net to player B.
+• Player B uses a forehand net lift, aiming to land it in the rearcourt.
+• Player A can move back to catch the shuttle, but:
+1. they can only move back once the shuttle is struck;
+2. they cannot turn their back on the net.
+• Player B has 10 attempts and scores one point if they force Player A to step into the rear tramlines, three points if they land the shuttle in the rear tramlines.
+• To involve more players, have two feeders and two hitters who alternate.
+• The game can also be expanded to include straight and cross-court lifts.
+• Predictable rallies that can be used to develop forehand lifting skills include:
+1. Two players- one player lifts and one player performs dropshots (1).
+2. Three players– dropshot, netshot, netshot, lift, then repeat.
+3. Two players– clear, dropshot, net shot, lift, then repeat.
+• Two players play net shots against each other.
+• When ready, one player plays a forehand net lift.
+• The rally is then played to a conclusion.
+HINTS, TIPS AND VARIATIONS
+• Cross-court lifts are a slightly shorter action as you are hitting the side of the shuttle. Straight lifts are a little longer so you can get underneath the shuttle.
+• Very defensive, high lifts tend to have a very long action, with more movement from the shoulder.
+• Make your lifts look like net shots wherever possible in preparation for the stroke.
+
+e. Backhand Net Kill
+WHERE THE SHUTTLE GOES WHEN WE USE IT WHY WE USE IT
+Net kills travel from the forecourt to the
+midcourt of your opponent in a rapid
+downwards direction. Kills can be directed
+into space or into the body of your opponent.
+Backhand net kills are used when you are in
+the forecourt and the shuttle is above tape
+height at the point of impact (your attacking
+zone).
+Backhand net kills are used to try to win the
+rally, or to force your opponent to play
+another weak return.
+WHAT TO COACH
+PREPARATION
+• Use a basic grip.
+• Hold racket out in front of body.
+BACKSWING
+• Establish thumb grip.
+• Raise and bend elbow.
+• Rotate lower arm inwards.
+FORWARD SWING
+• Straighten arm.
+• Rotate lower arm outwards.
+FOLLOW-THROUGH
+• Racket momentum causes arm to
+rotate outwards as it relaxes.
+• Recover racket quickly to anticipate a
+return.
+
+HOW TO COACH - INTRODUCTORY PRACTICES FOR A BACKHAND NET KILL
+• Copy the coach, then shadow the stroke without the coach to copy.
+• Shadow the stroke with eyes closed to get a feel for the stroke.
+• Hand feed a shuttle for player to practice net kill (no net).
+• Make sure feeder is in a safe position and players instructed not to strike shuttle at feeder.
+• “Catcher” can be added – player catches shuttle (in a shuttle tube?). Catcher returns shuttle immediately to feeder to repeat cycle.
+• Repeat the above practice but over a net (lower net for younger players).
+• Vary feed so players make choices between net kill and net shot.
+HINTS, TIPS AND VARIATIONS
+• Close to the net, the action is very short.
+• When the shuttle is close to the net, you sometimes have to hit across the shuttle to avoid striking the net.
+• Consider killing the shuttle into the body of the opponent, as well as straight and cross-court.
+
+f. Forehand Net Kill
+WHERE THE SHUTTLE GOES WHEN WE USE IT WHY WE USE IT
+Net kills travel from the forecourt to the
+midcourt of your opponent in a rapid
+downwards direction. Kills can be directed
+into space or into the body of your
+opponent.
+Forehand net kills are used when you are in
+the forecourt and the shuttle is above tape
+height at the point of impact (your attacking
+zone).
+Forehand net kills are used to try to win the
+rally, or to force your opponent to play another
+weak return.
+WHAT TO COACH
+PREPARATION
+• Use a basic grip.
+• Hold racket out in front of body.
+BACKSWING
+• Adjust grip to panhandle.
+• Bend elbow.
+• Rotate upper and lower arm outwards.
+FORWARD SWING
+• Reach forwards by straightening elbow.
+• Rotate upper and lower arm inwards.
+• Hit powerfully downwards.
+FOLLOW-THROUGH
+• As arm relaxes, racket momentum
+causes further arm rotation inwards.
+• Recover racket quickly to anticipate a
+return.
+
+HOW TO COACH - INTRODUCTORY PRACTICES FOR A FOREHAND NET KILL
+• Copy the coach, then shadow the stroke without the coach to demonstrate.
+• Shadow the stroke with eyes closed to get a feel for the stroke.
+• Hand feed a shuttle for player to practice net kill (no net).
+• Make sure feeder is in a safe position and players instructed not to strike shuttle at feeder.
+• “Catcher” can be added – player catches shuttle (in a shuttle tube?). Catcher returns shuttle immediately to feeder to repeat cycle.
+• Repeat above practice but over a net (lower net for younger players).
+• Vary feed so players make choices between net kill and net shot.
+HINTS, TIPS AND VARIATIONS
+• Close to the net, the action is very short.
+• When the shuttle is close to the net, you sometimes have to hit across the shuttle to avoid striking the net.
+• Consider killing the shuttle into the body of the opponent, as well as straight and cross-court.
+
+13. INTRODUCTION TO MIDCOURT STROKES
+Midcourt strokes are defined as those that are played from the middle third of the court. This is indicated by the red shaded area on the diagram below. A
+player on the right of the court will play midcourt strokes from this red area.
+Midcourt strokes covered here include:
+• backhand and forehand drive, which can be an attacking or neutral (rally-building) option;
+• backhand blocks off the body, which can also be an attacking or neutral (rally-building) option.
+Of course there are times when these strokes can be played from other parts of the court (for example, drives from the rearcourt).  However, when starting off
+as a player or coach, it is useful to organise the strokes under the heading of “midcourt strokes” to give a starting structure for their delivery.
+
+a. Block Off the Body
+WHERE THE SHUTTLE GOES WHEN WE USE IT WHY WE USE IT
+Backhand blocks off the body travel from the
+midcourt to the forecourt/midcourt of your
+opponent.
+Backhand blocks are used when you are in
+defensive situations, returning a smash to the
+body. They are used mainly in doubles and
+less frequently in singles.
+Backhand blocks can be used to:
+• restrict the opponent’s opportunity to
+attack.
+• create an attacking opportunity by striking
+the block into space and forcing the
+opponent to hit their next shot upwards.
+WHAT TO COACH
+PREPARATION
+• Use a basic grip.
+• Hold racket out in front of body.
+BACKSWING
+• Establish relaxed thumb grip.
+• Move elbow forwards.
+• Bend elbow.
+• Open racket face (upper and lower arm
+rotation, bent wrist).
+FORWARD SWING
+• Extend elbow.
+• Keep racket face open to hit slightly
+underneath shuttle.
+• Push through shuttle.
+• (In this photo, player steps in on racket
+foot – not always possible).
+FOLLOW-THROUGH
+• Racket momentum causes arm to rotate
+outwards as it relaxes.
+• Re-establish basic grip and racket
+position in front of body.
+
+HOW TO COACH - INTRODUCTORY PRACTICES FOR A BACKHAND BLOCK
+• Copy the coach and shadow the stroke.
+• Shadow the stroke without the coach.
+• Shadow the stroke with eyes closed – “feel the stroke”.
+• Overhead hand feed shuttle and block shuttle back to feeder.
+• Block shuttles back to each other (no net).
+• Player in forecourt hits down to body of player in midcourt who blocks this back.
+• Repeat with four players so blocking players must block cross-court off a straight shot, straight off a cross-court shot.
+HINTS, TIPS AND VARIATIONS
+• To lift the shuttle, aim to strike underneath the shuttle and hit it harder.
+• To drive the shuttle, hit flatter and harder.
+
+b. Backhand Drive
+WHERE THE SHUTTLE GOES WHEN WE USE IT WHY WE USE IT
+Backhand drives are flat shots that tend to
+travel from midcourt to midcourt or rearcourt
+of your opponent.
+Backhand drives tend to be used in neutral
+situations when the shuttle is neither high
+enough to attack downwards, nor low enough
+to use upwards defensive strokes.
+As well as on the backhand side, backhand
+drives are also used when the shuttle is
+directly in front of the body.
+Backhand drives can be used to:
+• restrict the opponent’s opportunity to attack.
+• create an attacking opportunity for the
+player striking the drive by hitting into space
+or into the body of the opponent.
+WHAT TO COACH
+PREPARATION
+• Use a basic grip.
+• Hold racket out in front of body.
+BACKSWING
+• Retain basic grip if striking at the side of the
+body, adjust to thumb grip if striking in front
+(as in this example).
+• Move elbow up, forwards and bent.
+• Rotate upper and lower arm inwards.
+FORWARD SWING
+• Straighten elbow.
+• Rotate lower arm outwards.
+• Hit hard through the shuttle.
+FOLLOW-THROUGH
+• Recovery racket quickly using a rebound
+action and get ready for the next shot.
+
+HOW TO COACH - INTRODUCTORY PRACTICES FOR A BACKHAND DRIVE
+• Copy the coach shadowing the stroke.
+• Shadow the stroke without the coach.
+• Shadow the stroke with eyes closed – “feel the stroke”.
+• Strike a suspended shuttle with a backhand drive action.
+• Strike a hand-fed shuttle with a flat action, no net (take care that feed is slightly to side of hitter and on non-racket side to reduce chance of being struck by the shuttle).
+• Players drive shuttle backwards and forwards to each other with no net.
+• From the net, feeder throws downward with an overhead action, immediately dropping down behind the net. Player drives shuttle back straight or cross-court.
+HINTS, TIPS AND VARIATIONS
+• You can play this by bringing the racket foot across the body, which might be necessary if the shuttle is very wide.
+• A corner grip can be used to hit a drive when the shuttle is at the side of the player or when you wish to play the shuttle cross-court.
+• Less time will mean you will not be able to pronate the forearm so much – the angle between the arm and racket will be greater.
+• The drive action is shorter if struck in front of the body.
+• Soften the hit to block to the net.
+
+c. Forehand Drive
+WHERE THE SHUTTLE GOES WHEN WE USE IT WHY WE USE IT
+Forehand drives are flat shots that tend to
+travel from midcourt to midcourt or rearcourt
+of your opponent.
+Forehand drives tend to be used in neutral
+situations when the shuttle is neither high
+enough to attack downwards, nor low
+enough to use upwards defensive strokes.
+Forehand drives can be used to:
+• restrict the opponent’s opportunity to
+attack.
+• create an attacking opportunity for the
+player striking the drive by hitting into
+space or into the body of the opponent.
+WHAT TO COACH
+PREPARATION
+• Use a basic grip.
+• Hold racket out in front of body.
+BACKSWING
+• Retain basic grip if striking at the side of the
+body, adjust to panhandle if striking in front (as in
+this example).
+• Use raised but bent elbow.
+• Rotate upper and lower arm outwards.
+• Bend wrist.
+FORWARD SWING
+• Straighten elbow.
+• Rotate upper and lower arm inwards.
+• Strike in front of body (panhandle grip)
+or side of body (basic grip).
+FOLLOW-THROUGH
+• Rotation of forearm will continue after
+impact.
+• Recover racket quickly in preparation
+for next shot.
+
+HOW TO COACH - INTRODUCTORY PRACTICES FOR A FOREHAND DRIVE
+• Copy the coach shadowing the stroke.
+• Shadow the stroke without the coach.
+• Shadow the stroke with eyes closed – “feel the stroke”.
+• Strike a suspended shuttle using a forehand drive action.
+• Strike a hand-fed shuttle with a flat action with no net (take care that feed is slightly to side of hitter and on non-racket side to reduce chance of being struck by the shuttle).
+• Players drive shuttle backwards and forwards to each other with no net.
+• From the net, feeder throws downwards with an overhead action, immediately dropping down behind net. Player drives shuttle back straight or cross-court.
+HINTS, TIPS AND VARIATIONS
+• A panhandle grip can be used to hit a drive when the shuttle is further in front of you.
+• Less time will mean you will not be able pronate the forearm so much – the angle between the arm and racket will be greater.
+• Soften the hit to block to the net.
+
+14. INTRODUCTION TO REARCOURT STROKES
+Rearcourt strokes are defined as those that are played from the back third of the court. This is indicated by the red shaded area on the diagram below. A
+player on the right of the court will play rearcourt strokes from this red area.
+Rearcourt strokes covered here include:
+• forehand clears, which can be attacking, defending or neutral (rally-building);
+• forehand smashes, which are attacking;
+• forehand dropshots, which can be attacking, defending or neutral (rally-building);
+• backhand clears, which are defensive;
+• forehand and backhand pulled dropshots, which are neutral (rally-building).
+
+a. Forehand Clear
+WHERE THE SHUTTLE GOES WHEN WE USE IT WHY WE USE IT
+Clears go from your rearcourt to the
+rearcourt of your opponent.
+Attacking clears travel at a height just out of
+reach of your opponent’s racket. More
+defensive clears are slightly higher.
+Clear are used when we are in position in the
+rearcourt.
+Clears push your opponent back, creating
+space in the forecourt.
+Attacking clears aim to place the shuttle
+behind the opponent, creating pressure and
+potentially weaker returns.
+Defensive clears allow the person playing
+the stroke more time to recover their balance
+and court position.
+WHAT TO COACH
+PREPARATION
+• Basic grip.
+• Racket in overhead ready position.
+• Front arm up.
+• Sideways stance.
+BACKSWING
+• Drive up and forwards off rear leg.
+• Push rear hip forwards.
+• Rear shoulder and elbow move upwards and
+forwards.
+• Upper and lower arm rotate outwards.
+• Front arm pulls in to control body rotation.
+FORWARD SWING
+• Upper and lower arm rotate inwards.
+• Reach to strike shuttle powerfully
+above/slightly in front of racket shoulder.
+• Rear leg overtakes front leg (after
+impact).
+FOLLOW-THROUGH
+• Racket momentum causes arm to
+rotate inwards as it relaxes.
+• Rear foot lands to become the new
+front foot.
+
+HOW TO COACH - INTRODUCTORY PRACTICES FOR A FOREHAND CLEAR
+• Hold the racket at the “T”.
+• Hold shuttle above/slightly in front of the racket shoulder.
+• Place the racket handle at the side of the shuttle.
+• Using forearm rotation, strike the shuttle out of the hand.
+• Suspend a shuttle at a relaxed hitting height.
+• Hold the racket using a basic grip.
+• Reach up and place racket face on the shuttle.
+• Rotate forearm to point bottom of grip to shuttle.
+• Create angle between forearm and racket.
+• Reverse rotation and strike the shuttle.
+• Suspend a shuttle at a relaxed hitting height.
+• Hold the racket using a basic grip.
+• Adopt a sideway stance and a relaxed ready position.
+• Push rear hip forwards, commit elbow up and forwards and use forearm rotation to point bottom of grip to shuttle. Create an angle between racket and forearm.
+• Reverse rotation, reach and strike the shuttle.
+• Suspend a shuttle at a relaxed hitting height.
+• Hold the racket using a basic grip.
+• Form a relaxed ready position and step back to load rear leg.
+• Push aggressively upwards and forwards off rear leg.
+• Jump and throw racket head at the shuttle.
+• Kick through and land back foot – front foot in quick succession.
+• Repeat any of the above using a hand-fed shuttle.
+HINTS, TIPS AND VARIATIONS
+• “Holding” the stroke slightly between the backswing and forwards swing can help deceive your opponent as it affects their movement.
+
+b. Forehand Smash
+WHERE THE SHUTTLE GOES WHEN WE USE IT WHY WE USE IT
+Smashes go from your rearcourt to the
+midcourt of your opponent.
+Smashes can be struck into space, or into
+the body of the opponent.
+We use smashes when hitting down from
+our attacking zone.
+A forehand smash is a shot used in an attempt
+to win the rally, or to force a very weak return.
+WHAT TO COACH
+PREPARATION
+• Use a V-grip.
+• Adopt a relaxed ready position.
+• Step back to load rear leg, sideways
+stance.
+BACKSWING
+• Jump and begin rotating in the air, elbow up-
+forwards, supinate forearm (“brush your hair”).
+• Create angle between arm and racket.
+FORWARD SWING
+• Continue rotation in the air, throw racket
+head powerfully (pronate forearm).
+• Reach up to strike shuttle. Impact in
+front of striking shoulder.
+FOLLOW-THROUGH
+• Finish rotation and land.
+• Relaxation allows continued forearm
+rotation.
+• Racket stays in front of body.
+
+HOW TO COACH - INTRODUCTORY PRACTICES FOR A FOREHAND SMASH
+• The basic practices for forehand overhead hitting actions will all be of benefit to a player performing a forehand overhead smash.
+• Suspend a shuttle at a relaxed hitting height.
+• Hold the racket using a basic grip.
+• Form a relaxed ready shape and step back to load rear leg.
+• Push aggressively upwards and forwards off rear leg.
+• Jump and throw racket head at the shuttle.
+• Strike the shuttle in front of you and visualise hitting the shuttle down.
+• Kick through and land back foot – front foot in quick succession.
+• Hold the racket using a basic grip.
+• Form a relaxed ready position and step back to load rear leg.
+• Using an underarm action, a feeder places a shuttle high in the air.
+• Push aggressively upwards and forwards off rear leg.
+• Jump and throw racket head at the shuttle.
+• Strike the shuttle in front of you and hit the shuttle down.
+• Use a racket feed and repeat the above practice.
+• Add in targets to encourage steeper and more accurate hits.
+• Smash – block – block – lift.
+• Play a game of singles or doubles. If the rally is won with a smash, or the shot after a smash, then three points are scored rather than one.
+HINTS, TIPS AND VARIATIONS
+• Vary the pace of smashes to deceive your opponent and make them mistime their returns.
+• Smash into space or as an alternative, into the body.
+
+c. Forehand Dropshot
+WHERE THE SHUTTLE GOES WHEN WE USE IT WHY WE USE IT
+Dropshots go from your rearcourt to the
+forecourt of your opponent. Longer drops
+tend to land just beyond the low service
+line. Shorter dropshots land between the
+low service line and the net.
+Dropshots are used when we are in the
+attacking rearcourt zone.
+We use dropshots to:
+• make space in the rearcourt.
+• make our opponent off-balance.
+• encourage our opponent to lift.
+WHAT TO COACH
+PREPARATION
+• Use a basic grip.
+• Hold racket in overhead ready
+position.
+• Bring front arm up.
+• Establish sideways stance.
+BACKSWING
+• Drive up and forwards off rear leg.
+• Push rear hip forwards.
+• Rear shoulder/elbow move.
+• Upper and lower arm rotate outwards.
+FORWARD SWING
+• Upper and lower arm rotate inwards.
+• Reach to strike shuttle above/ slightly in
+front of striking shoulder.
+• Just prior to hitting rotation of arm stops -
+push through the shuttle.
+FOLLOW-THROUGH
+• Rear foot lands to become the new
+front foot.
+
+HOW TO COACH - INTRODUCTORY PRACTICES FOR A FOREHAND DROPSHOT
+• The basic practices for forehand overhead hitting actions will all be of benefit to a player performing a forehand dropshot.
+• Suspend a shuttle at a relaxed hitting height.
+• Hold the racket using a basic grip.
+• Form a relaxed overhead ready position and step back to load rear leg.
+• Push aggressively upwards and forwards off rear leg.
+• Jump and throw, then slow the racket head just before striking the shuttle.
+• Hold the racket using a basic grip.
+• Form a relaxed overhead ready position and step back to load rear leg.
+• Using an underarm action, a feeder places a shuttle high in the air.
+• Push aggressively upwards and forwards off rear leg.
+• Jump and throw, then slow the racket head just before striking the shuttle.
+• Use a racket feed and repeat the above practice.
+• Add in targets to encourage steeper and more accurate hits.
+• Dropshot – lift – dropshot – lift.
+• Play a game of singles or doubles. If the rally is won with a dropshot, or the shot after a dropshot, then three points are scored rather than one.
+HINTS, TIPS AND VARIATIONS
+• The above example shows a deceptive dropshot, where being aggressive with your body and speed of racket head in the first stages of the stroke puts your opponent off-balance by making
+them think it is a clear or smash.
+• Experiment with slicing the shuttle both right to left and left to right to increase the range and deception of your overhead strokes.
+
+d. Pulled Forehand Dropshot
+WHERE THE SHUTTLE GOES WHEN WE USE IT WHY WE USE IT
+Pulled forehand dropshots go from your
+rearcourt to the front of your opponent’s
+midcourt, with the shuttle being drawn
+towards (but not into) the middle of the
+court.
+Pulled forehand dropshots tend to be used in
+defensive situations, when the shuttle is behind
+you in the forehand corner.
+Pulled forehand dropshots are used to
+relieve pressure, restricting your opponent’s
+ability to attack the shuttle by:
+• m aking it more difficult to play tight to
+the net.
+• r estricting the angle of return of your
+opponent.
+WHAT TO COACH
+PREPARATION
+• Carry racket with racket head above
+hand.
+• Bend elbow.
+• Turn racket in hand towards a thumb
+grip (more turn if you want to hit
+cross-court).
+BACKSWING
+• Rotate upper and lower arm outwards.
+• Maintain bent elbow.
+FORWARD SWING
+• Straighten arm (relaxed reach).
+• Rotate upper and lower arm inwards.
+• Aim to get racket hand underneath shuttle.
+• Just prior to striking, reduce arm rotation
+and push through shuttle.
+• Impact slightly behind player.
+FOLLOW-THROUGH
+• Complete pushing through shuttle.
+• Use follow-through to help you turn
+quickly to face the net.
+
+HOW TO COACH - INTRODUCTORY PRACTICES FOR A FOREHAND PULLED DROPSHOT
+• Copy the coach shadowing the stroke.
+• Shadow the stroke without the coach.
+• Shadow the stroke with eyes closed – “feel the stroke”.
+• Stand sideways to a net or a wall.
+• Shadow the stroke.
+• Use the net/wall to help keep the racket head above the hand on the forward pull.
+• Suspend a shuttle.
+• Stand with the shuttle slightly behind and to your side.
+• Step towards the shuttle then strike it.
+• Recover to starting position.
+• Racket feed single shuttle over net.
+• Turn and step into stroke.
+• Strike shuttle.
+• Turn back to face net.
+• Feed new shuttle.
+HINTS, TIPS AND VARIATIONS
+• Experiment with changing your grip to change the racket face so you can play both straight and cross-court shots.
+
+e. Backhand Clear
+WHERE THE SHUTTLE GOES WHEN WE USE IT WHY WE USE IT
+Backhand clears go from your rearcourt to
+the rearcourt of your opponent.
+A backhand clear is used when the player is
+in a neutral or defensive situation.
+Backhand clears are used to create time for the
+striking player to turn and re-establish a
+balanced position on the court.
+WHAT TO COACH
+PREPARATION
+• Use a basic grip or corner grip (turn
+to panhandle if deeper).
+• Approach with elbow down, racket
+head up.
+BACKSWING
+• Maintain bent elbow.
+• Start to raise elbow and drop the racket head
+(upper/low arm rotates inwards).
+• Make sure backswing flows immediately into
+forward swing.
+FORWARD SWING
+• Straighten arm (relaxed reach).
+Rotate upper/lower arm outwards.
+• Impact at side/slightly behind player,
+with hand below the shuttle.
+• "Punch" the shuttle, hitting hard but
+stopping hand immediately on impact.
+FOLLOW-THROUGH
+• Hand stops, but racket head continues
+as racket bends.
+• As hand relaxes, racket rebounds
+backwards.
+
+HOW TO COACH - INTRODUCTORY PRACTICES FOR A BACKHAND CLEAR
+• Copy the coach shadowing the stroke.
+• Shadow the stroke without the coach.
+• Shadow the stroke with eyes closed – “feel the stroke”.
+• Suspend a shuttle.
+• Stand with back to net, shuttle slightly behind you.
+• Strike the shuttle.
+• Turn back to face the net.
+• Stand with back to wall.
+• Begin backswing.
+• Strike a hand-fed shuttle into the wall.
+• Turn back to face the wall.
+• Racket feed single shuttle over net.
+• Turn your back to the net.
+• Strike shuttle.
+• Turn back to face net.
+HINTS, TIPS AND VARIATIONS
+• Experiment with changing your grip and bending the wrist, and in doing so, changing the racket face so you can play both straight and cross-court clears.
+• This can be changed in a backhand smash by bending the wrist more on the forward swing to bring the shuttle down more.
+
+f. Backhand Pulled Dropshot
+WHERE THE SHUTTLE GOES WHEN WE USE IT WHY WE USE IT
+Backhand dropshots travel
+from the rearcourt to the front
+of the midcourt (just beyond
+the low service line).
+Pulled backhand dropshots tend to be used in
+defensive situations, when the shuttle is behind
+you in the backhand corner.
+Pulled backhand dropshots are used to
+relieve pressure, restricting your opponent’s
+ability to attack the shuttle by:
+• m aking it more difficult to play tight to the
+net.
+• r estricting the angle of return of your
+opponent.
+WHAT TO COACH
+PREPARATION
+• Use a corner grip (panhandle if deeper).
+• Approach with elbow down, racket head
+up.
+BACKSWING
+• Maintain bent elbow.
+• Start to raise elbow and drop the racket
+head (upper/low arm rotates inwards).
+• Make sure backswing flows immediately
+into forward swing (this position is not
+held).
+FORWARD SWING
+• Straighten arm (relaxed reach).
+• Rotate upper/lower arm outwards.
+• Just prior to striking, reduce arm rotation
+and push through shuttle.
+• Impact slightly behind player, with hand
+below the shuttle.
+FOLLOW-THROUGH
+• Complete pushing through shuttle and
+use racket momentum to help you turn
+quickly into court.
+
+HOW TO COACH - INTRODUCTORY PRACTICES FOR A BACKHAND PULLED DROPSHOT
+• Copy the coach shadowing the stroke.
+• Shadow the stroke without the coach.
+• Shadow the stroke with eyes closed – “feel the stroke”.
+• Stand sideways to a net or a wall.
+• Shadow the stroke.
+• Use the net/wall to help keep the racket head above the hand on the forward pull.
+• Suspend a shuttle.
+• Stand with back to net, shuttle behind you.
+• Step towards the shuttle then strike it.
+• Turn back to face the net.
+• Racket feed single shuttle over net.
+• Turn your back to the net.
+• Strike shuttle.
+• Turn back to face net.
+• Feed new shuttle.
+HINTS, TIPS AND VARIATIONS
+• The deeper the shuttle, or the more you wish to hit cross-court, the more you turn the grip to a panhandle position.
+• Plant the leading foot (right foot for a right hander) with or slightly before impact, allowing you to turn out of the stroke quickly.
+
+15. SUMMARY – PERFORMANCE FACTOR 2: TECHNICAL
+(HITTING SKILLS)
+The areas covered in the hitting-skills section are:
+• the basic biomechanical principles that underpin effective hitting;
+• practices to develop catching and throwing;
+• the different types of grips used in badminton and practices to develop them;
+• the different badminton strokes, including:
+o where they are played;
+o when they are played;
+o why they are played;
+o what they look like;
+o how to practice them.
+Since variety and deception are very important tactical tools for a badminton player, encourage
+experimentation, especially slicing the shuttle overhead and spinning the shuttle at the net. Basic
+methods to introduce these skills have been suggested, but these will be developed in more detail in
+the BWF Level 2 Coach Course.
+The most closely related parts of the handbook are:
+• movement and body skills;
+• devising progressive practices.
+Below is a short series of multiple-choice questions where you can check what you have remembered
+from the hitting-skills section.
+
+16. SELF-ASSESSMENT – HITTING SKILLS
+1 The grip to use for a forehand
+clear is:
+thumb grip
+corner grip
+basic grip
+universal grip
+2 In preparation for strokes, grips
+should be:
+relaxed
+tight
+loose
+short
+3 In the backswing of a forehand
+overhead the elbow should:
+stay low
+go across the body (left to right)
+move around the head
+go up and forwards
+4 Backhand low serves involve
+striking a:
+shuttle from the hand
+dropped shuttle
+thrown shuttle
+a wobbling shuttle
+5 On the backswing of a forehand
+lift, the backswing is best
+described as:
+swinging from shoulder
+reaching,  bending  wrist and supinating the
+forearm
+taking racket head behind body
+pushing the shuttle
+6 The impact point for a backhand
+overhead is:
+in front of the player
+slightly behind the player
+below the waist
+directly above the head of the player
+7 The grip for a backhand overhead
+is:
+thumb grip
+corner or basic grip
+very short grip
+universal grip
+
+8 On striking a forehand net shot,
+the racket head should be:
+level with the hand
+above the hand
+below the hand
+behind the hand
+9 Shuttles spin more at the net if
+they are hit:
+Right to left
+Left to right
+Right to left (forehand), left to right (backhand)
+Left to right (forehand), right to left (backhand)
+10 In preparing for a forehand
+overhead, to gain more power in
+the preparation phase:
+In a sideways stance, bring the rear leg forwards
+Adopt a square stance (parallel to net)
+In a sideways stance, step back to load rear leg
+In a sideways stance, keep both feet still
+
+BADMINTON COACH EDUCATION
+COACHES’ MANUAL
+LEVEL 1
+MODULE 8
+PERFORMANCE FACTOR 3
+TACTICS
+
+BADMINTON WORLD FEDERATION
+Unit 1, Level 29
+Naza Tower, Platinum Park
+10 Persiaran KLCC
+50088 Kuala Lumpur
+Tel +603 2631 9188
+Fax +603 2631 9688
+bwf@bwfbadminton.org
+MODULE 8
+PERFORMANCE FACTOR 3 - TACTICAL
+01. Badminton Defined 132
+02. Badminton “Situations” 132
+03. Importance of ‘Early’ to Badminton Performance 132
+04. Tactics Defined 133
+05. Related Coaching Skills 134
+06. Base Position 135
+07. Singles Tactics 136
+08. Doubles Tactics 148
+09. Mixed Doubles Tactics 170
+10. Self-Assessment Questions 180
+LEARNING OUTCOMES
+By the end of this module, coaches will be able to:
+• define the sport of badminton, including the aims of the game;
+• define tactics, including the identification of key underpinning concepts;
+• suggest basic tactical practices that heighten awareness and decision-making skills for:
+1. singles play;
+2. level doubles (men’s and women’s);
+3. mixed doubles.
+
+01. BADMINTON DEFINED
+Badminton is:
+• a net game;
+• played on a rectangular court;
+• a volleying game, with rallies beginning with an underarm serve.
+The aim of the game is to score points by:
+• landing the shuttlecock in your opponent’s court
+• forcing your opponent to hit the shuttlecock out of the court
+• forcing your opponent to hit the shuttlecock into the net
+• striking your opponent’s body with the shuttle
+02. BADMINTON “SITUATIONS”
+To perform well at badminton, players have to cope with three broad types of situations, which can be
+labelled:
+• attacking
+• neutral
+• defensive
+These situations are related to how high the shuttle is when it is being struck and how close the shuttle
+is to the net. These situations are represented in the illustration below.
+To be successful at badminton, players will have to make decisions about the type of stoke being
+played and this will largely be decided by the situation they are in: defensive, neutral or  attacking
+03. IMPORTANCE OF ‘EARLY’ TO BADMINTON
+PERFORMANCE
+Striking the shuttle ‘early’, in terms of both height and closeness to the net, means players will:
+• find themselves in attacking situations more often, with a greater number of opportunities to strike
+the shuttle downwards into their opponent’s court;
+• be able to exert more pressure on their opponents by giving them less time;
+• have more options as to the type of strokes that can be played.
+Defensive
+Neutral situations
+Attacking
+Early
+Net
+
+04. TACTICS DEFINED
+Tactics can be defined as:
+“the capacity to make effective decisions based on awareness of the situation.”
+From this definition we can see that tactics consists of two linked components:
+Tactical awareness is mainly about being able to ‘read’ each situation on the court, whereas decision
+making is reacting to the information that you have read. The two components that make up tactics are
+further expanded in the table below.
+TACTICAL AWARENESS  (READ)
+SPACE SELF OPPONENT PACE PARTNER
+• Using width
+effectively.
+• Using depth
+effectively.
+• Using height
+effectively.
+• My personal
+strengths.
+• My personal
+weaknesses.
+• Awareness of
+position on
+court.
+• Awareness of
+state of
+balance.
+• What they are
+good at?
+• What they are
+not good at?
+• What they are
+trying to do
+against me?
+• Is the pace I
+am hitting at
+helping me to
+win?
+• What are their
+strengths?
+• What are their
+weaknesses?
+• Where are they
+on the court?
+DECISION MAKING (REACT)
+• Decisions made prior to matches, for example deciding on a game plan .
+• Decisions made between rallies, for example a change of tactic based the outcome of
+previous rallies.
+• Decisions made between strokes in a rally, for example where to move to in order to
+anticipate your opponent’s return shot.
+Tactics
+Awareness
+(read)
+Decision
+making
+(react)
+
+05. RELATED COACHING SKILLS
+There are two coaching skills that can be very effective when developing the tactical skills of players.
+PROBLEM-SOLVING EXERCISES
+Since tactics involves players responding to the challenges presented by their opponent, it makes
+sense that players developing problem-solving skills will help them to progress their tactical skills.
+Practices that help the players to work out the answers for themselves, rather than the coach telling
+the players the answers, are highly effective.
+QUESTIONING SKILLS
+Always telling players the answers to challenges actually reduces their ability to develop tactically, as it
+means the coach is solving problems for them. Effective questioning therefore is a great coaching tool
+that helps players to develop problem-solving skills as it encourages them to come up with their own
+answers.
+
+06. BASE POSITION
+The ‘base position’ can be defined as:
+“the court position from which you are best able to deal with your opponent’s probable replies .”
+Other keys facts about the base position include:
+• t he base is a fluid position, not a set point on the court;
+• t he base position is where the player will perform a split step, timed with the opponent striking
+the shuttle.
+
+07. SINGLES TACTICS
+Men’s and women’s singles share some of the basic tactical approaches, such as use of space, playing  to your strengths, exploiting your opponent’s
+weaknesses, etc. Men’s singles generally is more attacking, which is generally a reflection on their additional speed and power. This means there is less
+clearing in men’s singles (with more hitting down) and low serves are used much more. Women’s singles requires a slightly more patient approach to creating
+attacking opportunities.
+WHAT TO COACH:
+Singles High Serve
+• The singles high serve is used
+mainly in women’s singles. It
+forces your opponent to the
+back, restricting the
+effectiveness of any attack, and
+gives the server time to react to
+the next shot.
+• High serves are used less in
+men’s singles, especially at the
+top level, as they can attack this
+serve more explosively.
+The high serve is usually directed towards the centre of the court, allowing
+the server to cover the angles of return more effectively.
+After serving high, take up a position slightly to the same side you have
+served to. This helps you cover the straight returns, which are not in the air
+as long as cross-court returns.
+HOW TO COACH:
+Singles High Serve
+HOW TO COACH
+• Mark target areas in the rearcourt that encourage players to hit both deep and to the centre. Make the target deeper and smaller for more competent
+players. This can be turned into a competition if alternating serves are used.
+• Play a game where only high serves are allowed. Use alternating serves so each player gets an equal amount of serving practice.
+• Mark targets on the court (e.g. using tape) encouraging players to serve centrally and deep.  Play a game where only high serves are allowed. Use
+alternating serves so each player gets an equal amount of serving practice. If the serve is left and lands outside the target, the point is lost.
+
+WHAT TO COACH:
+Return of High Serve
+When receiving a good-length high serve in
+women’s singles, flatter attacking clears, as played
+by the far side player in this photo, can be used to
+exert pressure and make your opponent off-
+balance.  Straight clears are easier to follow up
+than cross-court clears. Clears also give the
+receiver more time to respond to the next stroke.
+If the high serve is short, smashes can be used
+effectively. Straight smashes are easier to follow up
+than cross-court.
+Dropshots can also be used to attack a short high
+serve. Cross-court dropshots are a useful contrast
+to the straight smash, but be aware that a greater
+distance is required to follow-up.
+HOW TO COACH:
+Return of High Serve
+HOW TO COACH
+• Play a game of singles where one player serves 10 times and then the other player serves 10 times. Rallies are played as usual but two points are awarded
+if a rally is won when a particular stroke (e.g. straight clear) is used to return serve. This can be used to raise awareness of using particular returns of serve
+effectively.
+• Players work in a group of three, with one player standing outside the court. The remaining two players play singles normally to five points, but if a player
+wins the rally with a smash return of serve, or their next shot, they win the match. The player who is off court will therefore have their turn if:
+o o ne player reaches five points – the loser of the game will be replaced;
+o o ne player wins a rally with a smash return of serve or their next shot.
+• Players are restricted to using only two possible returns of serve (e.g. a straight clear and a cross-court dropshot). Players otherwise play as normal. At the
+end of the game the coach facilitates a discussion with each player as to the effectiveness of those returns against that particular opponent.
+
+WHAT TO COACH:
+Singles Low Serves
+Low serves, especially backhand
+low serves, are used a great deal in
+men’s singles. Forehand low
+serves are used more as a
+variation in women’s singles. Low
+serves can force the opponent to lift
+the shuttle.
+Low singles serves are usually delivered to the centre of the court to reduce
+the receiver’s angles of return.
+As a variation low serves can be directed more towards the receiver. This can
+disrupt their preferred return of serve.
+HOW TO COACH:
+Singles Low Serves
+HOW TO COACH
+• Set targets on both sides of the net, near the front of the service box and towards the centre of the court. Players have alternate serves, with the winner
+being the player that hits the target the most times in three minutes. This can be adapted so winners then challenge other winners in the hall for a further
+three minutes.
+• Play a singles game where only low serves are allowed. Receivers should start the rally from their normal receiving position and not break the rules by
+moving before the serve is delivered. Players can alternate serves as a way to make sure each player gets an equal amount of practice. Some variation,
+serving to the centre and at the player, should be encouraged.
+
+WHAT TO COACH:
+Return of Low Singles Serve
+Net shots can be effective in forcing a lift which you can attack. Consider:
+●  taking it early;
+●  making it look like a lift;
+●  spinning the shuttle;
+●  using the centre to cover the angles of return.
+Lifts have a better margin for error than net shots. Aim to put your opponent
+under pressure by placing the shuttle behind them and into the rearcourt
+corners. To do this:
+●    take the shuttle early;
+●    make it look like a net shot;
+●    use just enough height to be out of reach of your opponent;
+●    aim for the rearcourt corners.
+HOW TO COACH:
+Return of Low Singles Serve
+HOW TO COACH
+• Place a marker halfway down the net in the centre of the court. A singles game is then played where only low serves are allowed. An umpire watching the
+match calls “fault” if any return of serve is struck below the marker on the net. This encourages the receiver to take the shuttle early when receiving a low
+singles serve.
+• Play a normal game but award a bonus point if a rally is won when a particular return of serve is used.
+
+WHAT TO COACH:
+Singles Flick Serve
+Flick serves are used in singles
+as a variation, in particular as a
+surprise after a period of low
+serving.
+The aim of the flick serve is to make the receiver off-balance when they play
+their return.
+Flick serves are often served wide in order to try to force a predictable straight
+return.
+HOW TO COACH:
+Singles Flick Serve
+HOW TO COACH
+Play a singles game where only low and flick serves are allowed, with a bonus point being awarded if a rally is won when a flick serve was used at the start of
+the rally.
+
+WHAT TO COACH:
+Return of Singles Flick Serve
+If off balance and hitting down, focus on a good
+downward angle and accuracy. Reducing the power
+will help this and also give the receiver more time to
+recover ready for the next shot.
+Straight clears can be used as a return to a wide
+flick serve, but focus on hitting a good depth. Clears
+give you more time to recover your position.
+Take care using cross-court replies off a flick serve,
+especially if off-balance, as they are difficult to
+follow up.
+HOW TO COACH:
+Return of Singles Flick Serve
+HOW TO COACH EXAMPLES
+• Start a rally with a flick serve, a controlled downward straight shot and a cross-block. Then play the rally out.
+• Start with a flick serve, straight clear then play the rally out.
+• Play a game where the players alternate their flick serves. Award bonus points for a rally won with a particular return (e.g. straight smash). Receivers should
+start from their normal position and not move until the serve is delivered. Receivers could be asked to start slightly further forwards.
+
+WHAT TO COACH:
+Singles Neutral Play (1)
+In singles play there are parts of rallies where
+neither player is clearly on the attack. During these
+periods of neutral play both players should aim to
+move their opponent around the court in order to
+exploit any space they create. Patience is an
+important part during neutral phases of play.
+Straight shots on the whole allow you to stay more
+in control because they involve recovering to a base
+that is closer from where you have hit your last
+stroke. Of course this does not mean you should not
+use cross-court strokes, but you should be confident
+you can position yourself to deal with your
+opponent's reply when using them.
+During neutral play use the corners of the court to
+move your opponent around.
+HOW TO COACH:
+Singles Neutral Play (1)
+HOW TO COACH EXAMPLES
+• Play rallies where players are encouraged to use a high percentage of straight shots, followed by a period of normal play. The coach then leads a discussion
+on the possible advantages and disadvantages of straight and cross-court strokes.
+• Two players compete at singles with each player being observed by a partner. The observer records how many strokes intended to reach the rearcourt (lifts
+and clears) would have reached the back tramlines if left. After one game players are given the feedback (e.g. 8 out of 15 clears would have landed in the back
+tramlines). The players play again and try to improve their statistics.
+• Play a game where the corners of the court are marked. Competitive games are played where strokes that land outside these corners are classed as out.
+Coach leads a discussion on the use of this exercise and any situations where use of the corners may not be so appropriate (see next section).
+
+WHAT TO COACH:
+Singles Neutral Play (2)
+Against players who do not recover well after each
+stroke, consider making them travel long diagonals
+across the court. Beware however that this tactic:
+● involves you hitting cross-court, so you should be
+sure that you can cover the reply;
+●  may not be good against an opponent with good
+straight line speed.
+Getting the player to change direction can be a
+useful tactic to make a player off-balance. This can
+involve a player:
+● turning through 90 degrees (shown above);
+● returning to the same corner.
+Sometimes playing tight across the net, but slightly
+more into court, can be useful as it removes the
+opportunity for the opponent to play tight, spinning
+net shots. Consider on occasions playing to the
+centre of the net so you can cover the angles of
+return equally.
+HOW TO COACH:
+Singles Neutral Play (2)
+HOW TO COACH EXAMPLES
+• Let two players play singles. Instruct one player to use a tactic of making their opponent cover long diagonals as much as possible. The other player should be
+asked to guess the tactic being used and combat it accordingly. At the end of the game players discuss the tactic and its relative effectiveness against different
+types of opponent.
+• Let two players play singles. Instruct one player to use a tactic of making their opponent return to the same corner as much as possible. The other player
+should be asked to guess the tactic being used and combat it accordingly. At the end of the game players discuss the tactic and its relative effectiveness
+against different types of opponent.
+• Play a game of singles where the forecourt area (from the net to the low service line) is out. Place two markers about 3 metres apart in the centre of the net.
+Players must play all net shots through this “gate”. At the end of the game players discuss playing off the net and using the centre of the net.
+
+WHAT TO COACH:
+Singles Attack
+Moving a player away from an area of weakness,
+then attacking that area can be a useful tactic. In the
+above example the nearside player hits to other
+corners, eventually exploiting the forehand forecourt
+of their opponent.
+Once an attacking opportunity has been
+established, then there is often an increase in pace.
+In the above example the far side player responds
+to a short lift with fast movement backwards and
+hard-hitting, downward shots.
+The more under pressure your opponent, the further
+forwards you should make your base. In the above
+example the nearside player has played a tight,
+early net shot which pressurises their opponent, so
+they stay further forwards.
+A lift from the far side player would have to be very
+high and would lack depth. This allows the nearside
+player to stay forwards and look for the opportunity
+to net kill.
+HOW TO COACH:
+Singles Attack
+HOW TO COACH EXAMPLES
+Play a game where you get a bonus point if you win a point with a stroke to a particular corner of the court or with the next stroke after playing to that corner.
+
+WHAT TO COACH:
+Rearcourt Singles Defence
+When the shuttle is behind you in the rearcourt, a good-length clear can bring
+you back into the rally. Cross-court clears can also be used, but this is riskier as
+it is more difficult to hit a good length and it is harder to cover the next shot.
+When the shuttle is behind you in the rearcourt, a pulled dropshot can bring you
+back into the rally. This has the advantage of restricting your opponent's ability
+to attack. The dropshot should be placed a little deeper in court to restrict the
+opponent's ability to play tight to the net. Backhand pulled dropshots can also
+be used in the same way. Cross-court dropshots can also be used as a
+variation, but these are harder to follow up.
+HOW TO COACH:
+Rearcourt Singles Defence
+HOW TO COACH EXAMPLES
+Player ‘A’ strikes the shuttle from the one corner near the net to player ‘B’ who is in the midcourt, slightly cross-court to player ‘B’. This continues until player ‘A’
+decides to play a straight flat lift into the rearcourt. Player ‘B’ then replies with a clear or pulled dropshot and they play the rally out. This practice can be developed
+by designing different starts to the rally – anything can be used which results in one player having to play a stroke from slightly behind them in the rearcourt.
+
+WHAT TO COACH:
+Midcourt Singles Defence
+A cross-court block off a straight smash means the follow-up is more difficult
+for the player using the smash.
+A straight block off a cross-court smash means the follow-up is more difficult
+for the player using the smash.
+HOW TO COACH:
+Midcourt Singles Defence
+HOW TO COACH EXAMPLES
+• Two players start a rally and create a situation where player ‘A’ has the opportunity to play a straight smash. Player ‘B’ should respond mainly to a straight
+smash with a cross-court block, although they can occasionally play other types of return. Players then play the rally out.
+• Two players start a rally and create a situation where player ‘A’ has the opportunity to play a cross-court smash. Player ‘B’ should respond mainly to a cross-
+court smash with a straight block, although they can occasionally play other types of return. Players then play the rally out.
+
+WHAT TO COACH:
+Forecourt Singles Defence
+In the forecourt, lifts should be of good depth, with sufficient height to clear the opponent's racket and allow enough time for the lifting player to recover their
+position. Straight lifts are easier to recover from than cross-court lifts as the base required to cover the next shot is closer.
+HOW TO COACH:
+Forecourt Single Defence
+HOW TO COACH EXAMPLES
+Play a game of singles where only straight lifts are allowed. After one set, change so that both straight and cross-court lifts are allowed. Then discuss the use of
+these strokes in singles.
+
+08. DOUBLES TACTICS
+INTRODUCTION
+Men’s and women's doubles share many of the same characteristics. In particular, both use front and back as their attacking formation and side by side as
+their defensive formation. Men’s doubles does, however, tend to be more explosive and clearing the shuttle is relatively rare. The ability to serve and return
+effectively is crucial in men’s doubles. Women’s doubles is less explosive and relies more on patient rally building to break  down opponent's defences. The
+longest rallies in badminton tend to occur in women’s doubles.
+WHAT TO COACH:
+Low Serving in Women’s
+Doubles (1)
+In women's doubles, the server delivers from close
+to the "T" on the court, with her partner stood
+centrally in the midcourt.
+Low serves are generally delivered to the centre to
+cut down the possible angles of return.
+• For variation, low serves can also be directed
+towards the receiver. This can disrupt her
+preferred way of returning serve.
+• Occasionally you may serve wide into the
+tramlines, but this is a higher risk strategy as it
+makes the serving pair open to a straight return
+into space.
+HOW TO COACH:
+Low Serving in Women’s
+Doubles (1)
+HOW TO COACH EXAMPLES
+Play women’s doubles games where only low serves are allowed. Service receivers should:
+• receive from their normal position;
+• obey the rules by not moving before the serve is struck;
+• be sensible about returns (e.g. not hitting hard at the head of the server);
+• adjust their receiving position (i.e. slightly wider, slightly more central);
+• carry their racket in different positions (wider on forehand, in front of body, wider on backhand).
+Servers should vary where they serve to in response to the different positions and racket carriage of the receiver.
+
+WHAT TO COACH:
+Low Serving in Women’s
+Doubles (2)
+Following the low serve, the server should look to
+cover any net replies.
+The server should also look to anticipate pushed
+replies to the mid- and rearcourt. This usually
+involves choosing one side to cover.
+The server's partner is responsible for covering
+returns to mid- and rearcourt.
+HOW TO COACH:
+Low Serving in Women’s
+Doubles (2)
+HOW TO COACH EXAMPLES
+Play women’s doubles games where only low serves are allowed. Service receivers should:
+• receive from their normal position;
+• obey the rules by not moving before the serve is struck;
+• be sensible about returns (e.g. not hitting hard at the head of the server).
+The game is scored as normal, apart from the serving team being able to score two points if they win a rally with the 3rd shot of the rally.
+
+WHAT TO COACH:
+Receiving Low Serves
+Women’s Doubles (1)
+If the receiver plays a net reply to the serve, she
+should seek to dominate the net and kill any further
+net shots from the server.
+Straight returns of serve to the midcourt should be
+followed by an attempt to intercept any straight
+replies.
+Similarly, on playing a straight return to the
+rearcourt, the receiver should look to intercept any
+straight replies.
+HOW TO COACH:
+Receiving Low Serves
+Women’s Doubles (1)
+HOW TO COACH EXAMPLES
+Play women’s doubles games where only low serves are allowed. Service receivers should:
+• receive from their normal position;
+• obey the rules by not moving before the serve is struck;
+• be sensible about returns (e.g. not hitting hard at the head of the server).
+The game is scored as normal, apart from the receiving team being able to score two points if they win a rally with the 4th shot of the rally.
+
+WHAT TO COACH:
+Receiving Low Serves
+Women’s Doubles (2)
+The receiver may choose to attack into the body of the server's partner, in
+which case she should prepare to cover both sides for a possible reply.
+If the receiver plays an inaccurate return, she may have to retreat off the net to
+a side-by-side formation.
+HOW TO COACH:
+Receiving Low Serves in
+Women’s Doubles (2)
+HOW TO COACH EXAMPLES
+• Play a women’s doubles game where only low serves are allowed. Service receivers should:
+o receive from their normal position;
+o obey the rules by not moving before the serve is struck;
+o be sensible about returns (e.g. not hitting hard at the head of the server).
+The game is scored as normal, apart from the receiving team being able to score two points if they win a rally with the 4th shot of the rally.
+• Play women’s doubles, but no rally is allowed to go on longer than five shots. After five shots, the rally is stopped and the point awarded to the doubles team
+on the attack/in control of the rally. Some lets may occur.
+
+WHAT TO COACH:
+Women’s Doubles Flick Serve
+Flick serves can be used as a useful variation,
+pushing the receiver back and often forcing her to
+hit the shuttle when off-balance. Wide serves are
+often more difficult to deal with, especially out to the
+forehand side.
+Wide flick serves often draw a predictable straight
+reply, which can be anticipated by the server's
+partner.
+Following a wide flick serve that has clearly
+deceived the receiver, the server may find she is
+able to stay closer to the net as a full-length cross-
+court clear is unlikely.
+HOW TO COACH:
+Women’s Doubles Flick Serve
+HOW TO COACH EXAMPLES
+Play a game with a higher-than-normal percentage of flick serves. Bonus points awarded to the serving team when they win rallies with a flick serve.
+
+WHAT TO COACH:
+Women’s Doubles Flick Serve
+Return
+If flicked wide and on-balance, smash at the
+straight player or between the two players. A
+dropshot placed between the two players is also a
+useful variation.
+If flicked to the centre and on-balance, smash at
+the retreating server or between the two players. A
+dropshot placed between the two players is once
+again an option.
+When returning a flick that has put the receiver off-
+balance consider using a half smash, dropshot or
+straight clear, all of which give more time for the
+receiver to regain her balance.
+HOW TO COACH:
+Women’s Doubles Flick Serve
+Return
+HOW TO COACH EXAMPLES
+Play a game with a higher-than-normal percentage of flick serves. Bonus points awarded to either team if they win a rally that began with a flick serve.
+
+WHAT TO COACH:
+Women’s Doubles
+Rallying – Rearcourt Attack
+When attacking in women's doubles, the main
+responsibility of the rear player is to:
+• cover the mid- and rearcourt;
+• be patient, waiting for good attacking
+opportunities;
+• set up attacking opportunities for the front
+player.
+The rear player uses:
+• steep dropshots to pressurise their opponents;
+• shots to the middle of the two players to cut
+down the angles of return (shown above);
+• smashes, most often at the straight player or
+to the middle of the two players, to force a
+weak return or hit a winner;
+• cross-court drops and smashes as a variation;
+• clears for variation.
+Players will rotate positions if:
+• there is a good opportunity to follow their own
+attack positively and
+• the front player has read the situation and
+commits more centrally to cover other areas of
+the court.
+HOW TO COACH:
+Women’s Doubles
+Rallying – Rearcourt Attack
+HOW TO COACH EXAMPLES
+• One player works hard in the rearcourt, playing dropshots between two players in a side-by-side formation. The two players lift to move the rearcourt player
+across the back line.
+• Work in doubles formations, one pair front and back (attacking) and the other side by side (defending). The defending pair moves the rearcourt player
+around. This player responds with dropshots between the two defending players. One defending player then lifts deliberately shorter and wide, giving the
+opportunity for the rearcourt player to:
+o s mash;
+o follow in to the net.
+The forecourt player moves across to allow the rearcourt player to follow up her smash. Players then play the rally out.
+• Bonus points for rearcourt strokes that are winners, force an error or create a winner for the front player on the next shot.
+• Place two markers on the net so the net is split into thirds. Place a further one marker in the centre of the net. ( -------●--------●--------●---------). Play a normal
+game of doubles but dropshots from the left rearcourt must go through the ●---------● “gate”, dropshots from right should go through the ●---------● “gate”.
+
+WHAT TO COACH:
+Front Player Attack  (1)
+When attacking at women's doubles, the main responsibility of the front
+player is to:
+• cover the mid- and forecourt;
+• take the shuttle early;
+• intercept drives and pushes;
+• hit winners;
+• maintain the attack.
+When the shuttle is lifted to the rearcourt, the front player should take up a
+midcourt position on the same side of the court as the shuttle. This "channel
+attack" position is most effective when the attack is directed at the straight
+player or to the middle, as it can create a 2 vs 1 situation.
+HOW TO COACH:
+Front Player Attack (1)
+HOW TO COACH EXAMPLES
+• Players are given a number or letter (1 and 2 on one side of the net, A and B on the other side of the net). These players all begin in side-by-side
+positions. No shuttles are involved in this practice. The coach calls out a number, then a letter, then a number, then a letter (e.g. 1, A, 1, B, 2, B etc.).
+When the number or letter is called out, that player moves to one side in the rearcourt and her partner takes up a front “channel attack” position. The
+opposing pair should automatically form a side-by-side position.
+• With four players on the court, two on each side in side-by-side positions, one player “serves” a shuttle high (i.e. a straight lift) to one side and the
+receiving pair move automatically into a “channel attack” position. The rally is then played to a conclusion.
+• Players can be encouraged to design short openings to rallies that help players form “side-by-side” and “channel attack” positions, and then the players
+play the rally out.
+
+WHAT TO COACH:
+Front Player Attack  (2)
+When her partner is using dropshots, the front player should move in to the net
+to threaten and prevent any attempted net replies. The front player will know a
+dropshot has been played by the movement of the opposition.
+When the rear player has an opportunity to follow her own attack into the
+midcourt and forecourt, the front player can show she is ready for this by
+moving more to the centre line of the court, or even into the other half court.
+This allows her to cover the area of the court left by the advancing rearcourt
+player (team on the left).
+HOW TO COACH:
+Front Player Attack  (2)
+HOW TO COACH EXAMPLES
+• Two players form a front-and-back (attacking) formation and two players form a side-by-side, defensive formation. One player works hard in the rearcourt,
+playing dropshots between the 2 other players in a side-by-side formation. The two players continually lift to move the rearcourt player across the back line.
+The front player moves forwards to cover the net each time a dropshot is played (see first photo above) and moves slightly back when the shuttle is lifted.
+• Work in doubles formations, one pair front and back (attacking) and the other side by side (defending). The defending pair moves the rearcourt player
+around. This player responds with dropshots between the two defending players. One defending player then lifts deliberately shorter and wide, giving the
+opportunity for the rearcourt player to:
+o s mash;
+o follow in to the net.
+The forecourt player moves across to allow the rearcourt player to follow up her smash. Players then play the rally out.
+
+WHAT TO COACH:
+Women’s Doubles Defence (1)
+When defending in women's doubles, players
+create a side-by-side formation.
+For wider lifts, the pair move across together
+towards the same side as the shuttle has been
+lifted. This allows them to deal more effectively with
+straight or down-the-middle replies from the
+attacker, which are the most frequent returns.
+If one attacker is under some pressure in a
+rearcourt corner, both players can move further
+forwards. The cross-court player can take up a
+more advanced position:
+• because cross-court strokes will take longer to
+reach her, so she will have more time to react;
+• to anticipate a dropshot to the centre.
+HOW TO COACH:
+Women’s Doubles Defence
+HOW TO COACH EXAMPLES
+• Players are given a number or letter (1 and 2 on one side of the net, A and B on the other side of the net). These players all begin in side-by-side positions.
+No shuttles are involved in this practice. The coach calls out a number, then a letter, then a number, then a letter (e.g. 1, A, 1, B, 2, B etc.). When the
+number or letter is called out, that player moves to one side in the rearcourt and her partner takes up a front “channel attack” position. The opposing pair
+should automatically form a side-by-side position.
+• T he coach can encourage the side-by-side players to:
+o m ove slightly across to the same side as that of the opposition rearcourt player (see 2nd photo above);
+o stay slightly further forwards in the case of the cross-court player.
+• One player works hard in the rearcourt, playing dropshots between the players in a side-by-side formation. The two players lift to move the rearcourt player
+across the back line. The side-by-side pair adjusts their positions by:
+o moving across as a pair towards the same side as the shuttle is lifted;
+o in the case of the cross-court player, taking up a more advanced position depending on the degree of pressure on the rearcourt player.
+
+WHAT TO COACH:
+Women’s Doubles Defence (2)
+The defenders should use blocks and drives into
+space in order to turn defence into attack.  The
+blocking or driving player should aim wherever
+possible to move forwards to cover the net and
+force a lift off her counter-attacking stroke.
+On some occasions, especially if the block is cross-
+court, it may be better for the blocking player’s
+partner to move forwards.
+When lifting, either from the net or midcourt,
+consider:
+• hitting cross-court lifts off straight attacking
+shots;
+• straight lifts off cross-court attacking shots.
+This tends to move the attacking team around more
+and can make it more difficult to sustain the attack.
+HOW TO COACH:
+Women’s Doubles Defence (2)
+HOW TO COACH EXAMPLES
+• Play a game of doubles but no-one is allowed to lift off smashes. Players have to be creative to turn defence into attack;
+• Play games where players:
+o can only lift cross-court off straight attacking shots;
+o can only lift straight off cross-court attacking shots.
+The coach should then lead a discussion on the strengths and weaknesses of such an approach.
+
+WHAT TO COACH:
+Low Serving in Men’s Doubles
+(1)
+In men's doubles, the server delivers from close to
+the "T" on the court, with his partner positioned
+centrally in the midcourt.
+Low serves are generally delivered to the centre to
+cut down the possible angles of return.
+• For variation, low serves can also be directed
+towards the receiver. This can disrupt his
+preferred way of returning serve.
+• Occasionally you may serve wide into the
+tramlines, but this is a higher risk strategy as it
+makes the serving pair open to a straight
+return into space.
+HOW TO COACH:
+Low Serving in Men’s Doubles
+(1)
+HOW TO COACH EXAMPLES
+Play a men’s doubles games where only low serves are allowed.
+Service receivers should:
+• receive from their normal position;
+• obey the rules by not moving before the serve is struck;
+• be sensible about returns (e.g. not hitting hard at the head of the server);
+• adjust their receiving position (i.e. slightly wider, slightly more central);
+• carry their racket in different positions (wider on forehand, in front of body, wider on backhand).
+Servers should vary where they serve to in response to the different positions and racket carriage of the receiver.
+
+WHAT TO COACH:
+Low Serving in Men’s Doubles
+(2)
+Following the low serve, the server should look to
+cover any net replies.
+The server should also look to anticipate pushed
+replies to the mid- and rearcourt. This usually
+involves choosing one side to cover.
+The server's partner is responsible for covering
+returns to mid- and rearcourt.
+HOW TO COACH:
+Low Serving in Men’s Doubles
+(2)
+HOW TO COACH EXAMPLES
+• Play men’s doubles games where only low serves are allowed.
+• Service receivers should:
+o receive from their normal position;
+o obey the rules by not moving before the serve is struck;
+o be sensible about returns (e.g. not hitting hard at the head of the server).
+• The game is scored as normal, apart from the serving team being able to score two points if they win a rally with the 3rd shot of the rally.
+
+WHAT TO COACH:
+Receiving Low Serves in Men’s
+Doubles (1)
+If the receiver plays a net reply to the serve, he
+should seek to dominate the net and kill any further
+net shots from the server.
+Straight returns of serve to the midcourt should be
+followed by an attempt to intercept any straight
+replies.
+Similarly, on playing a straight return to the
+rearcourt, the receiver should look to intercept any
+straight replies.
+HOW TO COACH:
+Receiving Low Serves in Men’s
+Doubles (1)
+HOW TO COACH EXAMPLES
+• Play men’s doubles games where only low serves are allowed.
+• Service receivers should:
+o receive from their normal position;
+o obey the rules by not moving before the serve is struck;
+o be sensible about returns (e.g. not hitting hard at the head of the server).
+• The game is scored as normal, apart from the receiving team being able to score two points if they win a rally with the 4th shot of the rally.
+
+WHAT TO COACH:
+Receiving Low Serves in Men’s
+Doubles (2)
+The receiver may choose to attack into the body of the server's partner, in
+which case he should prepare to cover both sides for a possible reply.
+If the receiver plays an inaccurate return, he may have to retreat off the net to a
+side by side formation.
+HOW TO COACH:
+Receiving Low Serves in Men’s
+Doubles (2)
+HOW TO COACH EXAMPLES
+• Play men’s doubles games where only low serves are allowed.
+• Service receivers should:
+o receive from their normal position;
+o obey the rules by not moving before the serve is struck;
+o be sensible about returns (e.g. not hitting hard at the head of the server).
+The game is scored as normal, apart from the receiving team being able to score two points if they win a rally with the 4th shot of the rally.
+• Play men’s doubles but no rally is allowed to go on longer than five shots. After five shots the rally is stopped and the point awarded to the doubles team on
+the attack/in control of the rally. Some lets may occur.
+
+WHAT TO COACH
+Men’s Doubles Flick Serve
+Flick serves can be used as a useful variation, pushing the receiver back and
+often forcing him to hit the shuttle when off-balance. Wide serves are often
+more difficult to deal with, especially out to the forehand side.
+Wide flick serves often draw a predictable straight reply, which can be
+anticipated by the server's partner.
+HOW TO COACH
+Men’s Doubles Flick Serve
+HOW TO COACH EXAMPLES
+Play a game with a higher-than-normal percentage of flick serves. Bonus points awarded to the serving team when they win rallies with a flick serve.
+
+WHAT TO COACH
+Men’s Doubles Flick Serve
+Return
+If flicked wide and on-balance, smash at the
+straight player or between the two players. A
+dropshot placed between the two players is also a
+useful variation.
+If flicked to the centre and on-balance, smash at
+the retreating server or between the two players. A
+dropshot placed between the two players is once
+again an option.
+When returning a flick that has put the receiver off-
+balance consider using a half smash or dropshot,
+both of which give more time for the receiver to
+regain his balance.
+HOW TO COACH:
+Men’s Doubles Flick Serve
+Return
+HOW TO COACH EXAMPLES
+Play a game with a higher-than-normal percentage of flick serves. Bonus points are awarded to either team if they win a rally that began with a flick serve.
+
+WHAT TO COACH
+Men’s Doubles Rallying –
+Rearcourt Attack
+When attacking at men's doubles, the main
+responsibility of the rear player is to:
+• cover the mid- and rearcourt;
+• be patient, waiting for good attacking
+opportunities;
+• set up attacking opportunities for the front
+player;
+• hit winners.
+The rear player uses:
+• steep dropshots to pressurise their opponents;
+• shots to the middle of the two players to cut
+down the angles of return (shown above);
+• smashes, most often at the straight player or
+to the middle of the two players, to force a
+weak return or hit a winner;
+• cross-court drops and smashes as a variation.
+Players will rotate positions if:
+• there is a good opportunity to follow their own
+attack positively and
+• the front player has read the situation and
+commits more centrally to cover other areas of
+the court.
+HOW TO COACH
+Men’s Doubles Rallying –
+Rearcourt Attack
+HOW TO COACH EXAMPLES
+• One player works hard in the rearcourt, playing dropshots between two players in a side-by-side formation. The two players lift to move the rearcourt player
+across the back line.
+• Work in doubles formations, one pair front and back (attacking) and the other side by side (defending). The defending pair moves the rearcourt player
+around. This player responds with dropshots between the two defending players. One defending player then lifts deliberately shorter and wide, giving the
+opportunity for the rearcourt player to:
+o smash;
+o follow in to the net.
+The forecourt player moves across to allow the rearcourt player to follow up his smash. Players then play the rally out.
+• Bonus points for rearcourt strokes that are winners, force an error or create a winner for the front player on the next shot.
+• Place two markers on the net so the net is split into thirds. Place a further one marker in the centre of the net. ( -------●--------●--------●---------). Play a normal
+game of doubles but dropshots from the left rearcourt must go through the ●---------● “gate”, dropshots from right should go through the ●---------● “gate”.
+
+WHAT TO COACH
+Men’s Doubles - Front Player
+Attack  (1)
+When attacking at men's doubles, the main responsibility of the front player is
+to:
+• cover the mid- and forecourt;
+• take the shuttle early;
+• intercept drives and pushes;
+• hit winners;
+• maintain the attack.
+When the shuttle is lifted to the rearcourt, the front player should take up a
+midcourt position on the same side of the court as the shuttle. This "channel
+attack" position is most effective when the attack is directed at the straight
+player or to the middle, as it can create a 2 vs 1 situation.
+HOW TO COACH:
+Men’s Doubles - Front Player
+Attack  (1)
+HOW TO COACH EXAMPLES
+• Players are given a number or letter (1 and 2 on one side of the net, A and B on the other side of the net). These players all begin in side-by-side positions.
+No shuttles are involved in this practice. The coach calls out a number, then a letter, then a number, then a letter (e.g. 1, A, 1, B, 2, B etc.). When the
+number or letter is called out, that player moves to one side in the rearcourt and his partner takes up a front “channel attack” position. The opposing pair
+should automatically form a side-by-side position.
+• With four players on the court, two on each side in side-by-side positions, one player “serves” a shuttle high (i.e. a straight lift) to one side and the receiving
+pair move automatically in to a “channel attack” position. The rally is then played to a conclusion.
+• Players can be encouraged to design short openings to rallies that help players form “side by side” and “channel attack” positions, and then the players play
+the rally out.
+
+WHAT TO COACH:
+Men’s Doubles - Front Player
+Attack  (2)
+When his partner is using dropshots, the front player should move in to the net
+to threaten and prevent any attempted net replies. The front player will know a
+dropshot has been played by the movement of the opposition.
+When the rear player has an opportunity to follow his own attack into the
+midcourt and forecourt, the front player can show he is ready for this by moving
+more to the centre line of the court, or even into the other half court. This allows
+him to cover the area of the court left by the advancing rearcourt player.
+HOW TO COACH:
+Men’s Doubles - Front Player
+Attack  (2)
+HOW TO COACH EXAMPLES
+• Two players form a front-and-back (attacking) formation and two players form a side-by-side, defensive formation. One player works hard in the rearcourt,
+playing dropshots between the two other players in a side-by-side formation. The two players continually lift to move the rearcourt player across the back
+line. The front player moves forwards to cover the net each time a dropshot is played (see first photo above) and moves slightly back when the shuttle is
+lifted.
+• Work in doubles formations, one pair front and back (attacking) and the other side by side (defending). The defending pair moves the rearcourt player
+around. This player responds with dropshots between the two defending players. One defending player then lifts deliberately shorter and wide, giving the
+opportunity for the rearcourt player to:
+o s mash;
+o follow in to the net.
+The forecourt player moves across to allow the rearcourt player to follow up his smash. Players then play the rally out.
+
+WHAT TO COACH
+Men’s Doubles Defence (1)
+When defending in men's doubles, players create a
+side-by-side formation.
+For wider lifts the pair move across together
+towards the same side as the shuttle has been
+lifted. This allows them to deal more effectively with
+straight or down-the-middle replies from the
+attacker, which are the most frequent returns.
+If one attacker is under some pressure in a
+rearcourt corner, both players can move further
+forwards. The cross-court player can take up a
+more advanced position:
+• because cross-court strokes will take longer to
+reach him, so he will have more time to react;
+• to anticipate a dropshot to the centre.
+HOW TO COACH
+Men’s Doubles Defence (1)
+HOW TO COACH EXAMPLES
+• Players are given a number or letter (1 and 2 on one side of the net, A and B on the other side of the net). These players all begin in side-by-side positions.
+No shuttle is involved in this practice. The coach calls out a number, then a letter, then a number, then a letter (e.g. 1, A, 1, B, 2, B etc.). When the number or
+letter is called out, that player moves to one side in the rearcourt and his partner takes up a front “channel attack” position. The opposing pair should
+automatically form a side-by-side position.
+• T he coach can encourage the side-by-side players to:
+o m ove slightly across to the same side as that of the opposition rearcourt player (see 2nd photo above);
+o s tay slightly further forwards in the case of the cross-court player.
+• One player works hard in the rearcourt, playing dropshots between the players in a side-by-side formation. The two players lift to move the rearcourt player
+across the back line.
+• The side-by-side pair adjusts their positions by:
+o moving across as a pair towards the same side as the shuttle is lifted;
+o in the case of the cross-court player, taking up a more advanced position depending on the degree of pressure on the rearcourt player.
+
+WHAT TO COACH
+Men’s Doubles Defence (2)
+The defenders should use blocks and drives into
+space in order to turn defence into attack.
+The blocking or driving player should aim wherever
+possible to move forwards to cover the net and
+force a lift off his counter-attacking stroke.
+On some occasions, especially if the block is cross-
+court, it may be better for the blocking player’s
+partner to move forwards.
+When lifting, either from the net or midcourt,
+consider:
+• hitting cross-court lifts off straight attacking
+shots;
+• straight lifts off cross-court attacking shots.
+This tends to move the attacking team around more
+and can make it more difficult to sustain the attack.
+HOW TO COACH
+Men’s Doubles Defence (2)
+HOW TO COACH EXAMPLES
+• Play a game of doubles but no-one is allowed to lift off smashes. Players have to be creative to turn defence into attack.
+• Play games where players:
+o can only lift cross-court off straight attacking shots;
+o can only lift straight off cross-court attacking shots.
+The coach should then lead a discussion on the strengths and weaknesses of such an approach.
+
+09. MIXED DOUBLES TACTICS
+INTRODUCTION
+Mixed has many of the tactical characteristics of level doubles. The major difference is that the female player has less power than the male player. For this
+reason players aim to create situations where the female player can dominate the forecourt and midcourt, whereas the male player aims to dominate the mid-
+and rearcourt.
+WHAT TO COACH:
+Man Low Serving in Mixed
+Doubles (1)
+When the man serves from the right
+court, the women takes up a net
+position slightly to the left in the
+forecourt.
+When the man serves from the left
+court, the women can also take up a
+position slightly to the left in the
+forecourt.
+When the man serves from the left
+court, the women can also take up a
+position slightly to the right. This can
+disrupt the receiver's replies,
+particularly if they return straight a lot.
+Low serves are generally delivered to
+the centre to restrict possible angles
+of return, or towards the receiver for
+variation. Following the serve, the
+man covers replies to the midcourt
+and rearcourt.
+HOW TO COACH:
+Man Low Serving in Mixed
+Doubles (1)
+HOW TO COACH EXAMPLES
+Play a mixed game and experiment with the woman’s starting position when the man is serving from the left. Sometimes start with the woman on the left,
+sometimes start on the right.
+
+WHAT TO COACH
+Woman Low Serving in Mixed
+Doubles (2)
+When the woman serves, her partner takes up a
+central position on the court.
+Low serves are generally delivered to the centre to
+restrict possible angles of return, or towards the
+receiver for variation. Wide serves can be used
+occasionally as a variation.
+Following the serve, the woman covers replies to
+the forecourt and midcourt.
+HOW TO COACH:
+Woman Low Serving in Mixed
+Doubles (2)
+HOW TO COACH EXAMPLES
+• Play a mixed doubles game where only low serves from the women players are allowed.
+• Service receivers should:
+o receive from their normal position;
+o obey the rules by not moving before the serve is struck;
+o be sensible about returns (e.g. not hitting hard at the head of the server);
+o adjust their receiving position (i.e. slightly wider, slightly more central);
+o carry their racket in different positions (wider on forehand, in front of body, wider on backhand).
+• Servers should vary where they serve to in response to the different positions and racket carriage of the receiver.
+
+WHAT TO COACH:
+Mixed Doubles - Woman
+Returning Low Serve (1)
+If the female player is returning at mixed, then her partner takes up a central
+position in the court.
+When returning serve to the net the woman should look to move in and
+dominate the forecourt.
+HOW TO COACH:
+Mixed Doubles - Woman
+Returning Low Serve (1)
+HOW TO COACH EXAMPLES
+Play a game where only the women players are receiving serve. Also consider placing an emphasis on a particular type of return (straight, cross-court, rearcourt,
+etc.). Encourage discussion with partners about the effectiveness of particular replies and each player’s responsibilities after each reply.
+WHAT TO COACH
+Mixed Doubles - Woman
+Returning Serve (2)
+If returning straight to the mid- or rearcourt, the woman should anticipate the
+straight replies.
+The women can push returns into the body of the server's partner. Depending
+on the quality of her return she should attempt to cover both replies to the net
+and midcourt pushes.
+HOW TO COACH
+Mixed Doubles - Woman
+Returning Serve (2)
+HOW TO COACH EXAMPLES
+Play a game where only the women players are receiving serve. Also consider placing an emphasis on a particular type of return (straight, cross-court, rearcourt
+etc.). Encourage discussion with partners about the effectiveness of particular replies and each player’s responsibilities after each reply.
+
+WHAT TO COACH:
+Mixed Doubles - Man
+Returning Low Serve
+When the male is returning serve at
+mixed, his female partner usually
+stands alongside him.
+The male player will play many returns
+to the midcourt or rearcourt, as this
+allows time for him to move back to
+cover his own mid- and rearcourt.
+Straight returns may also allow him to
+cover the third shot of the rally more
+often. Returns to the net, cross-court
+and at the body of the opposition can
+be used as variations.
+The male looks to play returns which
+allow the female player to move
+forwards, however the female player
+should be aware that she may have to
+assist in the rearcourt.
+If the return of serve has created a lot
+of pressure, the male player should
+stay in to try and finish the rally or
+create a good winning opportunity for
+his partner.
+HOW TO COACH:
+Mixed Doubles - Man
+Returning Serve
+HOW TO COACH EXAMPLES
+Play a game where only the men players are receiving serve. Also consider placing an emphasis on a particular type of return (straight, cross-court, rearcourt, etc.).
+Encourage discussion with partners about the effectiveness of particular replies and each player’s responsibilities after each reply.
+
+WHAT TO COACH:
+Flick Serves in Mixed Doubles
+Wide flick serves can be used in mixed, mainly
+against the woman to force her into the rearcourt. If
+the woman serves the flick, she should retreat
+slightly from the net. How far she retreats depends
+on the serve's effectiveness - the more off-balance
+the receiver and the later they take the shuttle the
+more the server can stay closer to the net.
+Flick serves to the centre can also be used as a
+variation.
+If the man flicks, then his partner wherever possible
+should move to a cross-court position. This allows
+that player more time to deal with the cross-court
+replies and more opportunity to stay closer to the
+net.
+HOW TO COACH:
+Flick Serves in Mixed Doubles
+HOW TO COACH EXAMPLES
+Play a game with a higher-than-normal percentage of flick serves. Bonus points are awarded to either team if they win a rally that began with a flick serve.
+
+WHAT TO COACH
+Mixed Doubles – Returning
+Flick Serve
+If flicked wide, attack the straight player's body or aim between the two players.
+Taking some pace off the stroke allows more recovery time. Alternatively, clear
+to the woman if possible.
+If flicked wide down the centre, attack to the centre or at the body of the woman.
+Once again, taking some pace off the stroke allows more recovery time.
+Alternatively, clear cross-court to allow more time to recover into court.
+HOW TO COACH
+Mixed Doubles – Returning
+Flick Serves
+HOW TO COACH EXAMPLES
+Play a game where there is a high proportion of flick serves, especially to the woman player. Experiment with a variety of returns. Discuss with partner and coach
+the effectiveness of different replies and the responsibilities of each player after the reply has been made (e.g. which court areas they would need to cover).
+
+WHAT TO COACH:
+Mixed Doubles
+Rallying – Attack (1)
+When attacking, the preferred formation in mixed is
+front and back, with the man covering the mid- and
+rearcourt, where his additional power is useful.
+Women should look to move forwards and dominate
+the mid- to forecourt.
+During rallies, be patient and play with accuracy and
+steep angles - wait for a good opportunity to attack
+where more pace and power can be injected.
+HOW TO COACH:
+Mixed Doubles
+Rallying – Attack (1)
+HOW TO COACH EXAMPLES
+One pair starts side by side; one pair starts front and back. The shuttle is delivered high and deep to one corner. Players then play the rally out. Encourage
+discussion between pairs and use questioning to highlight aspects of good attacking practice (e.g. formation, patience, injection of pace, etc.).
+
+WHAT TO COACH:
+Mixed Doubles Rallying –
+Attack (2)
+Play a higher percentage of attacking strokes that
+are directed:
+• at the straight player who has less time to
+react;
+• between the two players to cut down the
+angles of return (see above).
+Cross-court strokes should be used for variation.
+Attacking clears can be useful to force the woman
+into the rearcourt where her reduced power may be
+exploited.
+Make sure, however, that "playing on the woman" is
+not overdone and gives the attack away, particularly
+if the strokes are drawing the women into forecourt
+situations she can dominate.
+HOW TO COACH:
+Mixed Doubles Rallying –
+Attack (2)
+HOW TO COACH EXAMPLES
+One pair starts side by side; one pair starts front and back. The shuttle is delivered high and deep to one corner. Players then play the rally out. Encourage
+discussion between pairs and use questioning to highlight aspects of good attacking practice (e.g. formation, patience, injection of pace, etc.).
+
+WHAT TO COACH:
+Mixed Doubles Defence (1)
+The preferred formation for mixed defending is side
+by side, with the woman cross-court to the shuttle.
+If forced to lift, then women generally should lift
+cross-court. This makes it less likely for the next
+attack to be directed at her. Women should only lift
+straight as an alternative provided that lift relieves
+rather than creates pressure.
+A really wide and deep lift may also allow the
+woman to take a more advanced position towards
+the net.
+HOW TO COACH:
+Mixed Doubles Defence (1)
+HOW TO COACH EXAMPLES
+Play a mixed game where the woman is only allowed to lift cross-court when returning dropshots and smashes. Then play a second game where both directions of
+lift are allowed. Partners then discuss the merits of the women lifting just cross-court, highlighting examples where this might not be the preferred option.
+
+WHAT TO COACH:
+Mixed Doubles Defence (2)
+Men usually lift straight, allowing them to take any resulting straight attack. Men
+should only lift cross-court as an alternative provided that lift relieves rather than
+creates pressure.
+Pushes and blocks should be used extensively off smashes to turn defence into
+attack, especially into the midcourt areas just behind the opposition front player.
+HOW TO COACH:
+Mixed Doubles Defence (2)
+HOW TO COACH EXAMPLES
+• Play a mixed game where the man is only allowed to lift straight when returning dropshots and smashes (note he can still play blocks and pushes in any
+direction). Then play a second game where both directions of lift are allowed. Partners then discuss the merits of the men lifting just straight, highlighting
+examples where this might not be the preferred option.
+• Play a game where lifting off smashes is not allowed.
+
+10. SELF-ASSESSMENT QUESTIONS
+1 Four types of
+awareness that
+players need to
+have to support
+their decision
+making in singles
+badminton are:
+Spatial, speed, balance, self
+Opponent, partner, balance, fatigue
+Spatial, self, opponent and pace
+Strength, spatial, speed, surroundings
+2 Base can defined
+as:
+The centre of the court
+The court position from which you are best able to deal with your
+opponent’s probable replies
+The “T”
+The back tramlines
+3 Hitting very high to
+the back of your
+opponent’s court:
+Gives both you and your opponent time to get into position
+Gives you less time to get in position
+Gives your opponent a good opportunity to intercept early
+Gives your opponent less time to get in position
+4 The more under
+pressure your
+opponent is the
+more you:
+Move your base backwards
+Move your base forwards
+Keep your racket down
+Make your base diagonally opposite them
+5 In doubles,
+smashes are
+generally directed
+more:
+At the centre of the court and also the cross-court player
+Between the players and also at the straight player
+Equally at cross-court player and the straight player
+Down the centre of the court only
+6 In order to make
+your low serve
+more effective, you
+can:
+Serve to the centre all the time
+Vary your serve along the low service line
+Serve wide all the time
+Change your service action on each stroke
+7 In order to help
+develop tactical
+problem-solving
+skills, coaches
+should:
+Tell players as much as they can
+Explain as much as possible
+Demonstrate the answers as much as possible
+
+Use questioning skills to encourage problem solving
+8 The two elements
+that define tactics
+are awareness and:
+Decision making
+Listening to the coach
+Hitting mainly straight shots
+Attacking all the time
+9 The preferred
+attacking formation
+for mixed doubles
+is:
+Man at front, woman at the back
+Side by side, man taking straight shot
+Woman at the front, man at the back
+Side by side, with cross-court player in an advanced position
+10 After returning a
+low serve straight
+to the midcourt in
+men’s doubles, that
+receiver should
+cover:
+The cross-court replies to the midcourt
+The rearcourt - straight
+The rearcourt - crosscourt
+The straight replies to net and midcourt
+
+BADMINTON COACH EDUCATION
+COACHES’ MANUAL
+LEVEL 1
+MODULE 9
+PERFORMANCE FACTOR 4
+PHYSICAL
+
+BADMINTON WORLD FEDERATION
+Unit 1, Level 29
+Naza Tower, Platinum Park
+10 Persiaran KLCC
+50088 Kuala Lumpur
+Tel +603 2631 9188
+Fax +603 2631 9688
+bwf@bwfbadminton.org
+MODULE 9
+PERFORMANCE FACTOR 4 - PHYSICAL
+01. Introduction 182
+02. Physical Fitness 182
+03. Motor Fitness Components 184
+04. Warm-up 185
+05. Pulse Raising Exercises 186
+06. Mobility Exercises 187
+07. Balance 189
+08. Quickness/Speed 191
+09. Knock-up 193
+10. Cool-down 194
+11. Summary 196
+12. Self-Assessment Questions 197
+LEARNING OUTCOMES
+By the end of this module, coaches will be able to:
+• recognise the key components of fitness that underpin badminton performance;
+• identify appropriate methods for training of the key components of fitness for different groups;
+• construct appropriate warm-ups and cool-downs.
+
+01. INTRODUCTION
+When beginning to play badminton the physical demands of the sport are not high. As hitting  skills
+develop, however, physical demands rapidly increase. At the highest levels of play, fitness levels are
+very high, with matches requiring multiple bursts of strenuous activity for up to an hour or more.
+It is beyond the scope of this section to provide the coach with the knowledge and skills required to
+design and supervise fitness programmes. This will be developed in Level 2. However, this section will
+give coaches:
+• an overview of the components of fitness that underpin success in badminton;
+• the knowledge required to construct appropriate warm-ups and cool-downs.
+02. PHYSICAL FITNESS
+Physical fitness can be defined as “the capacity of a player to complete physical tasks”. Physical
+fitness can be divided into various components, as shown below, and these are detailed in the table
+overleaf.
+Physical Fitness Components
+• Body Composition
+• Strength
+• Flexibility
+• Endurance
+• Speed
+
+PHYSICAL
+FITNESS
+COMPONENT
+DEFINITION RELEVANCE TO BADMINTON COACHING ADVICE
+BODY
+COMPOSITION
+What the body is made up of. Successful badminton players tend to have low body
+fat levels and muscular legs, helping them to move
+powerfully/quickly.
+• Body fat levels are controlled by a combination of diet and exercise.
+• Coaches should be sensitive to giving dietary advice, particularly to children
+and young people. If in doubt, seek professional advice.
+STRENGTH • MAXIMAL STRENGTH
+The greatest force that a player can
+generate in a single effort.
+• Badminton players do not need to demonstrate
+extreme maximal strength.
+• However, above-average leg strength is desirable
+to help players generate power.
+• In the 6 - 9 age group, strength training should not be a priority.
+• In the 9 - 13 phase, strength training is once again not a major priority and if
+it is introduced the focus should be:
+o on good technique and creating stability in the body;
+o on bodyweight exercises, supplemented by Swiss ball,
+medicine ball and elasticated band work.
+• Correct weight training techniques, with light weights, can be introduced in
+the later stages of puberty.
+• Training with heavier weights should only be undertaken:
+o after the growth spurt has been completed;
+o after a period of technical lifting training has been completed;
+o under qualified supervision.
+• Upper body strength is an important part of training for wheelchair players
+for reasons of technique/ injury prevention.
+• STRENGTH ENDURANCE
+The capacity of muscles to maintain
+repeated strong contractions
+without experiencing fatigue.
+• Badminton players have to repeat movements
+many times over during a game (e.g. lunging,
+striking the shuttle) so strength endurance is
+important.
+• ELASTIC STRENGTH
+The ability of muscles to generate
+force at high speed after rapid pre-
+stretching.
+• Elastic strength is often referred to
+as “power”.
+• Badminton players need high levels of elastic
+strength/power.
+• Powerful forward swings of the racket are
+preceded by rapid stretching in the backswing.
+FLEXIBILITY • The range and ease of movement
+around a joint.
+Badminton players need good flexibility to:
+• Reach up and out for the shuttle;
+• Maintain good technique;
+• Generate forces effectively;
+• Avoid injury.
+• Mobility training (dynamic flexibility) encourages maintenance of full ranges
+of movement and should be promoted at all times.
+• Static flexibility stretching can be gradually introduced around 11 years of
+age, then maintained as a permanent part of training.
+• Static stretches should be held for 15 – 60 seconds.
+ENDURANCE • The capacity of the body to
+withstand fatigue.
+• Endurance relies on the
+cardiovascular and respiratory
+systems supplying oxygen/ nutrients
+and removing carbon dioxide/waste
+products.
+• Helps players to last in long games.
+• Supports recovery between rallies.
+• Supports recover between matches and training
+sessions.
+• Formalised endurance training will become most effective if introduced
+around the age of 13.
+• Running and, as a second choice, cycling for durations of 20 – 40 minutes,
+2-3 times per week can bring about significant training benefits.
+SPEED • The capacity to move the whole
+body (or parts of the body) rapidly.
+Players have to be able to move at speed to:
+o take the shuttle ‘early’ and pressure your
+opponent;
+o retrieve the strokes of your opponent.
+• Speed training should be a focus in most stages of badminton training,
+although correct movement skills should be established first as a
+foundation.
+
+03. MOTOR FITNESS COMPONENTS
+In addition to physical fitness, there are also four motor fitness components that are generally more badminton specific.
+MOTOR FITNESS
+COMPONENT
+DEFINITION RELEVANCE TO BADMINTON COACHING ADVICE
+DYNAMIC
+BALANCE
+• The capacity of a player to keep
+their centre of gravity over a
+constantly changing base of
+support.
+A player with good dynamic balance is able to maintain
+stability even when moving quickly. Such a player uses
+less energy when moving, will perform better technically
+and their opponent will find it more difficult to force them
+off-balance.
+• Dynamic balance training is appropriate at all stages of players’
+development.
+• One-legged exercises, exercises with eyes closed, keeping steady
+head positions, maintaining good posture and sports-specific agility
+drills can all help to improve dynamic balance.
+• Amputees and players with cerebral palsy may have balance issues
+that require additional training or adaptations to traditional exercises.
+QUICKNESS The capacity to react to and
+accelerate in response to an
+opponent’s stroke.
+Badminton players have to react quickly to their
+opponent’s stroke, either by:
+• pushing rapidly off the ground;
+• manipulating their racket quickly.
+• Quickness should be a focus in most stages of badminton training,
+although this training should be built on a foundation of correct
+movement skills being established first.
+CO-ORDINATION • Co-ordination is the capacity to
+time sequential movements of
+the body effectively.
+• Co-ordination in badminton is
+often known as “eye-hand-foot
+co-ordination”.
+Badminton requires the player to co-ordinate different
+parts of the body:
+• to change position in response to the shuttle flight;
+• to execute their desired stroke effectively.
+• Co-ordination training is effectively the same as technical training
+(hitting and movement).
+• In the 6 - 9 age group, focussing on generic co-ordination skills such as
+throwing, catching, jumping and methods of travelling is desirable.
+• Sports-specific co-ordination should be focussed upon during the 9 - 13
+phase in order to establish appropriate hitting and movement skills
+early in their development.
+AGILITY The capacity to change direction
+rapidly whilst retaining balance.
+The relatively small court and fast, volleying nature of
+badminton means that it is a sport where high levels of
+agility are necessary to succeed.
+• Generic activities such as stopping and starting, changing direction,
+jumping/landing and different methods of travelling with the 6 -9 age
+group is desirable to underpin more sports-specific development.
+• More sports-specific agility training should be included in all future
+stages of development, including shadowing of sports-specific
+movement patterns, movement during predictable then unpredictable
+rallies, etc.
+
+04. WARM-UP
+The aim of the warm-up is to take the player from a resting body situation to the physical and mental state required to perform effectively in the main
+part of the session.
+W
+A
+R
+M
+U
+P
+REASONS TO WARM UP Reduce the chance of injury
+Increase blood flow
+Increase muscle temperature
+Assist in skill development
+Mentally prepare the player
+Rehearse skills used in match play
+FACTORS THAT INFLUENCE
+WHAT YOU INCLUDE
+What is the main content of the session?
+What is the age/experience of the player?
+What is the environment like?
+What space is available?
+What equipment is available?
+How many players are there?
+WHAT YOU MIGHT INCLUDE * Pulse Raiser
+Mobiliser
+Balance
+Quickness
+Agility
+Knock-up
+• Not all the above elements will be included in every warm-up. The coach should treat this list as a menu, selecting only those elements that take
+the player from rest to the physical and mental state required to perform effectively in the main part of the session.
+
+05. PULSE RAISING EXERCISES
+• Pulse raising exercises should last around 3 – 10 minutes.
+• The warmer the environment the shorter this section can be.
+TITLE DESCRIPTION  NOTES
+RUNNING
+FORWARDS
+AND
+BACKWARDS
+• Players run forwards and backwards
+on the court, facing the net at all times.
+By adding in arm movements, many variations of
+this can be achieved. Consider doing swimming
+actions with the arms as a variation for children.
+CHASSÉ • Facing the front of the court, players
+perform a chassé action across the
+width of the court.
+CHASSÉ
+(ZIG-ZAG)
+• Facing the net, players move towards
+the net, forming a series of “Z” shapes as
+they do so.
+• One foot chases the other one, but never
+quite catches it.
+• Focus on “skimming across the ground”.
+• Make the movement rhythmical.
+• Repeat the movement backwards to the
+rear of the court.
+To help create a faster, “skimming” effect, watch the
+net tape closely.  Try to make sure that the tape is
+not moving up or down. If the tape is appearing to
+stay still, then your head is staying level and you will
+be skimming across the ground.
+
+06. MOBILITY EXERCISES
+When performing mobility exercises in warm-up:
+• f ocus on the control of movements;
+• a fter starting, gradually increase the speed and range of movement.
+TITLE EFFECT  DESCRIPTION  NOTES
+HEEL RAISES • Works calves
+through a good
+range of
+movement
+• Mobilises ankles
+• On the spot, raise the heels of each foot off the ground in an alternating
+fashion.
+HEEL FLICKS • Stretches front of
+thigh
+• Mobilises knee
+• Stand with feet wide apart, hands on hips.
+• Rock from one foot to the other and bring the heel of the non-weighted foot
+towards the buttock each time.
+Can be performed running forwards
+with feet close together.
+WALKING
+BOWS
+• Stretches back of
+thigh
+• Mobilises hip
+• Place one foot slightly in front of the other.
+• Keep the front leg straight.
+• Bend the rear knee.
+• Bend forwards at the hip and place hands briefly on rear thigh.
+• Keep back flat (chest up).
+• Repeat left foot, right foot etc. moving forwards as you do so.
+• Gradually increase the amount
+bent at hip.
+• Keep chest up (avoid curving
+back).
+STRAIGHT
+LEG SWING
+• Stretches back of
+thigh
+• Mobilises hip
+• Stand on one foot with hands on hips.
+• Swing suspended leg backwards and forwards.
+• Keep swinging leg as straight as possible.
+• Start low and slow and gradually build speed and range of movement.
+• Keep upper body and head as still as possible by focussing on a stationary
+point.
+• Provided the upper body is
+controlled and the head kept still,
+this is also excellent for
+maintaining dynamic balance.
+
+SIDE LEG
+SWINGS
+• Stretches inner/
+outer thigh and
+gluteals
+• Mobilises hip
+(side to side)
+• Stand on one foot with hands on hips.
+• Swing other leg from left to right with straight leg.
+• Keep upper body/head as still as possible by focussing on a stationary point.
+• Provided the head/upper body is
+kept still, this is also excellent for
+maintaining dynamic balance.
+LUNGES • Mobiles knees
+and hips
+• Co-ordinates
+stretching of leg
+muscles
+• Stand with wide stance, one foot well in front of the other.
+• Imagine feet placed on two railway lines.
+• Extend arms out to sides for balance.
+• Sink down, bending both knees.
+• Complete 3 then change to other leg.
+• This can be made harder by
+starting in a standing position,
+lunging forwards and returning to
+the standing start position.
+SQUATS • Mobiles knees
+and hips
+• Co-ordinates
+stretching of leg
+muscles
+• Stand with feet around shoulder width apart.
+• Bending slightly from the hips first, carry on adopting the squat position by
+keeping feet flat on the floor when descending.
+• Sit back.
+• Bend with good range of
+movement.
+TRUNK
+TWISTS
+• Stretches
+muscles of the
+back
+• Mobilises spine
+• Hold racket out in front with two hands.
+• Stand with wide stance.
+• Keep hips facing forwards.
+• Rotate out to left then right.
+• Gradually increase the range and
+speed of movement.
+SIDE BENDS • Stretches
+muscles of the
+back
+• Mobilises the
+spine
+• Hold racket above the head with two hands.
+• Stand with wide stance.
+• Keep hips facing forwards.
+• Alternate bending to one side then the other.
+• Gradually increase the range and
+speed of movement.
+
+07. BALANCE
+Balance exercises should focus on actions that replicate the demands of the sport .
+STRAIGHT
+LEG SWING
+• Stand on one foot with hands on hips.
+• Swing suspended leg backwards and forwards.
+• Keep swinging leg as straight as possible.
+• Start low and slow and gradually build speed and range of
+movement.
+• Keep upper body and head as still as possible by focussing
+on a stationary point.
+• Provided the upper body is controlled and the head is kept still,
+this is excellent for maintaining dynamic balance.
+• Challenge the body to perform these leg swings with the arms in
+different positions, such as arms held high above the head.
+SIDE LEG
+SWINGS
+• Stand on one foot with hands on hips.
+• Swing other leg from left to right with straight leg.
+• Keep upper body/head as still as possible by focussing on a
+stationary point.
+• Provided the upper body is controlled and the head is kept still,
+this is excellent for maintaining dynamic balance.
+• Challenge the body to perform these leg swings with the arms in
+different positions, such as arms held high above the head.
+LUNGES • Start from a standing position, hands on hips and feet
+together.
+• Lunge forwards with one foot.
+• Return to start position and repeat on other leg.
+• Focus on keeping body in upright position.
+• Repeat lunges but experiment with upper body movement,
+including:
+o rotating the trunk to left or right;
+o bending sideways to left or right.
+• This challenges the body to maintain a strong lunge position
+whilst the upper body is moving in different ways.
+
+JUMPS • 2 feet to 2 feet
+• Complete jumps in a sequence (e.g. side to side as
+shown)
+• Land toe-heel
+• When beginning, pause on landing to establish balance.
+• As you learn, reduce pause time and jump off immediately on
+landing.
+• Examples shown are side to side only. Variations which also
+need to be used are:
+o f orwards and backwards;
+o r otating;
+o combinations.
+• 2 feet to 1 foot
+• 1 foot to 2 feet
+• 1 foot to other foot (bounding)
+• 1 foot to same foot (hopping)
+
+08. QUICKNESS/SPEED
+NAME DESCRIPTION ILLUSTRATION NOTES
+FAST FEET • Stand with both feet in the tramlines facing a training partner.
+• On a signal (e.g. a shuttle striking a racket, a hand clap, etc.)
+the players move their feet out to the sides of the tramlines 3
+times in a row as quickly as they can.
+• First to finish wins.
+• This can be done alone, but the element of competition tends to
+increase quickness.
+• Stand alongside a training partner, facing the rear tramlines of
+the court.
+• On a signal (e.g. a shuttle striking a racket, a hand clap, etc.)
+the players step into and out of the tramlines 3 times as quickly
+as they can.
+• This can be done alone but the element of competition tends to
+increase quickness.
+• Players can step into and out of the tramlines rather than jump.
+LADDER
+WORK
+• Stand on right foot at the side of the ladder.
+• Drive off right foot.
+• Step into the ladder (left-right).
+• Step out the ladder onto left foot.
+• Drive off left foot.
+• Step into ladder (right-left).
+• Step out ladder onto right foot.
+• Chant is “drive-1-2-drive-1-2-drive-1-2”.
+• Repeat footwork backwards.
+• Can be done without a ladder just using the tramlines.
+• Many other footwork patterns can be designed using a
+ladder/tramlines.
+FAST FEET/
+MOVE OFF
+• Perform 3 fast feet movements, with feet moving in and out of
+the tramlines.
+• On the 3rd repetition, with the feet landing outside the tramlines,
+the player drives off the ground and sprints forwards.
+• Repeat the exercise, but run backwards.
+
+HIT SHUTTLE
+WITH THE
+HAND
+• Stand facing the coach, who holds 8 -12 shuttles.
+• The coach delivers the shuttles in rapid succession and the
+player aims to strike the shuttles with their hand.
+• Marking some of the shuttles so they are black.
+• Players aim to hit the white shuttle and move out of the way of the black shuttles.
+AGILITY
+LIE DOWN,
+GET UP,
+MOVE!
+• Players lie flat on their back in the forecourt, feet
+pointing to the low service line.
+• On a signal, players get up and sprint to rear line.
+• Think of variations, such as:
+o Lying on back, arms across chest. Player are not allowed to use arms or elbows to help get up;
+o Lying on front.
+SHADOWING
+• Prior to singles match play, shadowing should involve using the whole court.
+• Shadowing prior to a training session should include movements relevant to the main session content (e.g., forecourt,
+midcourt, rearcourt).
+
+09. KNOCK-UP
+KNOCK-UP CONTEXT ILLUSTRATION NOTES
+MATCH PLAY
+• Knock-ups for match play should ideally allow you to practice the strokes and movements necessary to
+succeed in that event. Singles knock-ups should cover the whole court.
+• Doubles knock-ups should include a greater amount of hitting off the body and practice of serve/return
+situations.
+TRAINING • Knock-ups prior to training should include elements of the main part of the session. This allows the coach to observe how players perform a skill and informs how
+they then coach that skill in the main part of the session.
+
+10. COOL-DOWN
+The key facts about cool-down are included in the table below.
+SECTION OF COOL-DOWN WHY WE DO IT THE BENEFITS NOTES
+Steady aerobic exercise of 5 -15 minutes
+which gradually reduces in intensity. An
+example would be gentle jogging, reducing to
+a normal walk.
+Helps remove fluids pooled in and around the
+muscles.
+This is thought to assist in reducing muscle
+stiffness.
+The more intense the exercise the more this
+section is important, as it assists your body to
+return to resting levels in a controlled manner.
+Exercise bikes are also useful for this. Gradually reducing heart rate and blood
+pressure.
+Reduces the chances of fainting.
+Assists in the removal of lactic acid (a product
+of intense exercise).
+Lactic acid transported to the liver can be
+reconverted to a useful source of energy.
+Static stretching of muscles, holding for 15 -30
+seconds.
+Returns muscles to their normal resting length. Static stretching in cool-down helps to prevent
+muscles gradually shortening over time. If
+muscles are allowed to shorten over time, this
+can result in impaired technique and greater
+chance of injury.
+Focus on deep breathing and relaxation, which
+helps you to stretch more effectively.
+
+Lower calf (Soleus) Upper calf (Gastrocnemius)
+Front of thigh (Quadriceps) Rear of thigh (Hamstrings)
+Groin (Short Adductors) Groin (Long Adductors)
+Buttocks (Gluteals) Trunk rotations  (1)
+Trunk Rotations (2) Side Bends
+Chest (Pectorals) Back of arm (Triceps)
+Shoulder stretch
+
+11. SUMMARY
+• The physical condition of the player is one of five performance factors that influences how that
+player will perform.
+• There are nine components of fitness that need to be developed in order to be successful at
+badminton. These can be split into:
+o five physical fitness components (body composition, strength, speed, endurance,
+flexibility);
+o four motor fitness components (agility, quickness, dynamic balance and co-ordination).
+• Different fitness components can be emphasised at different stages of development in order to
+bring about optimal improvement.
+• Warm-ups should precede both training and match play. The exact components of a warm-up can
+vary depending upon the:
+o e nvironment;
+o developmental stage of the player/group;
+o content of the main part (e.g. training, competition, etc.);
+o equipment available;
+o number of players.
+• Cool-downs should be used at the end of training or competition. An effective cool-down:
+o returns muscles to their normal resting length;
+o helps remove fluids pooled in and around the muscles;
+o gradually reduces heart rate and blood pressure;
+o assists in the removal of lactic acid (a product of intense exercise).
+
+12. SELF-ASSESSMENT QUESTIONS
+1 The component parts of a cool-
+down are:
+Dynamic stretches then static stretches
+Aerobic exercise then dynamic stretches
+Dynamic stretches then aerobic exercise
+Aerobic exercise then static stretches
+2 The 4 types of motor fitness are: Co-ordination, dynamic balance, quickness, agility
+Strength, co-ordination, quickness, agility
+Co-ordination, dynamic balance, endurance, agility
+Flexibility, speed, co-ordination, quickness
+3 Straight leg swings are used to
+train:
+Speed
+Endurance
+Strength
+Mobility
+4 “The capacity to change
+direction rapidly whilst retaining
+balance” is the definition of:
+Agility
+Strength
+Flexibility
+Body Composition
+5 In cool-down, static stretches
+should be held for:
+0 – 5 seconds
+15 – 30 seconds
+5 – 10 seconds
+1 – 2 minutes
+6 Ladder work is an opportunity to
+train:
+Flexibility
+Strength
+Power
+Quickness
+7 As well as mobility, straight leg
+swings can also train:
+Endurance
+Strength
+Quickness
+Dynamic balance
+
+8 The aerobic system relies on the
+bloodstream to provide:
+Fats and carbohydrates
+Carbon dioxide
+Proteins and minerals
+Carbon dioxide and vitamins
+9 This picture shows a player
+stretching his:
+Upper calf
+Triceps
+Chest
+Gluteals

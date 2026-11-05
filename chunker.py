@@ -221,7 +221,8 @@ def guess_doc_type(source: str) -> str:
         return "场馆"
     if any(k in low for k in ("badminton_rules", "laws", "vocab", "variations", "irs")):
         return "规则"
-    if "tech_" in low:
+    # 教练手册：技术动作、战术、体能、伤病，归到「技术」
+    if any(k in low for k in ("coach", "tech_")):
         return "技术"
     if "gear_" in low:
         return "装备"
