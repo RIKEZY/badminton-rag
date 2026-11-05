@@ -1,0 +1,61 @@
+name: CI
+
+# 触发方式：推送到 main、发起 PR、或手动点运行。
+# 这就是「提交后自动跑」的机制——不是有人手动执行，而是平台读到这个文件后自己起机器跑。
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    env:
+      # 只需要让 OpenAI 客户端能构造成功；这个 job 不调任何外部 API。
+      # 真实 key 只存在于服务器和本地 .env，永远不进仓库。
+      SILICONFLOW_API_KEY: ci-dummy
+      DEEPSEEK_API_KEY: ci-dummy
+      RAG_TAG: v2
+      RAG_DATA_DIR: data_rules_only
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+
+      - name: 安装依赖
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements-dev.txt
+
+      - name: 语法检查
+        run: python -m compileall -q -x '(\.venv|__pycache__|experiments)' .
+
+      - name: 生成语料缓存（纯本地切块，不调 API）
+        run: |
+          python -c "
+          from index_builder import build_chunks
+          chunks = build_chunks()
+          print(f'切块完成：{len(chunks)} 块')
+          assert len(chunks) > 600, f'块数异常：{len(chunks)}'
+          "
+
+      - name: 单元测试（离线，不调 API）
+        run: python -m pytest -q
+
+      # 防的是「本地 .env 或数据库被误提交」这类事故——
+      # 一旦进过 git 历史，就算后面删掉也还在。
+      - name: 检查敏感文件
+        run: |
+          bad=$(git ls-files | grep -E '(^|/)\.env$|\.db$|\.npy$|html_cache/' || true)
+          if [ -n "$bad" ]; then
+            echo "::error::以下文件不该进仓库："
+            echo "$bad"
+            exit 1
+          fi
+          echo "未发现敏感文件"

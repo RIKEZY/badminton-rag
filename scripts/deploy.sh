@@ -14,7 +14,7 @@
 # 设计约定：
 #   * 备份先做，备份失败就中止，绝不改服务器上的任何文件。
 #   * 传输阶段的任意一步失败也会回滚（此时服务还没重启，回滚只是把文件还原）。
-#   * 健康检查三项全过才算成功：/ 返回 200、/admin 返回 200、日志无 error/traceback。
+#   * 健康检查三项全过才算成功：/ 返回 200、/ops/ 返回 200、日志无 error/traceback。
 #   * 远端路径都写成 user@host:/opt/... 的形式，Git Bash 不会误改写成 Windows 路径。
 # =============================================================================
 set -euo pipefail
@@ -64,9 +64,11 @@ TOOL_FILES=(
   tools/equipment.db
 )
 
-# 部署清单：语料目录（只传 *.txt，不传 pdf）与页面目录（只传 *.py）
+# 部署清单：语料目录（只传 *.txt，不传 pdf）与管理后台（只传 *.py）
+# 后台不再用 pages/ —— Streamlit 会因此生成侧边栏入口，且触发 _mpa_v1 分支；
+# 现在跑在独立服务 8502 端口，由 nginx 反代到 /ops/
 CORPUS_DIR="data_rules_only"
-PAGE_DIR="pages"
+PAGE_DIR="admin"
 CORPUS_GLOB="*.txt"
 PAGE_GLOB="*.py"
 
@@ -198,7 +200,7 @@ check_url() {
   fi
 }
 check_url /
-check_url /admin
+check_url /ops/
 
 if ! log=\$(journalctl -u ${SERVICE_NAME} -n 40 --no-pager 2>&1); then
   echo "   [FAIL] journalctl 读取失败（可能权限不足），输出："
@@ -291,9 +293,9 @@ collect CORPUS_FILES "$CORPUS_DIR" "$CORPUS_GLOB"
 collect PAGE_FILES   "$PAGE_DIR"   "$PAGE_GLOB"
 
 if [ "${#CORPUS_FILES[@]}" -eq 0 ]; then warn "语料目录 $CORPUS_DIR 下没有 $CORPUS_GLOB"; exit 2; fi
-if [ "${#PAGE_FILES[@]}" -eq 0 ];   then warn "页面目录 $PAGE_DIR 下没有 $PAGE_GLOB";   exit 2; fi
+if [ "${#PAGE_FILES[@]}" -eq 0 ];   then warn "后台目录 $PAGE_DIR 下没有 $PAGE_GLOB";   exit 2; fi
 
-info "代码 ${#CODE_FILES[@]} 个 / 语料 ${#CORPUS_FILES[@]} 个 / 工具 ${#TOOL_FILES[@]} 个 / 页面 ${#PAGE_FILES[@]} 个"
+info "代码 ${#CODE_FILES[@]} 个 / 语料 ${#CORPUS_FILES[@]} 个 / 工具 ${#TOOL_FILES[@]} 个 / 后台 ${#PAGE_FILES[@]} 个"
 
 if [ "$WITH_ENV" -eq 1 ] && [ ! -f "$ENV_FILE" ]; then
   warn "--with-env 指定了但本地找不到 $ENV_FILE"
@@ -341,7 +343,7 @@ log "第 2 步：上传文件"
 
 run_remote "确保远端目录存在" "$(cat <<EOF
 set -euo pipefail
-mkdir -p '${REMOTE_DIR}/pages' '${REMOTE_DIR}/tools' '${REMOTE_DIR}/data_rules_only'
+mkdir -p '${REMOTE_DIR}/admin' '${REMOTE_DIR}/tools' '${REMOTE_DIR}/data_rules_only'
 EOF
 )"
 
@@ -363,8 +365,8 @@ if [ "$TRANSFER_FAILED" -eq 0 ]; then
 fi
 
 if [ "$TRANSFER_FAILED" -eq 0 ]; then
-  if ! push_files "页面" "${REMOTE_DIR}/pages/" "${PAGE_FILES[@]}"; then
-    warn "页面上传失败"; ROLLBACK_REASON="页面上传失败"; TRANSFER_FAILED=1
+  if ! push_files "管理后台" "${REMOTE_DIR}/admin/" "${PAGE_FILES[@]}"; then
+    warn "后台上传失败"; ROLLBACK_REASON="后台上传失败"; TRANSFER_FAILED=1
   fi
 fi
 
@@ -379,6 +381,35 @@ if [ "$TRANSFER_FAILED" -eq 0 ] && [ "$WITH_ENV" -eq 1 ]; then
     warn ".env 上传失败"; ROLLBACK_REASON=".env 上传失败"; TRANSFER_FAILED=1
   elif [ "$DRY_RUN" -eq 0 ]; then
     run_remote "收紧 .env 权限" "chmod 600 '${REMOTE_DIR}/${ENV_FILE}'"
+  fi
+fi
+
+# -----------------------------------------------------------------------------
+# 8.5 清理已废弃的文件
+# -----------------------------------------------------------------------------
+# 文件重命名后（day*.py → document_loader / index_builder / answer_generator），
+# 旧文件不会自动消失。它们不影响运行（已经没人 import），但会一直躺在服务器上：
+# 下次排查问题时看到 day2.py，会以为还在用。
+#
+# 只删明确列出的文件，不用通配符——通配符一旦写错，删掉的就是不该删的。
+if [ "$TRANSFER_FAILED" -eq 0 ]; then
+  log "第 2.5 步：清理已废弃的文件"
+  if ! run_remote "删除废弃脚本" "$(cat <<EOF
+set -uo pipefail
+cd '${REMOTE_DIR}'
+removed=0
+for f in day1.py day2.py day3.py day4.py step1_bm25.py test_api.py test_chunker.py test_hybrid.py; do
+  if [ -f "\$f" ]; then
+    rm -f "\$f" && echo "   已删除 \$f" && removed=\$((removed+1))
+  fi
+done
+if [ "\$removed" -eq 0 ]; then
+  echo "   无废弃文件需要清理"
+fi
+EOF
+)"; then
+    # 清理失败不触发回滚：它只是卫生问题，不影响服务能不能跑
+    warn "清理失败，但不影响运行，继续"
   fi
 fi
 
@@ -427,7 +458,7 @@ if ! run_remote "systemctl restart ${SERVICE_NAME}" "$(restart_script)"; then
   if do_rollback "服务重启失败"; then exit 1; else exit 2; fi
 fi
 
-log "第 4 步：健康检查（/ 、/admin 、journalctl）"
+log "第 4 步：健康检查（/ 、/ops/ 、journalctl）"
 if ! health_check; then
   if do_rollback "健康检查未通过（见上方 [FAIL] 行）"; then exit 1; else exit 2; fi
 fi
@@ -440,7 +471,7 @@ if [ "$DRY_RUN" -eq 1 ]; then
 else
   log "部署成功"
   info "版本备份: ${BACKUP_PATH}"
-  info "访问地址: http://${SSH_HOST}/  （管理后台 http://${SSH_HOST}/admin）"
+  info "访问地址: http://${SSH_HOST}/  （管理后台 http://${SSH_HOST}/ops/）"
   if [ "$WITH_INDEX" -eq 0 ]; then
     info "提示: 本次未上传索引缓存；语料内容若已变化，需加 --with-index 或让服务端重建索引，否则仍用旧索引作答"
   fi
