@@ -48,6 +48,10 @@ DECIDE_PROMPT = """你是工具调用 Agent。根据用户问题和**已获得�
 2. search_docs(query) —— 检索羽毛球文档（规则条文、技术动作、裁判执行、赛事规程）。
 
 决策规则：
+- **第一轮必须调用工具，不允许输出 answer。**
+  「这个问题资料里大概没有」是你的猜测，不是证据。查过才知道。
+  实测：模型曾对「安赛龙的身高」「现在男单世界第一是谁」直接答「没有找到相关信息」，
+  一次工具都没调——用户无法区分「查了没有」和「压根没查」。
 - 问题含具体型号 → 先 query_racket
 - **query_racket 返回未收录 → 改用 search_docs 查同品牌/同系列的一般信息**
 - 问题涉及规则/技术/裁判/赛事 → search_docs
@@ -60,14 +64,39 @@ DECIDE_PROMPT = """你是工具调用 Agent。根据用户问题和**已获得�
 {"action": "search_docs", "args": {"query": "拍面尺寸规定"}, "reason": "问规则条文"}
 {"action": "answer", "reason": "证据已覆盖问题"}"""
 
-ANSWER_PROMPT = """你在回答羽毛球问题。下面是工具查到的**全部证据**，请综合它们给出一个连贯的回答。
+ANSWER_PROMPT = """你在回答羽毛球问题。下面是工具查到的**全部证据**。
 
-要求：
-1. 参数值、条款号、页码必须**原样引用**，不得改写或推测
-2. **综合所有证据**，不要分段各说各的——如果装备和规则都相关，要在同一段话里讲清楚
-3. 证据之间如有冲突，明确指出冲突在哪
-4. 证据不足时说明缺什么，不要编
+【第一步：判断证据是「直接回答」还是「只是相关」】
+先问自己：证据里有没有一句话，直接回答了用户的问题？
+- 有 → 引用它作答
+- 没有，只是主题相近 → **必须拒答，不要用相关内容拼凑**
+
+典型错误（绝对不要这样做）：
+  用户问「双打老是撞拍怎么办」（战术问题）
+  证据是发球站位、发球顺序（规则条文）
+  ❌ 先下结论「撞拍多因站位与轮转不清」，再堆 5 条发球规则，末尾补一句免责
+  ✅ 第一句就说「资料中没有关于双打撞拍处理的内容。现有资料只有发球站位和
+     发球顺序的规定，与此无关。」
+
+  用户问「现在男单世界第一是谁」
+  证据是「世界排名是一份按实力排序的名单」（定义）
+  ✅ 定义没有给出具体人名，属于「相关但不回答」，要拒答
+
+【输出要求】
+1. **结论放在第一句**。拒答就第一句说「资料中没有……」，不要把结论藏到最后
+2. 拒答时说明：查到了什么类别的内容、缺的是哪类资料
+3. 参数值、条款号、页码**原样引用**，不得改写或推测
+4. 证据之间如有冲突，明确指出冲突在哪
 5. 中文回答，控制在 200 字以内"""
+
+# 检索置信度低于此值时，在证据前加警示。
+#
+# 实测分数分布（18 题）：
+#   可答题 top1：0.91 ~ 0.99
+#   拒答题 top1：0.007 ~ 0.18（仅「男单世界第一」0.61，因为它命中了「排名系统定义」）
+# 中间几乎是真空的，所以 0.3 能干净地切出「明显没答案」那一档。
+# 但抓不到「语义相关却不回答」的情况（那道 0.61），那类只能靠 prompt 判断。
+LOW_RELEVANCE = float(os.getenv("AGENT_LOW_RELEVANCE", "0.3"))
 
 
 def _chat(messages) -> str:
@@ -119,9 +148,10 @@ def act(decision: dict) -> dict:
         return {"action": action, "args": args, "result": result, "summary": summary}
 
     hits = search_docs(args.get("query") or "")
+    top_score = max((s for s, _ in hits), default=0.0)
     srcs = sorted({f"{c['source'][:14]}p{c['page']}" for _, c in hits})
-    return {"action": action, "args": args, "result": hits,
-            "summary": f"命中 {len(hits)} 块，来源 {srcs[:3]}"}
+    return {"action": action, "args": args, "result": hits, "top_score": top_score,
+            "summary": f"命中 {len(hits)} 块（最高相关度 {top_score:.2f}），来源 {srcs[:3]}"}
 
 
 def format_evidence(observations: list[dict]) -> str:
@@ -143,6 +173,14 @@ def format_evidence(observations: list[dict]) -> str:
                     lines.append(f"{label}：{v}")
             blocks.append("\n".join(lines))
         elif o["action"] == "search_docs":
+            top = o.get("top_score", 1.0)
+            if top < LOW_RELEVANCE:
+                # 把检索置信度作为证据的一部分交给模型，而不是让它自己猜
+                blocks.append(
+                    f"⚠️ 注意：下面这批检索结果的最高相关度只有 {top:.2f}"
+                    f"（低于 {LOW_RELEVANCE}），很可能没有直接回答用户的问题。"
+                    f"如果确实没有，请直接说资料中没有，不要用这些内容拼凑答案。"
+                )
             for score, c in o["result"]:
                 blocks.append(f"[{c.get('doc_type', '?')}] {c['source']} 第 {c['page']} 页\n{c['text']}")
     return "\n\n".join(blocks)
@@ -155,6 +193,16 @@ def gather(question: str, max_steps: int = MAX_STEPS) -> tuple[list[dict], str]:
 
     for step in range(1, max_steps + 1):
         decision = decide(question, observations, step)
+
+        # 首轮禁止直接作答——代码强制，不只靠 prompt。
+        #
+        # 实测模型对「安赛龙的身高」「现在男单世界第一是谁」在零观察时直接输出
+        # answer，一次工具都没调。它凭「这类信息资料里大概没有」的猜测就放弃了，
+        # 用户看到的「没有找到相关信息」和「查过但没有」完全无法区分。
+        # DECIDE_PROMPT 里已写明规则，但软约束不可靠，这里再兜一层。
+        if decision["action"] == "answer" and not observations:
+            decision = {"action": "search_docs", "args": {"query": question},
+                        "reason": "首轮禁止直接作答，强制检索"}
 
         if decision["action"] == "answer":
             observations.append({"action": "answer", "args": {}, "result": None,
@@ -182,7 +230,10 @@ def run(question: str, max_steps: int = MAX_STEPS) -> tuple[list[dict], str]:
     """非流式：返回 (步骤, 完整回答)"""
     steps, evidence = gather(question, max_steps)
     if not evidence:
-        return steps, "没有找到相关信息。"
+        # 说清「查过了」而不是只说「没找到」——用户需要知道系统做了什么
+        tried = [s["action"] for s in steps if s["action"] != "answer"]
+        done = f"（已尝试：{'、'.join(tried)}）" if tried else ""
+        return steps, f"资料中没有检索到相关内容{done}。"
     return steps, "".join(stream_answer(question, evidence, {}))
 
 

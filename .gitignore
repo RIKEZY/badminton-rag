@@ -53,3 +53,6 @@ data_bwf/
 v2_*.py
 
 tools/pdf/
+
+# 评测运行产物（每次跑都会变）
+tools/refuse_answers.json
