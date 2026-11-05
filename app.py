@@ -62,6 +62,62 @@ def _load_glossary_line() -> str:
 
 GLOSSARY_LINE = _load_glossary_line()
 
+
+def _load_term_map() -> dict:
+    """中文说法 → 英文术语
+
+    来源两部分：
+      1. tools/term_map.json —— 从章节标题用 LLM 反向生成（覆盖章节级概念）
+      2. MANUAL_TERMS —— 手工补子条款级概念（界内/间歇/网柱等，
+         它们不是章节标题，自动生成覆盖不到）
+    """
+    import json
+    from pathlib import Path
+
+    auto = {}
+    f = Path(__file__).resolve().parent / "tools" / "term_map.json"
+    if f.exists():
+        auto = json.loads(f.read_text(encoding="utf-8")).get("by_chinese", {})
+    return {**auto, **MANUAL_TERMS}
+
+
+# 子条款级概念：章节标题里没有，但用户经常问
+MANUAL_TERMS = {
+    "界内": ["on the line", "within the boundary"],
+    "界外": ["lands outside the boundaries", "outside the boundary"],
+    "出界": ["lands outside the boundaries", "outside the boundary"],
+    "边线": ["boundary lines", "on the line"],   # 原文是复数 boundary lines
+    "压线": ["on the line"],
+    "间歇": ["interval"],
+    "发球区": ["service court"],
+    "重发": ["let"],
+    "网柱": ["posts"],
+    "中管": ["shaft"],
+    "拍面": ["stringed area"],
+    "高远球": ["clear"],
+    "杀球": ["smash"],
+    "吊球": ["drop shot"],
+    "挑球": ["lift"],
+    "搓球": ["net shot"],
+    "平抽": ["drive"],
+}
+
+TERM_MAP = _load_term_map()
+
+
+def term_queries(question: str) -> list[str]:
+    """从中文问题里识别术语，直接给出可检索的英文词
+
+    这是「硬约束」：中文词映射成文档术语，不经过 LLM 翻译。
+    实测「球落在边线上算出界吗」走完整改写链路检索不到，
+    但直接用 lands outside the boundaries 能命中块 27/469。
+    """
+    out: list[str] = []
+    for zh, ens in TERM_MAP.items():
+        if zh in question:
+            out.extend(ens)
+    return list(dict.fromkeys(out))[:4]      # 去重，最多 4 个
+
 REWRITE_PROMPT = (
     "把用户的中文羽毛球问题，改写成 3 个不同的英文检索语句。\n\n"
     "【术语要求 —— 最重要】\n"
@@ -133,11 +189,33 @@ def retrieve(question: str, top_k: int):
         en_lists.append(vector_search_idx(embed_client, chunks, vecs, q, k=pool))
         en_lists.append(bm25_search_idx(bm25, chunks, q, k=pool))
 
-    fused = fuse_by_language(zh_lists, en_lists, top_n=pool)
+    # 术语直查：中文术语直接映射英文术语，绕开 LLM 翻译。
+    # 单独成组参与融合——并进英文侧会被 6 路改写稀释掉。
+    term_lists = [bm25_search_idx(bm25, chunks, tq, k=pool)
+                  for tq in term_queries(question)]
+
+    fused = fuse_by_language(zh_lists, en_lists, top_n=pool, term_hit_lists=term_lists)
 
     if RERANK_ENABLED and fused:
         idx_list = [idx for _, idx in fused]
-        ranked = rerank_docs(question, [chunks[i]["text"] for i in idx_list], top_n=top_k)
+        docs = [chunks[i]["text"] for i in idx_list]
+
+        # 重排用中文原问。
+        #
+        # 试过两种增强，都不采用：
+        #   双 query（中文 + 英文改写[0]）取最高：能修好「球落在边线上」，
+        #       但英文改写每次措辞不同（considered out / count as out），
+        #       同一题 3 次跑出 2 种结果，稳定性比单 query 差。
+        #   多 query（中文 + 全部改写）取最高：3 次全部失败，且 4.77s/题。
+        #       取 max 会把任何一条 query 给高分的块都顶上来，噪声也一起放大。
+        #
+        # 单 query 的已知缺陷：「球落在边线上算出界吗」这类题，rerank 会偏向
+        # 中文块（wiki 的「出界情形」0.42），压掉英文精确答案（0.006）。
+        # 这是 rerank 模型的语义判断偏差，不是架构问题——需要更强的模型，
+        # 或者按语言分组重排（中文块用中文 query、英文块用英文 query），
+        # 后者要解决跨语言分数不可比的问题，暂时不做。
+        ranked = rerank_docs(question, docs, top_n=top_k)
+
         if ranked:
             return queries, [(score, chunks[idx_list[i]]) for i, score in ranked]
         # 重排失败就退回原顺序，不中断流程

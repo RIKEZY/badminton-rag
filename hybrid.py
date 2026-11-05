@@ -86,7 +86,8 @@ def rrf_fuse(*hit_lists, top_n: int = 5, k: int = RRF_K):
 
 
 def fuse_by_language(zh_hit_lists, en_hit_lists, top_n: int = 5,
-                     candidate_k: int = 10, k: int = RRF_K):
+                     candidate_k: int = 10, k: int = RRF_K,
+                     term_hit_lists=None):
     """
     两级融合：先语言内部融合，再跨语言融合。
 
@@ -95,12 +96,20 @@ def fuse_by_language(zh_hit_lists, en_hit_lists, top_n: int = 5,
         中文侧只有「向量」一路，英文块天然多拿一次分——不是因为它更相关。
         两级融合让每个语言作为一个整体参与竞争，权重对等。
 
+    term_hit_lists：术语直查的路（中文术语 → 英文术语 → BM25）。
+        必须单独成组，不能并进英文侧——术语路通常只有 1-2 路，
+        并进英文侧会被 6 路改写稀释掉。实测「球落在边线上」这题，
+        术语路本身排第 1，但并进英文侧后 RRF 总分进不了 top5。
+
     candidate_k：每侧先保留多少候选。必须比 top_n 大，
                  否则跨语言融合时候选池太小，召回广度会打折。
     """
     zh_fused = rrf_fuse(*zh_hit_lists, top_n=candidate_k, k=k)
     en_fused = rrf_fuse(*en_hit_lists, top_n=candidate_k, k=k)
-    return rrf_fuse(zh_fused, en_fused, top_n=top_n, k=k)
+    groups = [zh_fused, en_fused]
+    if term_hit_lists:
+        groups.append(rrf_fuse(*term_hit_lists, top_n=candidate_k, k=k))
+    return rrf_fuse(*groups, top_n=top_n, k=k)
 
 
 if __name__ == "__main__":

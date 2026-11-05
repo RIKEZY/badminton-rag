@@ -1,0 +1,370 @@
+{
+ "by_chapter": {
+  "CHANGE OF ENDS": [
+   "换边",
+   "交换场地",
+   "换场"
+  ],
+  "CONTINUOUS PLAY, MISCONDUCT & PENALTIES": [
+   "连续比赛、行为不端和处罚",
+   "比赛连续性、犯规和罚则",
+   "拖延比赛和处罚"
+  ],
+  "COURT AND COURT EQUIPMENT": [
+   "球场和球场设备",
+   "场地和器材",
+   "场地设施"
+  ],
+  "DOUBLES": [
+   "双打",
+   "双打规则",
+   "双打比赛"
+  ],
+  "EQUIPMENT AND COMPLIANCE": [
+   "器材和合规",
+   "装备要求",
+   "器材规定"
+  ],
+  "EVENTS AND TOURNAMENTS": [
+   "赛事和锦标赛",
+   "比赛和联赛",
+   "赛事组织"
+  ],
+  "FAULTS": [
+   "犯规",
+   "违例",
+   "失误"
+  ],
+  "GENERAL ADVICE ON REFEREEING": [
+   "裁判长一般建议",
+   "裁判长工作指南",
+   "裁判长注意事项"
+  ],
+  "GENERAL ADVICE TO UMPIRES": [
+   "发球裁判一般建议",
+   "裁判员一般建议",
+   "裁判员工作指南"
+  ],
+  "INSTRUCTIONS AND GUIDELINES FOR REFEREES": [
+   "裁判长指示和指南",
+   "裁判长规程",
+   "裁判长工作指引"
+  ],
+  "INSTRUCTIONS TO SERVICE JUDGES": [
+   "发球裁判指示",
+   "发球裁判工作指引",
+   "发球裁判注意事项"
+  ],
+  "INSTRUCTIONS TO UMPIRES": [
+   "裁判员指示",
+   "裁判员工作指引",
+   "裁判员注意事项"
+  ],
+  "LETS": [
+   "重发球",
+   "重赛",
+   "let球"
+  ],
+  "OFFICIALS AND APPEALS": [
+   "裁判人员和申诉",
+   "官员和申诉",
+   "裁判员和申诉"
+  ],
+  "OFFICIALS AND THEIR DECISIONS": [
+   "裁判人员及其决定",
+   "官员和裁决",
+   "裁判员和判罚"
+  ],
+  "PENALTIES": [
+   "处罚",
+   "罚则",
+   "惩罚"
+  ],
+  "RACKET": [
+   "球拍",
+   "拍子",
+   "羽毛球拍"
+  ],
+  "SCORING SYSTEM": [
+   "计分系统",
+   "计分规则",
+   "比分制度"
+  ],
+  "SERVICE": [
+   "发球",
+   "发球规则",
+   "发球方式"
+  ],
+  "SERVICE COURT ERRORS": [
+   "发球区错误",
+   "发球站位错误",
+   "发球区错位"
+  ],
+  "SHUTTLE": [
+   "羽毛球",
+   "球",
+   "羽球"
+  ],
+  "SHUTTLE NOT IN PLAY": [
+   "死球",
+   "球不在比赛状态",
+   "球未在比赛中"
+  ],
+  "SINGLES": [
+   "单打",
+   "单打规则",
+   "单打比赛"
+  ],
+  "TESTING A SHUTTLE FOR SPEED": [
+   "测球速",
+   "测试羽毛球速度",
+   "球速测试"
+  ],
+  "TOSS": [
+   "挑边",
+   "掷硬币",
+   "选边"
+  ],
+  "WORLD RANKING SYSTEM": [
+   "世界排名系统",
+   "世界排名规则",
+   "世界排名制度"
+  ]
+ },
+ "by_chinese": {
+  "换边": [
+   "CHANGE OF ENDS"
+  ],
+  "交换场地": [
+   "CHANGE OF ENDS"
+  ],
+  "换场": [
+   "CHANGE OF ENDS"
+  ],
+  "连续比赛、行为不端和处罚": [
+   "CONTINUOUS PLAY, MISCONDUCT & PENALTIES"
+  ],
+  "比赛连续性、犯规和罚则": [
+   "CONTINUOUS PLAY, MISCONDUCT & PENALTIES"
+  ],
+  "拖延比赛和处罚": [
+   "CONTINUOUS PLAY, MISCONDUCT & PENALTIES"
+  ],
+  "球场和球场设备": [
+   "COURT AND COURT EQUIPMENT"
+  ],
+  "场地和器材": [
+   "COURT AND COURT EQUIPMENT"
+  ],
+  "场地设施": [
+   "COURT AND COURT EQUIPMENT"
+  ],
+  "双打": [
+   "DOUBLES"
+  ],
+  "双打规则": [
+   "DOUBLES"
+  ],
+  "双打比赛": [
+   "DOUBLES"
+  ],
+  "器材和合规": [
+   "EQUIPMENT AND COMPLIANCE"
+  ],
+  "装备要求": [
+   "EQUIPMENT AND COMPLIANCE"
+  ],
+  "器材规定": [
+   "EQUIPMENT AND COMPLIANCE"
+  ],
+  "赛事和锦标赛": [
+   "EVENTS AND TOURNAMENTS"
+  ],
+  "比赛和联赛": [
+   "EVENTS AND TOURNAMENTS"
+  ],
+  "赛事组织": [
+   "EVENTS AND TOURNAMENTS"
+  ],
+  "犯规": [
+   "FAULTS"
+  ],
+  "违例": [
+   "FAULTS"
+  ],
+  "失误": [
+   "FAULTS"
+  ],
+  "裁判长一般建议": [
+   "GENERAL ADVICE ON REFEREEING"
+  ],
+  "裁判长工作指南": [
+   "GENERAL ADVICE ON REFEREEING"
+  ],
+  "裁判长注意事项": [
+   "GENERAL ADVICE ON REFEREEING"
+  ],
+  "发球裁判一般建议": [
+   "GENERAL ADVICE TO UMPIRES"
+  ],
+  "裁判员一般建议": [
+   "GENERAL ADVICE TO UMPIRES"
+  ],
+  "裁判员工作指南": [
+   "GENERAL ADVICE TO UMPIRES"
+  ],
+  "裁判长指示和指南": [
+   "INSTRUCTIONS AND GUIDELINES FOR REFEREES"
+  ],
+  "裁判长规程": [
+   "INSTRUCTIONS AND GUIDELINES FOR REFEREES"
+  ],
+  "裁判长工作指引": [
+   "INSTRUCTIONS AND GUIDELINES FOR REFEREES"
+  ],
+  "发球裁判指示": [
+   "INSTRUCTIONS TO SERVICE JUDGES"
+  ],
+  "发球裁判工作指引": [
+   "INSTRUCTIONS TO SERVICE JUDGES"
+  ],
+  "发球裁判注意事项": [
+   "INSTRUCTIONS TO SERVICE JUDGES"
+  ],
+  "裁判员指示": [
+   "INSTRUCTIONS TO UMPIRES"
+  ],
+  "裁判员工作指引": [
+   "INSTRUCTIONS TO UMPIRES"
+  ],
+  "裁判员注意事项": [
+   "INSTRUCTIONS TO UMPIRES"
+  ],
+  "重发球": [
+   "LETS"
+  ],
+  "重赛": [
+   "LETS"
+  ],
+  "let球": [
+   "LETS"
+  ],
+  "裁判人员和申诉": [
+   "OFFICIALS AND APPEALS"
+  ],
+  "官员和申诉": [
+   "OFFICIALS AND APPEALS"
+  ],
+  "裁判员和申诉": [
+   "OFFICIALS AND APPEALS"
+  ],
+  "裁判人员及其决定": [
+   "OFFICIALS AND THEIR DECISIONS"
+  ],
+  "官员和裁决": [
+   "OFFICIALS AND THEIR DECISIONS"
+  ],
+  "裁判员和判罚": [
+   "OFFICIALS AND THEIR DECISIONS"
+  ],
+  "处罚": [
+   "PENALTIES"
+  ],
+  "罚则": [
+   "PENALTIES"
+  ],
+  "惩罚": [
+   "PENALTIES"
+  ],
+  "球拍": [
+   "RACKET"
+  ],
+  "拍子": [
+   "RACKET"
+  ],
+  "羽毛球拍": [
+   "RACKET"
+  ],
+  "计分系统": [
+   "SCORING SYSTEM"
+  ],
+  "计分规则": [
+   "SCORING SYSTEM"
+  ],
+  "比分制度": [
+   "SCORING SYSTEM"
+  ],
+  "发球": [
+   "SERVICE"
+  ],
+  "发球规则": [
+   "SERVICE"
+  ],
+  "发球方式": [
+   "SERVICE"
+  ],
+  "发球区错误": [
+   "SERVICE COURT ERRORS"
+  ],
+  "发球站位错误": [
+   "SERVICE COURT ERRORS"
+  ],
+  "发球区错位": [
+   "SERVICE COURT ERRORS"
+  ],
+  "羽毛球": [
+   "SHUTTLE"
+  ],
+  "球": [
+   "SHUTTLE"
+  ],
+  "羽球": [
+   "SHUTTLE"
+  ],
+  "死球": [
+   "SHUTTLE NOT IN PLAY"
+  ],
+  "球不在比赛状态": [
+   "SHUTTLE NOT IN PLAY"
+  ],
+  "球未在比赛中": [
+   "SHUTTLE NOT IN PLAY"
+  ],
+  "单打": [
+   "SINGLES"
+  ],
+  "单打规则": [
+   "SINGLES"
+  ],
+  "单打比赛": [
+   "SINGLES"
+  ],
+  "测球速": [
+   "TESTING A SHUTTLE FOR SPEED"
+  ],
+  "测试羽毛球速度": [
+   "TESTING A SHUTTLE FOR SPEED"
+  ],
+  "球速测试": [
+   "TESTING A SHUTTLE FOR SPEED"
+  ],
+  "挑边": [
+   "TOSS"
+  ],
+  "掷硬币": [
+   "TOSS"
+  ],
+  "选边": [
+   "TOSS"
+  ],
+  "世界排名系统": [
+   "WORLD RANKING SYSTEM"
+  ],
+  "世界排名规则": [
+   "WORLD RANKING SYSTEM"
+  ],
+  "世界排名制度": [
+   "WORLD RANKING SYSTEM"
+  ]
+ }
+}

@@ -43,7 +43,8 @@ POSITIVE = [
     ("比赛种子怎么排？",
      [("bwf_gcr.txt", 1, "The seeding of the draw at all BWF Sanctioned Tournaments")], "赛事"),
     ("间歇时裁判需要做什么，规则怎么规定的？",
-     [("bwf_itto.txt", 1, "The timing of the interval allowed under Law 16.2.1")], "跨文档"),
+     [("bwf_itto.txt", 1, "The Umpire in consultation with the Referee shall exercise flexibility"),
+      ("bwf_itto.txt", 1, "The timing of the interval allowed under Law 16.2.1")], "跨文档"),
     ("球拍尺寸有规定吗？",
      [("wiki_badminton_zh.txt", 1, "总长度不得大于 680 毫米")], "规则"),
     # 以下 4 题原先被误判成「缺口」，实际语料里有答案（见 recheck_gaps.py）
