@@ -1,6 +1,6 @@
 """pytest 公共配置与共享 fixture。
 
-关键陷阱：day3 在**模块导入时**就读取 RAG_TAG / RAG_DATA_DIR 决定用哪份缓存
+关键陷阱：index_builder 在**模块导入时**就读取 RAG_TAG / RAG_DATA_DIR 决定用哪份缓存
 （chunks_<tag>.json / vectors_<tag>.npy）。如果先 import 了别的业务模块，
 或者外部 shell 里残留了 RAG_TAG=rules，就会加载到 82 块的旧语料。
 
@@ -44,7 +44,7 @@ def project_root() -> Path:
 def cached_chunks() -> list[dict]:
     """v2 语料缓存（649 块），不存在时跳过而不是失败。"""
     if not CHUNKS_V2.exists():
-        pytest.skip(f"缺少语料缓存 {CHUNKS_V2.name}，先跑一次 day3.py 生成")
+        pytest.skip(f"缺少语料缓存 {CHUNKS_V2.name}，先跑一次 index_builder.py 生成")
     return json.loads(CHUNKS_V2.read_text(encoding="utf-8"))
 
 

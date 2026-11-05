@@ -8,6 +8,12 @@
     python test_api.py
 """
 
+import sys
+from pathlib import Path
+
+# 本脚本在 tools/ 下，业务模块在项目根
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
+
 import json
 import os
 import urllib.error

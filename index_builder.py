@@ -1,21 +1,22 @@
 """
-Day 3 · 向量化与检索
+索引构建与向量检索
 
-Day 2 把 14 万字切成了 376 块。这一版给每块算一个"向量"（一串数字），
-然后用"语义距离"找相关块——中文问题也能匹配英文文档。
+把切好的块编码成向量并缓存，提供按语义距离检索的能力。
 
-为什么必须用 embedding 而不是关键词搜索：
-你的文档是英文，你问的是中文。搜「领先两分」在文档里一个都找不到，
-文档写的是 "two-point lead"。embedding 把中英文映射到同一个语义空间，
-所以能对上。
+为什么用 embedding 而不是关键词搜索：语料主要是英文 BWF 文档，用户问中文。
+搜「领先两分」在文档里一个都找不到，原文写的是 "two-point lead"。
+embedding 把中英文映射到同一语义空间，所以能对上。
 
-准备工作（只需一次）：
-1. 去 https://cloud.siliconflow.cn 注册，手机号就行
-2. 控制台里创建一个 API Key（新用户有免费额度，bge-m3 这个模型本身免费）
-3. 把 key 填进 .env 的 SILICONFLOW_API_KEY=
+两级缓存（都按 RAG_TAG 命名，例如 chunks_v2.json / vectors_v2.npy）：
+    chunks   切块结果
+    vectors  块向量
+缓存按「语料文件是否比缓存新」判断失效——只判断文件存在，会导致
+语料更新后仍用旧索引，静默答错。
+
+前置条件：.env 里配好 SILICONFLOW_API_KEY（bge-m3 模型免费）。
 
 运行：
-    python day3.py
+    python index_builder.py
 """
 
 import json
@@ -29,13 +30,15 @@ from dotenv import load_dotenv
 from openai import OpenAI
 
 from chunker import chunk_document
-from day2 import DATA_DIR, load_documents
+from document_loader import DATA_DIR, load_documents
 
 load_dotenv()
 
 HERE = Path(__file__).parent
 # 缓存按语料标签分开，切换语料时不互相覆盖
-TAG = os.getenv("RAG_TAG", "all")
+# 默认跟生产版本走（v2 = 649 块）。app.py 也会 setdefault 成 v2，
+# 这里保持一致——否则直接跑 tools/ 下的脚本会读到旧的 chunks_all.json。
+TAG = os.getenv("RAG_TAG", "v2")
 CHUNK_CACHE = HERE / f"chunks_{TAG}.json"
 VEC_CACHE = HERE / f"vectors_{TAG}.npy"
 

@@ -49,8 +49,9 @@ tools/html_cache/
 tools/txt/
 data_bwf/
 
-# ===== 已否决的实验（保留在本地，不入库）=====
-v2_*.py
+# ===== 已否决的实验 =====
+# 归档在 experiments/ 下（带 README 说明为什么否决），只挡根目录的散落脚本
+/v2_*.py
 
 tools/pdf/
 

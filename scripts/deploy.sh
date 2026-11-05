@@ -44,10 +44,10 @@ CODE_FILES=(
   agent_tools.py
   rerank.py
   chunker.py
-  day4.py
+  answer_generator.py
   run_eval.py
-  day2.py
-  day3.py
+  document_loader.py
+  index_builder.py
   hybrid.py
 )
 

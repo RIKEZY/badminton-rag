@@ -23,7 +23,7 @@ LABELS = ["产地", "商品代码", "拍框", "拍杆", "击球手感", "长度"
 
 
 def label_pat(lab: str) -> str:
-    """把「拍框」变成「拍\s*框」，兼容官网字间空格"""
+    r"""把「拍框」变成「拍\s*框」，兼容官网字间空格"""
     return r"\s*".join(re.escape(c) for c in lab)
 
 

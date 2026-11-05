@@ -14,7 +14,7 @@
 import os
 from concurrent.futures import ThreadPoolExecutor
 
-# 必须在 import day3 之前设置：day3 在模块加载时就会读这两个变量决定语料目录和缓存名
+# 必须在 import index_builder 之前设置：它在模块加载时就读取这两个变量，决定语料目录和缓存名
 # v2 = 含 BWF 官方文档的 649 块语料（rules = 旧的 82 块，保留供对照）
 os.environ.setdefault("RAG_DATA_DIR", "data_rules_only")
 os.environ.setdefault("RAG_TAG", "v2")
@@ -23,8 +23,8 @@ import streamlit as st
 from dotenv import load_dotenv
 from openai import OpenAI
 
-from day3 import build_chunks, build_vectors
-from day4 import build_context, generate, generate_stream, chat_extra
+from index_builder import build_chunks, build_vectors
+from answer_generator import build_context, generate, generate_stream, chat_extra
 from hybrid import (bm25_search_idx, build_bm25, fuse_by_language,
                     vector_search_idx)
 

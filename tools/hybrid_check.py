@@ -1,17 +1,23 @@
-"""
+r"""
 混合检索验证：一次看清三份结果 + 重叠情况。
 
 跑法（CMD）：
     cd /d F:\WorkPlace\Python\badminton-rag
-    .venv\Scripts\python.exe test_hybrid.py
+    .venv\Scripts\python.exe tools/hybrid_check.py
 """
+
+import sys
+from pathlib import Path
+
+# 本脚本在 tools/ 下，业务模块在项目根
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
 import os
 
 from dotenv import load_dotenv
 from openai import OpenAI
 
-from day3 import build_chunks, build_vectors
+from index_builder import build_chunks, build_vectors
 from hybrid import bm25_search_idx, build_bm25, rrf_fuse, vector_search_idx
 
 load_dotenv()

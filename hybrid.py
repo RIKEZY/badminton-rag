@@ -14,7 +14,7 @@ import re
 import jieba
 from rank_bm25 import BM25Okapi
 
-from day3 import embed_query
+from index_builder import embed_query
 
 RRF_K = 20
 

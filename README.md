@@ -150,16 +150,24 @@ copy .env.example .env
 ## 项目结构
 
 ```
-├── app.py              # Streamlit Web 界面
-├── chunker.py          # 结构感知切块（按条款编号 + 段落回退）
-├── day2.py             # PDF 读取 + 页眉清洗
-├── day3.py             # 向量化与索引缓存
-├── day4.py             # 查询改写 + 生成
-├── hybrid.py           # 向量/BM25 检索 + RRF 融合
-├── run_eval.py         # 批量评测（10 题，自动算 Recall@5）
-├── data_rules_only/    # 语料：BWF 规则 PDF + 中文技术/装备/百科
-├── 评测集.md            # 评测集定义与历次结果
-└── deploy/             # systemd 服务 + nginx 反代配置
+├── app.py                  # Streamlit Web 界面 + 检索编排
+├── agent_core.py           # Agent 决策循环（路由 → 执行 → 观察 → 再决策）
+├── agent_tools.py          # 工具层：SQLite 精确查询 / 向量检索
+├── rerank.py               # cross-encoder 重排
+├── hybrid.py               # 向量/BM25 检索 + 两级 RRF 融合
+├── chunker.py              # 结构感知切块（按条款编号 + 段落回退）
+├── document_loader.py      # 文档加载 + 页眉清洗
+├── index_builder.py        # 切块缓存 + 向量化
+├── answer_generator.py     # 上下文拼装 + 答案生成
+├── run_eval.py             # 评测：10 题基线
+├── tests/                  # pytest（68 项离线 + 4 项需 API）
+├── tools/                  # 数据抓取、装备库、日志、诊断脚本
+├── scripts/deploy.sh       # 部署脚本（健康检查 + 自动回滚）
+├── experiments/            # 已否决的 V2 方案，保留作为决策记录
+├── examples/               # 最小可运行示例
+├── admin/                  # 管理后台（独立服务，不对外暴露入口）
+├── data_rules_only/        # 语料：BWF 官方文档 + 中文技术/装备/百科
+└── 评测集.md                # 评测集定义与历次结果
 ```
 
 ## 技术栈

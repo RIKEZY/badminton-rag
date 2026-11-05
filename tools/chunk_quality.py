@@ -6,8 +6,14 @@
     .venv/Scripts/python.exe test_chunker.py
 """
 
+import sys
+from pathlib import Path
+
+# 本脚本在 tools/ 下，业务模块在项目根
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
+
 from chunker import chunk_document, quality_report
-from day2 import DATA_DIR, read_pdf
+from document_loader import DATA_DIR, read_pdf
 
 pdf = DATA_DIR / "badminton_rules.pdf"
 pages = read_pdf(pdf)

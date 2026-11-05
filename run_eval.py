@@ -18,8 +18,8 @@ import os
 from dotenv import load_dotenv
 from openai import OpenAI
 
-from day3 import build_chunks, build_vectors
-from day4 import build_context, chat_extra, generate
+from index_builder import build_chunks, build_vectors
+from answer_generator import build_context, chat_extra, generate
 from hybrid import (bm25_search_idx, build_bm25, fuse_by_language,
                     rrf_fuse, vector_search_idx)
 

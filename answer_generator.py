@@ -1,17 +1,15 @@
 """
-Day 4 · 检索 + 生成
+上下文拼装与答案生成
 
-Day 3 能找出相关块了，这一版把块喂给 DeepSeek，让它基于资料回答。
+把检索到的块拼成上下文，交给模型生成答案；带出处（文件名 + 页码），
+流式输出并统计 token。
 
-核心变化：
-    Day 1  整份文档 14 万字符 → 38,607 token
-    Day 4  只喂 top5 约 1000 字符 → 约 400 token
-
-两个函数留空，你来填。填之前先看 day1.py 里怎么调 DeepSeek 的，
-再看下面每个 TODO 上面的提示。
+相对「整份文档直接塞给模型」的差别：
+    整份文档   14 万字符 → 38,607 token
+    top5 检索  约 1000 字符 → 约 400 token
 
 运行：
-    python day4.py
+    python answer_generator.py
 """
 from hybrid import (bm25_search_idx, build_bm25, fuse_by_language,
                     rrf_fuse, vector_search_idx)
@@ -21,7 +19,7 @@ import sys
 from dotenv import load_dotenv
 from openai import OpenAI
 
-from day3 import build_chunks, build_vectors, search
+from index_builder import build_chunks, build_vectors, search
 
 load_dotenv()
 
@@ -54,7 +52,7 @@ def build_context(hits: list[tuple[float, dict]]) -> str:
 
     提示：
     - 每一块前面加上来源标记，格式自己定，比如 [资料1 | badminton_rules.pdf 第5页]
-      这样模型回答时能引用，Day 5 要用
+      这样模型回答时能引用，生成阶段要用
     - 块之间用空行隔开，别黏成一坨
     - 返回值是一整个字符串
 
@@ -78,7 +76,7 @@ def generate(chat_client: OpenAI, question: str, context: str) -> tuple[str, int
     返回 (回答文字, 消耗的 token 数)
 
     提示：
-    - 参考 day1.py 里 client.chat.completions.create 的写法
+    - 参考 examples/minimal_demo.py 里 client.chat.completions.create 的写法
     - system 消息里要约束：只根据资料回答，资料里没有就说不知道
     - 温度设 0，减少胡编
     - 返回值里 resp.usage.total_tokens 就是 token 数

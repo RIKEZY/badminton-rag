@@ -1,17 +1,16 @@
 """
-Day 1 · 羽毛球知识问答 · 第一步
+最小可运行示例：读 PDF → 直接问模型
 
-这一版只做两件事：
-1. 把一个 PDF 读成纯文本
-2. 把文本塞给 DeepSeek，问一个固定问题
+不带检索、不带切块，整份文档塞进上下文。用来验证「API 通不通」这一环——
+出问题时能立刻分清是 PDF 没读出来、API 没通、还是检索逻辑的问题。
 
-为什么先做这个：出问题时你知道是哪一环坏了。
-一上来就写检索，跑不通你会分不清是 PDF 没读出来、还是 API 没通、还是检索逻辑错了。
+生产链路（app.py）不会这样用：整份文档 14 万字符 = 38,607 token，
+既贵又超出有效上下文。这里只是链路最短的冒烟测试。
 
 运行：
     pip install -r requirements.txt
     copy .env.example .env    (然后填入你的 key)
-    python day1.py
+    python examples/minimal_demo.py
 """
 
 import os
@@ -28,8 +27,9 @@ API_KEY = os.getenv("DEEPSEEK_API_KEY", "").strip()
 BASE_URL = os.getenv("DEEPSEEK_BASE_URL", "https://api.deepseek.com").strip()
 MODEL = os.getenv("DEEPSEEK_MODEL", "deepseek-chat").strip()
 
-HERE = Path(__file__).parent
-PDF_PATH = HERE / "data" / "badminton_rules.pdf"
+# 本文件在 examples/ 下，数据目录在项目根
+ROOT = Path(__file__).resolve().parent.parent
+PDF_PATH = ROOT / "data" / "badminton_rules.pdf"
 
 # 先固定一个问题，等跑通了再改成 input() 让你随便问
 QUESTION = "羽毛球比赛中，一局打到 20 平之后，需要领先几分才能获胜？"

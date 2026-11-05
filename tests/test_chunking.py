@@ -2,7 +2,7 @@
 
 覆盖：
     - 从原始语料重新切块，块数必须是 649，且与缓存逐块一致
-    - day3 在 conftest 固定的环境变量下加载的确实是 v2 语料（649 块）
+    - index_builder 在 conftest 固定的环境变量下加载的确实是 v2 语料（649 块）
     - 条款切分 / 层级前缀 / 兄弟块合并 / 段落回退
     - 缓存块里没有 BWF 页眉（Page X of Y），带条款的块都有层级前缀
 """
@@ -14,7 +14,7 @@ import pytest
 
 from chunker import (add_prefix, chunk_document, guess_doc_type, merge_siblings,
                      split_by_paragraph, split_page_by_clause)
-from day2 import load_documents, strip_header
+from document_loader import load_documents, strip_header
 
 ROOT = Path(__file__).resolve().parent.parent
 DATA_DIR = ROOT / "data_rules_only"
@@ -46,13 +46,13 @@ def test_source_pipeline_reproduces_649_chunks(cached_chunks):
     assert [c["text"] for c in built] == [c["text"] for c in cached_chunks]
 
 
-def test_day3_loads_v2_cache_not_legacy_rules():
-    """已知陷阱回归：day3.TAG 必须是 v2，块数必须是 649（不是旧的 82）。"""
-    import day3
+def test_index_builder_loads_v2_cache_not_legacy_rules():
+    """已知陷阱回归：index_builder.TAG 必须是 v2，块数必须是 649（不是旧的 82）。"""
+    import index_builder
 
-    assert day3.TAG == "v2"
-    assert day3.CHUNK_CACHE.name == "chunks_v2.json"
-    assert len(day3.build_chunks()) == EXPECTED_CHUNK_COUNT
+    assert index_builder.TAG == "v2"
+    assert index_builder.CHUNK_CACHE.name == "chunks_v2.json"
+    assert len(index_builder.build_chunks()) == EXPECTED_CHUNK_COUNT
 
 
 # ---------------------------------------------------------------- 条款切分
