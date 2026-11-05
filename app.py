@@ -12,6 +12,7 @@
 """
 
 import os
+from concurrent.futures import ThreadPoolExecutor
 
 # 必须在 import day3 之前设置：day3 在模块加载时就会读这两个变量决定语料目录和缓存名
 # v2 = 含 BWF 官方文档的 649 块语料（rules = 旧的 82 块，保留供对照）
@@ -150,12 +151,25 @@ def load_index():
 
 
 def rewrite_queries(client, question: str) -> list[str]:
-    """一次调用生成 3 个英文表述，吸收 LLM 输出的不确定性"""
+    """先查术语表，再改写，最后拼接兜底
+
+    顺序很重要：术语要作为**输入**给模型，而不是事后硬拼。
+    先告诉模型「这个问题命中了 CHANGE OF ENDS」，它才能围绕这个术语组织句子；
+    事后拼接只能保证词出现，句子本身还是围绕自由翻译写的。
+    """
+    terms = term_queries(question)          # ① 先查映射表
+
+    user_msg = question
+    if terms:
+        user_msg = (f"{question}\n\n"
+                    f"【本次必须使用的术语】{' / '.join(terms)}\n"
+                    f"改写时围绕这些术语组织句子，不要用同义替换。")
+
     resp = client.chat.completions.create(
         model=CHAT_MODEL,
         messages=[
             {"role": "system", "content": REWRITE_PROMPT},
-            {"role": "user", "content": question},
+            {"role": "user", "content": user_msg},
         ],
         temperature=0,
         **chat_extra(),
@@ -169,16 +183,14 @@ def rewrite_queries(client, question: str) -> list[str]:
 
     lines = lines[:3] or [question]
 
-    # 检测到术语就强制拼进每条改写。
+    # ② 拼接兜底：模型可能没照做，硬拼保证术语一定出现。
     #
-    # 为什么不能只靠 prompt 约束：那是软约束，模型可能不遵守。
-    # 实测「球落在边线上算出界吗」，3 条改写里只有 1 条能命中答案块，
-    # 另外 2 条用的是 "considered out" / "count as in"，BM25 对不上原文的
+    # 实测「球落在边线上算出界吗」，只靠 prompt 时 3 条改写里只有 1 条能命中答案块，
+    # 另外 2 条用 "considered out" / "count as in"，BM25 对不上原文的
     # "lands outside the boundaries"。拼接后 3 条全部命中。
     #
     # 拼在句尾而不是替换原句：保留完整句子的语义（向量路要用），
     # 同时把文档术语作为关键词补进去（BM25 路要用）。
-    terms = term_queries(question)
     if terms:
         suffix = " ".join(terms)
         lines = [f"{ln} {suffix}" for ln in lines]
@@ -193,23 +205,37 @@ def retrieve(question: str, top_k: int):
     # 开了重排就多召回一些候选，给 reranker 留出重排空间
     pool = RERANK_POOL if RERANK_ENABLED else top_k
 
-    zh_lists = [
-        vector_search_idx(embed_client, chunks, vecs, question, k=pool),
-        bm25_search_idx(bm25, chunks, question, k=pool),
+    # 九路检索并行跑。
+    #
+    # 为什么值得并行：每路向量检索要调一次 embedding API（约 0.4s），
+    # 九路里 4 路是向量（中文 1 + 英文 3），串行要 1.6s，并行只要一个来回。
+    # BM25 是本地计算（毫秒级），并行没有额外成本。
+    #
+    # 线程安全：OpenAI client 基于 httpx，支持并发；BM25 建好后只读。
+    zh_specs = [
+        lambda: vector_search_idx(embed_client, chunks, vecs, question, k=pool),
+        lambda: bm25_search_idx(bm25, chunks, question, k=pool),
     ]
-    en_lists = []
-    for q in queries:
-        # 改写偶尔会返回空串或纯符号，embed_query 拿到空输入会返回形状不对的向量，
-        # 后面 vecs @ q 直接崩。这里挡掉，宁可少一路也不要整条链路挂掉。
-        if not q or not q.strip():
-            continue
-        en_lists.append(vector_search_idx(embed_client, chunks, vecs, q, k=pool))
-        en_lists.append(bm25_search_idx(bm25, chunks, q, k=pool))
+
+    valid_queries = [q for q in queries if q and q.strip()]
+    en_specs = []
+    for q in valid_queries:
+        en_specs.append(lambda q=q: vector_search_idx(embed_client, chunks, vecs, q, k=pool))
+        en_specs.append(lambda q=q: bm25_search_idx(bm25, chunks, q, k=pool))
 
     # 术语直查：中文术语直接映射英文术语，绕开 LLM 翻译。
     # 单独成组参与融合——并进英文侧会被 6 路改写稀释掉。
-    term_lists = [bm25_search_idx(bm25, chunks, tq, k=pool)
-                  for tq in term_queries(question)]
+    term_specs = [lambda t=t: bm25_search_idx(bm25, chunks, t, k=pool)
+                  for t in term_queries(question)]
+
+    all_specs = zh_specs + en_specs + term_specs
+    with ThreadPoolExecutor(max_workers=min(8, len(all_specs))) as ex:
+        results = list(ex.map(lambda f: f(), all_specs))
+
+    n_zh, n_en = len(zh_specs), len(en_specs)
+    zh_lists = results[:n_zh]
+    en_lists = results[n_zh:n_zh + n_en]
+    term_lists = results[n_zh + n_en:]
 
     fused = fuse_by_language(zh_lists, en_lists, top_n=pool, term_hit_lists=term_lists)
 
