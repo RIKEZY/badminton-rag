@@ -46,6 +46,16 @@ POSITIVE = [
      [("bwf_itto.txt", 1, "The timing of the interval allowed under Law 16.2.1")], "跨文档"),
     ("球拍尺寸有规定吗？",
      [("wiki_badminton_zh.txt", 1, "总长度不得大于 680 毫米")], "规则"),
+    # 以下 4 题原先被误判成「缺口」，实际语料里有答案（见 recheck_gaps.py）
+    ("一局结束后什么时候换边？",
+     [("bwf_laws_2027.txt", 1, "Players shall change ends"),
+      ("badminton_rules.pdf", 5, "Players shall change ends")], "规则"),
+    ("裁判出示黄牌是警告还是罚分？",
+     [("bwf_itto.txt", 1, "formal warning for misconduct (yellow card)")], "裁判"),
+    ("比赛中球员可以要求擦汗或喝水吗？",
+     [("bwf_itto.txt", 1, "A quick towel only")], "裁判"),
+    ("球落在边线上算出界吗？",
+     [("bwf_laws_2027.txt", 1, "lands outside the boundaries of the court")], "规则"),
 ]
 
 # ── 组 2：负样本（语料确实没有，正确行为是拒答）
@@ -55,13 +65,10 @@ NEGATIVE = [
     "中国国家队现任主教练是谁？",
 ]
 
-# ── 组 3：已知缺口（用户会问，但语料没有 / 检索不到）
-# 第二列标注原因，决定修法
+# ── 组 3：已知缺口（用户会问，语料确实没有，只能补数据）
+# 注意：判「语料缺失」必须真的搜过原文关键词，不能只看检索分数。
+# 这三道题都搜过：net shot 0 处、string tension 0 处、无入门/选拍/双打内容。
 GAPS = [
-    ("一局结束后什么时候换边？", "检索失败", "语料有 change ends 5 处"),
-    ("裁判出示黄牌是警告还是罚分？", "检索失败", "语料有 yellow card 3 处"),
-    ("球落在边线上算出界吗？", "部分覆盖", "语料只有 line call，无界内判定"),
-    ("比赛中球员可以要求擦汗或喝水吗？", "部分覆盖", "语料有 towel 8 处但讲裁判处理"),
     ("网前搓球的技术要点是什么？", "语料缺失", "net shot 0 处"),
     ("球线磅数越高越好吗？", "语料缺失", "string tension 0 处"),
     ("打球老是打不到球怎么办？", "语料缺失", "无入门级内容"),

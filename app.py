@@ -40,11 +40,44 @@ RERANK_ENABLED = os.getenv("RAG_RERANK", "").strip().lower() in ("1", "true", "y
 RERANK_POOL = int(os.getenv("RERANK_POOL", "20"))
 from rerank import rerank as rerank_docs
 
+
+def _load_glossary_line() -> str:
+    """从语料抽出的章节术语，注入改写 prompt
+
+    中文一词多义、表达发散，英文文档却是固定术语。
+    不把术语喂给模型，它会自由翻译成 switch sides，而文档里只有 change ends。
+    """
+    import json
+    from pathlib import Path
+
+    f = Path(__file__).resolve().parent / "tools" / "glossary.json"
+    if not f.exists():
+        return ""
+    terms = json.loads(f.read_text(encoding="utf-8")).get("chapters", [])
+    # INTERVAL 是 Law 16.2 的子条款，不在章节标题里，手工补
+    if "INTERVAL" not in terms:
+        terms.append("INTERVAL")
+    return " / ".join(terms)
+
+
+GLOSSARY_LINE = _load_glossary_line()
+
 REWRITE_PROMPT = (
-    "把用户的中文羽毛球问题，改写成 3 个不同的英文检索语句。"
-    "每句用不同措辞，并且覆盖问题涉及的不同关键词——"
-    "尤其是规则文档里可能出现的专业术语（如 toss / service / interval / fault）。"
-    "每行一句，不要编号，不要解释，只输出 3 行英文。"
+    "把用户的中文羽毛球问题，改写成 3 个不同的英文检索语句。\n\n"
+    "【术语要求 —— 最重要】\n"
+    "中文表达发散，同一个意思有多种说法；但 BWF 文档使用固定术语。\n"
+    "必须使用下面的官方术语，不要自由翻译：\n"
+    "  换边 → change ends（不是 switch sides / change sides）\n"
+    "  间歇 → interval（不是 break）\n"
+    "  发球区 → service court\n"
+    "  违例 → fault    重发 → let    得分 → scoring\n"
+    "  网柱 → posts    中管 → shaft   拍面 → stringed area\n"
+    "  界内 → in       界外 → out     边线 → boundary line / on the line\n\n"
+    "文档中的章节术语（改写时优先复用这些词）：\n"
+    f"{GLOSSARY_LINE}\n\n"
+    "【输出要求】\n"
+    "每行一句，不要编号，不要解释，只输出 3 行英文。\n"
+    "3 句措辞可以不同，但都必须落在上述官方术语上。"
 )
 
 st.set_page_config(page_title="羽毛球知识助手", page_icon="🏸", layout="wide")
@@ -75,7 +108,7 @@ def rewrite_queries(client, question: str) -> list[str]:
     lines = []
     for ln in raw.split("\n"):
         ln = ln.strip().lstrip("0123456789.-、) ").strip()
-        if ln and any(c.isalpha() for c in ln):
+        if ln and len(ln) >= 3 and any(c.isalpha() for c in ln):
             lines.append(ln)
     return lines[:3] or [question]
 
@@ -93,6 +126,10 @@ def retrieve(question: str, top_k: int):
     ]
     en_lists = []
     for q in queries:
+        # 改写偶尔会返回空串或纯符号，embed_query 拿到空输入会返回形状不对的向量，
+        # 后面 vecs @ q 直接崩。这里挡掉，宁可少一路也不要整条链路挂掉。
+        if not q or not q.strip():
+            continue
         en_lists.append(vector_search_idx(embed_client, chunks, vecs, q, k=pool))
         en_lists.append(bm25_search_idx(bm25, chunks, q, k=pool))
 
