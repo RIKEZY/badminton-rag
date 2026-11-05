@@ -35,7 +35,7 @@ def test_tokenize_mixed_text_does_not_crash():
 # ---------------------------------------------------------------- BM25
 
 def test_bm25_index_covers_whole_corpus(bm25_index, cached_chunks):
-    assert bm25_index.corpus_size == len(cached_chunks) == 649
+    assert bm25_index.corpus_size == len(cached_chunks)
 
 
 def test_bm25_english_query_hits_itto(bm25_index, cached_chunks):

@@ -5,7 +5,7 @@
 或者外部 shell 里残留了 RAG_TAG=rules，就会加载到 82 块的旧语料。
 
 conftest 的模块级代码在所有测试模块之前执行，所以在这里强制固定：
-    RAG_TAG=v2          → chunks_v2.json（649 块）
+    RAG_TAG=v2          → chunks_v2.json（当前 1074 块）
     RAG_DATA_DIR=data_rules_only
 """
 
@@ -32,7 +32,11 @@ VECTORS_V2 = ROOT / "vectors_v2.npy"
 EQUIPMENT_DB = ROOT / "tools" / "equipment.db"
 DATA_DIR = ROOT / "data_rules_only"
 
-EXPECTED_CHUNK_COUNT = 649
+# 不硬编码块数：补语料后块数会变（82 → 649 → 1074），硬编码意味着每次加数据
+# 都要改测试，测试就从「保护」变成了「维护负担」。
+# 改为下限——低于这个数说明语料丢了或者切块逻辑坏了。
+# 具体的块数一致性由 test_chunking 里「重新切块 == 缓存」那条断言保证。
+MIN_CHUNK_COUNT = 800
 
 
 @pytest.fixture(scope="session")
@@ -42,7 +46,7 @@ def project_root() -> Path:
 
 @pytest.fixture(scope="session")
 def cached_chunks() -> list[dict]:
-    """v2 语料缓存（649 块），不存在时跳过而不是失败。"""
+    """v2 语料缓存，不存在时跳过而不是失败。"""
     if not CHUNKS_V2.exists():
         pytest.skip(f"缺少语料缓存 {CHUNKS_V2.name}，先跑一次 index_builder.py 生成")
     return json.loads(CHUNKS_V2.read_text(encoding="utf-8"))

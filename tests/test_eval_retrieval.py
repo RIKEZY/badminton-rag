@@ -28,7 +28,7 @@ def _run_cases(cases) -> None:
     import app
 
     # 防呆：如果 conftest 的环境变量没生效，这里会加载成 82 块的旧语料
-    assert len(app.chunks) == 649, f"语料块数异常：{len(app.chunks)}（应为 649）"
+    assert len(app.chunks) >= 800, f"语料块数异常偏少：{len(app.chunks)}"
 
     misses = []
     for i, (question, expected, page_tol, tag) in enumerate(cases, 1):

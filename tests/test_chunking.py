@@ -1,8 +1,8 @@
 """切块逻辑测试（离线，不调任何 API）。
 
 覆盖：
-    - 从原始语料重新切块，块数必须是 649，且与缓存逐块一致
-    - index_builder 在 conftest 固定的环境变量下加载的确实是 v2 语料（649 块）
+    - 从原始语料重新切块，块数必须与缓存一致，且逐块文本相同
+    - index_builder 在 conftest 固定的环境变量下加载的确实是 v2 语料
     - 条款切分 / 层级前缀 / 兄弟块合并 / 段落回退
     - 缓存块里没有 BWF 页眉（Page X of Y），带条款的块都有层级前缀
 """
@@ -18,14 +18,14 @@ from document_loader import load_documents, strip_header
 
 ROOT = Path(__file__).resolve().parent.parent
 DATA_DIR = ROOT / "data_rules_only"
-EXPECTED_CHUNK_COUNT = 649
+MIN_CHUNK_COUNT = 800
 HEADER_RE = re.compile(r"Page\s+\d+\s+of\s+\d+", re.IGNORECASE)
 
 
 # ---------------------------------------------------------------- 端到端
 
-def test_source_pipeline_reproduces_649_chunks(cached_chunks):
-    """data_rules_only 重新走一遍 load_documents → chunk_document，必须是 649 块。"""
+def test_source_pipeline_matches_cache(cached_chunks):
+    """data_rules_only 重新走一遍 load_documents → chunk_document，必须与缓存一致。"""
     if not DATA_DIR.exists():
         pytest.skip("缺少 data_rules_only 目录")
 
@@ -40,19 +40,20 @@ def test_source_pipeline_reproduces_649_chunks(cached_chunks):
     for source, pages in by_source.items():
         built.extend(chunk_document(pages, source))
 
-    assert len(built) == EXPECTED_CHUNK_COUNT
-    assert len(cached_chunks) == EXPECTED_CHUNK_COUNT
+    assert len(built) >= MIN_CHUNK_COUNT, f"块数异常偏少：{len(built)}"
+    # 一致性比具体数字更重要：重新切的块数必须和缓存相同
+    assert len(built) == len(cached_chunks)
     # 切块是确定性的：重新切的文本序列应与缓存完全一致
     assert [c["text"] for c in built] == [c["text"] for c in cached_chunks]
 
 
 def test_index_builder_loads_v2_cache_not_legacy_rules():
-    """已知陷阱回归：index_builder.TAG 必须是 v2，块数必须是 649（不是旧的 82）。"""
+    """已知陷阱回归：index_builder.TAG 必须是 v2，不能退回旧的 all/rules。"""
     import index_builder
 
     assert index_builder.TAG == "v2"
     assert index_builder.CHUNK_CACHE.name == "chunks_v2.json"
-    assert len(index_builder.build_chunks()) == EXPECTED_CHUNK_COUNT
+    assert len(index_builder.build_chunks()) >= MIN_CHUNK_COUNT
 
 
 # ---------------------------------------------------------------- 条款切分
@@ -196,7 +197,7 @@ def test_cached_chunks_have_no_page_header(cached_chunks):
 
 
 def test_cached_chunks_structure_and_prefix(cached_chunks):
-    assert len(cached_chunks) == EXPECTED_CHUNK_COUNT
+    assert len(cached_chunks) >= MIN_CHUNK_COUNT
 
     allowed_types = {"规则", "技术", "装备", "百科", "裁判", "赛事", "场馆", "其他"}
     assert {c.get("doc_type") for c in cached_chunks} <= allowed_types
@@ -215,6 +216,11 @@ def test_cached_chunks_structure_and_prefix(cached_chunks):
         assert c["clause"] in c["prefix"]
         assert c["text"].startswith(c["prefix"])
 
-    # 577/649 块有前缀；给个下界，避免断言过死
+    # 约六成块有条款前缀（技术/百科类没有）；给个下界，避免断言过死
     assert sum(1 for c in cached_chunks if c.get("prefix")) >= 500
-    assert len({c["source"] for c in cached_chunks}) == 10
+    # 来源数同样不硬编码：语料会继续加。改成和语料目录里的文件数对齐——
+    # 少一个来源说明某个文件没被读到，这是真问题；多来源是正常的扩充。
+    n_sources = len({c["source"] for c in cached_chunks})
+    n_files = len([f for f in DATA_DIR.iterdir()
+                   if f.suffix.lower() in (".pdf", ".txt", ".md")])
+    assert n_sources >= n_files, f"来源数 {n_sources} 少于语料文件数 {n_files}，有文件没被读到"
