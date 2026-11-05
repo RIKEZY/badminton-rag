@@ -166,7 +166,24 @@ def rewrite_queries(client, question: str) -> list[str]:
         ln = ln.strip().lstrip("0123456789.-、) ").strip()
         if ln and len(ln) >= 3 and any(c.isalpha() for c in ln):
             lines.append(ln)
-    return lines[:3] or [question]
+
+    lines = lines[:3] or [question]
+
+    # 检测到术语就强制拼进每条改写。
+    #
+    # 为什么不能只靠 prompt 约束：那是软约束，模型可能不遵守。
+    # 实测「球落在边线上算出界吗」，3 条改写里只有 1 条能命中答案块，
+    # 另外 2 条用的是 "considered out" / "count as in"，BM25 对不上原文的
+    # "lands outside the boundaries"。拼接后 3 条全部命中。
+    #
+    # 拼在句尾而不是替换原句：保留完整句子的语义（向量路要用），
+    # 同时把文档术语作为关键词补进去（BM25 路要用）。
+    terms = term_queries(question)
+    if terms:
+        suffix = " ".join(terms)
+        lines = [f"{ln} {suffix}" for ln in lines]
+
+    return lines
 
 
 def retrieve(question: str, top_k: int):
@@ -200,21 +217,25 @@ def retrieve(question: str, top_k: int):
         idx_list = [idx for _, idx in fused]
         docs = [chunks[i]["text"] for i in idx_list]
 
-        # 重排用中文原问。
+        # 双 query 重排：中文原问 + 第一条英文改写，逐块取最高分。
         #
-        # 试过两种增强，都不采用：
-        #   双 query（中文 + 英文改写[0]）取最高：能修好「球落在边线上」，
-        #       但英文改写每次措辞不同（considered out / count as out），
-        #       同一题 3 次跑出 2 种结果，稳定性比单 query 差。
-        #   多 query（中文 + 全部改写）取最高：3 次全部失败，且 4.77s/题。
-        #       取 max 会把任何一条 query 给高分的块都顶上来，噪声也一起放大。
+        # 为什么不能只用中文原问：rerank 模型有同语言偏好。
+        # 实测「球落在边线上算出界吗」，中文 query 给中文块（wiki「出界情形」）0.42，
+        # 给英文精确答案（Law 13.3.1「not on or within the boundary lines」）0.006。
+        # 语料里 500+ 块是英文，只用中文 query 会系统性压掉英文块。
         #
-        # 单 query 的已知缺陷：「球落在边线上算出界吗」这类题，rerank 会偏向
-        # 中文块（wiki 的「出界情形」0.42），压掉英文精确答案（0.006）。
-        # 这是 rerank 模型的语义判断偏差，不是架构问题——需要更强的模型，
-        # 或者按语言分组重排（中文块用中文 query、英文块用英文 query），
-        # 后者要解决跨语言分数不可比的问题，暂时不做。
-        ranked = rerank_docs(question, docs, top_n=top_k)
+        # 为什么现在取 max 稳定：改写里已经拼了术语（见 rewrite_queries），
+        # 3 条改写的后半段完全相同，措辞变化不再影响 rerank 结果。
+        # 没有术语时（改写全靠自由翻译），取 max 会把噪声放大——那是之前失败的原因。
+        #
+        # 为什么只取 1 条英文改写：实测 2 个 query 与 4 个 query 通过率相同（4/4），
+        # 但耗时 3.89s vs 4.60s。术语部分三条改写相同，多跑只是重复打分。
+        rq_list = [question] + list(queries[:1])
+        best: dict[int, float] = {}
+        for rq in rq_list:
+            for i, s in rerank_docs(rq, docs, top_n=len(docs)):
+                best[i] = max(best.get(i, 0.0), s)
+        ranked = sorted(best.items(), key=lambda x: -x[1])[:top_k]
 
         if ranked:
             return queries, [(score, chunks[idx_list[i]]) for i, score in ranked]
