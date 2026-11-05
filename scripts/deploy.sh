@@ -28,6 +28,10 @@ SSH_KEY="/tmp/brag.pem"
 REMOTE_DIR="/opt/badminton-rag"
 SERVICE_NAME="badminton-rag"
 APP_PORT="8501"
+# 管理后台是独立服务（Streamlit 不允许同一进程挂两个 baseUrlPath，
+# 而且 pages/ 目录会让主应用侧边栏出现入口）
+ADMIN_SERVICE_NAME="badminton-admin"
+ADMIN_PORT="8502"
 
 # 备份保留份数（含本次新生成的）
 BACKUP_KEEP=5
@@ -177,10 +181,14 @@ EOF
 restart_script() {
   cat <<EOF
 set -euo pipefail
-${SUDO} systemctl restart ${SERVICE_NAME}
-echo "   已重启 ${SERVICE_NAME}，等待 8 秒…"
+# 记下重启时刻：健康检查只看这之后的日志。
+# 用 -n 40 会读到重启前的历史日志——实测把昨天的崩溃翻出来，
+# 误判成这次部署失败并触发无谓回滚。
+date +%s > /tmp/badminton-rag-restart.ts
+${SUDO} systemctl restart ${SERVICE_NAME} ${ADMIN_SERVICE_NAME}
+echo "   已重启 ${SERVICE_NAME} / ${ADMIN_SERVICE_NAME}，等待 8 秒…"
 sleep 8
-echo "   当前状态: \$(systemctl is-active ${SERVICE_NAME} || true)"
+echo "   当前状态: \$(systemctl is-active ${SERVICE_NAME} ${ADMIN_SERVICE_NAME} | tr '\n' ' ')"
 EOF
 }
 
@@ -190,29 +198,43 @@ set -uo pipefail
 rc=0
 
 check_url() {
-  local path="\$1" code
-  code=\$(curl -s -o /dev/null -m 10 -w '%{http_code}' "http://127.0.0.1:${APP_PORT}\${path}" || echo 000)
+  local path="\$1" port="\${2:-${APP_PORT}}" code
+  # -L 跟随重定向：Streamlit 对 baseUrlPath 会先 301 补斜杠，不跟随会误判成失败
+  code=\$(curl -sL -o /dev/null -m 10 -w '%{http_code}' "http://127.0.0.1:\${port}\${path}" || echo 000)
   if [ "\$code" = "200" ]; then
-    echo "   [OK]   GET \${path}  -> HTTP \$code"
+    echo "   [OK]   GET :\${port}\${path}  -> HTTP \$code"
   else
-    echo "   [FAIL] GET \${path}  -> HTTP \$code"
+    echo "   [FAIL] GET :\${port}\${path}  -> HTTP \$code"
     rc=1
   fi
 }
 check_url /
-check_url /ops/
+# 后台在独立端口，拿主服务端口查 /ops/ 只会拿到 301
+check_url /ops/ ${ADMIN_PORT}
 
-if ! log=\$(journalctl -u ${SERVICE_NAME} -n 40 --no-pager 2>&1); then
-  echo "   [FAIL] journalctl 读取失败（可能权限不足），输出："
-  printf '%s\n' "\$log" | sed 's/^/          /'
-  rc=1
-elif printf '%s\n' "\$log" | grep -Eqi 'error|traceback'; then
-  echo "   [FAIL] journalctl 最近 40 行含 error/traceback："
-  printf '%s\n' "\$log" | grep -Ei 'error|traceback' | tail -n 5 | sed 's/^/          /'
-  rc=1
-else
-  echo "   [OK]   journalctl 最近 40 行无 error/traceback"
+# 只看本次重启之后的日志，避免把历史错误算到这次部署头上
+SINCE_ARG="--since -3min"
+if [ -f /tmp/badminton-rag-restart.ts ]; then
+  SINCE_ARG="--since @\$(cat /tmp/badminton-rag-restart.ts)"
 fi
+
+check_log() {
+  local svc="\$1" log
+  if ! log=\$(${SUDO} journalctl -u "\$svc" \$SINCE_ARG --no-pager 2>&1); then
+    echo "   [FAIL] \$svc 日志读取失败（可能权限不足）"
+    rc=1
+    return
+  fi
+  if printf '%s\n' "\$log" | grep -Eqi 'error|traceback'; then
+    echo "   [FAIL] \$svc 重启后日志含 error/traceback："
+    printf '%s\n' "\$log" | grep -Ei 'error|traceback' | tail -n 5 | sed 's/^/          /'
+    rc=1
+  else
+    echo "   [OK]   \$svc 重启后无 error/traceback"
+  fi
+}
+check_log ${SERVICE_NAME}
+check_log ${ADMIN_SERVICE_NAME}
 
 exit \$rc
 EOF
@@ -398,7 +420,8 @@ if [ "$TRANSFER_FAILED" -eq 0 ]; then
 set -uo pipefail
 cd '${REMOTE_DIR}'
 removed=0
-for f in day1.py day2.py day3.py day4.py step1_bm25.py test_api.py test_chunker.py test_hybrid.py; do
+# query_log.py 规范位置是 tools/ 下，根目录那份是早期手动 scp 的残留
+for f in day1.py day2.py day3.py day4.py step1_bm25.py test_api.py test_chunker.py test_hybrid.py query_log.py; do
   if [ -f "\$f" ]; then
     rm -f "\$f" && echo "   已删除 \$f" && removed=\$((removed+1))
   fi
