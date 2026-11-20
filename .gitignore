@@ -16,6 +16,7 @@ __pycache__/
 # ===== 索引缓存（可由语料重建，不必提交）=====
 chunks_*.json
 vectors_*.npy
+vectors_*.meta.json
 
 # ===== 临时文件 =====
 _rules_dump.txt
