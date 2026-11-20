@@ -21,6 +21,11 @@ from tools.equipment_query import search_model
 
 def query_racket(model: str) -> dict:
     """按型号查装备参数。未命中时 found=False，不编造。"""
+    model = (model or "").strip()
+    if not model:
+        # 空型号显式拒绝：SQL 侧已防护，这里给调用方一个明确的语义，
+        # 避免「没给型号」和「型号查不到」被混为一谈。
+        return {"found": False, "query": "", "reason": "missing_model"}
     rows = search_model(model)
     if not rows:
         return {"found": False, "query": model}

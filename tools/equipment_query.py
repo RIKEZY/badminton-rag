@@ -29,14 +29,21 @@ def normalize(s: str) -> str:
 
 
 def search_model(keyword: str) -> list[dict]:
-    """按型号模糊查找，忽略空格与大小写差异"""
-    kw = f"%{normalize(keyword)}%"
+    """按型号模糊查找，忽略空格与大小写差异
+
+    空关键词直接返回空列表：`LIKE '%%'` 会匹配全部记录，
+    调用方漏传型号时会静默拿到一款无关球拍——比查不到更危险。
+    """
+    kw = normalize(keyword)
+    if not kw:
+        return []
+    like = f"%{kw}%"
     return _query(
         "SELECT * FROM rackets "
         "WHERE REPLACE(REPLACE(UPPER(model),' ',''),'-','') LIKE ? "
         "   OR REPLACE(REPLACE(UPPER(full_title),' ',''),'-','') LIKE ? "
         "ORDER BY LENGTH(model)",
-        (kw, kw),
+        (like, like),
     )
 
 
