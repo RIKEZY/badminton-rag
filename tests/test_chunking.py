@@ -139,6 +139,79 @@ def test_merge_siblings_does_not_merge_different_parents():
     assert len(merge_siblings(chunks, max_len=1200)) == 2
 
 
+# ---------------------------------------------------------------- 引言块归属
+# 回归 P0-1：`same_parent = prev_parent == curr_parent or not prev_parent`
+# 对引言块（clause=""）永远成立，且 `len("".split(".")) == 1` 让后续条款
+# 永远不满足“更短”，于是引言会一路吞掉后面所有章节的条款，直到 max_len。
+
+def test_merge_siblings_intro_stops_at_parent_boundary():
+    """引言块只能吸收同一父级的条款，不能跨父级吞并。"""
+    chunks = [
+        _mk_chunk("", "It shall be a let, if:"),
+        _mk_chunk("14.2.1", "14.2.1. the server serves before the receiver is ready;"),
+        _mk_chunk("14.2.2", "14.2.2. at the moment of service the receiver is not ready;"),
+        _mk_chunk("14.3.1", "14.3.1. an unforeseen situation has occurred."),
+    ]
+    merged = merge_siblings(chunks, max_len=1200)
+
+    assert len(merged) == 2
+    # 引言块吸收第一个条款时必须写入该条款编号，否则父级比较永远无效
+    assert merged[0]["clause"] == "14.2.1"
+    assert "14.2.2" in merged[0]["text"]
+    assert "14.3.1" not in merged[0]["text"]
+    assert merged[1]["clause"] == "14.3.1"
+
+
+def test_merge_siblings_intro_does_not_cross_new_chapter():
+    """上一页/上一章的引言不能吞掉新章节的条款（即使新章节父级数字不同）。"""
+    chunks = [
+        {"source": "itto.pdf", "page": 22, "clause": "", "chapter": "",
+         "text": "...breaches the Rules and Regulations of BWF (or the CC)."},
+        {"source": "itto.pdf", "page": 22, "clause": "4.1",
+         "chapter": "4. GENERAL ADVICE ON REFEREES",
+         "text": "4.1. The Role of the Referee and Relations to Other Stakeholders"},
+    ]
+    merged = merge_siblings(chunks, max_len=1200)
+
+    assert len(merged) == 2
+    assert merged[0]["clause"] == ""
+    assert "4.1." not in merged[0]["text"]
+
+
+def test_merge_siblings_allows_page_break_within_same_parent():
+    """回归保护：Law 14 的 14.2.x 跨页，页码变了但父级相同，仍应合并。
+
+    页码切换后 split_page_by_clause 的章标题会重置成空字符串，
+    所以不能要求 chapter 严格相等，否则会拆散 let 的条件列表。
+    """
+    chunks = [
+        _mk_chunk("14.2.1", "14.2.1. a", page=9),
+        {"source": "badminton_rules.pdf", "page": 10, "clause": "14.2.7",
+         "chapter": "", "text": "14.2.7. any unforeseen situation."},
+    ]
+    merged = merge_siblings(chunks, max_len=1200)
+
+    assert len(merged) == 1
+    assert "14.2.7" in merged[0]["text"]
+
+
+def test_merge_siblings_keeps_first_clause_label_for_deep_siblings():
+    """块的编号必须对应正文第一个条款，不能被后面更短的兄弟条款覆盖。
+
+    原规则 `len(c) < len(prev)` 会把 9.1.4.1 + 9.1.5 的块标成 9.1.5，
+    正文却从 9.1.4.1 开始，引用编号因此错位。
+    """
+    chunks = [
+        _mk_chunk("9.1.4.1", "9.1.4.1. In Wheelchair Badminton ..."),
+        _mk_chunk("9.1.5", "9.1.5. the movement of the server's racket ..."),
+    ]
+    merged = merge_siblings(chunks, max_len=1200)
+
+    assert len(merged) == 1
+    assert merged[0]["clause"] == "9.1.4.1"
+    assert merged[0]["text"].startswith("9.1.4.1.")
+
+
 # ---------------------------------------------------------------- 段落回退
 
 def test_split_by_paragraph_merges_short_heading():

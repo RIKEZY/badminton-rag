@@ -141,6 +141,14 @@ def merge_siblings(chunks: list[dict], max_len: int = 1200) -> list[dict]:
         所以「It shall be a let, if:」这句的 clause 是空的，按父级比较永远匹配不上。
         这里用 `or not prev_parent` 让引言块跟着后面的条款走，
         否则会出现「话说到一半」的块——模型看到 `if:` 却没有条件列表。
+        但引言块第一次吸收条款后必须立刻写入该条款编号，否则父级比较一直无效，
+        会把后面所有章节的条款一路吞到 max_len（P0-1）。
+
+    章节边界：
+        split_page_by_clause 按页调用，章标题不会在每页重复，
+        所以跨页后的块 chapter 常常是空的。这里允许「后续块 chapter 为空」的合并
+        （Law 14 的 14.2.x 跨页仍要合成一块），但不允许带着空 chapter 的旧块
+        吞掉新章节的条款——新章节标题出现时 chapter 非空且不同，合并到此为止。
     """
     out: list[dict] = []
     for c in chunks:
@@ -150,12 +158,21 @@ def merge_siblings(chunks: list[dict], max_len: int = 1200) -> list[dict]:
             prev_parent = _parent(prev["clause"])
             curr_parent = _parent(c["clause"])
             same_parent = prev_parent == curr_parent or not prev_parent
+            # 后续块 chapter 为空 = 跨页后章标题没重复，仍属同一章，允许合并；
+            # 后续块明确标了另一个章 = 新章节，必须断开。
+            same_chapter = prev["chapter"] == c["chapter"] or not c["chapter"]
             fits = len(prev["text"]) + len(c["text"]) <= max_len
             # 不再限制同页：Law 14 的 14.2.1 在第9页、14.2.7 在第10页，
             # 卡同页会让「let 的条件」永远说不全。跨页后页码记起始页。
-            if not is_def and same_parent and fits:
+            if not is_def and same_parent and same_chapter and fits:
                 prev["text"] = prev["text"] + "\n" + c["text"]
-                if len(c["clause"].split(".")) < len(prev["clause"].split(".")):
+                if not prev["clause"]:
+                    # 引言块首次吸收条款：写入该条款编号，父级比较从此生效。
+                    prev["clause"] = c["clause"]
+                elif c["clause"] and prev["clause"].startswith(c["clause"] + "."):
+                    # 只在后续块是当前编号的祖先时收短（9.1.1 → 9.1）。
+                    # 不能用「段数更少」：9.1.4.1 + 9.1.5 会被错标成 9.1.5，
+                    # 而正文是从 9.1.4.1 开始的。
                     prev["clause"] = c["clause"]
                 continue
         out.append(dict(c))
