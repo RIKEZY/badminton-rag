@@ -13,8 +13,15 @@
 #
 # 设计约定：
 #   * 备份先做，备份失败就中止，绝不改服务器上的任何文件。
+#   * 备份路径由备份脚本自己打印（BACKUP_PATH= 行）并被本地捕获，
+#     不再事后用 `ls -1t | head -1` 猜——并发部署或备份被清理时会拿错版本。
 #   * 传输阶段的任意一步失败也会回滚（此时服务还没重启，回滚只是把文件还原）。
 #   * 健康检查三项全过才算成功：/ 返回 200、/ops/ 返回 200、日志无 error/traceback。
+#   * 回滚先解包到临时目录并校验（tar -tzf + app.py 存在），确认无误才整体切换：
+#     备份里有的顶层条目整份替换，部署后新增的顶层条目删掉（保留 backups/ 与
+#     .venv/）；随后**同时重启两个服务**，再跑一遍健康检查。
+#     解包/校验失败时线上文件一个都没动。
+#   * 回滚只用 tar/mv/rm，不额外要求服务器装 rsync。
 #   * 远端路径都写成 user@host:/opt/... 的形式，Git Bash 不会误改写成 Windows 路径。
 # =============================================================================
 set -euo pipefail
@@ -165,14 +172,20 @@ cd "${REMOTE_DIR}"
 mkdir -p backups
 chmod 700 backups
 ts=\$(date +%Y%m%d-%H%M%S)
+bak="${REMOTE_DIR}/backups/\${ts}.tar.gz"
 tar -czf "backups/\${ts}.tar.gz" \\
   --exclude='./.venv' \\
   --exclude='./backups' \\
   --exclude='./__pycache__' \\
   --exclude='*/__pycache__' \\
   --exclude='*.pyc' \\
+  --exclude='./.rollback.*' \\
   -C "${REMOTE_DIR}" .
-echo "   备份文件: ${REMOTE_DIR}/backups/\${ts}.tar.gz (\$(du -h "backups/\${ts}.tar.gz" | cut -f1))"
+# 记下「上一版本」到底是哪一份：latest.path 供人工排查，BACKUP_PATH= 供本地捕获。
+# 回滚只认这一份文件，不再回头猜最新备份。
+printf '%s\n' "\$bak" > backups/latest.path
+echo "   备份文件: \$bak (\$(du -h "backups/\${ts}.tar.gz" | cut -f1))"
+echo "BACKUP_PATH=\$bak"
 ls -1t backups/*.tar.gz | tail -n +$((BACKUP_KEEP + 1)) | xargs -r rm -f --
 echo "   现有备份: \$(ls -1 backups/*.tar.gz | wc -l) 份（保留上限 ${BACKUP_KEEP}）"
 EOF
@@ -245,11 +258,54 @@ rollback_script() {  # rollback_script <备份绝对路径>
   cat <<EOF
 set -euo pipefail
 cd "${REMOTE_DIR}"
-echo "   解包备份: ${bak}"
-tar -xzf "${bak}" -C "${REMOTE_DIR}"
-${SUDO} systemctl restart ${SERVICE_NAME}
-echo "   已回滚并重启，等待 8 秒…"
+
+bak="${bak}"
+if [ ! -f "\$bak" ]; then
+  echo "   备份不存在: \$bak（线上文件未改动）" >&2
+  exit 1
+fi
+
+# 先验证归档本身没坏，坏了就不要动线上文件
+if ! tar -tzf "\$bak" >/dev/null 2>&1; then
+  echo "   备份归档损坏: \$bak（线上文件未改动），需要人工介入" >&2
+  exit 4
+fi
+
+tmp=\$(mktemp -d "${REMOTE_DIR}/.rollback.XXXXXX")
+cleanup() { rm -rf "\$tmp"; }
+trap cleanup EXIT
+echo "   解包备份到临时目录: \$tmp"
+tar -xzf "\$bak" -C "\$tmp"
+# 归档里必须有 app.py；不完整就中止，此时线上仍是部署后的版本，但至少不是混合状态
+if [ ! -f "\$tmp/app.py" ]; then
+  echo "   备份里没有 app.py，疑似不完整（线上文件未改动），需要人工介入" >&2
+  exit 5
+fi
+
+# 整体切换而不是覆盖解包。先删部署后新增、备份里没有的顶层条目
+# （否则回滚完还是混合状态），再用备份里的条目整份替换。
+# 顺序不能反：替换会把 tmp 清空，之后再判断「备份里有没有」就全判成没有了。
+shopt -s dotglob nullglob
+for p in *; do
+  name="\${p##*/}"
+  case "\$name" in
+    backups|.venv|.rollback.*) continue ;;
+  esac
+  [ -e "\$tmp/\$name" ] || rm -rf -- "\$name"
+done
+for p in "\$tmp"/*; do
+  name="\${p##*/}"
+  rm -rf -- "\$name"
+  mv -- "\$p" "\$name"
+done
+echo "   已还原到备份内容"
+
+# 记下回滚重启时刻，健康检查只看此后的日志
+date +%s > /tmp/badminton-rag-restart.ts
+${SUDO} systemctl restart ${SERVICE_NAME} ${ADMIN_SERVICE_NAME}
+echo "   已回滚并重启 ${SERVICE_NAME} / ${ADMIN_SERVICE_NAME}，等待 8 秒…"
 sleep 8
+echo "   当前状态: \$(systemctl is-active ${SERVICE_NAME} ${ADMIN_SERVICE_NAME} | tr '\n' ' ')"
 EOF
 }
 
@@ -347,14 +403,27 @@ fi
 # 7. 备份
 # -----------------------------------------------------------------------------
 log "第 1 步：部署前备份（服务器端 tar，保留最近 ${BACKUP_KEEP} 份）"
-run_remote "打包当前版本到 ${REMOTE_DIR}/backups/" "$(backup_script)"
 
-# 记下备份路径，回滚时用它（避免回滚时又拿错最新文件）
+# 备份路径必须由这次备份自己给出：BACKUP_PATH= 行由 backup_script 打印。
+# 旧写法「再开一个 ssh 跑 ls -1t | head -1」会拿到最新文件而不是本次备份
+# （并发部署、备份清理、或本次备份没生成时都会错），回滚就回错版本。
 if [ "$DRY_RUN" -eq 1 ]; then
+  info "[dry-run] 备份脚本（回滚路径取其中的 BACKUP_PATH= 行）"
+  backup_script | sed 's/^/    | /'
   BACKUP_PATH="<本次备份>.tar.gz"
 else
-  BACKUP_PATH=$(printf '%s\n' "ls -1t '${REMOTE_DIR}/backups/'*.tar.gz | head -n 1" \
-    | ssh "${SSH_OPTS[@]}" -i "$SSH_KEY" "$SSH_TARGET" 'bash -s')
+  info "打包当前版本到 ${REMOTE_DIR}/backups/"
+  if ! backup_out=$(printf '%s\n' "$(backup_script)" \
+        | ssh "${SSH_OPTS[@]}" -i "$SSH_KEY" "$SSH_TARGET" 'bash -s'); then
+    warn "备份失败，服务器未做任何改动，中止部署"
+    exit 2
+  fi
+  printf '%s\n' "$backup_out" | grep -v '^BACKUP_PATH=' || true
+  BACKUP_PATH=$(printf '%s\n' "$backup_out" | sed -n 's/^BACKUP_PATH=//p' | tail -n 1)
+  if [ -z "$BACKUP_PATH" ]; then
+    warn "备份脚本没有返回路径，无法保证可回滚，中止部署"
+    exit 2
+  fi
   info "本次备份: $BACKUP_PATH"
 fi
 
@@ -439,26 +508,37 @@ fi
 # -----------------------------------------------------------------------------
 # 9. 重启 + 健康检查 + 回滚
 # -----------------------------------------------------------------------------
+# 失败路径（脚本退出码）：
+#   2  预检/备份/回滚前置条件失败——服务器未改动，或已停止继续操作
+#   1  部署失败但回滚成功（服务已回到部署前版本，需要查这次改动为什么坏）
+#   2  部署失败且回滚也失败——线上可能仍是坏版本，需要人工介入
+# 触发回滚的时机：文件传输任一步失败、systemctl restart 失败、健康检查未通过。
+# 回滚本身逐项校验（备份存在 → 归档完整 → 含 app.py → 整体切换 →
+# 两个服务都重启 → 健康检查）；任何一步失败都明确报「需要人工介入」，
+# 不会静默留在半坏状态。
+#
 # 返回 0 表示回滚成功，1 表示回滚失败（需要人工介入）
 do_rollback() {
   local reason="$1"
   echo
   warn "部署失败：${reason}"
-  log "开始回滚到最近一份备份"
+  log "开始回滚到本次部署前的备份"
+  info "回滚目标: ${BACKUP_PATH:-<未记录>}"
 
   if [ "$DRY_RUN" -eq 1 ]; then
-    info "[dry-run] 将解包 ${BACKUP_PATH} 并重启服务"
+    info "[dry-run] 将校验 ${BACKUP_PATH}、解包到临时目录、整体切换顶层条目，"
+    info "[dry-run] 同时重启 ${SERVICE_NAME} / ${ADMIN_SERVICE_NAME}，再跑健康检查"
     return 0
   fi
 
   local bak="${BACKUP_PATH:-}"
   if [ -z "$bak" ] || ! printf '%s\n' "test -f '${bak}'" \
       | ssh "${SSH_OPTS[@]}" -i "$SSH_KEY" "$SSH_TARGET" 'bash -s'; then
-    warn "找不到可用备份，回滚无法进行，需要人工介入"
+    warn "找不到可用备份（$bak），回滚无法进行，需要人工介入"
     return 1
   fi
 
-  if ! run_remote "解包备份并重启" "$(rollback_script "$bak")"; then
+  if ! run_remote "校验备份、还原文件并重启两个服务" "$(rollback_script "$bak")"; then
     warn "回滚过程出错，需要人工介入"
     return 1
   fi

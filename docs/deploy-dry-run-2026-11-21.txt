@@ -1,0 +1,143 @@
+==================================================================
+ badminton-rag 部署
+   本地项目 : /f/WorkPlace/Python/badminton-rag
+   目标     : ubuntu@35.78.108.43:/opt/badminton-rag
+   服务     : badminton-rag (127.0.0.1:8501)
+   模式     : DRY-RUN（不改动服务器）
+   上传 .env: 否
+   上传索引 : 否
+==================================================================
+
+==> 预检：本地文件与密钥
+!!  密钥不存在：/tmp/brag.pem（dry-run 下仅警告）
+    代码 10 个 / 语料 15 个 / 工具 3 个 / 后台 1 个
+
+==> 预检：SSH 连通性
+    [dry-run] ssh -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null -o LogLevel=ERROR -o ConnectTimeout=15 -i /tmp/brag.pem ubuntu@35.78.108.43 "test -d '/opt/badminton-rag' && test -f '/opt/badminton-rag/app.py'"
+
+==> 第 1 步：部署前备份（服务器端 tar，保留最近 5 份）
+    [dry-run] 备份脚本（回滚路径取其中的 BACKUP_PATH= 行）
+    | set -euo pipefail
+    | cd "/opt/badminton-rag"
+    | mkdir -p backups
+    | chmod 700 backups
+    | ts=$(date +%Y%m%d-%H%M%S)
+    | bak="/opt/badminton-rag/backups/${ts}.tar.gz"
+    | tar -czf "backups/${ts}.tar.gz" \
+    |   --exclude='./.venv' \
+    |   --exclude='./backups' \
+    |   --exclude='./__pycache__' \
+    |   --exclude='*/__pycache__' \
+    |   --exclude='*.pyc' \
+    |   --exclude='./.rollback.*' \
+    |   -C "/opt/badminton-rag" .
+    | # 记下「上一版本」到底是哪一份：latest.path 供人工排查，BACKUP_PATH= 供本地捕获。
+    | # 回滚只认这一份文件，不再回头猜最新备份。
+    | printf '%s\n' "$bak" > backups/latest.path
+    | echo "   备份文件: $bak ($(du -h "backups/${ts}.tar.gz" | cut -f1))"
+    | echo "BACKUP_PATH=$bak"
+    | ls -1t backups/*.tar.gz | tail -n +6 | xargs -r rm -f --
+    | echo "   现有备份: $(ls -1 backups/*.tar.gz | wc -l) 份（保留上限 5）"
+
+==> 第 2 步：上传文件
+    确保远端目录存在
+    [dry-run] ssh -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null -o LogLevel=ERROR -o ConnectTimeout=15 -i /tmp/brag.pem ubuntu@35.78.108.43 'bash -s' <<'REMOTE'
+    | set -euo pipefail
+    | mkdir -p '/opt/badminton-rag/admin' '/opt/badminton-rag/tools' '/opt/badminton-rag/data_rules_only'
+    REMOTE
+    代码（10 个文件 → /opt/badminton-rag/）
+    [dry-run] scp -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null -o LogLevel=ERROR -o ConnectTimeout=15 -i /tmp/brag.pem \
+              app.py agent_core.py agent_tools.py rerank.py chunker.py answer_generator.py run_eval.py document_loader.py index_builder.py hybrid.py \
+              ubuntu@35.78.108.43:/opt/badminton-rag/
+    语料（txt）（15 个文件 → /opt/badminton-rag/data_rules_only/）
+    [dry-run] scp -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null -o LogLevel=ERROR -o ConnectTimeout=15 -i /tmp/brag.pem \
+              data_rules_only/bwf_coach_l1.txt data_rules_only/bwf_facilities.txt data_rules_only/bwf_gcr.txt data_rules_only/bwf_itto.txt data_rules_only/bwf_laws_2027.txt data_rules_only/bwf_ranking.txt data_rules_only/bwf_vocabulary.txt data_rules_only/gear_rackets.txt data_rules_only/tech_doubles.txt data_rules_only/tech_drive.txt data_rules_only/tech_drop.txt data_rules_only/tech_high_clear.txt data_rules_only/tech_net_play.txt data_rules_only/tech_smash.txt data_rules_only/wiki_badminton_zh.txt \
+              ubuntu@35.78.108.43:/opt/badminton-rag/data_rules_only/
+    工具（py + db）（3 个文件 → /opt/badminton-rag/tools/）
+    [dry-run] scp -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null -o LogLevel=ERROR -o ConnectTimeout=15 -i /tmp/brag.pem \
+              tools/equipment_query.py tools/query_log.py tools/equipment.db \
+              ubuntu@35.78.108.43:/opt/badminton-rag/tools/
+    管理后台（1 个文件 → /opt/badminton-rag/admin/）
+    [dry-run] scp -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null -o LogLevel=ERROR -o ConnectTimeout=15 -i /tmp/brag.pem \
+              admin/admin_app.py \
+              ubuntu@35.78.108.43:/opt/badminton-rag/admin/
+
+==> 第 2.5 步：清理已废弃的文件
+    删除废弃脚本
+    [dry-run] ssh -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null -o LogLevel=ERROR -o ConnectTimeout=15 -i /tmp/brag.pem ubuntu@35.78.108.43 'bash -s' <<'REMOTE'
+    | set -uo pipefail
+    | cd '/opt/badminton-rag'
+    | removed=0
+    | # query_log.py 规范位置是 tools/ 下，根目录那份是早期手动 scp 的残留
+    | for f in day1.py day2.py day3.py day4.py step1_bm25.py test_api.py test_chunker.py test_hybrid.py query_log.py; do
+    |   if [ -f "$f" ]; then
+    |     rm -f "$f" && echo "   已删除 $f" && removed=$((removed+1))
+    |   fi
+    | done
+    | if [ "$removed" -eq 0 ]; then
+    |   echo "   无废弃文件需要清理"
+    | fi
+    REMOTE
+
+==> 第 3 步：重启服务
+    systemctl restart badminton-rag
+    [dry-run] ssh -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null -o LogLevel=ERROR -o ConnectTimeout=15 -i /tmp/brag.pem ubuntu@35.78.108.43 'bash -s' <<'REMOTE'
+    | set -euo pipefail
+    | # 记下重启时刻：健康检查只看这之后的日志。
+    | # 用 -n 40 会读到重启前的历史日志——实测把昨天的崩溃翻出来，
+    | # 误判成这次部署失败并触发无谓回滚。
+    | date +%s > /tmp/badminton-rag-restart.ts
+    | sudo -n systemctl restart badminton-rag badminton-admin
+    | echo "   已重启 badminton-rag / badminton-admin，等待 8 秒…"
+    | sleep 8
+    | echo "   当前状态: $(systemctl is-active badminton-rag badminton-admin | tr '\n' ' ')"
+    REMOTE
+
+==> 第 4 步：健康检查（/ 、/ops/ 、journalctl）
+    [dry-run] 跳过真实健康检查，将执行：
+    | set -uo pipefail
+    | rc=0
+    | 
+    | check_url() {
+    |   local path="$1" port="${2:-8501}" code
+    |   # -L 跟随重定向：Streamlit 对 baseUrlPath 会先 301 补斜杠，不跟随会误判成失败
+    |   code=$(curl -sL -o /dev/null -m 10 -w '%{http_code}' "http://127.0.0.1:${port}${path}" || echo 000)
+    |   if [ "$code" = "200" ]; then
+    |     echo "   [OK]   GET :${port}${path}  -> HTTP $code"
+    |   else
+    |     echo "   [FAIL] GET :${port}${path}  -> HTTP $code"
+    |     rc=1
+    |   fi
+    | }
+    | check_url /
+    | # 后台在独立端口，拿主服务端口查 /ops/ 只会拿到 301
+    | check_url /ops/ 8502
+    | 
+    | # 只看本次重启之后的日志，避免把历史错误算到这次部署头上
+    | SINCE_ARG="--since -3min"
+    | if [ -f /tmp/badminton-rag-restart.ts ]; then
+    |   SINCE_ARG="--since @$(cat /tmp/badminton-rag-restart.ts)"
+    | fi
+    | 
+    | check_log() {
+    |   local svc="$1" log
+    |   if ! log=$(sudo -n journalctl -u "$svc" $SINCE_ARG --no-pager 2>&1); then
+    |     echo "   [FAIL] $svc 日志读取失败（可能权限不足）"
+    |     rc=1
+    |     return
+    |   fi
+    |   if printf '%s\n' "$log" | grep -Eqi 'error|traceback'; then
+    |     echo "   [FAIL] $svc 重启后日志含 error/traceback："
+    |     printf '%s\n' "$log" | grep -Ei 'error|traceback' | tail -n 5 | sed 's/^/          /'
+    |     rc=1
+    |   else
+    |     echo "   [OK]   $svc 重启后无 error/traceback"
+    |   fi
+    | }
+    | check_log badminton-rag
+    | check_log badminton-admin
+    | 
+    | exit $rc
+
+==> DRY-RUN 结束（以上命令均未执行，服务器未做任何改动）
+
