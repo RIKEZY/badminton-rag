@@ -1,0 +1,17 @@
+读取缓存 chunks_v2.json
+读取缓存 vectors_v2.npy，形状 (1074, 1024)
+Building prefix dict from the default dictionary ...
+Loading model from cache C:\Users\z2807\AppData\Local\Temp\jieba.cache
+Loading model cost 0.411 seconds.
+Prefix dict has been built successfully.
+idx old_hit new_hit same_top5 question
+ 1 True    True    True      单打发球方得分为 0 时，从哪个发球区发球？
+ 2 False   False   True      一局比赛中，60 秒的间歇出现在什么时候？
+ 3 True    True    True      网柱应该放在哪条线上？
+ 4 True    True    True      什么情况下判发球区错误？
+ 5 True    True    True      反手高远球的击球点应该在身体哪个位置？
+ 6 False   False   True      正手高远球最容易犯的错误有哪些？
+ 7 True    True    True      头顶高远球和反手高远球的主要区别是什么？
+ 8 True    True    True      4U 规格的球拍建议拉多少磅？
+ 9 True    True    True      球拍的中管硬度分哪几档？
+10 True    True    True      标准羽毛球的重量范围和羽毛长度是多少？

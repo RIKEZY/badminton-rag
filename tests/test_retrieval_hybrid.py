@@ -8,6 +8,7 @@
 """
 
 import pytest
+from rank_bm25 import BM25Okapi
 
 from hybrid import (bm25_search_idx, fuse_by_language, rrf_fuse, tokenize)
 
@@ -65,6 +66,40 @@ def test_bm25_returns_at_most_k_and_valid_indices(bm25_index, cached_chunks):
 
     assert len(hits) <= 3
     assert all(0 <= i < len(cached_chunks) for _, i in hits)
+
+
+def _tiny_bm25(positive_docs: int = 3, total_docs: int = 10):
+    corpus = []
+    for i in range(total_docs):
+        if i < positive_docs:
+            corpus.append(["alpha", f"unique{i}"])
+        else:
+            corpus.append([f"other{i}"])
+    chunks = [{"text": " ".join(tokens)} for tokens in corpus]
+    return BM25Okapi(corpus), chunks
+
+
+def test_bm25_filters_zero_scores_and_keeps_original_indices():
+    """正分块少于候选池时，零分块不能混进来，且下标不能错位。"""
+    bm25, chunks = _tiny_bm25(positive_docs=3, total_docs=10)
+
+    hits = bm25_search_idx(bm25, chunks, "alpha", k=20)
+
+    assert len(hits) == 3
+    assert {i for _, i in hits} == {0, 1, 2}
+    assert all(score > 0 for score, _ in hits)
+
+
+def test_bm25_all_zero_scores_returns_empty():
+    bm25, chunks = _tiny_bm25(positive_docs=3, total_docs=10)
+
+    assert bm25_search_idx(bm25, chunks, "zzzzqqqq", k=20) == []
+
+
+def test_bm25_non_positive_k_returns_empty():
+    bm25, chunks = _tiny_bm25()
+
+    assert bm25_search_idx(bm25, chunks, "alpha", k=0) == []
 
 
 # ---------------------------------------------------------------- RRF

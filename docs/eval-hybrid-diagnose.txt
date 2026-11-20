@@ -1,0 +1,74 @@
+读取缓存 chunks_v2.json
+读取缓存 vectors_v2.npy，形状 (1074, 1024)
+Building prefix dict from the default dictionary ...
+Loading model from cache C:\Users\z2807\AppData\Local\Temp\jieba.cache
+Loading model cost 0.408 seconds.
+Prefix dict has been built successfully.
+QUESTION: 一局比赛中，60 秒的间歇出现在什么时候？
+
+-- attempt 1 --
+  rewrite: When does the 60-second interval occur during a badminton game?
+  rewrite: At what point in a badminton match is the 60-second interval taken according to the Laws of Badminton?
+  rewrite: In a badminton game, when is the 60-second interval allowed between points or games?
+  OLD: hit=False
+    0.09307 bwf_itto.txt p1 [Law 3. INSTRUCTIONS AND GUIDELINES FOR REFEREES > 3.5.19.4] 3.5.19.4.
+    0.07152 bwf_itto.txt p1 [Law 5. INSTRUCTIONS TO UMPIRES > 5.6.10] 5.6.10. In a third game, or 
+    0.04762 wiki_badminton_zh.txt p1 五、比赛规则要点 赛制：分男单、女单、男双、女双、混双共 5 个单项。 计分制度演变： 15 分制（发球得分制），三局两胜，旧制，比赛时间难
+    0.04545 bwf_laws_2027.txt p1 [Law 15. SHUTTLE NOT IN PLAY] A shuttle is not in play when:   it stri
+    0.04348 tech_drive.txt p1 在单打比赛中，平抽挡技术应用相对较少。这主要是因为单打更注重全场保护和调动对手，球员在遇到可平抽的球时，脚步常下意识向中线移动，从而转为挡网
+  NEW: hit=False
+    0.09307 bwf_itto.txt p1 [Law 3. INSTRUCTIONS AND GUIDELINES FOR REFEREES > 3.5.19.4] 3.5.19.4.
+    0.07152 bwf_itto.txt p1 [Law 5. INSTRUCTIONS TO UMPIRES > 5.6.10] 5.6.10. In a third game, or 
+    0.04762 wiki_badminton_zh.txt p1 五、比赛规则要点 赛制：分男单、女单、男双、女双、混双共 5 个单项。 计分制度演变： 15 分制（发球得分制），三局两胜，旧制，比赛时间难
+    0.04545 bwf_laws_2027.txt p1 [Law 15. SHUTTLE NOT IN PLAY] A shuttle is not in play when:   it stri
+    0.04348 tech_drive.txt p1 在单打比赛中，平抽挡技术应用相对较少。这主要是因为单打更注重全场保护和调动对手，球员在遇到可平抽的球时，脚步常下意识向中线移动，从而转为挡网
+
+-- attempt 2 --
+  rewrite: When does the 60-second interval occur during a badminton game?
+  rewrite: At what point in a badminton match is the 60-second interval taken according to the rules?
+  rewrite: In badminton, when is the 60-second interval allowed between points or games?
+  OLD: hit=False
+    0.09091 bwf_itto.txt p1 [Law 3. INSTRUCTIONS AND GUIDELINES FOR REFEREES > 3.5.19.4] 3.5.19.4.
+    0.08013 bwf_itto.txt p1 [Law 5. INSTRUCTIONS TO UMPIRES > 5.4.10] 5.4.10. The timing of the in
+    0.04762 wiki_badminton_zh.txt p1 五、比赛规则要点 赛制：分男单、女单、男双、女双、混双共 5 个单项。 计分制度演变： 15 分制（发球得分制），三局两胜，旧制，比赛时间难
+    0.04762 bwf_laws_2027.txt p1 [Law 16. CONTINUOUS PLAY, MISCONDUCT & PENALTIES > 16.5.1] 16.5.1. Onl
+    0.04348 tech_drive.txt p1 在单打比赛中，平抽挡技术应用相对较少。这主要是因为单打更注重全场保护和调动对手，球员在遇到可平抽的球时，脚步常下意识向中线移动，从而转为挡网
+  NEW: hit=False
+    0.09091 bwf_itto.txt p1 [Law 3. INSTRUCTIONS AND GUIDELINES FOR REFEREES > 3.5.19.4] 3.5.19.4.
+    0.08013 bwf_itto.txt p1 [Law 5. INSTRUCTIONS TO UMPIRES > 5.4.10] 5.4.10. The timing of the in
+    0.04762 wiki_badminton_zh.txt p1 五、比赛规则要点 赛制：分男单、女单、男双、女双、混双共 5 个单项。 计分制度演变： 15 分制（发球得分制），三局两胜，旧制，比赛时间难
+    0.04762 bwf_laws_2027.txt p1 [Law 16. CONTINUOUS PLAY, MISCONDUCT & PENALTIES > 16.5.1] 16.5.1. Onl
+    0.04348 tech_drive.txt p1 在单打比赛中，平抽挡技术应用相对较少。这主要是因为单打更注重全场保护和调动对手，球员在遇到可平抽的球时，脚步常下意识向中线移动，从而转为挡网
+
+-- attempt 3 --
+  rewrite: When does the 60-second interval occur during a badminton game?
+  rewrite: At what point in a match is the 60-second interval taken according to badminton rules?
+  rewrite: Badminton interval timing: when is the 60-second break allowed during a game?
+  OLD: hit=False
+    0.08893 bwf_itto.txt p1 [Law 3. INSTRUCTIONS AND GUIDELINES FOR REFEREES > 3.5.19.4] 3.5.19.4.
+    0.08013 bwf_itto.txt p1 [Law 5. INSTRUCTIONS TO UMPIRES > 5.4.10] 5.4.10. The timing of the in
+    0.04762 wiki_badminton_zh.txt p1 五、比赛规则要点 赛制：分男单、女单、男双、女双、混双共 5 个单项。 计分制度演变： 15 分制（发球得分制），三局两胜，旧制，比赛时间难
+    0.04762 bwf_laws_2027.txt p1 [Law 16. CONTINUOUS PLAY, MISCONDUCT & PENALTIES > 16.5.1] 16.5.1. Onl
+    0.04545 badminton_rules.pdf p11 [16.5.1] 16.5.1. Only when the shuttle is not in play (Law 15), and un
+  NEW: hit=False
+    0.08893 bwf_itto.txt p1 [Law 3. INSTRUCTIONS AND GUIDELINES FOR REFEREES > 3.5.19.4] 3.5.19.4.
+    0.08013 bwf_itto.txt p1 [Law 5. INSTRUCTIONS TO UMPIRES > 5.4.10] 5.4.10. The timing of the in
+    0.04762 wiki_badminton_zh.txt p1 五、比赛规则要点 赛制：分男单、女单、男双、女双、混双共 5 个单项。 计分制度演变： 15 分制（发球得分制），三局两胜，旧制，比赛时间难
+    0.04762 bwf_laws_2027.txt p1 [Law 16. CONTINUOUS PLAY, MISCONDUCT & PENALTIES > 16.5.1] 16.5.1. Onl
+    0.04545 badminton_rules.pdf p11 [16.5.1] 16.5.1. Only when the shuttle is not in play (Law 15), and un
+
+QUESTION[5]: 正手高远球最容易犯的错误有哪些？
+  NEW: hit=False
+    0.04762 tech_high_clear.txt p1 反手高远球易犯的错误： 第一，做准备及引拍动作时步法移动不到位，击球点控制不好，握拍太紧，而且没能及时改变握拍法，引拍动作无法形成挥拍的最长
+    0.04762 bwf_coach_l1.txt p1 16. SELF-ASSESSMENT – HITTING SKILLS 1 The grip to use for a forehand 
+    0.04545 tech_high_clear.txt p1 正手击高远球可以用不起跳或起跳进行击球。后者是为了争取高点击球，以赢得时间上的主动，但对步法技术和体力要求较高。 因此初学者一般先学不起跳正
+    0.04545 bwf_coach_l1.txt p1 HOW TO COACH - INTRODUCTORY PRACTICES FOR A FOREHAND SMASH • The basic
+    0.04348 tech_drop.txt p1 如果三种球的引拍动作有明显差别，对手就能提前判断，无论打哪种球威胁都会下降。 八、常见错误 1. 吊球时发力过大，变成半高球，被对手直接扑杀
+
+QUESTION[9]: 标准羽毛球的重量范围和羽毛长度是多少？
+  NEW: hit=True
+    0.09110 wiki_badminton_zh.txt p1 三、装备参数 羽毛球（Shuttlecock）： 由 16 根羽毛加球托组成。 羽毛长度 62 至 70 毫米，顶端围成圆形。 球托直径 2
+    0.04762 badminton_rules.pdf p2 There shall be no gaps between the ends of the net and the posts. If n
+    0.04545 wiki_badminton_zh.txt p1 一、概述 羽毛球（简称羽球）是一项隔着球网、使用长柄网状球拍挥击「平口端扎有一圈羽毛的半球状软木」的球类运动。 英文名 Badminton，
+    0.04545 bwf_coach_l1.txt p1 ey can be less aware of the server’s position. WHAT TO COACH PREPARATI
+    0.04348 wiki_badminton_zh.txt p1 球线（Strings）： 本条目的正文未包含球线材质、张力、磅数等具体参数。 四、场地规格 标准羽毛球场为长方形： 长度 13.4 米。 宽

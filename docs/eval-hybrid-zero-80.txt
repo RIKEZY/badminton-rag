@@ -1,0 +1,91 @@
+读取缓存 chunks_v2.json
+读取缓存 vectors_v2.npy，形状 (1074, 1024)
+A1   old=5 new=5  发球时击球点必须在多高以下？
+A2   old=5 new=5  网柱应该有多高？
+A3   old=5 new=5  羽毛球有多少根羽毛？
+A4   attempt=1 ERR APITimeoutError: Request timed out.
+A4   old=5 new=5  局间休息多少秒？
+A5   old=5 new=5  球拍总长度上限是多少？
+A6   old=5 new=5  连击的定义是什么？
+A7   old=5 new=5  什么叫死球？
+A8   old=5 new=5  裁判用语里的 Let 是什么意思？
+A9   old=5 new=5  什么是发球区错误？
+A10  old=5 new=5  发球违例有哪些情形？
+A11  old=5 new=5  裁判可以出示哪几种牌？
+A12  old=5 new=5  世界巡回赛分几个级别？
+A13  old=5 new=5  什么情况下判重发球？
+A14  old=5 new=5  什么情况下球员会被取消资格？
+A15  old=5 new=5  球落在边线上算出界吗？
+A16  old=5 new=5  世界纪录最快杀球速度是多少？
+A17  old=5 new=5  羽毛球运动起源于哪个国家？
+A18  old=5 new=5  奥运会羽毛球有几个单项？
+A19  old=5 new=5  安赛龙的身高是多少？
+A20  attempt=1 ERR BadRequestError: Error code: 400 - {'code': 20015, 'message': 'The parameter is invalid. Please check again.', 'data': None}
+A20  old=5 new=5  林丹拿过几次世锦赛冠军？
+B1   old=5 new=5  拍子能有多长？
+B2   old=5 new=5  球毛掉了还能打吗？
+B3   old=5 new=5  换场是怎么换的？
+B4   old=5 new=5  中场休息能有多久？
+B5   old=5 new=5  为什么我发球老是被判犯规？
+B6   old=5 new=5  打到 20 平还要打几分？
+B7   old=5 new=5  一局打完休息多久？
+B8   old=5 new=5  比赛打到一半想上厕所怎么办？
+B9   old=5 new=5  什么是 IRS？
+B10  old=5 new=5  什么是 GCR？
+B11  old=5 new=5  什么情况下会用 yellow card？
+B12  old=5 new=5  发球时球拍要高于手腕吗？
+B13  old=5 new=5  双打搭档可以连续击球吗？
+B14  old=5 new=5  比赛中间可以叫暂停吗？
+B15  old=5 new=5  双打搭档碰到一起算违例吗？
+B16  old=5 new=5  球擦网过去了算好球吗？
+B17  old=5 new=5  可以连续击球两次吗？
+B18  old=5 new=5  界内界外谁说了算？
+B19  old=5 new=5  双打老是撞拍怎么办？
+B20  old=5 new=5  打球膝盖疼怎么办？
+C1   old=5 new=5  间歇时裁判要做什么，规则怎么规定？
+C2   old=5 new=5  发球违例有哪些，裁判怎么判？
+C3   old=5 new=5  换球的规定是什么，裁判怎么操作？
+C4   old=5 new=5  球员行为不当会被怎么处罚？
+C5   old=5 new=5  裁判可以改判司线的判罚吗？
+C6   old=5 new=5  赛事分几个级别，各自积分多少？
+C7   old=5 new=5  世界排名积分怎么算，保留多久？
+C8   old=5 new=5  种子怎么排，依据是什么？
+C9   old=5 new=5  球拍尺寸有规定吗，88S PRO 符合吗？
+C10  old=5 new=5  羽毛球的标准重量和尺寸是多少？
+C11  old=5 new=5  球拍中管硬度分几档，各适合什么水平？
+C12  old=5 new=5  场地规格有哪些要求，网柱怎么固定？
+C13  old=5 new=5  裁判长和主裁的职责怎么分？
+C14  old=5 new=5  退赛会有什么后果？
+C15  old=5 new=5  世界排名、种子排位和抽签之间是什么关系？
+C16  old=5 new=5  双打发球区和单打有什么区别？
+C17  old=5 new=5  球速测试标准是什么，比赛用球怎么选？
+C18  old=5 new=5  尤尼克斯和李宁哪个好？
+C19  old=5 new=5  现在男单世界第一是谁？
+C20  old=5 new=5  2028 年奥运会羽毛球在哪个场馆？
+D3   old=5 new=5  同一型号 3U 和 4U 的磅数上限差多少？
+D5   old=5 new=5  主裁在什么情况下会请裁判长进场？
+D7   old=5 new=5  裁判的判罚是最终的吗，有没有例外？
+D8   old=5 new=5  比赛中球坏了怎么处理？
+D9   old=5 new=5  发球时球拍必须朝下吗？
+D10  old=5 new=5  过网击球的判定标准是什么？
+D11  old=5 new=5  触网算不算违例？
+D12  old=5 new=5  球触天花板怎么判？
+D13  old=5 new=5  比赛用球的速度怎么测试？
+D14  old=5 new=5  发球区错误会怎么判？
+D15  old=5 new=5  反手过渡球怎么打？
+D19  old=5 new=5  混双站位怎么配合？
+D20  old=5 new=5  杀球之后怎么快速回中？
+D23  old=5 new=5  网前搓球的技术要点是什么？
+D24  old=5 new=5  正手吊球和劈吊有什么区别？
+D25  old=5 new=5  网前扑球的技术要点是什么？
+D21  old=5 new=5  体能训练应该怎么安排？
+D22  old=5 new=5  怎么预防羽毛球运动损伤？
+D26  old=5 new=5  羽毛球鞋怎么选？
+D27  old=5 new=5  业余选手多久能到中级水平？
+
+SUMMARY
+questions=80 measured=80 errors=0 old_zero=0 new_zero=0 regressed=0
+old_zero_codes=
+new_zero_codes=
+regressed_codes=
+error_codes=

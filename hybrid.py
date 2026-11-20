@@ -57,9 +57,15 @@ def vector_search_idx(client, chunks, vecs, query: str, k: int = 5):
 #进行bm25检索 返回
 def bm25_search_idx(bm25: BM25Okapi, chunks: list[dict], query: str, k: int = 5):
     """BM25 检索，返回 [(分数, 下标), ...]。查询同样走中英自适应分词"""
+    if k <= 0:
+        return []
     scores = bm25.get_scores(tokenize(query))
-    order = sorted(range(len(scores)), key=lambda i: scores[i], reverse=True)
-    return [(float(scores[i]), i) for i in order[:k]]
+    # 只返回真正命中的块：零分块没有投票资格。
+    # 不能先排序再截断——正分块不足 k 个时，零分块会按原始下标顺序补位，
+    # 进入 RRF 后等于把语料最前面的几块当成命中。
+    ranked = [(float(s), i) for i, s in enumerate(scores) if s > 0]
+    ranked.sort(key=lambda x: (-x[0], x[1]))
+    return ranked[:k]
 
 #进行rrf融合
 def rrf_fuse(*hit_lists, top_n: int = 5, k: int = RRF_K):
