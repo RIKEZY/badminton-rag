@@ -24,17 +24,33 @@ CLAUSE_RE = re.compile(r"^\s*(\d+(?:\.\d+)+)\.\s+")
 DEFINITIONS_RE = re.compile(r"^\s*DEFINITIONS\s*$")
 
 
-def split_page_by_clause(text: str, page: int, source: str) -> list[dict]:
+def split_page_by_clause(
+    text: str,
+    page: int,
+    source: str,
+    chapter_state: dict | None = None,
+) -> list[dict]:
     """
     把一页文本按条款切成若干块。
 
     返回 [{"source", "page", "clause", "chapter", "text"}, ...]
+
+    chapter_state：可选的可变字典，用来跨页继承章标题。
+    PDF 里章标题只在章首页出现，翻页后 `6.6.` 这种条款前面没有
+    `6. SERVICE`，前缀就退化成 `[6.6]`，检索时看不出属于哪一章。
+    调用方按**单个文件**传同一个 state（`chunk_document` 每次新建），
+    这样同文件的后续页能沿用上一页最后的章标题；
+    不同文件绝不能共用 state，否则会把上一份文档的章名带到下一份。
     """
     lines = text.split("\n")
     chunks: list[dict] = []
 
+    # 继承上一页的章标题；本页出现新章标题时会覆盖
     chapter_no = ""
     chapter_title = ""
+    if chapter_state is not None:
+        chapter_no = chapter_state.get("chapter_no", "")
+        chapter_title = chapter_state.get("chapter_title", "")
     clause = ""          # 当前条款编号，空表示还没进入编号区
     buf: list[str] = []  # 当前块累积的行
     in_definitions = False
@@ -100,6 +116,11 @@ def split_page_by_clause(text: str, page: int, source: str) -> list[dict]:
                     buf.append(line)
 
     flush()
+    if chapter_state is not None:
+        # 把本页结束时的章标题留给下一页；本页出现过新章标题就是新值，
+        # 没出现就是继承来的旧值，两种情况都对。
+        chapter_state["chapter_no"] = chapter_no
+        chapter_state["chapter_title"] = chapter_title
     return chunks
 
 
@@ -256,8 +277,10 @@ def chunk_document(pages: list[tuple[int, str]], source: str) -> list[dict]:
     说明它不是规范类文档，回退到按段落切。
     """
     raw = []
+    # 每个文件新建一份 state：章标题只在同文件内跨页继承，不能串到别的文档
+    chapter_state: dict = {}
     for page_no, text in pages:
-        raw.extend(split_page_by_clause(text, page_no, source))
+        raw.extend(split_page_by_clause(text, page_no, source, chapter_state))
 
     dtype = guess_doc_type(source)
     with_clause = sum(1 for c in raw if c["clause"] and c["clause"] != "DEFINITIONS")

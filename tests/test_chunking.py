@@ -108,6 +108,55 @@ def test_definitions_are_not_merged():
     assert len(merge_siblings(chunks)) == 2
 
 
+# ---------------------------------------------------------------- 章标题跨页继承
+
+def test_split_page_inherits_chapter_across_page_break():
+    """章标题只在章首页出现：翻页后的 6.6 必须仍带 [Law 6. SERVICE]。"""
+    state: dict = {}
+    page36 = split_page_by_clause(
+        "6. SERVICE\n"
+        "6.4. The server shall not serve until the receiver is ready.\n"
+        "6.5. Once the players are ready, the server shall not delay delivery.\n",
+        36, "itto.pdf", state)
+    page37 = split_page_by_clause(
+        "6.6. The server shall not serve before the receiver is ready.\n"
+        "6.7. The receiver shall not move before the service is delivered.\n",
+        37, "itto.pdf", state)
+
+    assert [c["chapter"] for c in page36 + page37] == ["6. SERVICE"] * 4
+    prefixed = add_prefix(page37[0])
+    assert prefixed["prefix"] == "[Law 6. SERVICE > 6.6] "
+    assert prefixed["text"].startswith("[Law 6. SERVICE > 6.6] 6.6. The server")
+
+
+def test_split_page_switches_to_new_chapter_on_new_header():
+    """下一页出现新章标题时，后续块切到新章，不能继续沿用旧章名。"""
+    state: dict = {}
+    split_page_by_clause("6. SERVICE\n6.5. A delivery of service.\n", 36, "itto.pdf", state)
+    page37 = split_page_by_clause(
+        "6.6. The server shall not serve before the receiver is ready.\n"
+        "7. SCORING SYSTEM\n"
+        "7.1. A match shall consist of the best of three games.\n",
+        37, "itto.pdf", state)
+
+    assert [c["chapter"] for c in page37] == ["6. SERVICE", "7. SCORING SYSTEM"]
+    assert [c["clause"] for c in page37] == ["6.6", "7.1"]
+
+
+def test_chapter_inheritance_does_not_leak_between_sources():
+    """两个文件各自调用 chunk_document，章状态不能串。"""
+    with_chapter = chunk_document(
+        [(1, "6. SERVICE\n6.1. The service shall be delivered from the service court.\n")],
+        "itto.pdf")
+    without_chapter = chunk_document(
+        [(1, "6.1. A tournament entry shall be submitted before the deadline.\n")],
+        "bwf_gcr.txt")
+
+    assert with_chapter[0]["chapter"] == "6. SERVICE"
+    assert all(c["chapter"] == "" for c in without_chapter)
+    assert all("Law" not in c["prefix"] for c in without_chapter)
+
+
 # ---------------------------------------------------------------- 兄弟合并
 
 def _mk_chunk(clause: str, text: str, page: int = 6) -> dict:
