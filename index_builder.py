@@ -13,12 +13,17 @@ embedding 把中英文映射到同一语义空间，所以能对上。
 缓存按「语料文件是否比缓存新」判断失效——只判断文件存在，会导致
 语料更新后仍用旧索引，静默答错。
 
+向量缓存还必须比对**块内容**与 **embedding 模型**（vectors_v2.meta.json 里的
+sha256 指纹）。只比块数不够：改几个字、块数不变时，旧向量会继续对应新文本；
+换模型但维度相同也发现不了。没有指纹文件（旧版本留下的 .npy）一律按失效处理。
+
 前置条件：.env 里配好 SILICONFLOW_API_KEY（bge-m3 模型免费）。
 
 运行：
     python index_builder.py
 """
 
+import hashlib
 import json
 import os
 import sys
@@ -41,6 +46,9 @@ HERE = Path(__file__).parent
 TAG = os.getenv("RAG_TAG", "v2")
 CHUNK_CACHE = HERE / f"chunks_{TAG}.json"
 VEC_CACHE = HERE / f"vectors_{TAG}.npy"
+# 向量缓存指纹：块内容 sha256 + embedding 模型名。和 .npy 同生共死，
+# 缺了它就无法判断旧向量是否还对应这批块，按失效处理。
+VEC_META = HERE / f"vectors_{TAG}.meta.json"
 
 EMBED_BASE_URL = os.getenv("EMBED_BASE_URL", "https://api.siliconflow.cn/v1").strip()
 EMBED_MODEL = os.getenv("EMBED_MODEL", "BAAI/bge-m3").strip()
@@ -101,14 +109,52 @@ def build_chunks() -> list[dict]:
     return chunks
 
 
+def _chunks_fingerprint(chunks: list[dict]) -> str:
+    """块内容 + embedding 模型 的指纹，用作向量缓存键。
+
+    为什么不用文件 mtime：语料更新后用户可能只改了一个字，块数不变；
+    mtime 也会在 git checkout / scp 后失真。指纹直接对块文本做 sha256，
+    内容一致就命中，不一致就重建，与文件系统时间无关。
+    """
+    h = hashlib.sha256()
+    h.update(EMBED_MODEL.encode("utf-8"))
+    h.update(b"\x00")
+    for c in chunks:
+        h.update(c["text"].encode("utf-8"))
+        h.update(b"\x00")
+    return h.hexdigest()
+
+
+def _load_cached_vectors(chunks: list[dict], fingerprint: str) -> np.ndarray | None:
+    """指纹、块数、形状都对得上才返回缓存，否则返回 None 触发重算。"""
+    if not VEC_CACHE.exists():
+        return None
+    if not VEC_META.exists():
+        print(f"{VEC_CACHE.name} 缺少指纹文件 {VEC_META.name}，按失效处理，重新计算")
+        return None
+    try:
+        meta = json.loads(VEC_META.read_text(encoding="utf-8"))
+        vecs = np.load(VEC_CACHE)
+    except (OSError, ValueError) as e:  # JSONDecodeError 是 ValueError 子类
+        print(f"向量缓存读取失败（{e}），重新计算")
+        return None
+
+    if meta.get("model") != EMBED_MODEL or meta.get("fingerprint") != fingerprint:
+        print("块内容或 embedding 模型已变化，缓存的向量作废，重新计算")
+        return None
+    if vecs.ndim != 2 or len(vecs) != len(chunks):
+        print("缓存和块数/维度对不上，重新计算")
+        return None
+    return vecs
+
+
 def build_vectors(chunks: list[dict], client: OpenAI) -> np.ndarray:
     """给每块算向量，缓存到 vectors.npy。第二次跑就不用再花钱"""
-    if VEC_CACHE.exists():
-        vecs = np.load(VEC_CACHE)
-        if len(vecs) == len(chunks):
-            print(f"读取缓存 {VEC_CACHE.name}，形状 {vecs.shape}")
-            return vecs
-        print("缓存和块数对不上，重新计算")
+    fingerprint = _chunks_fingerprint(chunks)
+    cached = _load_cached_vectors(chunks, fingerprint)
+    if cached is not None:
+        print(f"读取缓存 {VEC_CACHE.name}，形状 {cached.shape}")
+        return cached
 
     print(f"正在算向量：{len(chunks)} 块，每批 {BATCH_SIZE} 条")
     all_vecs = []
@@ -129,7 +175,16 @@ def build_vectors(chunks: list[dict], client: OpenAI) -> np.ndarray:
     # 归一化：之后用点积就等于余弦相似度，省一次除法
     vecs /= np.linalg.norm(vecs, axis=1, keepdims=True)
     np.save(VEC_CACHE, vecs)
-    print(f"向量形状 {vecs.shape}，已缓存到 {VEC_CACHE.name}")
+    VEC_META.write_text(
+        json.dumps({
+            "fingerprint": fingerprint,
+            "model": EMBED_MODEL,
+            "count": len(chunks),
+            "dim": int(vecs.shape[1]) if vecs.ndim == 2 else 0,
+        }, ensure_ascii=False, indent=1),
+        encoding="utf-8",
+    )
+    print(f"向量形状 {vecs.shape}，已缓存到 {VEC_CACHE.name}（指纹写入 {VEC_META.name}）")
     return vecs
 
 
