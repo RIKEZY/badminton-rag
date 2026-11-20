@@ -22,12 +22,18 @@ from index_builder import build_chunks, build_vectors
 from answer_generator import build_context, chat_extra, generate
 from hybrid import (bm25_search_idx, build_bm25, fuse_by_language,
                     rrf_fuse, vector_search_idx)
+from rerank import rerank as rerank_docs
 
 load_dotenv()
 
 TOP_K = 5
 # 只跑前 N 题：仅规则语料时用 RAG_EVAL_LIMIT=9 跳过 #10（它必须靠 itto）
 LIMIT = int(os.getenv("RAG_EVAL_LIMIT", "10"))
+RERANK_ENABLED = os.getenv("RAG_RERANK", "").strip().lower() in ("1", "true", "yes")
+try:
+    RERANK_POOL = max(TOP_K, int(os.getenv("RERANK_POOL", "20")))
+except ValueError:
+    RERANK_POOL = 20
 CHAT_MODEL = os.getenv("DEEPSEEK_MODEL", "").strip()
 CHAT_BASE_URL = os.getenv("DEEPSEEK_BASE_URL", "").strip()
 
@@ -151,10 +157,12 @@ def main() -> None:
     bm25 = build_bm25(chunks)
 
     subset = EVAL_SET[:LIMIT]
-    print(f"\n共 {len(chunks)} 块，{len(subset)} 道题\n" + "=" * 62)
+    rerank_mode = f"开（pool={RERANK_POOL}）" if RERANK_ENABLED else "关"
+    print(f"\n共 {len(chunks)} 块，{len(subset)} 道题，重排：{rerank_mode}\n" + "=" * 62)
 
     hit_count = 0
     details = []
+    pool = RERANK_POOL if RERANK_ENABLED else TOP_K
 
     for i, (question, expected) in enumerate(subset, 1):
         print(f"\n[{i}/{len(subset)}] {question}")
@@ -165,16 +173,33 @@ def main() -> None:
 
             # 中文侧：向量 + BM25（jieba 分词）
             zh_lists = [
-                vector_search_idx(embed_client, chunks, vecs, question, k=TOP_K),
-                bm25_search_idx(bm25, chunks, question, k=TOP_K),
+                vector_search_idx(embed_client, chunks, vecs, question, k=pool),
+                bm25_search_idx(bm25, chunks, question, k=pool),
             ]
             # 英文侧：每个改写表述各走向量 + BM25
             en_lists = []
             for q in queries:
-                en_lists.append(vector_search_idx(embed_client, chunks, vecs, q, k=TOP_K))
-                en_lists.append(bm25_search_idx(bm25, chunks, q, k=TOP_K))
+                en_lists.append(vector_search_idx(embed_client, chunks, vecs, q, k=pool))
+                en_lists.append(bm25_search_idx(bm25, chunks, q, k=pool))
 
-            fused = fuse_by_language(zh_lists, en_lists, top_n=TOP_K)
+            fused = fuse_by_language(zh_lists, en_lists, top_n=pool)
+
+            # 与 app.retrieve 对齐：有重排时，先拿候选池重排，再截断到 TOP_K。
+            if RERANK_ENABLED and fused:
+                idx_list = [idx for _, idx in fused]
+                docs = [chunks[idx]["text"] for idx in idx_list]
+                rq_list = [question] + list(queries[:1])
+                best: dict[int, float] = {}
+                for rq in rq_list:
+                    for idx, score in rerank_docs(rq, docs, top_n=len(docs)):
+                        best[idx] = max(best.get(idx, float("-inf")), score)
+                ranked = sorted(best.items(), key=lambda x: -x[1])[:TOP_K]
+                if ranked:
+                    fused = [(score, idx_list[i]) for i, score in ranked]
+                else:
+                    fused = fused[:TOP_K]
+            else:
+                fused = fused[:TOP_K]
 
             hit = is_hit(fused, expected)
             hit_count += hit
