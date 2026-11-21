@@ -23,6 +23,9 @@ CLAUSE_RE = re.compile(r"^\s*(\d+(?:\.\d+)+)\.\s+")
 
 DEFINITIONS_RE = re.compile(r"^\s*DEFINITIONS\s*$")
 
+# 句末标点：上一块以这些字符结尾，说明话已经说完，页首新块应另起一段。
+SENTENCE_END = (".", "!", "?", ";", ":", ")")
+
 
 def split_page_by_clause(
     text: str,
@@ -170,11 +173,35 @@ def merge_siblings(chunks: list[dict], max_len: int = 1200) -> list[dict]:
         所以跨页后的块 chapter 常常是空的。这里允许「后续块 chapter 为空」的合并
         （Law 14 的 14.2.x 跨页仍要合成一块），但不允许带着空 chapter 的旧块
         吞掉新章节的条款——新章节标题出现时 chapter 非空且不同，合并到此为止。
+
+    跨页续行回粘：
+        页首无编号块（clause 为空）如果紧跟的上一块断在半句（结尾不是
+        SENTENCE_END 里的标点）、同属一章，且上一块本身不是引言/定义区，
+        就把它粘回上一块。这是**前置规则**，在常规合并之前判断，
+        且不改变常规合并的三条行为。章相等的条件同时挡住章节引言块：
+        引言的 prev 是上一章最后一块，chapter 不同。
     """
     out: list[dict] = []
     for c in chunks:
         if out:
             prev = out[-1]
+            # ---- 跨页续行回粘（前置规则，优先于下面的常规合并）----
+            # PDF 会把一句话从页尾切到页首：页首那几行没有条号，也不知道自己
+            # 属于谁，按条号切就被单独切成一块（badminton_rules p3 的
+            # "properties of synthetic materials..." 就是 2.3.3 的后半句）。
+            # 上一块断在半句（结尾不是句末标点）时，把它粘回去。
+            #
+            # 不能用「clause 为空」单独判定：章节引言（如 Law 3 后面的总述）
+            # 也是空 clause，靠 chapter 相等挡掉——它的 prev 是上一章最后一块。
+            # 也不从 clause 为空 / DEFINITIONS 的块回粘，避免把引言和定义吸进来。
+            if (c["clause"] == ""
+                    and prev["clause"] not in ("", "DEFINITIONS")
+                    and prev["chapter"] == c["chapter"]
+                    and not prev["text"].rstrip().endswith(SENTENCE_END)):
+                # 页码、clause、chapter 都保留上一块的：引用定位到句子起点所在页。
+                # 长度允许超过 max_len——内容完整性优先于长度上限。
+                prev["text"] = prev["text"] + "\n" + c["text"]
+                continue
             is_def = prev["clause"] == "DEFINITIONS" or c["clause"] == "DEFINITIONS"
             prev_parent = _parent(prev["clause"])
             curr_parent = _parent(c["clause"])

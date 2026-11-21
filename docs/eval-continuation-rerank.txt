@@ -1,0 +1,144 @@
+Building prefix dict from the default dictionary ...
+Loading model from cache C:\Users\z2807\AppData\Local\Temp\jieba.cache
+Loading model cost 0.336 seconds.
+Prefix dict has been built successfully.
+读取缓存 chunks_v2.json
+读取缓存 vectors_v2.npy，形状 (1112, 1024)
+
+共 1112 块，10 道题，重排：开（pool=20）
+==============================================================
+
+[1/10] 单打发球方得分为 0 时，从哪个发球区发球？
+  改写1: In singles, which service court should the server use when the server's score is 0?
+  改写2: When the serving side has zero points in singles, from which service court is the service delivered?
+  改写3: Singles badminton rule: serving court for a score of 0, including toss and service fault considerations.
+  ✅ 命中
+     [含关键词] 百科 第 1页 发球与接发球： 双方须站在对角发球区，两脚触地，不得踏及界线。 发球时球拍须先击中球托，
+     [含关键词] 规则 第 6页 [Law 10. SINGLES > 10.1.1] Serving and recei
+     [含关键词] 规则 第 1页 [Law 10. SINGLES > 10.1.1] Serving and recei
+     [  无   ] 技术 第 1页 发球后默认落位于中场区域（距前发球线约 3.2 米，距双打后发球线约 4.1 米），此处
+     [  无   ] 规则 第 7页 [Law 11. DOUBLES > 11.1.1] Serving and recei
+  回答: 单打发球方得分为 0（即尚未得分或得分为偶数）时，应从**右发球区**发球。  依据： - 资料1（wiki_badminton_zh.txt 第1页）：单打时发球方得分为偶数则从右区发球。 - 资料2（badminton_rules.pdf 第6页，Law 10.1.1）：发球方未得分或得分为偶数时，从右发球区发球。
+  (876 token)
+
+[2/10] 一局比赛中，60 秒的间歇出现在什么时候？
+  改写1: When does the 60-second interval occur during a badminton game?
+  改写2: At what point in a badminton match is the 60-second interval taken according to the rules?
+  改写3: Badminton rules: timing of the 60-second interval between games or during a match?
+  ✅ 命中
+     [含关键词] 规则 第 1页 [Law 16. CONTINUOUS PLAY, MISCONDUCT & PENAL
+     [含关键词] 规则 第10页 [Law 16. CONTINUOUS PLAY, MISCONDUCT & PENAL
+     [  无   ] 百科 第 1页 五、比赛规则要点 赛制：分男单、女单、男双、女双、混双共 5 个单项。 计分制度演变： 
+     [  无   ] 裁判 第 1页 [Law 3. INSTRUCTIONS AND GUIDELINES FOR REFE
+     [  无   ] 赛事 第 1页 [Law 11. THE DRAW > 11.4] 11.4. Any Player p
+  回答: 根据资料1（第1页）和资料2（第10页），一局比赛中60秒的间歇出现在领先方达到规定分数时，但两份资料给出的分数不同：  - 资料1（bwf_laws_2027.txt 第1页）：当领先分数达到 **8 分** 时，间歇不超过60秒（16.2.1）。 - 资料2（badminton_rules.pdf 第10页）：当领先分数达到 **11 分** 时，间歇不超过60秒（16.2.1）。  资料3（wiki_badminton_zh.txt 第1页）也提到“某方先得第11分时有60秒中场休息”，与资料2一致。  因此，按资料2和资料3，60秒间歇出现在某方先得第11分时；按资料1，则出现在领先方
+  (1261 token)
+
+[3/10] 网柱应该放在哪条线上？
+  改写1: Where should the badminton net posts be placed on the court lines?
+  改写2: Which line is the net post positioned on according to badminton rules?
+  改写3: Badminton net post placement relative to the sidelines and service lines
+  ✅ 命中
+     [含关键词] 规则 第 1页 [Law 1. COURT AND COURT EQUIPMENT > 1.1.2] 1
+     [含关键词] 规则 第 1页 [Law 1. COURT AND COURT EQUIPMENT > 1.1.2] 1
+     [  无   ] 赛事 第 1页 [Law 18. ADVERTISING IN THE PLAYING AREA > 1
+     [  无   ] 百科 第 1页 球线（Strings）： 本条目的正文未包含球线材质、张力、磅数等具体参数。 四、场地规
+     [  无   ] 规则 第 2页 [Law 1. COURT AND COURT EQUIPMENT] There sha
+  回答: 网柱应放在双打边线上（doubles side lines），无论进行的是单打还是双打比赛。来自第1页（资料1和资料2的Law 1.1.2均如此规定）。
+  (1259 token)
+
+[4/10] 什么情况下判发球区错误？
+  改写1: When is a service court error called in badminton?
+  改写2: What constitutes a fault for serving from the wrong service court under badminton rules?
+  改写3: Badminton service court error ruling: toss, service, interval, and fault conditions
+  ✅ 命中
+     [  无   ] 百科 第 1页 违例情形（判对方得分）： 一、发球高度，击球点高于 1.15 米。 二、非法延误发球。 
+     [含关键词] 规则 第 1页 [Law 12. SERVICE COURT ERRORS > 12.1.1] A se
+     [含关键词] 规则 第 8页 [Law 12. SERVICE COURT ERRORS > 12.1.1] A se
+     [  无   ] 规则 第 9页 [Law 14. LETS > 14.2.1] ‘Let’ shall be calle
+     [  无   ] 裁判 第 1页 [Law 5. INSTRUCTIONS TO UMPIRES > 5.4.7.2] 5
+  回答: 根据资料，判发球区错误的情况是：运动员**发球或接发球顺序错误**，或者**从错误的发球区发球或接发球**。发现发球区错误后，应在死球时纠正，且已有比分有效。（来自第1页 Law 12.1.1、12.1.2；资料2第1页、资料3第8页内容一致）
+  (1277 token)
+
+[5/10] 反手高远球的击球点应该在身体哪个位置？
+  改写1: Where should the contact point be for a backhand overhead clear relative to the body?
+  改写2: What is the correct body position for hitting a backhand high clear in badminton?
+  改写3: Where should the shuttle be struck for a backhand overhead shot in relation to the player's body?
+  ✅ 命中
+     [含关键词] 技术 第 1页 反手高远球的关键注意事项： 采用拇指顶小棱握拍法。手腕要先内旋再外旋。 肘尽量收在左腹，
+     [含关键词] 技术 第 1页 动作要领： 当对方击来反边球，需要采用反手回击高远球时，应迅速将身体转向左后方，右脚向左
+     [  无   ] 技术 第 1页 动作要领： 击球前的准备姿势以及击球动作同正手击高远球基本一致。不同的是头顶击高远球的击
+     [  无   ] 技术 第 1页 正手击高远球是技术基础，要求侧身、蹬腿、转腰、挥臂等动作协调完成，争取高击球点并做到全身
+     [  无   ] 技术 第 1页 三、反手高远球 当对方将球击到本方左后场内，以反手将球击回对方底线去的高远球击球法称为反
+  回答: 根据资料，反手高远球的击球点应在**右肩上方稍前**，不能太后，肘要抬得略高于肩（资料1，第1页）。资料2也提到步法移动到位时，球在身体的右肩上方（资料2，第1页）。
+  (1091 token)
+
+[6/10] 正手高远球最容易犯的错误有哪些？
+  改写1: Common mistakes in forehand overhead clear technique in badminton
+  改写2: Forehand high clear errors related to grip, swing, and shuttle contact
+  改写3: Badminton forehand clear faults: poor timing, incorrect pronation, and weak follow-through
+  ✅ 命中
+     [含关键词] 技术 第 1页 正手高远球易犯的错误： 第一，击球点选择不当，偏前或偏后，影响击球用力。 第二，击球时不
+     [  无   ] 技术 第 1页 反手高远球易犯的错误： 第一，做准备及引拍动作时步法移动不到位，击球点控制不好，握拍太紧
+     [  无   ] 技术 第 1页 如果三种球的引拍动作有明显差别，对手就能提前判断，无论打哪种球威胁都会下降。 八、常见错
+     [  无   ] 技术 第 1页 八、常见错误 1. 击球点过低，杀球变成平抽，失去下压威胁。 2. 只用手臂发力，没有蹬
+     [  无   ] 技术 第 1页 正手击高远球是技术基础，要求侧身、蹬腿、转腰、挥臂等动作协调完成，争取高击球点并做到全身
+  回答: 根据资料1（第1页），正手高远球易犯的错误有：  1. 击球点选择不当，偏前或偏后，影响击球用力。 2. 击球时不是以肩为轴挥臂，而是以肘为轴，影响大臂发力，造成用力不当。 3. 击球时不是用挥臂甩腕动作靠爆发力把球击出，而是将球推出去。 4. 击球后球拍不是顺惯性朝前下方挥动并收拍至体前，而是将球拍朝下或朝右后方挥动，影响了手臂的用力。 5. 击球时全身用力不协调。  （来自资料1，第1页）
+  (834 token)
+
+[7/10] 头顶高远球和反手高远球的主要区别是什么？
+  改写1: What are the main differences between an overhead clear and a backhand clear in badminton?
+  改写2: How does the technique and purpose of a forehand overhead clear differ from a backhand clear?
+  改写3: Compare overhead clear versus backhand clear: grip, swing, contact point, and tactical use in badminton.
+  ✅ 命中
+     [含关键词] 技术 第 1页 正手击高远球是技术基础，要求侧身、蹬腿、转腰、挥臂等动作协调完成，争取高击球点并做到全身
+     [含关键词] 技术 第 1页 四、头顶高远球 在自己的左后场区，用正手在头顶中间部位或在左肩上方将来球击到对方底线去的
+     [  无   ] 技术 第 1页 三、反手高远球 当对方将球击到本方左后场内，以反手将球击回对方底线去的高远球击球法称为反
+     [  无   ] 技术 第 1页 羽毛球高远球技术教学 来源：百度百科「高远球」「反手高远球」条目，2026-10-29 
+     [含关键词] 技术 第 1页 正手击高远球可以用不起跳或起跳进行击球。后者是为了争取高点击球，以赢得时间上的主动，但对
+  回答: 根据资料，头顶高远球和反手高远球的主要区别如下：  - **击球位置与方式**：头顶高远球是在自己的左后场区，用正手在头顶中间部位或在左肩上方将来球击到对方底线（资料2，第1页）；反手高远球是当对方将球击到本方左后场内，以反手将球击回对方底线（资料3，第1页）。 - **主动性与攻击性**：头顶高远球较反手击球主动性强，具有更大的攻击性（资料2，第1页）；反手高远球常用于被动局面过渡，特点是节省体力、对步法要求也不高，帮助自己重新调整站位（资料3，第1页）。 - **技术贡献**：头顶高远球是中国运动员对羽毛球技术发展的一项贡献（资料2，第1页）。  以上均来自第1页。
+  (744 token)
+
+[8/10] 4U 规格的球拍建议拉多少磅？
+  改写1: What string tension is recommended for a 4U badminton racket?
+  改写2: Recommended string tension range for 4U badminton rackets?
+  改写3: What tension should be used when stringing a 4U badminton racket?
+  ✅ 命中
+     [含关键词] 装备 第 1页 重量规格对照： 2U 约 90-94 克，3U 约 85-89 克，4U 约 80-84
+     [含关键词] 装备 第 1页 三、YONEX NANOFLARE 700 PLAY（疾光系列 · 速度型） 特性：SP
+     [含关键词] 装备 第 1页 二、YONEX ARCSABER 11 PRO（弓剑系列 · 精准型） 特性：ACCUR
+     [含关键词] 装备 第 1页 一、YONEX ASTROX 100ZZ（天斧系列 · 进攻型） 特性：POWER（力量
+     [  无   ] 规则 第 1页 [Law 4. RACKET > 4.2.1] 4.2.1. shall be flat
+  回答: 根据资料，不同型号的 4U 球拍建议穿线磅数不同：  - **ASTROX 100ZZ** 的 4U：20-28 lbs（资料4，第1页） - **ARCSABER 11 PRO** 的 4U：19-27 lbs（资料3，第1页） - **NANOFLARE 700 PLAY** 的 4U：20-28 lbs（资料2，第1页）  资料中没有给出所有 4U 球拍的统一磅数，只能按具体型号查询。
+  (1048 token)
+
+[9/10] 球拍的中管硬度分哪几档？
+  改写1: What are the stiffness levels of a badminton racket shaft?
+  改写2: How is badminton racket shaft stiffness classified into different grades?
+  改写3: What categories of shaft hardness exist for badminton rackets?
+  ✅ 命中
+     [含关键词] 装备 第 1页 四、选拍参考 平衡点分三类：头重（Head Heavy）适合进攻杀球，挥重感强；头轻（H
+     [含关键词] 装备 第 1页 一、YONEX ASTROX 100ZZ（天斧系列 · 进攻型） 特性：POWER（力量
+     [  无   ] 装备 第 1页 二、YONEX ARCSABER 11 PRO（弓剑系列 · 精准型） 特性：ACCUR
+     [  无   ] 装备 第 1页 三、YONEX NANOFLARE 700 PLAY（疾光系列 · 速度型） 特性：SP
+     [  无   ] 百科 第 1页 球拍（Racket）： 总长度不得大于 680 毫米。 拍面长度低于 290 毫米。 拍
+  回答: 根据资料1（第1页），中管硬度分为三档：特硬（Extra Stiff）、硬（Stiff）、高弹性（Hi-Flex）。
+  (791 token)
+
+[10/10] 标准羽毛球的重量范围和羽毛长度是多少？
+  改写1: What is the official weight range and feather length of a standard badminton shuttlecock?
+  改写2: Badminton shuttlecock specifications: weight tolerance and feather length according to BWF rules
+  改写3: Standard shuttle weight range and feather length requirements in badminton regulations
+  ✅ 命中
+     [含关键词] 百科 第 1页 三、装备参数 羽毛球（Shuttlecock）： 由 16 根羽毛加球托组成。 羽毛长度
+     [  无   ] 百科 第 1页 球线（Strings）： 本条目的正文未包含球线材质、张力、磅数等具体参数。 四、场地规
+     [  无   ] 百科 第 1页 球拍（Racket）： 总长度不得大于 680 毫米。 拍面长度低于 290 毫米。 拍
+     [  无   ] 装备 第 1页 重量规格对照： 2U 约 90-94 克，3U 约 85-89 克，4U 约 80-84
+     [  无   ] 百科 第 1页 一、概述 羽毛球（简称羽球）是一项隔着球网、使用长柄网状球拍挥击「平口端扎有一圈羽毛的半
+  回答: 根据资料1（第1页）：标准羽毛球的重量为 **4.74 至 5.5 克**，羽毛长度为 **62 至 70 毫米**。
+  (679 token)
+
+==============================================================
+Recall@5: 10/10  (100%)
+
+未命中的题：

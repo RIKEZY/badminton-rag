@@ -261,6 +261,80 @@ def test_merge_siblings_keeps_first_clause_label_for_deep_siblings():
     assert merged[0]["text"].startswith("9.1.4.1.")
 
 
+# ---------------------------------------------------------------- 跨页续行回粘
+# 页首无编号文本块（clause=""）如果紧跟上一条款断在半句，就是同一句话被
+# 翻页切开。之前它会被单独切成一块，开头是半句话，检索时引用不到上下文。
+
+def test_merge_siblings_glues_page_top_continuation():
+    """真续行：上一块断在 "and other"，页首块是同一句的后半句，必须粘回去。"""
+    chunks = [
+        {"source": "badminton_rules.pdf", "page": 2, "clause": "2.3.3",
+         "chapter": "2. SHUTTLE",
+         "text": "2.3.3. ... difference in the specific gravity and other"},
+        {"source": "badminton_rules.pdf", "page": 3, "clause": "",
+         "chapter": "2. SHUTTLE",
+         "text": "properties of synthetic materials ... shall be acceptable."},
+    ]
+    merged = merge_siblings(chunks, max_len=1200)
+
+    assert len(merged) == 1
+    assert merged[0]["clause"] == "2.3.3"       # 条号取上一块
+    assert merged[0]["page"] == 2               # 引用仍指向句子起点所在页
+    assert "other\nproperties" in merged[0]["text"]
+    assert merged[0]["text"].endswith("acceptable.")
+
+
+@pytest.mark.parametrize("ending", [".", ";", ":", ")", "!", "?"])
+def test_merge_siblings_does_not_glue_after_sentence_end(ending):
+    """上一块已以句末标点结束 = 新段落，页首块保持独立（6 处反例）。"""
+    chunks = [
+        {"source": "badminton_rules.pdf", "page": 3, "clause": "4.1.5",
+         "chapter": "4. RACKET", "text": f"4.1.5. The throat connects the shaft{ending}"},
+        {"source": "badminton_rules.pdf", "page": 4, "clause": "",
+         "chapter": "4. RACKET", "text": "DIAGRAM C"},
+    ]
+    assert len(merge_siblings(chunks, max_len=1200)) == 2
+
+
+def test_merge_siblings_does_not_glue_across_chapter():
+    """章节引言块同为 clause=""：chapter 不同时必须挡住，不能粘到上一章。"""
+    chunks = [
+        {"source": "badminton_rules.pdf", "page": 9, "clause": "2.3.3",
+         "chapter": "2. SHUTTLE", "text": "... specific gravity and other"},
+        {"source": "badminton_rules.pdf", "page": 9, "clause": "",
+         "chapter": "3. TESTING A SHUTTLE FOR SPEED",
+         "text": "The following test is used to ensure speed ..."},
+    ]
+    assert len(merge_siblings(chunks, max_len=1200)) == 2
+
+
+def test_merge_siblings_does_not_glue_page_top_into_definitions():
+    """DEFINITIONS 区不吸收页首无编号块（定义按术语独立成块）。"""
+    chunks = [
+        {"source": "badminton_rules.pdf", "page": 1, "clause": "DEFINITIONS",
+         "chapter": "", "text": "Rally: A sequence of exchanges."},
+        {"source": "badminton_rules.pdf", "page": 2, "clause": "",
+         "chapter": "", "text": "continuation of some sort and other"},
+    ]
+    assert len(merge_siblings(chunks, max_len=1200)) == 2
+
+
+def test_merge_siblings_glues_even_when_exceeding_max_len():
+    """回粘允许超过 max_len：内容完整性优先于长度上限。"""
+    chunks = [
+        {"source": "badminton_rules.pdf", "page": 2, "clause": "2.3.3",
+         "chapter": "2. SHUTTLE", "text": "x" * 1100 + " and other"},
+        {"source": "badminton_rules.pdf", "page": 3, "clause": "",
+         "chapter": "2. SHUTTLE", "text": "y" * 300 + "."},
+    ]
+    merged = merge_siblings(chunks, max_len=1200)
+
+    assert len(merged) == 1
+    assert len(merged[0]["text"]) > 1200
+    assert merged[0]["text"].startswith("x" * 10)
+    assert merged[0]["text"].endswith("y" * 10 + ".")
+
+
 # ---------------------------------------------------------------- 段落回退
 
 def test_split_by_paragraph_merges_short_heading():
